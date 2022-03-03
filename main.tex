@@ -1,0 +1,169 @@
+\documentclass[14pt,a4paper]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{layout}
+\usepackage{multirow}
+\usepackage{multicol}
+%%% PREAMBUŁA %%%
+\graphicspath{{galeria/}}
+
+\AddToHook{shipout/firstpage}{%
+   \put (-1in,-27.2cm){\includegraphics[width=\paperwidth,height=\paperheight]{Strona tytułowa.png}}%
+}
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{1}
+
+%%% /PREAMBUŁA %%%
+
+
+
+\begin{document}
+
+%%% POCZĄTEK %%%
+\pagenumbering{gobble}
+
+\begin{titlepage} % STRONA TYTUŁOWA
+\newpage
+\
+\end{titlepage}
+
+\tableofcontents % SPIS TREŚCI
+
+\cleardoublepage
+\pagenumbering{arabic}
+%%% /POCZĄTEK %%%
+
+
+
+%%% GŁÓWNA TREŚĆ %%%
+
+\section{Symbole i notacja}
+
+\begin{multicols*}{2}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\arrayrulewidth}{0.5mm}
+
+\subsection{Litery greckie}
+
+\begin{tabular}{*{3}{|c}|}
+\hline
+Nazwa & Mała litera & Duża litera \\
+\hline
+Alfa & $\alpha $ & $A $ \\ 
+Beta & $\beta $ & $B $ \\
+Gamma & $\gamma $ & $\Gamma $ \\
+Delta & $\delta $ & $\Delta $ \\
+Epsilon & $\varepsilon $ & $E $ \\
+Dzeta & $\zeta $ & $Z $ \\
+Eta & $\eta $ & $H $ \\
+Theta & $\theta$, $\vartheta $ & $\Theta $ \\
+Jotta & $\iota $ & $I $ \\
+Kappa & $\kappa $ & $K $ \\
+Lambda & $\lambda $ & $\Lambda $ \\
+My & $\mu $ & $M $ \\
+Ny & $\nu $ & $N $ \\
+Ksi & $\xi $ & $\Xi $ \\
+Omikron & $o $ & $O $ \\
+Pi & $\pi $ & $\Pi $ \\
+Rho & $\rho$, $\varrho$ & $P $ \\
+Sigma & $\sigma$, $\varsigma$ & $\Sigma $ \\
+Tau & $\tau $ & $T $ \\
+Ipsylon & $\upsilon $ & $\Upsilon $ \\
+Phi & $\phi$, $\varphi $ & $\Phi $ \\
+Chi & $\chi $ & $X $ \\
+Psi & $\psi $ & $\Psi $ \\
+Omega & $\omega $ & $\Omega $ \\
+\hline
+\end{tabular}
+
+\subsection{Zbiory liczbowe}
+
+\begin{tabular}{*{2}{|c}|}
+\hline
+Nazwa & Symbol \\
+\hline
+Naturalne & $\mathbb{N} = \{ 0, 1, 2, 3,\dots\}$ \\
+Naturalne dod. & $\mathbb{N}_{+} = \mathbb{N}\setminus\{0\}$ \\
+\hline
+\end{tabular}
+\begin{tabular}{*{2}{|c}|}
+\hline
+Całkowite & $\mathbb{Z}$, $\mathbb{C} = \{-1, 0, 1, 2,\dots\}$ \\
+Wymierne & $\mathbb{Q}$, $\mathbb{W} = \{\frac{p}{q}:p, q \in \mathbb{Z} \wedge q \neq 0 \}$ \\
+Niewymierne & $\mathbb{R}\setminus\mathbb{Q}$, $\mathbb{NW}$ \\
+Rzeczywiste & $\mathbb{R}$ \\
+\hline
+\end{tabular}
+
+\subsection{Zbiory}
+
+\begin{tabular}{*{2}{|c}|}
+\hline
+Symbol & Znaczenie \\
+\hline
+$\varnothing $ & Zbiór pusty \\
+$A\cup B$ & Suma zbiorów \\
+$A\cap B$ & Część wspólna zbiorów \\
+$A\setminus B$ & Różnica zbiorów \\
+$A\times B$ & Iloczyn kartezjański \\
+$\overline{A}$, $A^\prime$ & Dopełnienie zbioru \\
+$A\subset B$ & Podzbiór zbioru \\
+$A\not\subset B$ & Nie jest podzbiorem zbioru \\
+$x\in A$ & Należy do zbioru \\
+$x\not\in A$ & Nie należy do zbioru \\
+$\vert A\vert $, $\overline{\overline{A}}$ & Liczebność (kardynalność) zbioru \\
+\hline
+\end{tabular}
+
+\subsection{Logika}
+
+\begin{tabular}{*{2}{|c}|}
+\hline
+Symbol & Znaczenie \\
+\hline
+$\land$ & Koniunkcja (iloczyn logiczny) \\
+$\lor$ & Alternatywa (suma logiczna) \\
+$A\Leftrightarrow B$ & Równowartość logiczna \\
+$A\Rightarrow B$ & Konsekwencja logiczna \\
+$\lnot A$ & Negacja logiczna \\
+\hline
+\end{tabular}
+
+\end{multicols*}
+\newpage
+\renewcommand{\arraystretch}{1.2}
+\setlength{\arrayrulewidth}{0.5mm}
+
+\subsection{Operacje arytmetyczne}
+
+\begin{tabular}{*{4}{|c}|}
+\hline
+Symbol & Znaczenie & Symbol & Znaczenie \\
+\hline
+$a+b$ & Dodawanie & $a < b$ & Mniejsze od \\
+$a-b$ & Odejmowanie & $a > b$ & Większe od \\
+$a\cdot b$, $a\times b$ & Mnożenie & $a \leq b$ & Mniejsze bądź równe od \\
+$a/b$, $\frac{a}{b}$ & Dzielenie & $a \geq b$ & Większe bądź równe od \\
+$x^{n}$ & Potęgowanie & $a \approx b$ & Aproksymacja \\
+$\sqrt{x}$ & Pierwiastek kwadratowy & $x\%$ & Procent \\
+$\sqrt[n]{x}$ & Pierwiaster $n$-tego stopnia & $x$\textperthousand & Promil \\
+$\log_{a}x$ & Logarytm o podstawie $a$ & $\vert x\vert$ & Wartość bezwzględna \\
+$\log x$ & Logarytm dziesiętny & $\lceil x\rceil$ & Podłoga \\
+$\ln x$ & Logarytm naturalny & $\lfloor x\rfloor$ & Sufit \\
+$a = b$ & Znak równości & $\{x\}$ & Mantysa (część ułamkowa) \\
+$a \neq b$ & Nierówność & $x$ mod $a$ & Dzielenie całkowite (modulo) \\
+\hline
+\end{tabular}
+
+\begin{multicols*}{2}
+\end{multicols*}
+
+\end{document}
