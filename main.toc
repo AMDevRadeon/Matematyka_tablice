@@ -1,7 +1,9 @@
 \babel@toc {polish}{}\relax 
 \contentsline {section}{\numberline {1}Symbole i notacja}{1}{}%
 \contentsline {subsection}{Litery greckie}{1}{}%
-\contentsline {subsection}{Zbiory liczbowe}{1}{}%
 \contentsline {subsection}{Zbiory}{1}{}%
 \contentsline {subsection}{Logika}{1}{}%
+\contentsline {subsection}{Zbiory liczbowe}{2}{}%
 \contentsline {subsection}{Operacje arytmetyczne}{2}{}%
+\contentsline {subsection}{Stochastyka i statystyka}{2}{}%
+\contentsline {subsection}{Geometria}{2}{}%

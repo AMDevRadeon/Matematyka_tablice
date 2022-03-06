@@ -5,6 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
 
+\usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{graphicx}
@@ -47,7 +48,7 @@
 
 \section{Symbole i notacja}
 
-\begin{multicols*}{2}
+\begin{multicols}{2}
 \renewcommand{\arraystretch}{1.2}
 \setlength{\arrayrulewidth}{0.5mm}
 
@@ -83,25 +84,7 @@ Psi & $\psi $ & $\Psi $ \\
 Omega & $\omega $ & $\Omega $ \\
 \hline
 \end{tabular}
-
-\subsection{Zbiory liczbowe}
-
-\begin{tabular}{*{2}{|c}|}
-\hline
-Nazwa & Symbol \\
-\hline
-Naturalne & $\mathbb{N} = \{ 0, 1, 2, 3,\dots\}$ \\
-Naturalne dod. & $\mathbb{N}_{+} = \mathbb{N}\setminus\{0\}$ \\
-\hline
-\end{tabular}
-\begin{tabular}{*{2}{|c}|}
-\hline
-Całkowite & $\mathbb{Z}$, $\mathbb{C} = \{-1, 0, 1, 2,\dots\}$ \\
-Wymierne & $\mathbb{Q}$, $\mathbb{W} = \{\frac{p}{q}:p, q \in \mathbb{Z} \wedge q \neq 0 \}$ \\
-Niewymierne & $\mathbb{R}\setminus\mathbb{Q}$, $\mathbb{NW}$ \\
-Rzeczywiste & $\mathbb{R}$ \\
-\hline
-\end{tabular}
+\\\\\\
 
 \subsection{Zbiory}
 
@@ -119,7 +102,7 @@ $A\subset B$ & Podzbiór zbioru \\
 $A\not\subset B$ & Nie jest podzbiorem zbioru \\
 $x\in A$ & Należy do zbioru \\
 $x\not\in A$ & Nie należy do zbioru \\
-$\vert A\vert $, $\overline{\overline{A}}$ & Liczebność (kardynalność) zbioru \\
+$\vert A\vert $, $\overline{\overline{A}}$ & Liczebność zbioru \\
 \hline
 \end{tabular}
 
@@ -129,18 +112,35 @@ $\vert A\vert $, $\overline{\overline{A}}$ & Liczebność (kardynalność) zbior
 \hline
 Symbol & Znaczenie \\
 \hline
-$\land$ & Koniunkcja (iloczyn logiczny) \\
-$\lor$ & Alternatywa (suma logiczna) \\
+$\land$ & I (iloczyn logiczny)\\
+$\lor$ & Lub (suma logiczna) \\
 $A\Leftrightarrow B$ & Równowartość logiczna \\
 $A\Rightarrow B$ & Konsekwencja logiczna \\
 $\lnot A$ & Negacja logiczna \\
+$A\therefore B$ & Dlatego \\
+$A\because B$ & Ponieważ \\
+$\forall \;x$, $\underset{x}{\bigwedge}$ & Dla każdego $x$ \\
+$\exists \;x$, $\underset{x}{\bigvee}$ & Istnieje $x$ \\
+$\exists! \;x$, $\underset{x}{\dot\bigvee}$ & Istnieje dokładnie jeden $x$ \\
 \hline
 \end{tabular}
 
-\end{multicols*}
+\end{multicols}
 \newpage
 \renewcommand{\arraystretch}{1.2}
 \setlength{\arrayrulewidth}{0.5mm}
+
+\subsection{Zbiory liczbowe}
+
+\begin{tabular}{*{4}{|c}|}
+\hline
+Nazwa & Symbol & Nazwa & Symbol \\
+\hline
+Naturalne & $\mathbb{N} = \{ 0, 1, 2, 3,\dots\}$ & Wymierne & $\mathbb{Q}$, $\!\mathbb{W} \!= \!\{\frac{p}{q}\!:\!p, q \!\in \!\mathbb{Z} \!\wedge \!q \!\neq \!0 \}$ \\
+Naturalne dod. & $\mathbb{N}_{+} = \mathbb{N}\setminus\{0\}$ & Niewymierne & $\mathbb{R}\setminus\mathbb{Q}$, $\mathbb{NW}$ \\
+Całkowite & $\mathbb{Z}$, $\mathbb{C} = \{-1, 0, 1,\dots\}$ & Rzeczywiste & $\mathbb{R}$ \\
+\hline
+\end{tabular}
 
 \subsection{Operacje arytmetyczne}
 
@@ -156,14 +156,54 @@ $x^{n}$ & Potęgowanie & $a \approx b$ & Aproksymacja \\
 $\sqrt{x}$ & Pierwiastek kwadratowy & $x\%$ & Procent \\
 $\sqrt[n]{x}$ & Pierwiaster $n$-tego stopnia & $x$\textperthousand & Promil \\
 $\log_{a}x$ & Logarytm o podstawie $a$ & $\vert x\vert$ & Wartość bezwzględna \\
-$\log x$ & Logarytm dziesiętny & $\lceil x\rceil$ & Podłoga \\
-$\ln x$ & Logarytm naturalny & $\lfloor x\rfloor$ & Sufit \\
+$\log x$ & Logarytm dziesiętny & $\lceil x\rceil$ & Sufit \\
+$\ln x$ & Logarytm naturalny & $\lfloor x\rfloor$ & Podłoga \\
 $a = b$ & Znak równości & $\{x\}$ & Mantysa (część ułamkowa) \\
 $a \neq b$ & Nierówność & $x$ mod $a$ & Dzielenie całkowite (modulo) \\
 \hline
 \end{tabular}
 
-\begin{multicols*}{2}
-\end{multicols*}
+\begin{multicols}{2}
+
+\subsection{Stochastyka i statystyka}
+
+\begin{tabular}{*{2}{|c}|}
+\hline
+Symbol & Znaczenie \\
+\hline
+$n!$ & Silnia \\
+$\binom{n}{k}$ & Kombinacja bez powtórzeń \\
+$\Omega$ & Przestrzeń probabilistyczna \\
+$P(A)$ & Prawdopodobieństwo \\
+$P(A \mid\! B)$ & Prawdopodobieństwo warunkowe \\
+$\sigma^{2}$ & Wariancja \\
+$\sigma$ & Odchylenie standardowe \\
+$\bar{x}$ & Średnia arytmetyczna \\
+\hline
+\end{tabular}
+\\\\\\
+
+\subsection*{\hspace{2cm}Geometria}
+\addcontentsline{toc}{subsection}{Geometria}
+
+\hskip2.0cm
+\begin{tabular}{*{2}{|c}|}
+\hline
+Symbol & Znaczenie \\
+\hline
+$\vert AB\vert$ & Odcinek \\
+$\overset{\longrightarrow}{AB}$ & Wektor \\
+$\angle{}$, $\measuredangle{}$, $\sphericalangle{}$ & Kąt \\
+$\triangle ABC$ & Trójkąt \\
+$\square ABCD$ & Czworokąt \\
+$k \parallel l$ & Proste równoległe \\
+$k \perp l$ & Proste prostopadłe \\
+$\sim$ & Figury podobne \\
+$\equiv$ & Figury przystające \\
+\hline
+\end{tabular}
+
+
+\end{multicols}
 
 \end{document}
