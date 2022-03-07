@@ -7,3 +7,6 @@
 \contentsline {subsection}{Operacje arytmetyczne}{2}{}%
 \contentsline {subsection}{Stochastyka i statystyka}{2}{}%
 \contentsline {subsection}{Geometria}{2}{}%
+\contentsline {section}{\numberline {2}Prawa działań}{3}{}%
+\contentsline {subsection}{Wartość bezwzględna}{3}{}%
+\contentsline {subsection}{Potęgi i pierwiastki}{3}{}%

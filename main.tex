@@ -203,7 +203,74 @@ $\equiv$ & Figury przystające \\
 \hline
 \end{tabular}
 
-
 \end{multicols}
+
+\newpage
+\renewcommand{\arraystretch}{1.2}
+\setlength{\arrayrulewidth}{0.5mm}
+
+\section{Prawa działań}
+\subsection{Wartość bezwzględna}
+\textbf{Wartość bezwzględna (moduł liczby)} - operacja, która zwraca nienegatywną wartość. Zdefiniowana jest następującym równaniem:
+\begin{equation*}
+\lvert x \rvert = \left\{
+   \begin{array}{ll}
+      x, & x \geq 0 \\
+      -x, & x < 0
+   \end{array}
+\right., x \in \mathbb{R}
+\end{equation*}
+Dla $a, b \in \mathbb{R}$ prawdziwe są następujące zależności:
+\begin{itemize}
+   \item Nienegatywność: $\lvert a\rvert \geq 0$,
+   \item Określoność dodatnia: $\lvert a \rvert = 0 \Leftrightarrow a = 0$,
+   \item Multiplikatywność: $\lvert ab\rvert = \lvert a\rvert\lvert b\rvert$,
+   \item Podaddytywność: $\lvert a + b\rvert \leq \lvert a\rvert + \lvert b \rvert,\;\; \lvert a - b\rvert \geq \lvert a\rvert - \lvert b \rvert$,
+   \item Idempotencja: $\lvert\lvert a \rvert\rvert = \lvert a \rvert$,
+   \item Parzystość: $\lvert -a\rvert = \lvert a\rvert$,
+   \item Zasada identyczności przedmiotów nierozróżnialnych: $\lvert a - b \rvert = 0 \Leftrightarrow a = b$,
+   \item Zachowanie dzielenia: $\left\lvert\frac{\displaystyle a}{\displaystyle b}\right\rvert = \frac{\displaystyle \lvert a\rvert}{\displaystyle \lvert b \rvert} \Leftrightarrow b \neq 0$,
+\end{itemize}
+Dodatkowo:
+\begin{equation*}
+\begin{array}{ccc}
+   \lvert a\rvert = \sqrt{a}^{2}, &\hspace{1cm} \lvert a \rvert \leq b \Leftrightarrow -b \leq a \leq b, &\hspace{1cm} \lvert a \rvert \geq b \Leftrightarrow a \leq -b \lor a \geq b \\
+\end{array}
+\end{equation*}
+
+\subsection{Potęgi i pierwiastki}
+\textbf{Potęgowanie (podniesienie do $n$-tej potęgi)} - operacja dwuargumentowa, która jest zdefiniowana jako iloczyn $a, a \in \mathbb{R}\setminus\{0\}$(podstawa) $n, n \in \mathbb{N}^{+}$(wykładnik) razy:\
+$$a^{n} = \underbrace{a\cdot a \cdot\ldots\cdot a}_{n\;\;razy}$$
+Szczególne przypadki:
+\begin{equation*}
+\begin{array}{ccc}
+   a^{1} = a, &\hspace{1cm} a^{0} = 1, &\hspace{1cm} 0^{n} = 0 \\ 
+\end{array}
+\end{equation*}
+\renewcommand{\arraycolsep}{1cm}
+\renewcommand{\arraystretch}{1.7}
+\noindent\textbf{Pierwiastkowanie} - operacja odwrotna do potęgowania, która dla $a,\linebreak 
+a=\{x:x\in\mathbb{R}\land x\geq 0\}$ zwraca liczb(ę/y) $b, b\in\mathbb{R}$, która pomnożona $n,\linebreak 
+n=\{x:x\in\mathbb{N}\land x\geq 2\}$ razy jest równa $b$:
+$$b = \sqrt[n]{a} \Leftrightarrow b^{n} = a$$
+
+\noindent Dla $a,b \in \mathbb{R}, b \neq 0; m,n \in \mathbb{N}, n \neq 0 $ prawdziwe są następujące zależności:
+\begin{equation*}
+\begin{array}{ll}
+   a^{-n} = \frac{\displaystyle 1}{\displaystyle a^{n}} & \sqrt[n]{a} = a^{\frac{1}{n}} \\
+   a^{-\frac{m}{n}} = \frac{\displaystyle 1}{ \sqrt[n]{\displaystyle a^{m}}} & \sqrt[n]{a^{m}} = a^{\frac{m}{n}}\\
+   (a\cdot b)^{n} = a^{n}\cdot b^{n} & \sqrt[n]{a\cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b} \\
+   \left(\frac{\displaystyle a}{\displaystyle b}\right)^{n} = \frac{\displaystyle a^{n}}{\displaystyle b^{n}} & \sqrt[n]{\frac{\displaystyle a}{\displaystyle b}} = \frac{\displaystyle \sqrt[n]{a}}{\displaystyle \sqrt[n]{b}} \\
+   (a^{n})^{m} = a^{n\cdot m} & \sqrt[m]{\sqrt[n]{a}} = \sqrt[m\cdot n]{a}\\
+   a^{n}\cdot a^{m} = a^{n+m} & \frac{\displaystyle a^{n}}{\displaystyle a^{m}} = a^{n - m} \\
+\end{array}
+\end{equation*}
+\vspace{-0.45cm}
+\begin{equation*}
+\begin{array}{c}
+\sqrt[n]{a^{m}} = (\sqrt[n]{a})^{m}
+\end{array}
+\end{equation*}
+
 
 \end{document}
