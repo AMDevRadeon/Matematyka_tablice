@@ -238,8 +238,8 @@ Dodatkowo:
 \end{array}
 \end{equation*}
 
-\subsection{Potęgi i pierwiastki}
-\textbf{Potęgowanie (podniesienie do $n$-tej potęgi)} - operacja dwuargumentowa, która jest zdefiniowana jako iloczyn $a, a \in \mathbb{R}\setminus\{0\}$(podstawa) $n, n \in \mathbb{N}^{+}$(wykładnik) razy:\
+\subsection{Potęgi, pierwiastki i logarytmy}
+\textbf{Potęgowanie (podniesienie do $n$-tej potęgi)} - operacja dwuargumentowa, która jest zdefiniowana jako iloczyn $a, a \in \mathbb{R}\setminus\{0\}$(podstawa) $n, n \in \mathbb{N}_{+}$(wykładnik) razy:\
 $$a^{n} = \underbrace{a\cdot a \cdot\ldots\cdot a}_{n\;\;razy}$$
 Szczególne przypadki:
 \begin{equation*}
@@ -247,14 +247,24 @@ Szczególne przypadki:
    a^{1} = a, &\hspace{1cm} a^{0} = 1, &\hspace{1cm} 0^{n} = 0 \\ 
 \end{array}
 \end{equation*}
-\renewcommand{\arraycolsep}{1cm}
-\renewcommand{\arraystretch}{1.7}
-\noindent\textbf{Pierwiastkowanie} - operacja odwrotna do potęgowania, która dla $a,\linebreak 
-a=\{x:x\in\mathbb{R}\land x\geq 0\}$ zwraca liczb(ę/y) $b, b\in\mathbb{R}$, która pomnożona $n,\linebreak 
-n=\{x:x\in\mathbb{N}\land x\geq 2\}$ razy jest równa $b$:
-$$b = \sqrt[n]{a} \Leftrightarrow b^{n} = a$$
 
+\renewcommand{\arraycolsep}{0cm}
+\renewcommand{\arraystretch}{2}
+
+
+\noindent\textbf{Pierwiastkowanie} - operacja odwrotna do potęgowania, która dla $a$ przyjmuje wartość $b$ taką, że pomnożona $n$ razy jest równa $b$:
+
+\begin{equation*}
+\begin{array}{ccc}
+    & b = \sqrt[n]{a} \Leftrightarrow b^{n} = a, & \\
+   a=\{x:x\in\mathbb{R}\land x\geq 0\}, & b\in\mathbb{R}, & n=\{x:x\in\mathbb{N}\land x\geq 1\} \\
+\end{array}
+\end{equation*}
 \noindent Dla $a,b \in \mathbb{R}, b \neq 0; m,n \in \mathbb{N}, n \neq 0 $ prawdziwe są następujące zależności:
+
+\renewcommand{\arraycolsep}{1cm}
+\renewcommand{\arraystretch}{2}
+
 \begin{equation*}
 \begin{array}{ll}
    a^{-n} = \frac{\displaystyle 1}{\displaystyle a^{n}} & \sqrt[n]{a} = a^{\frac{1}{n}} \\
@@ -262,15 +272,234 @@ $$b = \sqrt[n]{a} \Leftrightarrow b^{n} = a$$
    (a\cdot b)^{n} = a^{n}\cdot b^{n} & \sqrt[n]{a\cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b} \\
    \left(\frac{\displaystyle a}{\displaystyle b}\right)^{n} = \frac{\displaystyle a^{n}}{\displaystyle b^{n}} & \sqrt[n]{\frac{\displaystyle a}{\displaystyle b}} = \frac{\displaystyle \sqrt[n]{a}}{\displaystyle \sqrt[n]{b}} \\
    (a^{n})^{m} = a^{n\cdot m} & \sqrt[m]{\sqrt[n]{a}} = \sqrt[m\cdot n]{a}\\
+   \\
    a^{n}\cdot a^{m} = a^{n+m} & \frac{\displaystyle a^{n}}{\displaystyle a^{m}} = a^{n - m} \\
+   \sqrt[n]{a^{m}} = (\sqrt[n]{a})^{m} &  \sqrt{a}^{2} = \lvert a\rvert \\
 \end{array}
 \end{equation*}
-\vspace{-0.45cm}
+\\
+
+\renewcommand{\arraycolsep}{0.5cm}
+
+\noindent\textbf{Logarytm} - operacja odwrotna do potęgowania, która dla podstawy $a$ oraz argumentu $b$ przyjmuje wartość $n$ taką, że $a$ podniesione do potęgi $n$ jest\linebreak równe $b$:
+$$n = \log_{\;a}b \Leftrightarrow a^{n} = b$$
 \begin{equation*}
-\begin{array}{c}
-\sqrt[n]{a^{m}} = (\sqrt[n]{a})^{m}
+\begin{array}{ccc}
+   a=\{x:x\in\mathbb{R}\land x>0\land x\neq 1\}, & b \in \mathbb{R}_{+}, & n \in \mathbb{R} \\
 \end{array}
 \end{equation*}
+
+\noindent Szczególne przypadki:
+\begin{equation*}
+\begin{array}{ccc}
+   \log_{\;a}0 - \text{niezdefiniowany}, & \log_{\;a}1 = 0, & \log_{\;a}a = 1 \\
+\end{array}
+\end{equation*}
+
+\renewcommand{\arraycolsep}{0.8cm}
+\newpage
+\noindent Dla $a, b =\{x:x\in\mathbb{R}\land x>0\land x\neq 1\}; x, y \in \mathbb{R}_{+}$ prawdziwe są następujące zależności:
+
+\begin{itemize}
+   \item Prawo iloczynu: $\log_{\;a}(x\cdot y) = \log_{\;a}x + \log_{\;a}y$
+   \item Prawo ilorazu: $\log_{\;a}\left(\frac{\displaystyle x}{\displaystyle y}\right) = \log_{\;a}x - \log_{\;a}y$
+   \item Prawo potęgi: $\log_{\;a}(x^{y}) = y\cdot\log_{\;a}x$
+   \item Zamiana podstawy z argumentem: $\log_{\;a}b = \frac{\displaystyle 1}{\displaystyle \log_{\;b}a}$
+   \item Zmiana podstawy logarytmu: $\log_{\;a}x = \frac{\displaystyle \log_{\;b}x}{\displaystyle \log_{\;b}a}$
+   \item Logarytm potęgi podstawy: $\log_{\;a}(a^{x}) = x$
+   \item $a$ do potęgi logarytmu $a$ z $x$: $a^{\log_{\;a}x} = x$
+\end{itemize}
+
+\noindent\subsection{Wzory skróconego mnożenia}
+Dla $x, y \in \mathbb{R}$ prawdziwe są następujące zależności:
+\begin{itemize}
+   \item Kwadrat sumy: $(x + y)^{2} = x^{2} + 2xy + y^{2}$
+   \item Kwadrat różnicy: $(x - y)^{2} = x^{2} - 2xy + y^{2}$
+   \item Różnica kwadratów: $x^{2} - y^{2} = (x - y)(x + y)$
+   \\
+   \item Sześcian sumy: $(x + y)^{3} = x^{3} + 3x^{2}y + 3xy^{2} + y^{3}$
+   \item Sześcian różnicy: $(x - y)^{3} = x^{3} - 3x^{2}y + 3xy^{2} - y^{3}$
+   \item Różnica sześcianów: $x^{3} - y^{3} = (x - y)(x^{2} + xy + y^{2})$
+   \item Suma sześcianów: $x^{3} + y^{3} = (x + y)(x^{2} - xy + y^{2})$
+\end{itemize}
+
+\newpage
+\noindent Za pomocą \textbf{trójkąta Pascala} można wyznaczyć współczynniki arugmentów dla sumy i różnicy podniesionej do potęgi dowolnego $n, n \in \mathbb{N}$:\\
+\begin{tabular}{>{$n=}l<{$\hspace{4pt}}*{17}{c}}
+   0 &&&&&&&&&&&1&&&&&&\\
+   1 &&&&&&&&&&1&&1&&&&&\\
+   2 &&&&&&&&&1&&2&&1&&&&\\
+   3 &&&&&&&&1&&3&&3&&1&&&\\
+   4 &&&&&&&1&&4&&6&&4&&1&&\\
+   5 &&&&&&1&&5&&10&&10&&5&&1&\\
+   6 &&&&&1&&6&&15&&20&&15&&6&&1\\
+\end{tabular}
+\hfill\break
+\textit{Przykład:}
+$\;\;\;(x - y)^{5} = x^{5} - 5x^{4}y + 10x^{3}y^{2} - 10x^{2}y^{3} + 5xy^{4} - y^{5}$
+
+\noindent\subsection{Średnie}
+
+\begin{itemize}
+   \item Arytmetyczna: $S_{a} = $\scalebox{1.1}{$\frac{\displaystyle x_{1} + x_{2} + x_{3} + \ldots + x_{n}}{\textstyle n}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
+   \item Geometryczna: $S_{g} = $\scalebox{1.2}{$\sqrt[n]{x_{1} \cdot x_{2} \cdot x_{3} \cdot \ldots \cdot x_{n}}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}_{+}$
+   \item Kwadratowa: $S_{k} = \sqrt{\frac{\displaystyle x_{1}^{2} + x_{2}^{2} + x_{3}^{2} + \ldots + x_{n}^{2}}{\displaystyle n}};\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
+   \item Harmoniczna: $S_{h} = $\scalebox{1.4}{$\frac{\textstyle n}{\frac{1}{x_{1}}+\frac{1}{x_{2}}+\frac{1}{x_{3}}+\ldots+\frac{1}{x_{n}}}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R} \!\setminus\!\{0\} $
+\end{itemize}
+\textbf{Nierówność Cauchy'ego między średnimi} - średnie wyznaczone dla tego samego układu liczb dodatnich układają się w charakterystyczną nierówność:
+$$S_{k} \geq S_{a} \geq S_{g} \geq S_{h}$$
+
+\newpage
+\noindent\subsection{Błędy przybliżenia}
+Dla $r$ oznaczającego wartość dokładną i $p$ oznaczającego wartość przybliżoną zdefiniowane są błędy przybliżenia:\hfill\break
+\noindent\textbf{Błąd bezwzględny przybliżenia} - wartość bezwzględna różnicy między wartością dokładną a przybliżoną, wyrażona wzorem: $\vert r - p\vert$.\hfill\break
+\textbf{Błąd względny przybliżenia} - iloraz błędu bezwzględnego i wartości bezwzględnej rzeczywistej wielkości, wyrażona: $\frac{\displaystyle\vert r - p\vert}{\displaystyle\vert r\vert}$.\hfill\break
+\textbf{Błąd procentowy przybliżenia} - wartość procentowa błędu względnego: \hfill\break$\frac{\displaystyle\vert r - p\vert}{\displaystyle\vert r\vert} \cdot 100\%$.\\
+\newpage
+
+\section{Wielomiany}
+\subsection{Informacje i twierdzenia}
+\textbf{Wielomianem stopnia \textit{n}, \textit{n} $\in \mathbb{N}_{+}$ zmiennej rzeczywistej x} nazywamy wyrażenie:
+$$W(x) = a_{n}x^{n}+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}+\ldots+a_{2}x^{2}+a_{1}x+a_{0},$$
+gdzie $a_{0}, a_{1}, a_{2}, \ldots, a_{n} \in \mathbb{R} \land a_{n} \neq 0$. Liczby $a_{0}, a_{1}, a_{2}, \ldots, a_{n}$ to współczynniki wielomianu.
+Wielomian stopnia zerowego to każda liczba rzeczywista różna od zera. Wielomian zerowy to liczba równa zeru; nie ma określonego stopnia.\\
+\smallskip
+
+\noindent\textbf{Wielomian W(\textit{x}) jest podzielny przez wielomian P(\textit{x})} rózny od wielomianu zerowego wtedy i tylko wtedy,
+gdy istnieje taki wielomian Q(\textit{x}), dla którego prawdziwa jest równość:
+$$W(x) = P(x) \cdot Q{x}$$
+Wówczas Q(\textit{x}) nazywany jest ilorazem wielomianu W(\textit{x}) przez P(\textit{x}), a P(\textit{x}) 
+jest dzielnikiem wielomianu W(\textit{x}).\\
+
+\smallskip
+\noindent\textbf{Pierwiastek wielomianu W(\textit{x})} to liczba rzeczywista $a$, dla której $W(a) = 0$.\\
+
+\smallskip
+\noindent\textbf{Pierwiastek \textit{k}-krotny wielomianu W(\textit{x})}, gdzie $k \in \mathbb{N}_{+}$ to liczba $a$ taka, że W(\textit{x})
+jest podzielny przez $(x-a)^{k}$ i nie jest podzielny przez $(x-a)^{k+1}$. Liczba $k$ jest nazywana krotnością pierwiastka.\\
+
+\bigskip
+
+\noindent\textbf{Twierdzenie o dzieleniu (rozkładzie) wielomianu}\\
+Jeśli W(\textit{x}) oraz P(\textit{x}) są wielomianami i P(\textit{x}) nie jest wielomianem zerowym, 
+to istnieją dwa wielomiany Q(\textit{x}) oraz R(\textit{x}) takie, że prawdziwa jest równość:
+$$W(x) = P(x)\cdot Q(\textit{x})+R(x),$$
+gdzie R(\textit{x}) jest wielomianem zerowym lub wielomianem o stopniu mniejszym od stopnia wielomianu P(\textit{x}).\\
+
+\smallskip
+\noindent\textbf{Twierdzenie o reszcie wielomianu}\\
+Reszta z dzielenia wielomianu W(\textit{x}) przez dwumian $(x - a)$ jest równa W(\textit{a}).\\
+
+\smallskip
+\newpage
+\noindent\textbf{Twierdzenie o wymiernych pierwiastkach wielomianu o współczynnikach całkowitych}\\
+Jeżeli wielomian W(\textit{x}) ma pierwiastek wymierny, który można zapisać w postaci nieskracalnego ułamka $\frac{p}{q}$, gdzie $p, q \in \mathbb{C} \land q \neq 0$, to 
+$p$ jest dzielnikiem wyrazu wolnego $a_{0}$, natomiast $q$ - dzielnikiem współczynnika $a_{n}$ przy najwyższej potędze zmiennej.\\
+
+\smallskip
+\noindent\textbf{Twierdzenie Bezouta}\\
+Liczba $a$ jest pierwiastkiem wielomianu W(\textit{x}) wtedy i tylko wtedy, gdy wielomian W(\textit{x}) jest podzielny przez dwumian $(x - a)$.\\
+
+\smallskip
+\noindent\textbf{Twierdzenie o liczbie pierwiastków wielomianu}\\
+Każdy wielomian stopnia $n$ ma co najwyżej $n$ pierwiastków.\\
+
+\smallskip
+\noindent\textbf{Twierdzenie o rozkładzie wielomianu na czynniki}\\
+Każdy wielomian stopnia co najmniej trzeciego można rozłożyć na czynniki sponia co najwyżej drugiego.
+Rozkład w taki sposób jest jednoznaczny (z dokładnością co do kolejności czynników i stałej).\\
+
+\subsection{Funkcja liniowa}
+\noindent\textbf{Wzór ogólny:}
+$$f(x) = ax + b;\;\; a, b \in \mathbb{R}$$
+Liczba $a$ nazywana jest współczynnikiem kierunkowym, $b$ wyrazem wolnym. Dziedziną i zbiorem wartości
+funkcji liniowej są liczby rzeczywiste.\hfill\break
+\vspace{1pt}
+
+\noindent Funkcja liniowa przecina oś OY w punkcie $(0, b)$, a oś OX w $x_{0} = -\frac{b}{a}$. Wykres funkcji liniowej 
+jest nachylony do osi OX pod kątem $\alpha$ takim, że $\text{tg}\alpha = a$.\\
+
+\noindent Funkcja liniowa jest:
+\begin{itemize}
+   \item nieograniczona,
+   \item nieokresowa,
+   \item monotoniczna ($a > 0 \text{ - rosnąca}, a < 0 \text{ - malejąca}, a = 0 \text{ - stała}$),
+   \item różnowartościowa (gdy $a \neq 0$),
+   \item ciągła,
+   \item różniczkowalna.
+\end{itemize}
+
+\subsection{Funkcja kwadratowa}
+\noindent\textbf{Wzór w postaci ogólnej:}
+$$f(x) = ax^{2} + bx + c;\;\; a, b, c \in \mathbb{R}, a \neq 0$$
+\noindent\textbf{Wzór w postaci kanonicznej:}
+$$f(x) = a(x - p)^{2} + q;\;\; p = -\frac{b}{2a},\;\; q = -\frac{\Delta}{4a}, \;\; \Delta = b^{2} -4ac$$
+\noindent\textbf{Wzór w postaci iloczynowej:}
+$$f(x) = a(x - x_{1})(x - x_{2}) \Leftrightarrow \Delta \geq 0; \;\; x_{1} = \frac{-b + \sqrt{\Delta}}{2a},\;\; x_{2} = \frac{-b - \sqrt{\Delta}}{2a}$$
+
+\noindent\textbf{Delta, wyróżnik wielomianu stopnia drugiego} - Liczba opisująca relację między współczynnikami funkcji 
+kwadratowej a jej miejscami zerowymi. Wyznaczona wzorem $\Delta_{2} = b^{2} - 4ac$.
+\begin{itemize}
+   \item $\Delta > 0$ - Dwa różne pierwiastki rzeczywiste: $x_{1}, x_{2} = \frac{-b \pm\sqrt{\Delta}}{2a}$,
+   \item $\Delta = 0$ - Jeden pierwiastek rzeczywisty podwójny: $x_{0} = -\frac{b}{2a}$,
+   \item $\Delta < 0$ - Brak pierwiastków rzeczywistych: ($x_{1}, x_{2} \in \mathbb{C}$\;(zespolonych)).
+\end{itemize}
+
+\noindent Wykresem funkcji kwadratowej jest parabola, której ramiona skierowane są do góry gdy $a > 0$ a do dołu,
+gdy $a < 0$.\hfill\break
+
+
+\noindent\textbf{Wierzchołek funkcji kwadratowej} znajduje się w punkcie $\left(-\frac{b}{2a}, -\frac{\Delta}{4a}\right)$.
+Alternatywnie, współrzędną \textbf{x} wierzchołka można wyliczyć średnią arytmetyczną miejsc zerowych: $p = \frac{x_{1} + x_{2}}{2}$, a 
+współrzędną \textbf{y} wartością funkcji w punkcie $p$: $q = f(p)$.\hfill\break
+
+\noindent\textbf{Wzory Viète'a} - wzory wiążące współczynniki wielomianu (stopnia drugiego) z jego pierwiastkami:\hfill\break
+\begin{equation*}
+   \left\{
+      \begin{array}{ll}
+         \!\!\!\!\!\!x_{1} + x_{2} = -\frac{\displaystyle b}{\displaystyle a}\\
+         \!\!\!\!\!\!x_{1}\cdot x_{2} = \frac{\displaystyle c}{\displaystyle a}\\
+      \end{array}
+   \right.
+   \end{equation*}
+
+\noindent Dziedziną funkcji kwadratowej jest zbiór liczb rzeczywistych. Zbiorem wartości jest przedział
+$\langle q, +\infty) \text{ dla } a > 0$, $(-\infty, q\rangle \text{ dla } a < 0$.\hfill\break
+
+\noindent Funkcja kwadratowa jest:
+\begin{itemize}
+   \item nieokresowa,
+   \item monotoniczna w przedziałach:
+   $$\text{malejąca w }(-\infty, p\rangle, \text{ rosnąca w } \langle p, +\infty),\;\; a > 0$$
+   $$\text{rosnąca w }(-\infty, p\rangle, \text{ malejąca w } \langle p, +\infty),\;\; a < 0$$
+   \item ciągła,
+   \item różniczkowalna,
+   \item ściśle wypukła dla $a > 0$, ściśle wklęsła dla $a < 0$.
+
+\end{itemize}
+
+
+% \begin{equation*}
+% \begin{array}{cc}
+%     &  \\
+% \end{array}
+% \end{equation*}
+
+% \vspace{-0.7cm}
+
+% \begin{equation*}
+% \begin{array}{ccc}
+%     &  &   \\
+% \end{array}
+% \end{equation*}
+
+% \vspace{-0.3cm}
+
+% \begin{equation*}
+% \begin{array}{cc}
+%     &  \\
+% \end{array}
+% \end{equation*}
 
 
 \end{document}
