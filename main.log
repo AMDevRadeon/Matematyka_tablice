@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  13 MAR 2022 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  14 MAR 2022 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -83,7 +83,27 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen151
 \Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks20
-) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+ (c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -166,9 +186,7 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
+)
 \Gin@req@height=\dimen169
 \Gin@req@width=\dimen170
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
@@ -285,20 +303,20 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -356,7 +374,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <galeria//Strona tytuÅ‚owa.png, id=1, 264.99pt x 380.622pt>
 File: galeria//Strona tytuÅ‚owa.png Graphic file (type png)
 <use galeria//Strona tytuÅ‚owa.png>
-Package pdftex.def Info: galeria//Strona tytuÅ‚owa.png  used on input line 37.
+Package pdftex.def Info: galeria//Strona tytuÅ‚owa.png  used on input line 38.
 (pdftex.def)             Requested size: 597.621pt x 845.17665pt.
  [1
 
@@ -373,166 +391,181 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `main.toc'.
 
  [1{c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 57--88
+Underfull \hbox (badness 10000) in paragraph at lines 58--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--88
+Underfull \hbox (badness 10000) in paragraph at lines 58--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--88
+Underfull \hbox (badness 10000) in paragraph at lines 58--89
 
  []
 
 [1
 
 ]
-Overfull \hbox (28.1179pt too wide) in paragraph at lines 135--144
+Overfull \hbox (28.1179pt too wide) in paragraph at lines 136--145
 [] 
  []
 
 
-Overfull \hbox (17.6077pt too wide) in paragraph at lines 147--165
+Overfull \hbox (17.6077pt too wide) in paragraph at lines 148--166
 [] 
  []
 
 
-Overfull \hbox (42.54024pt too wide) in paragraph at lines 170--185
+Overfull \hbox (42.54024pt too wide) in paragraph at lines 171--186
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--185
+Underfull \hbox (badness 10000) in paragraph at lines 171--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--185
+Underfull \hbox (badness 10000) in paragraph at lines 171--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--185
+Underfull \hbox (badness 10000) in paragraph at lines 171--186
 
  []
 
 
-Overfull \hbox (17.82481pt too wide) in paragraph at lines 189--205
+Overfull \hbox (17.82481pt too wide) in paragraph at lines 190--206
  [] 
  []
 
 [2]
-Overfull \hbox (6.976pt too wide) in paragraph at lines 242--243
+Overfull \hbox (6.976pt too wide) in paragraph at lines 243--244
 \T1/cmr/m/n/14.4 która jest zde-fi-nio-wana jako ilo-czyn $\OML/cmm/m/it/14.4 a; a \OMS/cmsy/m/n/14.4 2 \U/msb/m/n/14.4 R \OMS/cmsy/m/n/14.4 n f\OT1/cmr/m/n/14.4 0\OMS/cmsy/m/n/14.4 g$\T1/cmr/m/n/14.4 (podstawa) $\OML/cmm/m/it/14.4 n; n \OMS/cmsy/m/n/14.4 2 \U/msb/m/n/14.4 N[]$\T1/cmr/m/n/14.4 (wykªadnik)
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 284--285
+Underfull \hbox (badness 1708) in paragraph at lines 285--286
 \T1/cmr/m/n/14.4 mentu $\OML/cmm/m/it/14.4 b$ \T1/cmr/m/n/14.4 przyj-muje war-to±¢ $\OML/cmm/m/it/14.4 n$ \T1/cmr/m/n/14.4 tak¡, »e $\OML/cmm/m/it/14.4 a$ \T1/cmr/m/n/14.4 pod-nie-sione do po-t¦gi $\OML/cmm/m/it/14.4 n$ \T1/cmr/m/n/14.4 jest
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
 
  []
 
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 354--358
+Underfull \hbox (badness 10000) in paragraph at lines 355--359
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 370--373
+Underfull \hbox (badness 10000) in paragraph at lines 400--404
+
+ []
+
+<galeria//viete-lcd.png, id=51, 433.62pt x 260.172pt>
+File: galeria//viete-lcd.png Graphic file (type png)
+<use galeria//viete-lcd.png>
+Package pdftex.def Info: galeria//viete-lcd.png  used on input line 410.
+(pdftex.def)             Requested size: 433.61894pt x 260.17134pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+[8 <./galeria//viete-lcd.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 428--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 395--398
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 408--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
-
- []
-
-[9]
 Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--455
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 453--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--468
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
-[10] [11] (./main.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--479
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--513
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--526
+
+ []
+
+[11] [12] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4817 strings out of 480160
- 76039 string characters out of 5892852
- 399928 words of memory out of 5000000
- 22723 multiletter control sequences out of 15000+600000
- 481129 words of font info for 52 fonts, out of 8000000 for 9000
+ 5384 strings out of 480160
+ 83301 string characters out of 5892852
+ 414374 words of memory out of 5000000
+ 23277 multiletter control sequences out of 15000+600000
+ 482686 words of font info for 54 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  55i,15n,62p,344b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (13 pages, 963086 bytes).
+Output written on main.pdf (14 pages, 1000073 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

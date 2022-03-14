@@ -5,6 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
 
+\usepackage[dvipsnames]{xcolor}
 \usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -355,6 +356,63 @@ Dla $r$ oznaczającego wartość dokładną i $p$ oznaczającego wartość przyb
 \noindent\textbf{Błąd bezwzględny przybliżenia} - wartość bezwzględna różnicy między wartością dokładną a przybliżoną, wyrażona wzorem: $\vert r - p\vert$.\hfill\break
 \textbf{Błąd względny przybliżenia} - iloraz błędu bezwzględnego i wartości bezwzględnej rzeczywistej wielkości, wyrażona: $\frac{\displaystyle\vert r - p\vert}{\displaystyle\vert r\vert}$.\hfill\break
 \textbf{Błąd procentowy przybliżenia} - wartość procentowa błędu względnego: \hfill\break$\frac{\displaystyle\vert r - p\vert}{\displaystyle\vert r\vert} \cdot 100\%$.\\
+
+\noindent\subsection{Największy wspólny dzielnik}
+Funkcja $\text{NWD}(a, b),\;a, b \in \mathbb{N}_{+}$ dla liczb $a$ i $b$ znajduje największą liczbę $c$ ze zbioru
+jednoczesnych dzielników liczb $a$ i $b$. Znalezienie liczby $\text{NWD}(a, b)$ sprowadza się do zastosowania \textbf{algorytmu Euklidesa}:
+\begin{enumerate}
+   \item Dla $a, b$ znajdź większą z nich,
+   \item Od większej liczby odejmij tę mniejszą,
+   \item Powtarzaj, aż odejmowanie liczb da zero.
+\end{enumerate}
+
+
+
+\renewcommand{\arraycolsep}{0.5cm}
+\renewcommand{\arraystretch}{1.4}
+
+
+
+\textit{Przykład: }
+\begin{equation*}
+   \textbf{NWD(\textcolor{OliveGreen}{798}, \textcolor{RawSienna}{1008}) = }\left\{
+\begin{array}{lcl}
+   \textcolor{RawSienna}{1008} - \textcolor{OliveGreen}{798} & = & \textcolor{RawSienna}{210}\\
+   \textcolor{OliveGreen}{798} - \textcolor{RawSienna}{210} & = & \textcolor{OliveGreen}{588}\\
+   \textcolor{OliveGreen}{588} - \textcolor{RawSienna}{210} & = & \textcolor{OliveGreen}{378}\\
+   \textcolor{OliveGreen}{378} - \textcolor{RawSienna}{210} & = & \textcolor{OliveGreen}{168}\\
+   \textcolor{RawSienna}{210} - \textcolor{OliveGreen}{168} & = & \textcolor{RawSienna}{42}\\
+   \textcolor{OliveGreen}{168} - \textcolor{RawSienna}{42} & = & \textcolor{OliveGreen}{126}\\
+   \textcolor{OliveGreen}{126} - \textcolor{RawSienna}{42} & = & \textcolor{OliveGreen}{84}\\
+   \textcolor{OliveGreen}{84} - \textcolor{RawSienna}{42} & = & \textcolor{OliveGreen}{42}\\
+   \textcolor{OliveGreen}{42} - \textcolor{RawSienna}{42} & = & \textbf{0}
+\end{array}
+   \right\}\textbf{ = 42}
+\end{equation*}
+\newpage
+
+\noindent\subsection{Najmniejsza wspólna wielokrotność}
+Funkcja $\text{NWW}(a, b),\;\in\mathbb{N}_{+}$ dla liczb $a$ i $b$ znajduje najmniejszą liczbę $c$ taką, że
+$a$ i $b$ są jednocześnie podzielne przez $c$. Aby znaleźć $\text{NWW}(a, b)$ można posłużyć
+się następującym wzorem:
+$$\text{NWW}(a, b) = \frac{\vert ab \vert}{\text{NWD(a, b)}}$$
+
+\noindent NWW oraz NWD można też obliczyć znając rozkład liczb na czynniki pierwsze. NWW oblicza się jako
+iloczyn największych potęg unikalnych czynników. NWW to iloczyn wspólnych dla obu liczb
+czynników.\\\\
+\textit{Przykład:}
+\begin{equation*}
+\begin{array}{cc}
+   \textbf{1008} = 2^{4} \cdot 3^{2} \cdot 7 & \textbf{798} = 2 \cdot 3 \cdot 7 \cdot 19\\
+\end{array}
+\end{equation*}
+
+\includegraphics{viete-lcd.png}
+
+\textit{Więc:}\\
+$$\text{NNW}(798, 1008) = 2^{4} \cdot 3^{2} \cdot 7 \cdot 19 = 19152$$
+$$\text{NWD}(798, 1008) = 2 \cdot 3 \cdot 7 = 42$$
+
 \newpage
 
 \section{Wielomiany}
@@ -367,7 +425,7 @@ Wielomian stopnia zerowego to każda liczba rzeczywista różna od zera. Wielomi
 
 \noindent\textbf{Wielomian W(\textit{x}) jest podzielny przez wielomian P(\textit{x})} rózny od wielomianu zerowego wtedy i tylko wtedy,
 gdy istnieje taki wielomian Q(\textit{x}), dla którego prawdziwa jest równość:
-$$W(x) = P(x) \cdot Q{x}$$
+$$W(x) = P(x) \cdot Q(x)$$
 Wówczas Q(\textit{x}) nazywany jest ilorazem wielomianu W(\textit{x}) przez P(\textit{x}), a P(\textit{x}) 
 jest dzielnikiem wielomianu W(\textit{x}).\\
 
@@ -416,8 +474,8 @@ Liczba $a$ nazywana jest współczynnikiem kierunkowym, $b$ wyrazem wolnym. Dzie
 funkcji liniowej są liczby rzeczywiste.\hfill\break
 \vspace{1pt}
 
-\noindent Funkcja liniowa przecina oś OY w punkcie $(0, b)$, a oś OX w $x_{0} = -\frac{b}{a}$. Wykres funkcji liniowej 
-jest nachylony do osi OX pod kątem $\alpha$ takim, że $\text{tg}\alpha = a$.\\
+\noindent Funkcja liniowa przecina oś OY w punkcie $(0, b)$, a oś OX w $(-\frac{b}{a}, 0)$. Wykres funkcji liniowej 
+jest nachylony do osi OX pod kątem $\alpha$ takim, że $\text{tg}\;\alpha = a$.\\
 
 \noindent Funkcja liniowa jest:
 \begin{itemize}

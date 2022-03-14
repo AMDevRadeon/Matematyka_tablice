@@ -136,6 +136,29 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
@@ -256,10 +279,6 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.c
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
@@ -365,6 +384,13 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tf
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1440.tfm
+INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm
+INPUT ./galeria//viete-lcd.png
+INPUT ./galeria//viete-lcd.png
+INPUT galeria//viete-lcd.png
+INPUT ./galeria//viete-lcd.png
+INPUT ./galeria//viete-lcd.png
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1440.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti0700.tfm
