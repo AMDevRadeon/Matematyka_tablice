@@ -15,7 +15,9 @@
 \contentsline {subsection}{Błędy przybliżenia}{7}{}%
 \contentsline {subsection}{Największy wspólny dzielnik}{7}{}%
 \contentsline {subsection}{Najmniejsza wspólna wielokrotność}{8}{}%
-\contentsline {section}{\numberline {3}Wielomiany}{9}{}%
+\contentsline {section}{\numberline {3}Wielomiany, funkcje wielomianowe}{9}{}%
 \contentsline {subsection}{Informacje i twierdzenia}{9}{}%
 \contentsline {subsection}{Funkcja liniowa}{10}{}%
 \contentsline {subsection}{Funkcja kwadratowa}{11}{}%
+\contentsline {subsection}{Funkcja sześcienna}{12}{}%
+\contentsline {subsection}{Funkcja wymierna}{14}{}%

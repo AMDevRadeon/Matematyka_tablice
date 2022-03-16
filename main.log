@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  14 MAR 2022 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  16 MAR 2022 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -103,7 +103,10 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
  (c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+)) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/polynom/polynom.sty
+Package: polynom 2017/07/17 0.19 (CH,HA)
+\pld@currstage=\count198
+) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -120,7 +123,7 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@old@col=\dimen157
 \TX@target=\dimen158
 \TX@delta=\dimen159
-\TX@cols=\count198
+\TX@cols=\count199
 \TX@ftn=\toks22
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
@@ -139,13 +142,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count199
+\inf@bad=\count266
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count266
-\leftroot@=\count267
+\uproot@=\count267
+\leftroot@=\count268
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count268
-\DOTSCASE@=\count269
+\classnum@=\count269
+\DOTSCASE@=\count270
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -154,15 +157,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen162
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count270
-\c@MaxMatrixCols=\count271
+\macc@depth=\count271
+\c@MaxMatrixCols=\count272
 \dotsspace@=\muskip16
-\c@parentequation=\count272
-\dspbrk@lvl=\count273
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
 \tag@help=\toks24
-\row@=\count274
-\column@=\count275
-\maxfields@=\count276
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
 \andhelp@=\toks25
 \eqnshift@=\dimen163
 \alignsep@=\dimen164
@@ -191,53 +194,53 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@width=\dimen170
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2021-03-10 v1.2e Show layout parameters
-\oneinch=\count277
-\cnt@paperwidth=\count278
-\cnt@paperheight=\count279
-\cnt@hoffset=\count280
-\cnt@voffset=\count281
-\cnt@textheight=\count282
-\cnt@textwidth=\count283
-\cnt@topmargin=\count284
-\cnt@oddsidemargin=\count285
-\cnt@evensidemargin=\count286
-\cnt@headheight=\count287
-\cnt@headsep=\count288
-\cnt@marginparsep=\count289
-\cnt@marginparwidth=\count290
-\cnt@marginparpush=\count291
-\cnt@footskip=\count292
-\fheight=\count293
-\ref@top=\count294
-\ref@hoffset=\count295
-\ref@voffset=\count296
-\ref@head=\count297
-\ref@body=\count298
-\ref@foot=\count299
-\ref@margin=\count300
-\ref@marginwidth=\count301
-\ref@marginpar=\count302
-\Interval=\count303
-\ExtraYPos=\count304
-\PositionX=\count305
-\PositionY=\count306
-\ArrowLength=\count307
+\oneinch=\count278
+\cnt@paperwidth=\count279
+\cnt@paperheight=\count280
+\cnt@hoffset=\count281
+\cnt@voffset=\count282
+\cnt@textheight=\count283
+\cnt@textwidth=\count284
+\cnt@topmargin=\count285
+\cnt@oddsidemargin=\count286
+\cnt@evensidemargin=\count287
+\cnt@headheight=\count288
+\cnt@headsep=\count289
+\cnt@marginparsep=\count290
+\cnt@marginparwidth=\count291
+\cnt@marginparpush=\count292
+\cnt@footskip=\count293
+\fheight=\count294
+\ref@top=\count295
+\ref@hoffset=\count296
+\ref@voffset=\count297
+\ref@head=\count298
+\ref@body=\count299
+\ref@foot=\count300
+\ref@margin=\count301
+\ref@marginwidth=\count302
+\ref@marginpar=\count303
+\Interval=\count304
+\ExtraYPos=\count305
+\PositionX=\count306
+\PositionY=\count307
+\ArrowLength=\count308
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip54
-\multirow@cntb=\count308
+\multirow@cntb=\count309
 \multirow@dima=\skip55
 \bigstrutjot=\dimen171
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count309
+\c@tracingmulticols=\count310
 \mult@box=\box54
 \multicol@leftmargin=\dimen172
-\c@unbalance=\count310
-\c@collectmore=\count311
-\doublecol@number=\count312
-\multicoltolerance=\count313
-\multicolpretolerance=\count314
+\c@unbalance=\count311
+\c@collectmore=\count312
+\doublecol@number=\count313
+\multicoltolerance=\count314
+\multicolpretolerance=\count315
 \full@width=\dimen173
 \page@free=\dimen174
 \premulticols=\dimen175
@@ -287,36 +290,36 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count315
-\c@columnbadness=\count316
-\c@finalcolumnbadness=\count317
+\c@minrows=\count316
+\c@columnbadness=\count317
+\c@finalcolumnbadness=\count318
 \last@try=\dimen178
 \multicolovershoot=\dimen179
 \multicolundershoot=\dimen180
 \mult@nat@firstbox=\box97
 \colbreak@box=\box98
-\mc@col@check@num=\count318
+\mc@col@check@num=\count319
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
+\l__color_backend_stack_int=\count320
 \l__pdf_internal_box=\box99
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -354,16 +357,16 @@ LaTeX Font Info:    ... okay on input line 30.
 
 (c:/Program Files/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
+\scratchcounter=\count321
 \scratchdimen=\dimen181
 \scratchbox=\box100
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\nofMPsegments=\count322
+\nofMParguments=\count323
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count323
+\MPscratchCnt=\count324
 \MPscratchDim=\dimen182
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
 \everyMPtoPDFconversion=\toks29
 ) (c:/Program Files/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -374,7 +377,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <galeria//Strona tytuÅ‚owa.png, id=1, 264.99pt x 380.622pt>
 File: galeria//Strona tytuÅ‚owa.png Graphic file (type png)
 <use galeria//Strona tytuÅ‚owa.png>
-Package pdftex.def Info: galeria//Strona tytuÅ‚owa.png  used on input line 38.
+Package pdftex.def Info: galeria//Strona tytuÅ‚owa.png  used on input line 39.
 (pdftex.def)             Requested size: 597.621pt x 845.17665pt.
  [1
 
@@ -391,181 +394,246 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout3 = `main.toc'.
 
  [1{c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 58--89
+Underfull \hbox (badness 10000) in paragraph at lines 59--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--89
+Underfull \hbox (badness 10000) in paragraph at lines 59--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--89
+Underfull \hbox (badness 10000) in paragraph at lines 59--90
 
  []
 
 [1
 
 ]
-Overfull \hbox (28.1179pt too wide) in paragraph at lines 136--145
+Overfull \hbox (28.1179pt too wide) in paragraph at lines 137--146
 [] 
  []
 
 
-Overfull \hbox (17.6077pt too wide) in paragraph at lines 148--166
+Overfull \hbox (17.6077pt too wide) in paragraph at lines 149--167
 [] 
  []
 
 
-Overfull \hbox (42.54024pt too wide) in paragraph at lines 171--186
+Overfull \hbox (42.54024pt too wide) in paragraph at lines 172--187
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--186
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--186
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--186
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
 
  []
 
 
-Overfull \hbox (17.82481pt too wide) in paragraph at lines 190--206
+Overfull \hbox (17.82481pt too wide) in paragraph at lines 191--207
  [] 
  []
 
 [2]
-Overfull \hbox (6.976pt too wide) in paragraph at lines 243--244
+Overfull \hbox (6.976pt too wide) in paragraph at lines 244--245
 \T1/cmr/m/n/14.4 która jest zde-fi-nio-wana jako ilo-czyn $\OML/cmm/m/it/14.4 a; a \OMS/cmsy/m/n/14.4 2 \U/msb/m/n/14.4 R \OMS/cmsy/m/n/14.4 n f\OT1/cmr/m/n/14.4 0\OMS/cmsy/m/n/14.4 g$\T1/cmr/m/n/14.4 (podstawa) $\OML/cmm/m/it/14.4 n; n \OMS/cmsy/m/n/14.4 2 \U/msb/m/n/14.4 N[]$\T1/cmr/m/n/14.4 (wykªadnik)
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
 
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 285--286
+Underfull \hbox (badness 1708) in paragraph at lines 286--287
 \T1/cmr/m/n/14.4 mentu $\OML/cmm/m/it/14.4 b$ \T1/cmr/m/n/14.4 przyj-muje war-to±¢ $\OML/cmm/m/it/14.4 n$ \T1/cmr/m/n/14.4 tak¡, »e $\OML/cmm/m/it/14.4 a$ \T1/cmr/m/n/14.4 pod-nie-sione do po-t¦gi $\OML/cmm/m/it/14.4 n$ \T1/cmr/m/n/14.4 jest
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 319--321
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
 
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 355--359
+Underfull \hbox (badness 10000) in paragraph at lines 356--360
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 400--404
+Underfull \hbox (badness 10000) in paragraph at lines 401--405
 
  []
 
 <galeria//viete-lcd.png, id=51, 433.62pt x 260.172pt>
 File: galeria//viete-lcd.png Graphic file (type png)
 <use galeria//viete-lcd.png>
-Package pdftex.def Info: galeria//viete-lcd.png  used on input line 410.
+Package pdftex.def Info: galeria//viete-lcd.png  used on input line 411.
 (pdftex.def)             Requested size: 433.61894pt x 260.17134pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
 [8 <./galeria//viete-lcd.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 428--431
+Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--450
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 453--456
+Underfull \hbox (badness 10000) in paragraph at lines 454--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--460
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--464
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--469
+Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--479
+Underfull \hbox (badness 10000) in paragraph at lines 472--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 506--508
+Underfull \hbox (badness 10000) in paragraph at lines 513--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--513
+Underfull \hbox (badness 10000) in paragraph at lines 517--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--515
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 531--533
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 564--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--526
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
 
  []
 
-[11] [12] (./main.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 614--618
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
+
+ []
+
+
+Overfull \hbox (4.9694pt too wide) in paragraph at lines 648--656
+\T1/cmr/m/n/14.4 Funkcja ho-mo-gra-ficzna jest mo-no-to-niczna w prze-dzia-ªach $[] [] []$.
+ []
+
+[15] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5384 strings out of 480160
- 83301 string characters out of 5892852
- 414374 words of memory out of 5000000
- 23277 multiletter control sequences out of 15000+600000
+ 5779 strings out of 480160
+ 89384 string characters out of 5892852
+ 422935 words of memory out of 5000000
+ 23668 multiletter control sequences out of 15000+600000
  482686 words of font info for 54 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 55i,15n,62p,344b,206s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,62p,344b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (14 pages, 1000073 bytes).
+Output written on main.pdf (17 pages, 1015487 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 154 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

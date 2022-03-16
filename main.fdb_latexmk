@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1647277684 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1647277689
+["pdflatex"] 1647448884 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1647448889
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1646058189 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1646058189 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1440.tfm" 1646058432 3072 4dda4299ed0d9dcf48c6a8bcfdc499fc ""
@@ -76,6 +76,7 @@
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1646059031 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1646059265 678 4792914a8f45be57bb98413425e4c7af ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty" 1646310233 6149 2398eec4faa1ee24ff761581e580ecf1 ""
+  "c:/Program Files/texlive/2021/texmf-dist/tex/latex/polynom/polynom.sty" 1647442612 63019 cf26ee4ea3401b795b608e2a2d49b4ea ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty" 1646060260 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/layout.sty" 1646060260 14907 c3c1291fb67ed663d3bc488d4a10fe27 ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty" 1646060260 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
@@ -85,10 +86,10 @@
   "c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646060495 333951 96a92dd677b21bbaaf16512ce5fc0488 ""
   "c:/Program Files/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646060508 1470326 899b9cd6ae8a27b1aa5f5a723bbb1202 ""
   "c:/Program Files/texlive/2021/texmf.cnf" 1646060491 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1647277683 23399 0435a2573b594fa5810ec010cc8c16b7 ""
+  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1647448883 29970 f76641e8d8086c896ad0f00d1604a477 ""
   "galeria//viete-lcd.png" 1647276608 78998 a878bba1e19dfa1abe9ba48dbc40db38 ""
-  "main.aux" 1647277689 2059 9aed71a7c5b4fb63d7373cf04f643e26 "pdflatex"
-  "main.toc" 1647277689 1136 29f82e9c6eb12a36e8c22fdd7a0a976e "pdflatex"
+  "main.aux" 1647448889 2270 5fa2e8f5ecabe94b9472d536258f24a8 "pdflatex"
+  "main.toc" 1647448889 1265 e826ed915f8fcb40716245962f7f3b56 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
