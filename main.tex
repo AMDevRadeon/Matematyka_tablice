@@ -6,6 +6,7 @@
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
 
 \usepackage[dvipsnames]{xcolor}
+\usepackage{polynom}
 \usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -373,7 +374,7 @@ jednoczesnych dzielników liczb $a$ i $b$. Znalezienie liczby $\text{NWD}(a, b)$
 
 
 
-\textit{Przykład: }
+\noindent\textit{Przykład: }
 \begin{equation*}
    \textbf{NWD(\textcolor{OliveGreen}{798}, \textcolor{RawSienna}{1008}) = }\left\{
 \begin{array}{lcl}
@@ -415,7 +416,7 @@ $$\text{NWD}(798, 1008) = 2 \cdot 3 \cdot 7 = 42$$
 
 \newpage
 
-\section{Wielomiany}
+\section{Wielomiany, funkcje wielomianowe}
 \subsection{Informacje i twierdzenia}
 \textbf{Wielomianem stopnia \textit{n}, \textit{n} $\in \mathbb{N}_{+}$ zmiennej rzeczywistej x} nazywamy wyrażenie:
 $$W(x) = a_{n}x^{n}+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}+\ldots+a_{2}x^{2}+a_{1}x+a_{0},$$
@@ -467,6 +468,12 @@ Każdy wielomian stopnia $n$ ma co najwyżej $n$ pierwiastków.\\
 Każdy wielomian stopnia co najmniej trzeciego można rozłożyć na czynniki sponia co najwyżej drugiego.
 Rozkład w taki sposób jest jednoznaczny (z dokładnością co do kolejności czynników i stałej).\\
 
+\smallskip
+\noindent\textbf{Reguła znaków Kartezjusza}\\
+Dla dowolnego wielomianu o rzeczywistych współczynnikach, uporządkowanych według malejącej potęgi zmiennej,
+ilość dodatnich miejsc zerowych wielomianu jest równa liczbie zmian znaków między niezerowymi współczynnikami, 
+albo jest mniejsza o wielokrotność liczby 2.\\
+
 \subsection{Funkcja liniowa}
 \noindent\textbf{Wzór ogólny:}
 $$f(x) = ax + b;\;\; a, b \in \mathbb{R}$$
@@ -484,7 +491,7 @@ jest nachylony do osi OX pod kątem $\alpha$ takim, że $\text{tg}\;\alpha = a$.
    \item monotoniczna ($a > 0 \text{ - rosnąca}, a < 0 \text{ - malejąca}, a = 0 \text{ - stała}$),
    \item różnowartościowa (gdy $a \neq 0$),
    \item ciągła,
-   \item różniczkowalna.
+   \item różniczkowalna: $f^{\prime}(x) = a$.
 \end{itemize}
 
 \subsection{Funkcja kwadratowa}
@@ -531,13 +538,128 @@ $\langle q, +\infty) \text{ dla } a > 0$, $(-\infty, q\rangle \text{ dla } a < 0
    $$\text{malejąca w }(-\infty, p\rangle, \text{ rosnąca w } \langle p, +\infty),\;\; a > 0$$
    $$\text{rosnąca w }(-\infty, p\rangle, \text{ malejąca w } \langle p, +\infty),\;\; a < 0$$
    \item ciągła,
-   \item różniczkowalna,
+   \item różniczkowalna: $f^{\prime}(x) = 2ax + b$,
    \item ściśle wypukła dla $a > 0$, ściśle wklęsła dla $a < 0$.
 
 \end{itemize}
 
+\subsection{Funkcja sześcienna}
+\noindent\textbf{Wzór w postaci ogólnej:}
+$$f(x) = ax^{3} + bx^{2} + cx + d;\;\; a, b, c, d \in \mathbb{R}, a \neq 0$$
+\noindent\textbf{Wzór w postaci kanonicznej:}
+$$f(t) = t^{3} + pt + q;\;\; t = x + \frac{b}{3a}, \;\;p = \frac{c}{a}-\frac{b^{2}}{3a^{2}},\;\; q = \frac{2b^{3}}{27a^{3}}+\frac{d}{a}-\frac{bc}{3a^{2}}$$
+\noindent\textbf{Wzór w postaci iloczynowej:}
+$$f(x) = a(x - x_{1})(x - x_{2})(x - x_{3})$$
+\noindent\textbf{Wyróżnik wielomianu stopnia trzeciego} - Liczba opisująca relację między współczynnikami funkcji 
+sześciennej a jej miejscami zerowymi. Wyznaczona wzorem $\Delta_{3} = b^{2}c^{2} - 4ac^{3} - 4b^{3}d + 18abcd - 27a^{2}d^{2}$.
 
-% \begin{equation*}
+\newpage
+
+\begin{itemize}
+   \item $\Delta_{3} > 0$ - Trzy różne pierwiastki rzeczywiste: $x_{1}, x_{2}, x_{3}$,
+   \item $\Delta_{3} = 0$ - Dwa różne pierwiastki rzeczywiste, z czego jeden dwukrotny lub jeden pierwiastek trzykrotny,
+   \item $\Delta_{3} < 0$ - Jeden pierwiastek rzeczywisty, dwa pozostałe w liczbach zespolonych.
+\end{itemize}
+
+\noindent\textbf{Ekstrema funkcji sześciennej} (punkty krytyczne) znajdują się w punktach $(p, f(p))$, gdzie $p$ wyznaczone
+jest wzorem: $p = \frac{-b \pm \sqrt{b^{2} - 3ac}}{3a}$. Jeżeli $b^{2} - 3ac$ jest
+mniejsze bądź równe 0, wtedy ekstrem nie ma (funkcja $f(x)$ jest monotoniczna w całej dziedzinie).\hfill\break
+
+\noindent\textbf{Środek symetrii funkcji sześciennej} (punkt przegięcia) znajduje się w punkcie o współrzędnych 
+$\left(-\frac{b}{3a}, \;\frac{2b^{3}}{27a^{2}} - \frac{bc}{3a} + d\right)$.\hfill\break
+
+\noindent\textbf{Wzory Viète'a} - wzory wiążące współczynniki wielomianu (stopnia trzeciego) z jego pierwiastkami:\hfill\break
+\begin{equation*}
+   \left\{
+      \begin{array}{ll}
+         \!\!\!\!\!\!x_{1} + x_{2} + x_{3} = -\frac{\displaystyle b}{\displaystyle a}\\
+         \!\!\!\!\!\!x_{1}x_{2} + x_{1}x_{3} + x_{2}x_{3} = \frac{\displaystyle c}{\displaystyle a}\\
+         \!\!\!\!\!\!x_{1}x_{2}x_{3} = \frac{\displaystyle d}{\displaystyle a}\\
+      \end{array}
+   \right.
+\end{equation*}\hfill\break
+
+\noindent Dziedziną i zbiorem wartości funkcji sześciennej jest zbiór liczb rzeczywistych.\hfill\break
+
+\noindent Funkcja sześcienna jest:
+\begin{itemize}
+   \item nieokresowa,
+   \item monotoniczna w przedziałach:
+\begin{itemize}
+   \item $\text{rosnąca w }(-\infty, p_{1}\rangle\text{ i }\langle p_{2}, +\infty), \text{ malejąca w } \langle p_{1}, p_{2}\rangle,$\\ $ a > 0, \;\;b^{2} - 3ac > 0$
+   \item $\text{malejąca w }(-\infty, p_{1}\rangle\text{ i }\langle p_{2}, +\infty), \text{ rosnąca w } \langle p_{1}, p_{2}\rangle,$\\ $ a < 0, \;\;b^{2} - 3ac > 0$
+   \item $\text{rosnąca w całej dziedzinie}, \;\;a > 0, \;\;b^{2} - 3ac \leq 0$
+   \item $\text{malejąca w całej dziedzinie}, \;\;a < 0, \;\;b^{2} - 3ac \leq 0$
+\end{itemize}
+
+   \item ciągła,
+   \item różniczkowalna: $f^{\prime}(x) = 3ax^{2} + 2bx + c$,
+   \item ściśle wypukła w przedziale:
+   $$\left(-\frac{b}{3a}, +\infty\right) \text{ dla a > 0}, \left(-\infty, -\frac{b}{3a}\right) \text{ dla a < 0}$$
+   \item ściśle wklęsła w przedziale:
+   $$\left(-\infty, -\frac{b}{3a}\right) \text{ dla a > 0}, \left(-\frac{b}{3a}, +\infty\right) \text{ dla a < 0}$$
+
+\end{itemize}
+
+\subsection{Funkcja wymierna}
+Funkcja będąca ilorazem funkcji wielomianowych. 
+Iloraz wielomianów realizujących dane funkcje wielomianowe nazywa się wyrażeniem wymiernym.
+\noindent\textbf{Wzór w postaci ogólnej:}
+$$f(x) = \frac{P(x)}{Q(x)};\;\;P(x), Q(x) - \text{wielomiany}, \;Q(x) \not\equiv 0$$
+
+\noindent\textbf{Asymptoty funkcji wymiernej}
+\begin{itemize}
+   \item Pionowa:\hfill\break
+   Wszystkie miejsca, gdzie mianownik funkcji wymiernej $Q(x) = 0$.
+   \item Pozioma:\hfill\break
+   Niech $L$ będzie stopniem licznika funkcji wymiernej, $M$ stopniem mianownika funkcji wymiernej, a $a_{L}, a_{M}$ to kolejno
+   współczynniki przy największej potędze licznika i mianownika.
+   Wtedy:\hfill\break
+   \begin{equation*}      
+   \begin{array}{c|c|c}
+      L < M & L = M & L > M\\
+      \hline
+      y = 0 & y = \frac{\displaystyle a_{L}}{\displaystyle a_{M}} & \text{Brak asymptoty poziomej}\\
+   \end{array}
+   \end{equation*}
+   \item Ukośna:\hfill\break
+   Występuje, gdy stopień licznika jest o jeden większy od mianownika.
+   Aby policzyć wzór jej prostej należy przeprowadzić pisemne dzielenie licznika przez mianownik.
+   Wynikiem jest iloraz dzielenia.
+
+   \newpage
+\textit{Przykład:}
+$$f(x) = \frac{2x^{3}-4x^{2}+6x+9}{2x^{2}-10x+4}$$\hfill\break
+\textit{Stopień licznika jest o 1 większy od mianownika, więc:}
+   \begin{center}
+   \polyset{style=A}
+   \polylongdiv{2x^3-4x^2+6x+9}{2x^2-10x+4}
+   \end{center}\hfill\break
+$$2x^{3}-4x^{2}+6x+9 = \textcolor{OliveGreen}{\underline{(x+3)}}(2x^{2}-10x+4)+32x - 3$$
+$$\text{Asymptota ukośna: }y = x + 3$$
+
+\end{itemize}\hfill\break
+\smallskip
+
+\noindent Specjalnym przypadkiem funkcji wymiernej jest \textbf{funkcja homograficzna}.\hfill\break
+\textbf{Wzór w postaci ogólnej:}
+$$f(x) = \frac{ax + b}{cx + d};\;\;a, b, c, d \in \mathbb{R}\;c\neq 0,\; ad - bc \neq 0$$
+   
+\noindent Dziedziną funkcji homograficznej jest zbiór liczb rzeczywistych z wyłączeniem jednego miejsca zerowego
+opisanego wzorem $-\frac{d}{c}$.\hfill\break\\
+ Zbiór wartości to zbiór liczb rzeczywistych z wyłączeniem punktu $\frac{a}{c}$,
+którego zawarcie sprawiłoby, że funkcja homograficzna spełniałaby równanie $ad - bc = 0$.\hfill\break\\
+Asymptota pionowa opisana jest równaniem $x = -\frac{d}{c}$, a asymptota pozioma $y = \frac{a}{c}$.\hfill\break\\
+Środkiem symetrii a zarazem punktem przecięcia asymptot jest punkt o współrzędnych $S = \left(-\frac{d}{c}, \frac{a}{c}\right)$.\hfill\break\\
+Funkcja homograficzna jest monotoniczna w przedziałach $\left(-\infty, -\frac{d}{c}\right) \text{ i } \left(-\frac{d}{c}, +\infty\right)$.
+Jest przedziałami rosnąca, gdy $ad - bc > 0$ a przedziałami malejąca, gdy $ad - bc < 0$.
+
+   
+   
+   
+   
+   
+   % \begin{equation*}
 % \begin{array}{cc}
 %     &  \\
 % \end{array}
