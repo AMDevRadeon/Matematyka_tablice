@@ -15,9 +15,11 @@
 \contentsline {subsection}{Błędy przybliżenia}{7}{}%
 \contentsline {subsection}{Największy wspólny dzielnik}{7}{}%
 \contentsline {subsection}{Najmniejsza wspólna wielokrotność}{8}{}%
-\contentsline {section}{\numberline {3}Wielomiany, funkcje wielomianowe}{9}{}%
-\contentsline {subsection}{Informacje i twierdzenia}{9}{}%
-\contentsline {subsection}{Funkcja liniowa}{10}{}%
-\contentsline {subsection}{Funkcja kwadratowa}{11}{}%
-\contentsline {subsection}{Funkcja sześcienna}{12}{}%
-\contentsline {subsection}{Funkcja wymierna}{14}{}%
+\contentsline {subsection}{Oprocentowanie lokat i kredytów}{9}{}%
+\contentsline {section}{\numberline {3}Wielomiany, funkcje wielomianowe}{10}{}%
+\contentsline {subsection}{Informacje i twierdzenia}{10}{}%
+\contentsline {subsection}{Funkcja liniowa}{11}{}%
+\contentsline {subsection}{Funkcja kwadratowa}{12}{}%
+\contentsline {subsection}{Funkcja sześcienna}{13}{}%
+\contentsline {subsection}{Funkcja wymierna}{15}{}%
+\contentsline {section}{\numberline {4}Właściwości i wykresy funkcji}{17}{}%

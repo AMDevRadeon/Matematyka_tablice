@@ -343,10 +343,10 @@ $\;\;\;(x - y)^{5} = x^{5} - 5x^{4}y + 10x^{3}y^{2} - 10x^{2}y^{3} + 5xy^{4} - y
 \noindent\subsection{Średnie}
 
 \begin{itemize}
-   \item Arytmetyczna: $S_{a} = $\scalebox{1.1}{$\frac{\displaystyle x_{1} + x_{2} + x_{3} + \ldots + x_{n}}{\textstyle n}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
+   \item Arytmetyczna: $S_{a} = $\scalebox{1.1}{$\dfrac{\displaystyle x_{1} + x_{2} + x_{3} + \ldots + x_{n}}{\textstyle n}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
    \item Geometryczna: $S_{g} = $\scalebox{1.2}{$\sqrt[n]{x_{1} \cdot x_{2} \cdot x_{3} \cdot \ldots \cdot x_{n}}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}_{+}$
-   \item Kwadratowa: $S_{k} = \sqrt{\frac{\displaystyle x_{1}^{2} + x_{2}^{2} + x_{3}^{2} + \ldots + x_{n}^{2}}{\displaystyle n}};\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
-   \item Harmoniczna: $S_{h} = $\scalebox{1.4}{$\frac{\textstyle n}{\frac{1}{x_{1}}+\frac{1}{x_{2}}+\frac{1}{x_{3}}+\ldots+\frac{1}{x_{n}}}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R} \!\setminus\!\{0\} $
+   \item Kwadratowa: $S_{k} = \sqrt{\dfrac{\displaystyle x_{1}^{2} + x_{2}^{2} + x_{3}^{2} + \ldots + x_{n}^{2}}{\displaystyle n}};\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
+   \item Harmoniczna: $S_{h} = $\scalebox{1.1}{$\dfrac{\textstyle n}{\frac{1}{x_{1}}+\frac{1}{x_{2}}+\frac{1}{x_{3}}+\ldots+\frac{1}{x_{n}}}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R} \!\setminus\!\{0\} $
 \end{itemize}
 \textbf{Nierówność Cauchy'ego między średnimi} - średnie wyznaczone dla tego samego układu liczb dodatnich układają się w charakterystyczną nierówność:
 $$S_{k} \geq S_{a} \geq S_{g} \geq S_{h}$$
@@ -412,7 +412,30 @@ czynników.\\\\
 
 \textit{Więc:}\\
 $$\text{NNW}(798, 1008) = 2^{4} \cdot 3^{2} \cdot 7 \cdot 19 = 19152$$
-$$\text{NWD}(798, 1008) = 2 \cdot 3 \cdot 7 = 42$$
+$$\text{NWD}(798, 1008) = 2 \cdot 3 \cdot 7 = 42$$\hfill\break
+
+\noindent\subsection{Oprocentowanie lokat i kredytów}
+
+\noindent\textbf{Procent prosty}
+ - rodzaj oprocentowania polegający na tym, że odsetki doliczane do wkładu nie podlegają oprocentowaniu.\hfill\break
+\noindent\textbf{Procent składany}
+ - rodzaj oprocentowania, który nalicza procent od odsetek doliczonych do wkładu w każdym kolejnym rozpatrywanym okresie.\hfill\break
+ Doliczanie odsetek do lokaty nazywa się \textbf{kapitalizacją odsetek}, a czas między kapitalizacjami \textbf{okresem kapitalizacji}.\hfill\break\\
+
+\noindent Niech $K_{0}$ będzie początkowym wkładem pieniężnym, $K$ - końcową otrzymaną kwotą, $n$ - liczbą równych okresów kapitalizacji, które miały miejsce w okresie $m$, $m$ - liczbą okresów oszczędzania, $r$ - stopą oprocentowania, $p$ - podatkiem od dochodów kapitałowych.
+Wtedy:
+
+
+
+\renewcommand{\arraystretch}{2}
+\setlength{\arrayrulewidth}{0.5mm}
+
+\begin{equation*}
+   \begin{array}{lc}
+      \textbf{Procent prosty:} & K = K_{0}\cdot\left(1+\dfrac{r}{n}\right)^{n\cdot m}\\
+      \textbf{Procent składany:} & K = K_{0}\cdot\left[ 1+\dfrac{r}{n}\left(1 - \dfrac{p}{100}\right)\right]^{n\cdot m}
+   \end{array}
+\end{equation*}
 
 \newpage
 
@@ -574,7 +597,7 @@ $\left(-\frac{b}{3a}, \;\frac{2b^{3}}{27a^{2}} - \frac{bc}{3a} + d\right)$.\hfil
       \begin{array}{ll}
          \!\!\!\!\!\!x_{1} + x_{2} + x_{3} = -\frac{\displaystyle b}{\displaystyle a}\\
          \!\!\!\!\!\!x_{1}x_{2} + x_{1}x_{3} + x_{2}x_{3} = \frac{\displaystyle c}{\displaystyle a}\\
-         \!\!\!\!\!\!x_{1}x_{2}x_{3} = \frac{\displaystyle d}{\displaystyle a}\\
+         \!\!\!\!\!\!x_{1}x_{2}x_{3} = -\frac{\displaystyle d}{\displaystyle a}\\
       \end{array}
    \right.
 \end{equation*}\hfill\break
@@ -643,7 +666,7 @@ $$\text{Asymptota ukośna: }y = x + 3$$
 
 \noindent Specjalnym przypadkiem funkcji wymiernej jest \textbf{funkcja homograficzna}.\hfill\break
 \textbf{Wzór w postaci ogólnej:}
-$$f(x) = \frac{ax + b}{cx + d};\;\;a, b, c, d \in \mathbb{R}\;c\neq 0,\; ad - bc \neq 0$$
+$$f(x) = \frac{ax + b}{cx + d};\;\;a, b, c, d \in \mathbb{R},\;c\neq 0,\; ad - bc \neq 0$$
    
 \noindent Dziedziną funkcji homograficznej jest zbiór liczb rzeczywistych z wyłączeniem jednego miejsca zerowego
 opisanego wzorem $-\frac{d}{c}$.\hfill\break\\
@@ -653,10 +676,50 @@ Asymptota pionowa opisana jest równaniem $x = -\frac{d}{c}$, a asymptota poziom
 Środkiem symetrii a zarazem punktem przecięcia asymptot jest punkt o współrzędnych $S = \left(-\frac{d}{c}, \frac{a}{c}\right)$.\hfill\break\\
 Funkcja homograficzna jest monotoniczna w przedziałach $\left(-\infty, -\frac{d}{c}\right) \text{ i } \left(-\frac{d}{c}, +\infty\right)$.
 Jest przedziałami rosnąca, gdy $ad - bc > 0$ a przedziałami malejąca, gdy $ad - bc < 0$.
+\newpage
+
+
+
+
+
+
+
+
 
    
    
    
+
+\noindent\section{Właściwości i wykresy funkcji}
+\noindent\textbf{Funkcja} - relacja między elementami zbioru $X$ i $Y$ taka, że każdemu elementowi
+zbioru $X$ przyporządkowany jest dokładnie jeden element zbioru $Y$.
+
+$$f:X \rightarrow Y$$
+\includegraphics{funkcja zbiór.png}\hfill\break
+
+\noindent \textit{Funkcja $f$ przedstawiona jako graf. Każdemu argumentowi ze zbioru $X$ przyporządkowano dokładnie jeden element ze zbioru $Y$. 
+Dwóm różnym elementom w zbiorze $X$ może odpowiadać ten sam element $Y$. Nie każdy element zbioru $Y$ musi być wartością funkcji $f$.}\hfill\break\\
+\noindent Zbiór $X$ nazywa się dziedziną lub zbiorem argumentów, a zbiór $Y$ - przeciwdziedziną lub zbiorem wartości.\\
+Każdy $x \in X$ to argument funkcji $f$, a $y \in \{n: n \in Y \land n = f(x)\}$ - wartością funkcji.\\
+Funkcja $f$ to przekształcenie (odwzorowanie) zbioru $X$ w zbiór $Y$.\hfill\break\\
+
+\noindent\textbf{Właściwości funkcji}
+\begin{itemize}
+   \item Różnowartościowa (iniekcja)\hfill\break
+      Funkcja dla każdego elementu dziedziny przyjmuje różny element z przeciwdziedziny co najwyżej raz:
+      $$f:X \rightarrow Y \text{ - różnowartościowa } \Leftrightarrow \underset{a, b \in X}{\bigwedge} a \neq b \Rightarrow f(a) \neq f(b)$$
+   \item Funkcja ''na'' (suriekcja)\hfill\break
+      Funkcja, która przyjmuje wszystkie wartości z przeciwdziedziny:
+      $$f:X \rightarrow Y \text{ - ''na'' } \Leftrightarrow \underset{y \in Y}{\bigwedge} \underset{x \in X}{\bigvee} f(x) = y$$
+   \item Funkcja wzajemnie jednoznaczna (bijekcja)\hfill\break
+      Funkcja, w którek każdemu elementowi dziedziny odpowiada jeden i tylko jeden element z przeciwdziedziny,
+      przy czym każdy $y$ należący do zbioru $Y$ jest obrazem zbioru $X$.
+      Funkcja wzajemnie jednoznaczna jest jednocześnie różnowartościowa i ''na''.
+\end{itemize}
+
+
+
+
    
    
    % \begin{equation*}
