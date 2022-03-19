@@ -18,8 +18,10 @@
 \contentsline {subsection}{Oprocentowanie lokat i kredytów}{9}{}%
 \contentsline {section}{\numberline {3}Wielomiany, funkcje wielomianowe}{10}{}%
 \contentsline {subsection}{Informacje i twierdzenia}{10}{}%
-\contentsline {subsection}{Funkcja liniowa}{11}{}%
-\contentsline {subsection}{Funkcja kwadratowa}{12}{}%
-\contentsline {subsection}{Funkcja sześcienna}{13}{}%
-\contentsline {subsection}{Funkcja wymierna}{15}{}%
-\contentsline {section}{\numberline {4}Właściwości i wykresy funkcji}{17}{}%
+\contentsline {subsection}{Funkcja liniowa}{12}{}%
+\contentsline {subsection}{Funkcja kwadratowa}{13}{}%
+\contentsline {subsection}{Funkcja sześcienna}{14}{}%
+\contentsline {subsection}{Funkcja wymierna}{16}{}%
+\contentsline {section}{\numberline {4}Właściwości i wykresy funkcji}{18}{}%
+\contentsline {subsection}{Właściwości funkcji}{18}{}%
+\contentsline {subsection}{Wykresy funkcji}{20}{}%

@@ -411,6 +411,106 @@ INPUT ./galeria//funkcja zbiór.png
 INPUT galeria//funkcja zbiór.png
 INPUT ./galeria//funkcja zbiór.png
 INPUT ./galeria//funkcja zbiór.png
+INPUT ./galeria//liniowa.png
+INPUT ./galeria//liniowa.png
+INPUT galeria//liniowa.png
+INPUT ./galeria//liniowa.png
+INPUT ./galeria//liniowa.png
+INPUT ./galeria//bezwzględna.png
+INPUT ./galeria//bezwzględna.png
+INPUT galeria//bezwzględna.png
+INPUT ./galeria//bezwzględna.png
+INPUT ./galeria//bezwzględna.png
+INPUT ./galeria//kwadratowa.png
+INPUT ./galeria//kwadratowa.png
+INPUT galeria//kwadratowa.png
+INPUT ./galeria//kwadratowa.png
+INPUT ./galeria//kwadratowa.png
+INPUT ./galeria//sześcienna.png
+INPUT ./galeria//sześcienna.png
+INPUT galeria//sześcienna.png
+INPUT ./galeria//sześcienna.png
+INPUT ./galeria//sześcienna.png
+INPUT ./galeria//hiperboliczna.png
+INPUT ./galeria//hiperboliczna.png
+INPUT galeria//hiperboliczna.png
+INPUT ./galeria//hiperboliczna.png
+INPUT ./galeria//hiperboliczna.png
+INPUT ./galeria//hiperboliczna kwadrat.png
+INPUT ./galeria//hiperboliczna kwadrat.png
+INPUT galeria//hiperboliczna kwadrat.png
+INPUT ./galeria//hiperboliczna kwadrat.png
+INPUT ./galeria//hiperboliczna kwadrat.png
+INPUT ./galeria//wykładnicza.png
+INPUT ./galeria//wykładnicza.png
+INPUT galeria//wykładnicza.png
+INPUT ./galeria//wykładnicza.png
+INPUT ./galeria//wykładnicza.png
+INPUT ./galeria//wykładnicza potęga ujemna.png
+INPUT ./galeria//wykładnicza potęga ujemna.png
+INPUT galeria//wykładnicza potęga ujemna.png
+INPUT ./galeria//wykładnicza potęga ujemna.png
+INPUT ./galeria//wykładnicza potęga ujemna.png
+INPUT ./galeria//logarytmiczna.png
+INPUT ./galeria//logarytmiczna.png
+INPUT galeria//logarytmiczna.png
+INPUT ./galeria//logarytmiczna.png
+INPUT ./galeria//logarytmiczna.png
+INPUT ./galeria//logarytmiczna 1 nad x.png
+INPUT ./galeria//logarytmiczna 1 nad x.png
+INPUT galeria//logarytmiczna 1 nad x.png
+INPUT ./galeria//logarytmiczna 1 nad x.png
+INPUT ./galeria//logarytmiczna 1 nad x.png
+INPUT ./galeria//pierwiastkowa.png
+INPUT ./galeria//pierwiastkowa.png
+INPUT galeria//pierwiastkowa.png
+INPUT ./galeria//pierwiastkowa.png
+INPUT ./galeria//pierwiastkowa.png
+INPUT ./galeria//pierwiastkowa trzeciego stopnia.png
+INPUT ./galeria//pierwiastkowa trzeciego stopnia.png
+INPUT galeria//pierwiastkowa trzeciego stopnia.png
+INPUT ./galeria//pierwiastkowa trzeciego stopnia.png
+INPUT ./galeria//pierwiastkowa trzeciego stopnia.png
+INPUT ./galeria//sinus.png
+INPUT ./galeria//sinus.png
+INPUT galeria//sinus.png
+INPUT ./galeria//sinus.png
+INPUT ./galeria//sinus.png
+INPUT ./galeria//cosinus.png
+INPUT ./galeria//cosinus.png
+INPUT galeria//cosinus.png
+INPUT ./galeria//cosinus.png
+INPUT ./galeria//cosinus.png
+INPUT ./galeria//tangens.png
+INPUT ./galeria//tangens.png
+INPUT galeria//tangens.png
+INPUT ./galeria//tangens.png
+INPUT ./galeria//tangens.png
+INPUT ./galeria//cotangens.png
+INPUT ./galeria//cotangens.png
+INPUT galeria//cotangens.png
+INPUT ./galeria//cotangens.png
+INPUT ./galeria//cotangens.png
+INPUT ./galeria//sekans.png
+INPUT ./galeria//sekans.png
+INPUT galeria//sekans.png
+INPUT ./galeria//sekans.png
+INPUT ./galeria//sekans.png
+INPUT ./galeria//kosekans.png
+INPUT ./galeria//kosekans.png
+INPUT galeria//kosekans.png
+INPUT ./galeria//kosekans.png
+INPUT ./galeria//kosekans.png
+INPUT ./galeria//signum.png
+INPUT ./galeria//signum.png
+INPUT galeria//signum.png
+INPUT ./galeria//signum.png
+INPUT ./galeria//signum.png
+INPUT ./galeria//podłoga.png
+INPUT ./galeria//podłoga.png
+INPUT galeria//podłoga.png
+INPUT ./galeria//podłoga.png
+INPUT ./galeria//podłoga.png
 INPUT main.aux
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -429,5 +529,6 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb
+INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb

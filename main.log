@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  17 MAR 2022 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  19 MAR 2022 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -475,7 +475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--405
 
  []
 
-<galeria//viete-lcd.png, id=51, 433.62pt x 260.172pt>
+<galeria//viete-lcd.png, id=52, 433.62pt x 260.172pt>
 File: galeria//viete-lcd.png Graphic file (type png)
 <use galeria//viete-lcd.png>
 Package pdftex.def Info: galeria//viete-lcd.png  used on input line 411.
@@ -551,17 +551,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--499
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 507--509
+Underfull \hbox (badness 10000) in paragraph at lines 505--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--512
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 536--538
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--543
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 
  []
 
@@ -570,111 +580,240 @@ Underfull \hbox (badness 10000) in paragraph at lines 544--545
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
+
+ []
+
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 554--556
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--599
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 587--590
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--593
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 603--604
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 605--606
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 637--641
+Underfull \hbox (badness 10000) in paragraph at lines 642--645
 
  []
 
-[15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--648
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 660--661
 
  []
 
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 692--696
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--679
-
- []
-
-
-Overfull \hbox (4.9694pt too wide) in paragraph at lines 671--679
-\T1/cmr/m/n/14.4 Funkcja ho-mo-gra-ficzna jest mo-no-to-niczna w prze-dzia-�ach $[] [] []$.
  []
 
 [16]
-<galeria//funkcja zbiór.png, id=82, 462.528pt x 260.172pt>
+Underfull \hbox (badness 10000) in paragraph at lines 715--716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--734
+
+ []
+
+
+Overfull \hbox (4.9694pt too wide) in paragraph at lines 726--734
+\T1/cmr/m/n/14.4 Funkcja ho-mo-gra-ficzna jest mo-no-to-niczna w prze-dzia-�ach $[] [] []$.
+ []
+
+[17]
+<galeria//funkcja zbiór.png, id=87, 462.528pt x 260.172pt>
 File: galeria//funkcja zbiór.png Graphic file (type png)
 <use galeria//funkcja zbiór.png>
-Package pdftex.def Info: galeria//funkcja zbiór.png  used on input line 698.
+Package pdftex.def Info: galeria//funkcja zbiór.png  used on input line 753.
 (pdftex.def)             Requested size: 462.52686pt x 260.17134pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--699
+Underfull \hbox (badness 10000) in paragraph at lines 752--754
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--705
+Underfull \hbox (badness 10000) in paragraph at lines 755--760
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--705
+Underfull \hbox (badness 10000) in paragraph at lines 755--760
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--705
+Underfull \hbox (badness 10000) in paragraph at lines 755--760
 
  []
 
-[17 <./galeria//funkcja zbiór.png>] [18] (./main.aux) ) 
+[18 <./galeria//funkcja zbiór.png>] [19]
+<galeria//liniowa.png, id=95, 634.62094pt x 635.37375pt>
+File: galeria//liniowa.png Graphic file (type png)
+<use galeria//liniowa.png>
+Package pdftex.def Info: galeria//liniowa.png  used on input line 815.
+(pdftex.def)             Requested size: 190.38774pt x 190.61359pt.
+<galeria//bezwzględna.png, id=96, 635.37375pt x 634.62094pt>
+File: galeria//bezwzględna.png Graphic file (type png)
+<use galeria//bezwzględna.png>
+Package pdftex.def Info: galeria//bezwzględna.png  used on input line 815.
+(pdftex.def)             Requested size: 190.61359pt x 190.38774pt.
+<galeria//kwadratowa.png, id=97, 613.54219pt x 612.78937pt>
+File: galeria//kwadratowa.png Graphic file (type png)
+<use galeria//kwadratowa.png>
+Package pdftex.def Info: galeria//kwadratowa.png  used on input line 820.
+(pdftex.def)             Requested size: 195.10175pt x 194.86235pt.
+<galeria//sześcienna.png, id=98, 612.78937pt x 613.54219pt>
+File: galeria//sześcienna.png Graphic file (type png)
+<use galeria//sześcienna.png>
+Package pdftex.def Info: galeria//sześcienna.png  used on input line 820.
+(pdftex.def)             Requested size: 194.86235pt x 195.10175pt.
+ [20 <./galeria//liniowa.png> <./galeria//bezwzględna.png>]
+<galeria//hiperboliczna.png, id=104, 578.16pt x 576.65437pt>
+File: galeria//hiperboliczna.png Graphic file (type png)
+<use galeria//hiperboliczna.png>
+Package pdftex.def Info: galeria//hiperboliczna.png  used on input line 825.
+(pdftex.def)             Requested size: 195.4161pt x 194.90721pt.
+<galeria//hiperboliczna kwadrat.png, id=105, 577.40718pt x 578.16pt>
+File: galeria//hiperboliczna kwadrat.png Graphic file (type png)
+<use galeria//hiperboliczna kwadrat.png>
+Package pdftex.def Info: galeria//hiperboliczna kwadrat.png  used on input line 825.
+(pdftex.def)             Requested size: 195.16167pt x 195.4161pt.
+<galeria//wykładnicza.png, id=106, 614.295pt x 613.54219pt>
+File: galeria//wykładnicza.png Graphic file (type png)
+<use galeria//wykładnicza.png>
+Package pdftex.def Info: galeria//wykładnicza.png  used on input line 830.
+(pdftex.def)             Requested size: 195.34113pt x 195.10175pt.
+<galeria//wykładnicza potęga ujemna.png, id=107, 577.40718pt x 578.16pt>
+File: galeria//wykładnicza potęga ujemna.png Graphic file (type png)
+<use galeria//wykładnicza potęga ujemna.png>
+Package pdftex.def Info: galeria//wykładnicza potęga ujemna.png  used on input line 830.
+(pdftex.def)             Requested size: 195.16167pt x 195.4161pt.
+<galeria//logarytmiczna.png, id=108, 615.0478pt x 614.295pt>
+File: galeria//logarytmiczna.png Graphic file (type png)
+<use galeria//logarytmiczna.png>
+Package pdftex.def Info: galeria//logarytmiczna.png  used on input line 835.
+(pdftex.def)             Requested size: 195.58052pt x 195.34113pt.
+<galeria//logarytmiczna 1 nad x.png, id=109, 578.16pt x 578.16pt>
+File: galeria//logarytmiczna 1 nad x.png Graphic file (type png)
+<use galeria//logarytmiczna 1 nad x.png>
+Package pdftex.def Info: galeria//logarytmiczna 1 nad x.png  used on input line 835.
+(pdftex.def)             Requested size: 194.84268pt x 194.84268pt.
+ [21 <./galeria//kwadratowa.png> <./galeria//sześcienna.png> <./galeria//hiperboliczna.png> <./galeria//hiperboliczna kwadrat.png> <./galeria//wykładnicza.png> <./galeria//wykładnicza potęga ujemna.png>]
+<galeria//pierwiastkowa.png, id=119, 613.54219pt x 612.78937pt>
+File: galeria//pierwiastkowa.png Graphic file (type png)
+<use galeria//pierwiastkowa.png>
+Package pdftex.def Info: galeria//pierwiastkowa.png  used on input line 840.
+(pdftex.def)             Requested size: 195.10175pt x 194.86235pt.
+<galeria//pierwiastkowa trzeciego stopnia.png, id=120, 645.91313pt x 645.91313pt>
+File: galeria//pierwiastkowa trzeciego stopnia.png Graphic file (type png)
+<use galeria//pierwiastkowa trzeciego stopnia.png>
+Package pdftex.def Info: galeria//pierwiastkowa trzeciego stopnia.png  used on input line 840.
+(pdftex.def)             Requested size: 195.06654pt x 195.06654pt.
+<galeria//sinus.png, id=121, 675.27281pt x 642.90187pt>
+File: galeria//sinus.png Graphic file (type png)
+<use galeria//sinus.png>
+Package pdftex.def Info: galeria//sinus.png  used on input line 845.
+(pdftex.def)             Requested size: 195.8241pt x 186.43677pt.
+<galeria//cosinus.png, id=122, 675.27281pt x 644.4075pt>
+File: galeria//cosinus.png Graphic file (type png)
+<use galeria//cosinus.png>
+Package pdftex.def Info: galeria//cosinus.png  used on input line 845.
+(pdftex.def)             Requested size: 195.8241pt x 186.87338pt.
+<galeria//tangens.png, id=123, 674.52pt x 644.4075pt>
+File: galeria//tangens.png Graphic file (type png)
+<use galeria//tangens.png>
+Package pdftex.def Info: galeria//tangens.png  used on input line 850.
+(pdftex.def)             Requested size: 195.60579pt x 186.87338pt.
+<galeria//cotangens.png, id=124, 675.27281pt x 643.6547pt>
+File: galeria//cotangens.png Graphic file (type png)
+<use galeria//cotangens.png>
+Package pdftex.def Info: galeria//cotangens.png  used on input line 850.
+(pdftex.def)             Requested size: 195.8241pt x 186.65508pt.
+ [22 <./galeria//logarytmiczna.png> <./galeria//logarytmiczna 1 nad x.png> <./galeria//pierwiastkowa.png> <./galeria//pierwiastkowa trzeciego stopnia.png> <./galeria//sinus.png> <./galeria//cosinus.png>]
+<galeria//sekans.png, id=134, 674.52pt x 645.16031pt>
+File: galeria//sekans.png Graphic file (type png)
+<use galeria//sekans.png>
+Package pdftex.def Info: galeria//sekans.png  used on input line 855.
+(pdftex.def)             Requested size: 195.60579pt x 187.09169pt.
+<galeria//kosekans.png, id=135, 674.52pt x 645.16031pt>
+File: galeria//kosekans.png Graphic file (type png)
+<use galeria//kosekans.png>
+Package pdftex.def Info: galeria//kosekans.png  used on input line 855.
+(pdftex.def)             Requested size: 195.60579pt x 187.09169pt.
+<galeria//signum.png, id=136, 557.08125pt x 557.83406pt>
+File: galeria//signum.png Graphic file (type png)
+<use galeria//signum.png>
+Package pdftex.def Info: galeria//signum.png  used on input line 860.
+(pdftex.def)             Requested size: 194.98135pt x 195.24484pt.
+<galeria//podłoga.png, id=137, 606.76688pt x 606.76688pt>
+File: galeria//podłoga.png Graphic file (type png)
+<use galeria//podłoga.png>
+Package pdftex.def Info: galeria//podłoga.png  used on input line 860.
+(pdftex.def)             Requested size: 195.98402pt x 195.98402pt.
+ [23 <./galeria//tangens.png> <./galeria//cotangens.png> <./galeria//sekans.png> <./galeria//kosekans.png> <./galeria//signum.png> <./galeria//podłoga.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5787 strings out of 480160
- 89627 string characters out of 5892852
+ 5947 strings out of 480160
+ 94191 string characters out of 5892852
  422935 words of memory out of 5000000
- 23675 multiletter control sequences out of 15000+600000
+ 23815 multiletter control sequences out of 15000+600000
  482686 words of font info for 54 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 55i,15n,62p,420b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (20 pages, 1084045 bytes).
+ 55i,15n,62p,420b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on main.pdf (25 pages, 1504726 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

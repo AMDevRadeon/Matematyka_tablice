@@ -242,7 +242,7 @@ Dodatkowo:
 
 \subsection{Potęgi, pierwiastki i logarytmy}
 \textbf{Potęgowanie (podniesienie do $n$-tej potęgi)} - operacja dwuargumentowa, która jest zdefiniowana jako iloczyn $a, a \in \mathbb{R}\setminus\{0\}$(podstawa) $n, n \in \mathbb{N}_{+}$(wykładnik) razy:\
-$$a^{n} = \underbrace{a\cdot a \cdot\ldots\cdot a}_{n\;\;razy}$$
+$$a^{n} = \underbrace{a\cdot a \cdot\ldots\cdot a}_{n\text{ razy}}$$
 Szczególne przypadki:
 \begin{equation*}
 \begin{array}{ccc}
@@ -479,8 +479,8 @@ Jeżeli wielomian W(\textit{x}) ma pierwiastek wymierny, który można zapisać 
 $p$ jest dzielnikiem wyrazu wolnego $a_{0}$, natomiast $q$ - dzielnikiem współczynnika $a_{n}$ przy najwyższej potędze zmiennej.\\
 
 \smallskip
-\noindent\textbf{Twierdzenie Bezouta}\\
-Liczba $a$ jest pierwiastkiem wielomianu W(\textit{x}) wtedy i tylko wtedy, gdy wielomian W(\textit{x}) jest podzielny przez dwumian $(x - a)$.\\
+\noindent\textbf{Twierdzenie B\'ezouta}\\
+Liczba $a$ jest pierwiastkiem wielomianu W(\textit{x}) wtedy i tylko wtedy, gdy wielomian W(\textit{x}) jest podzielny bez reszty przez dwumian $(x - a)$.\\
 
 \smallskip
 \noindent\textbf{Twierdzenie o liczbie pierwiastków wielomianu}\\
@@ -496,6 +496,62 @@ Rozkład w taki sposób jest jednoznaczny (z dokładnością co do kolejności c
 Dla dowolnego wielomianu o rzeczywistych współczynnikach, uporządkowanych według malejącej potęgi zmiennej,
 ilość dodatnich miejsc zerowych wielomianu jest równa liczbie zmian znaków między niezerowymi współczynnikami, 
 albo jest mniejsza o wielokrotność liczby 2.\\
+
+\smallskip
+
+\renewcommand{\arraycolsep}{0.35cm}
+\renewcommand{\arraystretch}{1.25}
+
+\noindent\textbf{Schemat Hornera}\\
+Sposób oblicznia wartości wielomianu dla danej wartości argumentu. Wykorzystywany również do przeprowadzania
+dzielenia wielomianu przez dwumian w formie $(x - a),\;a \in \mathbb{R}$ na podstawie twierdzenia B\'ezouta.\hfill\break\\
+\textit{Przykład:}
+$$\text{Podziel } \;W(x) = x^{4}-22x^{2}-56x+77\; \text{ przez dwumian }\; x - 1$$
+\textit{1. Zapisz wszystkie współczynniki wielomianu od najwyższej potęgi (także z zerowymi)
+oraz $a$ z dwumianu. Przepisz pierwszy współczynnik do najniższej linijki:}\\
+\begin{center}
+$\begin{array}{c|ccccc}
+    & 1 & 0 & -22 & -56 & 77\\
+  1 & \downarrow   &   &     &     &   \\ \hline
+    & 1  &   &     &\multicolumn{1}{c|}{}   &
+\end{array}$\end{center}
+
+\noindent\textit{2. Pomnóż przeniesiony współczynnik przez $a$ zapisane po lewej stronie:}\\
+\begin{center}
+$\begin{array}{c|ccccc}
+   & 1 & 0 & -22 & -56 & 77\\
+ 1 &   & 1 \cdot 1  &     &     &   \\ \hline
+   & 1  &   &     &\multicolumn{1}{c|}{}   &
+\end{array}$\end{center}
+
+\noindent\textit{3. Dodaj ze sobą współczynnik z górnego wiersza do właśnie policzonego iloczynu poniżej:}\\
+\begin{center}
+   $\begin{array}{c|ccccc}
+      & 1 & 0 & -22 & -56 & 77\\
+    1 &   & 1 &     &     &   \\ \hline
+      & 1 & 0 + 1  &     &\multicolumn{1}{c|}{}   &
+   \end{array}$\end{center}
+
+\noindent\textit{4. Powtarzaj operacje mnożenia i dodawania aż do ostatniej kolumny:}\\
+\begin{center}
+   $\begin{array}{c|ccccc}
+      & 1 & 0 & -22 & -56 & 77\\
+    1 &   & 1 &  1\cdot 1   & -21 \cdot 1 & -77\cdot 1  \\ \hline
+      & 1 & 1 &  -22 + 1   &\multicolumn{1}{c|}{-56 + (-21) }  & 77 + (-77)
+   \end{array}$
+\end{center}
+
+\noindent\textit{Otrzymujemy tabelkę wypełnioną w następujący sposób:}\\
+\begin{center}
+   $\begin{array}{c|ccccc}
+      & 1 & 0 & -22 & -56 & 77\\
+    1 &   & 1 &  1   & -21 & -77\\ \hline
+      & \textcolor{NavyBlue}{1} & \textcolor{NavyBlue}{1} &  \textcolor{NavyBlue}{-21}   &\multicolumn{1}{c|}{\textcolor{NavyBlue}{-77} }  & \textbf{\textcolor{RawSienna}{0}}
+   \end{array}$
+\end{center}
+
+\noindent\textit{Więc:}\\
+$$\underbrace{(x^{4}-22x^{2}-56x+77)}_{W(x)} = \underbrace{(x - 1)}_{P(x)}\underbrace{(\textcolor{NavyBlue}{1}x^{3} + \textcolor{NavyBlue}{1}x^{2} \textcolor{NavyBlue}{- 21}x \textcolor{NavyBlue}{- 77})}_{\text{Q(x)}} + \underbrace{\textcolor{RawSienna}{0}}_{\text{R(x)}} \Leftrightarrow W(1) = 0$$
 
 \subsection{Funkcja liniowa}
 \noindent\textbf{Wzór ogólny:}
@@ -545,8 +601,8 @@ współrzędną \textbf{y} wartością funkcji w punkcie $p$: $q = f(p)$.\hfill\
 \begin{equation*}
    \left\{
       \begin{array}{ll}
-         \!\!\!\!\!\!x_{1} + x_{2} = -\frac{\displaystyle b}{\displaystyle a}\\
-         \!\!\!\!\!\!x_{1}\cdot x_{2} = \frac{\displaystyle c}{\displaystyle a}\\
+         \!\!\!\!x_{1} + x_{2} = -\frac{\displaystyle b}{\displaystyle a}\\
+         \!\!\!\!x_{1}\cdot x_{2} = \frac{\displaystyle c}{\displaystyle a}\\
       \end{array}
    \right.
    \end{equation*}
@@ -576,7 +632,6 @@ $$f(x) = a(x - x_{1})(x - x_{2})(x - x_{3})$$
 \noindent\textbf{Wyróżnik wielomianu stopnia trzeciego} - Liczba opisująca relację między współczynnikami funkcji 
 sześciennej a jej miejscami zerowymi. Wyznaczona wzorem $\Delta_{3} = b^{2}c^{2} - 4ac^{3} - 4b^{3}d + 18abcd - 27a^{2}d^{2}$.
 
-\newpage
 
 \begin{itemize}
    \item $\Delta_{3} > 0$ - Trzy różne pierwiastki rzeczywiste: $x_{1}, x_{2}, x_{3}$,
@@ -595,9 +650,9 @@ $\left(-\frac{b}{3a}, \;\frac{2b^{3}}{27a^{2}} - \frac{bc}{3a} + d\right)$.\hfil
 \begin{equation*}
    \left\{
       \begin{array}{ll}
-         \!\!\!\!\!\!x_{1} + x_{2} + x_{3} = -\frac{\displaystyle b}{\displaystyle a}\\
-         \!\!\!\!\!\!x_{1}x_{2} + x_{1}x_{3} + x_{2}x_{3} = \frac{\displaystyle c}{\displaystyle a}\\
-         \!\!\!\!\!\!x_{1}x_{2}x_{3} = -\frac{\displaystyle d}{\displaystyle a}\\
+         \!\!\!\!x_{1} + x_{2} + x_{3} = -\frac{\displaystyle b}{\displaystyle a}\\
+         \!\!\!\!x_{1}x_{2} + x_{1}x_{3} + x_{2}x_{3} = \frac{\displaystyle c}{\displaystyle a}\\
+         \!\!\!\!x_{1}x_{2}x_{3} = -\frac{\displaystyle d}{\displaystyle a}\\
       \end{array}
    \right.
 \end{equation*}\hfill\break
@@ -703,7 +758,7 @@ Dwóm różnym elementom w zbiorze $X$ może odpowiadać ten sam element $Y$. Ni
 Każdy $x \in X$ to argument funkcji $f$, a $y \in \{n: n \in Y \land n = f(x)\}$ - wartością funkcji.\\
 Funkcja $f$ to przekształcenie (odwzorowanie) zbioru $X$ w zbiór $Y$.\hfill\break\\
 
-\noindent\textbf{Właściwości funkcji}
+\subsection{Właściwości funkcji}
 \begin{itemize}
    \item Różnowartościowa (iniekcja)\hfill\break
       Funkcja dla każdego elementu dziedziny przyjmuje różny element z przeciwdziedziny co najwyżej raz:
@@ -715,9 +770,99 @@ Funkcja $f$ to przekształcenie (odwzorowanie) zbioru $X$ w zbiór $Y$.\hfill\br
       Funkcja, w którek każdemu elementowi dziedziny odpowiada jeden i tylko jeden element z przeciwdziedziny,
       przy czym każdy $y$ należący do zbioru $Y$ jest obrazem zbioru $X$.
       Funkcja wzajemnie jednoznaczna jest jednocześnie różnowartościowa i ''na''.
+   \item Addytywna\hfill\break
+      Funkcja zachowuje operację dodawania: $f(x + y) = f(x) + f(y)$
+   \item Multiplikatywna\hfill\break
+      Funkcja zachowuje operację mnożenia: $f(xy) = f(x)f(y)$
+   \item Parzysta\hfill\break
+      Wykres funkcji jest symetryczny względem osi rzędnych (OY): $f(x) = f(-x)$
+   \item Nieparzysta\hfill\break
+      Wykres funkcji jest symetryczny wzglęgem środka układu współrzędnych: $f(x) = -f(x)$
+   \item Ciągła\hfill\break
+      Arbitralnie mała zmiana wartości funkcji jest uzasadniona arbitralnie małą zmianą argumentu funkcji.
+      Pozbawiona jest też punktów nieciągłości pierwszego rodzaju usuwalnych, pierwszego rodzaju i drugiego rodzaju.
+   \item Monotoniczna\hfill\break
+      Funkcja, która zachowuje pewien określony porządek zbiorów. Niech $f:X\rightarrow Y$ będzie
+      dowolną funkcją na uporządkowanych zbiorach $X, Y$, a $x_{1}, x_{2}$ elementami dziedziny funkcji $f$.
+      Wówczas funkcja $f$ jest:
+      \begin{itemize}
+         \item rosnąca (silnie rosnąca), gdy $x_{1} < x_{2} \Rightarrow f(x_{1}) < f(x_{2})$
+         \item malejąca (silnie malejąca), gdy $x_{1} < x_{2} \Rightarrow f(x_{1}) > f(x_{2})$
+         \item nierosnąca (słabo rosnąca), gdy $x_{1} < x_{2} \Rightarrow f(x_{1}) \leq f(x_{2})$
+         \item niemalejąca (słabo malejąca), gdy $x_{1} < x_{2} \Rightarrow f(x_{1}) \geq f(x_{2})$
+         \item stała, gdy dla dowolnych $x_{1}, x_{2} \in X \Rightarrow f(x_{1}) = f(x_{2})$
+      \end{itemize}
+   \item Różniczkowalna\hfill\break
+      Funkcja ma pochodną w każdym punkcie swojej dziedziny, oraz wartość tej pochodnej jest skończona.
+   \item Okresowa\hfill\break
+      Funkcja jest okresowa, gdy pewne wartości pojawiają się cyklicznie co pewien regularny odstęp.
+      Niech $C, \;C \neq 0$ będzie pewną stałą wartością (okresem funkcji). Wtedy dla funkcji okresowej prawdziwa jest równość:
+      $$f(x + C) = f(x)$$
+   \item Wypukła\hfill\break
+      Wykres funkcji $f$ w przedziale $(a, b)$ leży ponad prostą wyznaczoną przez pochodną w punkcie $x_{0} \in (a, b)$
+   \item Wklęsła\hfill\break
+      Wykres funkcji $f$ w przedziale $(a, b)$ leży pod prostą wyznaczoną przez pochodną w punkcie $x_{0} \in (a, b)$
 \end{itemize}
 
+\subsection{Wykresy funkcji}
+{%
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{0.5pt}%
 
+
+\begin{center}
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.3]{liniowa.png}} & \fbox{\includegraphics[scale=0.3]{bezwzględna.png}}\\
+   $f(x) = x$ & $f(x) = \vert x \vert$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.318]{kwadratowa.png}} & \fbox{\includegraphics[scale=0.318]{sześcienna.png}}\\
+   $f(x) = x^{2}\text{ - }\textbf{parabola} $ & $f(x) = x^{3}$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.338]{hiperboliczna.png}} & \fbox{\includegraphics[scale=0.338]{hiperboliczna kwadrat.png}}\\
+   $f(x) = \dfrac{1}{x}\text{ - }\textbf{hiperbola}$ & $f(x) = \dfrac{1}{x^{2}} $
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.318]{wykładnicza.png}} & \fbox{\includegraphics[scale=0.338]{wykładnicza potęga ujemna.png}}\\
+   $f(x) = a^{x}, \;a > 1$ & $f(x) = a^{x}, \;0 < a < 1$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.318]{logarytmiczna.png}} & \fbox{\includegraphics[scale=0.337]{logarytmiczna 1 nad x.png}}\\
+   $f(x) = \log_{a}x,\;a > 1$ & $f(x) = \log_{a}x,\;0 < a < 1$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.318]{pierwiastkowa.png}} & \fbox{\includegraphics[scale=0.302]{pierwiastkowa trzeciego stopnia.png}}\\
+   $f(x) = \sqrt{x} $ & $f(x) = \sqrt[3]{x}$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.29]{sinus.png}} & \fbox{\includegraphics[scale=0.29]{cosinus.png}}\\
+   $f(x) = \sin{x}$ & $f(x) = \cos{x}$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.29]{tangens.png}} & \fbox{\includegraphics[scale=0.29]{cotangens.png}}\\
+   $f(x) = \text{tg}\;x$ & $f(x) = \text{ctg}\;x$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.29]{sekans.png}} & \fbox{\includegraphics[scale=0.29]{kosekans.png}}\\
+   $f(x) = \sec x$ & $f(x) = \text{cosec}\;x$
+\end{tabular}
+
+\begin{tabular}{cc}
+   \fbox{\includegraphics[scale=0.35]{signum.png}} & \fbox{\includegraphics[scale=0.323]{podłoga.png}}\\
+   $f(x) = \text{sgn}(x)$ & $f(x) = \lfloor x\rfloor$
+\end{tabular}
+
+\end{center}
+}%
 
 
    
