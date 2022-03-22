@@ -14,6 +14,7 @@
 \usepackage{layout}
 \usepackage{multirow}
 \usepackage{multicol}
+\usepackage{vcell}
 %%% PREAMBUŁA %%%
 \graphicspath{{galeria/}}
 
@@ -313,16 +314,20 @@ $$n = \log_{\;a}b \Leftrightarrow a^{n} = b$$
 \end{itemize}
 
 \noindent\subsection{Wzory skróconego mnożenia}
-Dla $x, y \in \mathbb{R}$ prawdziwe są następujące zależności:
+Dla $x, y \in \mathbb{R};\;\; n \in \mathbb{N}$ prawdziwe są następujące zależności:
 \begin{itemize}
    \item Kwadrat sumy: $(x + y)^{2} = x^{2} + 2xy + y^{2}$
    \item Kwadrat różnicy: $(x - y)^{2} = x^{2} - 2xy + y^{2}$
    \item Różnica kwadratów: $x^{2} - y^{2} = (x - y)(x + y)$
+   \item Kwadrat sumy trzech składników: $(a+b+c)^{2} = a^{2} + b^{2} + c^{2} + 2ab + 2ac + 2bc$
    \\
    \item Sześcian sumy: $(x + y)^{3} = x^{3} + 3x^{2}y + 3xy^{2} + y^{3}$
    \item Sześcian różnicy: $(x - y)^{3} = x^{3} - 3x^{2}y + 3xy^{2} - y^{3}$
    \item Różnica sześcianów: $x^{3} - y^{3} = (x - y)(x^{2} + xy + y^{2})$
    \item Suma sześcianów: $x^{3} + y^{3} = (x + y)(x^{2} - xy + y^{2})$
+   \\
+   \item Suma $n$-tych potęg: $a^{n}+b^{n} = (a+b)(a^{(n-1)}-a^{(n-2)}b+\ldots-ab^{(n-2)}+b^{(n-1)})$
+   \item Różnica $n$-tych potęg: $a^{n}-b^{n} = (a-b)(a^{(n-1)}+a^{(n-2)}b+\ldots+ab^{(n-2)}+b^{(n-1)})$
 \end{itemize}
 
 \newpage
@@ -337,6 +342,8 @@ Dla $x, y \in \mathbb{R}$ prawdziwe są następujące zależności:
    6 &&&&&1&&6&&15&&20&&15&&6&&1\\
 \end{tabular}
 \hfill\break
+\noindent lub skorzystać ze wzoru:
+$$(a+b)^{n} = \binom{n}{0}a^{n} + \binom{n}{1}a^{(n-1)}b + \binom{n}{2}a^{(n-2)}b^{2} + \ldots + \binom{n}{n - 1}ab^{(n-1)} + \binom{n}{n}b^{n}$$
 \textit{Przykład:}
 $\;\;\;(x - y)^{5} = x^{5} - 5x^{4}y + 10x^{3}y^{2} - 10x^{2}y^{3} + 5xy^{4} - y^{5}$
 
@@ -864,9 +871,82 @@ Funkcja $f$ to przekształcenie (odwzorowanie) zbioru $X$ w zbiór $Y$.\hfill\br
 \end{center}
 }%
 
+\subsection{Przekształcenia funkcji}
 
+{%
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{0.5pt}%
+
+\begin{center}
+   \begin{tabular}{ll}
+
+     \begin{tabular}{l}
+      \vtop{\hbox{\strut Symetria osiowa względem osi OX:} \hbox{\strut $y = -f(x)$}}\\[6cm]
+      \vtop{\hbox{\strut Symetria osiowa względem osi OY:} \hbox{\strut $y = f(-x)$}}\\[6cm]
+      \vtop{\hbox{\strut Symetria osiowa względem} \hbox{\strut środka układu współrzędnych:} \hbox{\strut $y = -f(-x)$}}\\
+     \end{tabular} &
+
+
+     \begin{tabular}{l}
+      \fbox{\includegraphics[scale=0.3]{symetria OX.png}}\\
+      \fbox{\includegraphics[scale=0.3]{symetria OY.png}}\\
+      \fbox{\includegraphics[scale=0.3]{symetria względem środka.png}}\\
+     \end{tabular}
+
+   \end{tabular}
    
+\end{center}
+
+
+\begin{center}
+
+   \begin{tabular}{ll}
+
+     \begin{tabular}{l}
+      \vtop{\hbox{\strut Przesunięcie równoległe poziome:} \hbox{\strut $y = f(x - a),\;\; \vec{v} = [a,0]$}}\\[6cm]
+      \vtop{\hbox{\strut Przesunięcie równoległe pionowe:} \hbox{\strut $y = f(x) + b,\;\; \vec{v} = [0,b]$}}\\[6cm]
+      \vtop{\hbox{\strut Przesunięcie równoległe ukośne:} \hbox{\strut $y = f(x - a) + b,\;\; \vec{v} = [a,b]$}}\\
+     \end{tabular} &
+
+
+     \begin{tabular}{l}
+      \fbox{\includegraphics[scale=0.3]{przesunięcie wykresu w bok.png}}\\
+      \fbox{\includegraphics[scale=0.3]{przesunięcie wykresu w górę.png}}\\
+      \fbox{\includegraphics[scale=0.3]{przesunięcie w cholerę.png}}\\
+     \end{tabular}
+
+   \end{tabular}
    
+\end{center}
+}%
+
+{%
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{0.5pt}%
+
+\begin{center}
+   \begin{samepage}
+
+   \begin{tabular}{cc}
+      \fbox{\includegraphics[scale=0.3]{bezwzględna OX.png}} & \fbox{\includegraphics[scale=0.3]{bezwzględna OY.png}}\\
+      $y = \vert f(x)\vert$ & $y = f(\vert x\vert)$
+   \end{tabular}   
+   \nopagebreak[4]
+   \begin{tabular}{cc}
+      \fbox{\includegraphics[scale=0.3]{powinowactwo prostokątne OX1.png}} & \fbox{\includegraphics[scale=0.3]{powinowactwo prostokątne OX2.png}}\\
+      Powinowactwo prostokątne o & Powinowactwo prostokątne o\\
+      osi OX: $y = af(x),\;\;a > 1$ & osi OX: $y = af(x),\;\;0 < a < 1$
+   \end{tabular}
+   \nopagebreak[4]
+   \begin{tabular}{cc}
+      \fbox{\includegraphics[scale=0.3]{powinowactwo prostokątne OY1.png}} & \fbox{\includegraphics[scale=0.3]{powinowactwo prostokątne OY2.png}}\\
+      Powinowactwo prostokątne o & Powinowactwo prostokątne o\\
+      osi OY: $y = f(ax),\;\;a > 1$ & osi OY: $y = f(ax),\;\;0 < a < 1$
+   \end{tabular}
+
+   \end{samepage}
+\end{center}
+}%
    % \begin{equation*}
 % \begin{array}{cc}
 %     &  \\

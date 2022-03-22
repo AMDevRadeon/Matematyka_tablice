@@ -324,6 +324,17 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -511,6 +522,66 @@ INPUT ./galeria//podłoga.png
 INPUT galeria//podłoga.png
 INPUT ./galeria//podłoga.png
 INPUT ./galeria//podłoga.png
+INPUT ./galeria//symetria OX.png
+INPUT ./galeria//symetria OX.png
+INPUT galeria//symetria OX.png
+INPUT ./galeria//symetria OX.png
+INPUT ./galeria//symetria OX.png
+INPUT ./galeria//symetria OY.png
+INPUT ./galeria//symetria OY.png
+INPUT galeria//symetria OY.png
+INPUT ./galeria//symetria OY.png
+INPUT ./galeria//symetria OY.png
+INPUT ./galeria//symetria względem środka.png
+INPUT ./galeria//symetria względem środka.png
+INPUT galeria//symetria względem środka.png
+INPUT ./galeria//symetria względem środka.png
+INPUT ./galeria//symetria względem środka.png
+INPUT ./galeria//przesunięcie wykresu w bok.png
+INPUT ./galeria//przesunięcie wykresu w bok.png
+INPUT galeria//przesunięcie wykresu w bok.png
+INPUT ./galeria//przesunięcie wykresu w bok.png
+INPUT ./galeria//przesunięcie wykresu w bok.png
+INPUT ./galeria//przesunięcie wykresu w górę.png
+INPUT ./galeria//przesunięcie wykresu w górę.png
+INPUT galeria//przesunięcie wykresu w górę.png
+INPUT ./galeria//przesunięcie wykresu w górę.png
+INPUT ./galeria//przesunięcie wykresu w górę.png
+INPUT ./galeria//przesunięcie w cholerę.png
+INPUT ./galeria//przesunięcie w cholerę.png
+INPUT galeria//przesunięcie w cholerę.png
+INPUT ./galeria//przesunięcie w cholerę.png
+INPUT ./galeria//przesunięcie w cholerę.png
+INPUT ./galeria//bezwzględna OX.png
+INPUT ./galeria//bezwzględna OX.png
+INPUT galeria//bezwzględna OX.png
+INPUT ./galeria//bezwzględna OX.png
+INPUT ./galeria//bezwzględna OX.png
+INPUT ./galeria//bezwzględna OY.png
+INPUT ./galeria//bezwzględna OY.png
+INPUT galeria//bezwzględna OY.png
+INPUT ./galeria//bezwzględna OY.png
+INPUT ./galeria//bezwzględna OY.png
+INPUT ./galeria//powinowactwo prostokątne OX1.png
+INPUT ./galeria//powinowactwo prostokątne OX1.png
+INPUT galeria//powinowactwo prostokątne OX1.png
+INPUT ./galeria//powinowactwo prostokątne OX1.png
+INPUT ./galeria//powinowactwo prostokątne OX1.png
+INPUT ./galeria//powinowactwo prostokątne OX2.png
+INPUT ./galeria//powinowactwo prostokątne OX2.png
+INPUT galeria//powinowactwo prostokątne OX2.png
+INPUT ./galeria//powinowactwo prostokątne OX2.png
+INPUT ./galeria//powinowactwo prostokątne OX2.png
+INPUT ./galeria//powinowactwo prostokątne OY1.png
+INPUT ./galeria//powinowactwo prostokątne OY1.png
+INPUT galeria//powinowactwo prostokątne OY1.png
+INPUT ./galeria//powinowactwo prostokątne OY1.png
+INPUT ./galeria//powinowactwo prostokątne OY1.png
+INPUT ./galeria//powinowactwo prostokątne OY2.png
+INPUT ./galeria//powinowactwo prostokątne OY2.png
+INPUT galeria//powinowactwo prostokątne OY2.png
+INPUT ./galeria//powinowactwo prostokątne OY2.png
+INPUT ./galeria//powinowactwo prostokątne OY2.png
 INPUT main.aux
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
