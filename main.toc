@@ -26,3 +26,8 @@
 \contentsline {subsection}{Właściwości funkcji}{18}{}%
 \contentsline {subsection}{Wykresy funkcji}{20}{}%
 \contentsline {subsection}{Przekształcenia funkcji}{24}{}%
+\contentsline {section}{\numberline {5}Ciągi}{27}{}%
+\contentsline {subsection}{Informacje i twierdzenia}{27}{}%
+\contentsline {subsection}{Granica ciągu liczbowego}{28}{}%
+\contentsline {subsection}{Ciąg arytmetyczny}{29}{}%
+\contentsline {subsection}{Ciąg geometryczny}{29}{}%

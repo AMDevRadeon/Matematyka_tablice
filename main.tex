@@ -947,7 +947,108 @@ Funkcja $f$ to przekształcenie (odwzorowanie) zbioru $X$ w zbiór $Y$.\hfill\br
    \end{samepage}
 \end{center}
 }%
-   % \begin{equation*}
+
+\newpage
+
+\section{Ciągi}
+\subsection{Informacje i twierdzenia}
+\noindent\textbf{Ciąg} - Przyporządkowanie zbiorowi liczb $A = \langle 1, n \rangle,\; A \subset \mathbb{N}_{+}$ zwanemu zbiorowi indeksów kolejnych elementów,
+zwanymi \textbf{wyrazami ciągu}.\hfill\break\\
+\noindent\textbf{Ciąg skończony} to ciąg, w którym występuje skończenie wiele elementów, tj. zbiór
+indeksów jest podzbiorem właściwym liczb naturalnych dodatnich.\\
+\noindent\textbf{Ciąg nieskończony} to ciąg, w którym występuje nieskończenie wiele elementów, tj. zbiór
+indeksów jest zbiorem liczb naturalnych dodatnich.\hfill\break\\
+
+\noindent\textbf{Monotoniczność ciągu}
+\begin{itemize}
+   \item Stały - wyrazy ciągu są sobie równe dla dowolnej pary indeksów:\\ $\forall n\in\mathbb{N}_{+}\;\; a_{n} = a_{n+1}$
+   \item Rosnący - każdy kolejny wyraz jest większy od wyrazu o mniejszym indeksie: $\forall n\in\mathbb{N}_{+}\;\; a_{n} < a_{n+1}$
+   \item Niemalejący - każdy kolejny wyraz jest większy od wyrazu bądź równy wyrazowi o mniejszym indeksie: $\forall n\in\mathbb{N}_{+}\;\; a_{n} \leq a_{n+1}$
+   \item Nierosnący - każdy kolejny wyraz jest mniejszy od wyrazu bądź równy wyrazowi o mniejszym indeksie: $\forall n\in\mathbb{N}_{+}\;\; a_{n} \geq a_{n+1}$
+   \item Malejący - każdy kolejny wyraz jest mniejszy od wyrazu o mniejszym indeksie: $\forall n\in\mathbb{N}_{+}\;\; a_{n} > a_{n+1}$
+\end{itemize}
+Monotoniczność ciągu można określić, badając znak różnicy kolejnych wyrazów ciągu: $a_{n+1} - a_{n}$.\\
+{%
+
+\renewcommand{\arraycolsep}{0.35cm}
+\renewcommand{\arraystretch}{1.4}
+
+\begin{center}
+\begin{tabular}{ll}
+   $a_{n+1} - a_{n} > 0$ & - \; rosnący\\
+   $a_{n+1} - a_{n} \geq 0$ & - \; niemalejący\\
+   $a_{n+1} - a_{n} \leq 0$ & - \; nierosnący\\
+   $a_{n+1} - a_{n} < 0$ & - \; malejący
+\end{tabular}
+\end{center}
+}%
+
+\subsection{Granica ciągu liczbowego}
+Liczba $l$ jest granicą nieskończonego ciągu liczbowego $(a_{n})$ wtedy i tylko wtedy, gdy dla
+każdej liczby dodatniej $\varepsilon$ istnieje taka liczba $\delta$, że dla każdej liczby naturalnej
+$n > \delta$ zachodzi nierówność $\vert a_{n} - l\vert < \varepsilon$, tj. odległość od granicy $l$ do
+wartości $a_{n}$ jest mniejsza od $\varepsilon$. Definicja ta jest znana jako definicja epsilon - delta ciągu.\\
+$$\lim_{n\to \infty}a_{n} = l \Leftrightarrow \underset{\varepsilon > 0}{\bigwedge} \underset{\delta}{\bigvee} \underset{n > \delta}{\bigwedge} \vert a_{n} - l\vert < \varepsilon$$
+
+\noindent\includegraphics[scale=0.38]{defninicja limit ciągu.png}\\\\
+\noindent\textbf{Ciąg zbieżny} to ciąg nieskończony, którego granicą jest liczba rzeczywista.
+Taki ciąg ma tylko jedną granicę.\\
+Ciąg jest rozbieżny, gdy granicą jest dodatnia bądź ujemna nieskończoność.\\\\
+
+\noindent\textbf{Twierdzenia o działaniach na granicach ciągów zbieżnych}\\
+Jeżeli $\underset{n \to \infty}{\lim}a_{n} = a$ i $\underset{n \to \infty}{\lim}b_{n} = b$, to zachodzą następujące równości:
+{%
+
+\renewcommand{\arraycolsep}{1cm}
+\renewcommand{\arraystretch}{1.8}
+
+\begin{equation*}
+\begin{array}{cc}
+   \underset{n \to \infty}{\lim}(a_{n} + b_{n}) = a + b & \underset{n \to \infty}{\lim}(a_{n} - b_{n}) = a - b\\
+   \underset{n \to \infty}{\lim}(a_{n}\cdot b_{n}) = a\cdot b & \underset{n \to \infty}{\lim}\left(\dfrac{a_{n}}{b_{n}}\right) = \dfrac{a}{b}
+\end{array}
+\end{equation*}
+}%
+
+\newpage
+
+\subsection{Ciąg arytmetyczny}
+\noindent Niech ciąg $(a_{n})$ będzie przynajmniej trzywyrazowy. Wtedy ciągiem arytmetycznym nazywamy takie $(a_{n})$,
+gdzie każdy kolejny wyraz oprócz pierwszego jest tworzony poprzez dodanie stałej $r$, nazywanej \textbf{różnicą ciągu arytmetycznego}.\\\\
+\noindent\textbf{Postać rekurencyjna}
+$$a_{n+1} = a_{n} + r$$
+\noindent\textbf{Postać jawna}
+$$a_{n} = a_{1} + (n - 1)r$$
+\noindent\textbf{Wzór na różnicę ciągu}
+$$r = a_{n} - a_{n+1}$$
+\noindent\textbf{Wzór na sumę $n$ początkowych wyrazów ciągu}
+$$S_{n} = \dfrac{a_{1} + a_{n}}{2}\cdot n = \dfrac{2a_{1} + (n - 1)r}{2}\cdot n$$
+\noindent\textbf{Warunek wystarczający ciągu arytmetycznego}
+$$a_{n} = \dfrac{a_{n-1}+a_{n+1}}{2}$$
+
+
+\subsection{Ciąg geometryczny}
+\noindent Niech ciąg $(a_{n})$ będzie przynajmniej trzywyrazowy. Wtedy ciągiem geometrycznym nazywamy takie $(a_{n})$,
+gdzie każdy kolejny wyraz oprócz pierwszego jest tworzony poprzez pomnożenie przez stałą $q$, nazywaną \textbf{ilorazem ciągu arytmetycznego}.\\\\
+\noindent\textbf{Postać rekurencyjna}
+$$a_{n+1} = a_{n}\cdot q$$
+\noindent\textbf{Postać jawna}
+$$a_{n} = a_{1} \cdot q^{n-1}$$
+\noindent\textbf{Wzór na iloraz ciągu}
+$$q = \dfrac{a_{n+1}}{a_{n}}$$
+\noindent\textbf{Wzór na sumę $n$ początkowych wyrazów ciągu}
+$$S_{n} = a_{1}\cdot\dfrac{1-q^{n}}{1-q},\; q \neq 1\;\;\;\;\; a_{1}\cdot n,\; q = 1$$
+\noindent\textbf{Warunek wystarczający ciągu geometrycznego}
+$$a_{n} = \sqrt{a_{n-1}\cdot a_{n+1}}$$
+\\
+
+\noindent Dla $\vert q\vert < 1$ ciąg geometryczny staje się zbieżny i można go rozważać jako \textbf{szereg geometryczny}.
+Sumę wszystkich wyrazów szeregu geometrycznego można wyliczyć ze wzoru:
+$$S = \dfrac{a_{1}}{1-q}$$
+
+
+
+% \begin{equation*}
 % \begin{array}{cc}
 %     &  \\
 % \end{array}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  22 MAR 2022 19:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  23 MAR 2022 19:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,20 +878,81 @@ Package pdftex.def Info: galeria//powinowactwo prostokątne OY2.png  used on inp
  [25 <./galeria//przesunięcie wykresu w bok.png> <./galeria//przesunięcie wykresu w górę.png> <./galeria//przesunięcie w cholerę.png>]
 Overfull \vbox (0.64226pt too high) has occurred while \output is active []
 
- [26 <./galeria//bezwzględna OX.png> <./galeria//bezwzględna OY.png> <./galeria//powinowactwo prostokątne OX1.png> <./galeria//powinowactwo prostokątne OX2.png> <./galeria//powinowactwo prostokątne OY1.png> <./galeria//powinowactwo prostokątne OY2.png>] (./main.aux) ) 
+ [26 <./galeria//bezwzględna OX.png> <./galeria//bezwzględna OY.png> <./galeria//powinowactwo prostokątne OX1.png> <./galeria//powinowactwo prostokątne OX2.png> <./galeria//powinowactwo prostokątne OY1.png> <./galeria//powinowactwo prostokątne OY2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 955--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 970--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--991
+
+ []
+
+[27]
+<galeria//defninicja limit ciągu.png, id=184, 1269.24188pt x 654.94687pt>
+File: galeria//defninicja limit ciągu.png Graphic file (type png)
+<use galeria//defninicja limit ciągu.png>
+Package pdftex.def Info: galeria//defninicja limit ciągu.png  used on input line 993.
+(pdftex.def)             Requested size: 482.31693pt x 248.8824pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--997
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--997
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--997
+
+ []
+
+[28 <./galeria//defninicja limit ciągu.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1019
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1034
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1044
+
+ []
+
+[29] [30] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6080 strings out of 480160
- 98791 string characters out of 5892852
+ 6088 strings out of 480160
+ 99106 string characters out of 5892852
  423363 words of memory out of 5000000
- 23932 multiletter control sequences out of 15000+600000
+ 23939 multiletter control sequences out of 15000+600000
  482686 words of font info for 54 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  55i,18n,62p,420b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (28 pages, 1797812 bytes).
+Output written on main.pdf (32 pages, 1846797 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 276 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
