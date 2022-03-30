@@ -987,7 +987,7 @@ Monotoniczność ciągu można określić, badając znak różnicy kolejnych wyr
 Liczba $l$ jest granicą nieskończonego ciągu liczbowego $(a_{n})$ wtedy i tylko wtedy, gdy dla
 każdej liczby dodatniej $\varepsilon$ istnieje taka liczba $\delta$, że dla każdej liczby naturalnej
 $n > \delta$ zachodzi nierówność $\vert a_{n} - l\vert < \varepsilon$, tj. odległość od granicy $l$ do
-wartości $a_{n}$ jest mniejsza od $\varepsilon$. Definicja ta jest znana jako definicja epsilon - delta ciągu.\\
+wartości $a_{n}$ jest mniejsza od $\varepsilon$. Definicja ta jest znana jako definicja epsilon - delta granicy ciągu.\\
 $$\lim_{n\to \infty}a_{n} = l \Leftrightarrow \underset{\varepsilon > 0}{\bigwedge} \underset{\delta}{\bigvee} \underset{n > \delta}{\bigwedge} \vert a_{n} - l\vert < \varepsilon$$
 
 \noindent\includegraphics[scale=0.38]{defninicja limit ciągu.png}\\\\
@@ -1046,7 +1046,114 @@ $$a_{n} = \sqrt{a_{n-1}\cdot a_{n+1}}$$
 Sumę wszystkich wyrazów szeregu geometrycznego można wyliczyć ze wzoru:
 $$S = \dfrac{a_{1}}{1-q}$$
 
+\newpage
 
+\section{Elementy analizy matematycznej}
+\subsection{Granica funkcji}
+\noindent\textbf{Granica} - wartość, do której wartości funkcji zbliżają się nieograniczenie dla argumentów
+z dziedziny funkcji arbitralnie bliskich punktowi. Operację tą notuje się symbolem $\displaystyle\lim_{x\to n}$ nazywanym \textit{limesem}, czytanym ''Limes przy $x$ dążącym do $n$''.\hfill\break\\
+
+\noindent\textbf{Definicja Cauchy'ego granicy funkcji} - Liczba $l$ jest granicą funkcji $f(x)$ w punkcie $x_{0}$ wtedy i tylko wtedy, gdy dla
+każdej liczby dodatniej $\varepsilon$ istnieje taka liczba $\delta > 0$, że dla każdego elementu dziedziny funkcji $f(x), \; f: X \rightarrow \mathbb{R}$, takiego że
+$x \in X \cap (x_{0} - \delta,\; x_{0} + \delta)$ prawdziwa jest zależność: $\vert f(x) \subseteq \mathbb{R} - l\vert < \varepsilon$.\\
+$$\lim_{x\to x_{0}} f(x) = l \Leftrightarrow $$
+$$\underset{\varepsilon > 0}{\bigwedge} \;\underset{\delta > 0}{\bigvee} \; \underset{x \in A}{\bigwedge} \; \vert f(x) - l\vert < \varepsilon, \;\; A = \{x:x\in X \land 0 < \vert x - x_{0}\vert < \delta\}$$
+\begin{center}
+\includegraphics[scale=0.51]{limit funkcji.png}
+\end{center}
+
+\newpage
+\noindent\textbf{Definicja Heinego} - Funkcja $f(x)$ ma granicę $l$ w punkcie $x_{0}$ wtedy i tylko wtedy,
+gdy dla każdego ciągu $(x_{n}), n \in \mathbb{N}$ zbieżnego do $x_{0}$, zdefiniowanego na podzbiorze dziedziny $X$ który
+to podzbiór ma w punkcie skupienia $x_{0}$ (podzbiór ten nazywa się sąsiedztwem $S(x_{0})$), wartość funkcji od ciągu $(x_{n})$, czyli $f(x_{n})$ jest zbieżna do $l$.
+
+\subsection{Granica jednostronna}
+\noindent Granica jednostronna to wspólna nazwa na granicę \textit{lewostronną} i \textit{prawostronną}.\\\\
+\noindent\textbf{Granica lewostronna} - wartość w punkcie $x_{0}$, do której wartości funkcji zbliżają się nieograniczenie,
+ale uwzględniając tylko argumenty z dziedziny mniejsze od rozważanego punktu. By ten fakt odzwierciedlić, definicje
+granicy są zmodyfikowane w następujący sposób:\\
+
+\noindent\textbf{Definicja Cauchy'ego}
+$$\lim_{x\to x_{0}^{-}} f(x) = l \Leftrightarrow $$
+$$\underset{\varepsilon > 0}{\bigwedge} \;\underset{\delta > 0}{\bigvee} \; \underset{x \in A}{\bigwedge} \; \vert f(x) - l\vert < \varepsilon, \;\; A = \{x:x\in X \land x - \delta < x < x_{0}\}$$
+\noindent\textbf{Definicja Heinego}\\
+Rozpatrywane jest tylko sąsiedztwo $S(x_{0})$, gdzie $\forall x \in S(x_{0})\; x < x_{0}$.\\\\
+
+\noindent\textbf{Granica prawostronna} - wartość w punkcie $x_{0}$, do której wartości funkcji zbliżają się nieograniczenie,
+ale uwzględniając tylko argumenty z dziedziny większe od rozważanego punktu. By ten fakt odzwierciedlić, definicje
+granicy są zmodyfikowane w następujący sposób:\\
+
+\noindent\textbf{Definicja Cauchy'ego}
+$$\lim_{x\to x_{0}^{+}} f(x) = l \Leftrightarrow $$
+$$\underset{\varepsilon > 0}{\bigwedge} \;\underset{\delta > 0}{\bigvee} \; \underset{x \in A}{\bigwedge} \; \vert f(x) - l\vert < \varepsilon, \;\; A = \{x:x\in X \land x_{0} < x < x + \delta\}$$
+\noindent\textbf{Definicja Heinego}\\
+Rozpatrywane jest tylko sąsiedztwo $S(x_{0})$, gdzie $\forall x \in S(x_{0})\; x > x_{0}$.\\\\
+
+\noindent Jeżeli granica lewostronna oraz prawostronna w punkcie $x_{0}$ są sobie równe, jest to warunek wystarczający
+dla istnienia granicy w tym punkcie:
+$$\lim_{x\to x_{0}}f(x) = l \; \Leftrightarrow \; \lim_{x\to x_{0}^{-}}f(x) = \lim_{x\to x_{0}^{+}}f(x) = l$$
+Jeżeli granica lewostronna i prawostronna w punkcie są różne, wtedy granica w tym punkcie nie istnieje.\\
+
+\subsection{Granica niewłaściwa}
+Granica niewłaściwa to granica, której wartość w punkcie $x_{0}$ jest równa minus $(-\infty)$ lub plus $(+\infty)$ nieskończoności.
+Granica w punkcie jest niewłaściwa, gdy spełnione są następujące warunki równoważnych definicji:\\
+
+\noindent\textbf{Definicja Cauchy'ego}
+$$\lim_{x\to x_{0}} f(x) = +\infty \Leftrightarrow $$
+$$\underset{M > 0}{\bigwedge} \;\underset{\delta > 0}{\bigvee} \; \underset{x \in A}{\bigwedge} \; f(x) > M, \;\; A = \{x:x\in X \land 0 < \vert x - x_{0}\vert < \delta\},$$
+$$\lim_{x\to x_{0}} f(x) = -\infty \Leftrightarrow $$
+$$\underset{M > 0}{\bigwedge} \;\underset{\delta > 0}{\bigvee} \; \underset{x \in A}{\bigwedge} \; f(x) < -M, \;\; A = \{x:x\in X \land 0 < \vert x - x_{0}\vert < \delta\}$$
+\noindent\textbf{Definicja Heinego}\\
+Funkcja $f(x)$ ma granicę $\pm\infty$ w punkcie $x_{0}$ wtedy i tylko wtedy,
+gdy dla każdego ciągu $(x_{n}), n \in \mathbb{N}$ zbieżnego do $x_{0}$, zdefiniowanego na podzbiorze dziedziny $X$ który
+to podzbiór ma w punkcie skupienia $x_{0}$, wartość funkcji od ciągu $(x_{n})$, czyli $f(x_{n})$ jest zbieżna do $\pm\infty$.
+
+
+\subsection{Granica w nieskończoności}
+Granica w nieskończoności przyjmuje wartość $l$ gdy spełnione są następujące warunki równoważnych definicji:\\
+
+\noindent\textbf{Definicja Cauchy'ego}
+$$\lim_{x\to +\infty} f(x) = l \Leftrightarrow \underset{\varepsilon > 0}{\bigwedge} \;\underset{\mu \in \mathbb{R}}{\bigvee} \; \underset{x > \mu}{\bigwedge} \; \vert f(x) - l \vert < \varepsilon,$$
+\nopagebreak[4]
+$$\lim_{x\to -\infty} f(x) = l \Leftrightarrow \underset{\varepsilon > 0}{\bigwedge} \;\underset{\mu \in \mathbb{R}}{\bigvee} \; \underset{x < \mu}{\bigwedge} \; \vert f(x) - l \vert < \varepsilon,$$
+
+\noindent\textbf{Definicja Heinego}\\
+Funkcja $f(x)$ ma granicę $l$ w $\pm\infty$ wtedy i tylko wtedy,
+gdy dla każdego ciągu $(x_{n}), n \in \mathbb{N}$ zbieżnego do $\pm\infty$, zdefiniowanego na podzbiorze dziedziny $X$, 
+odpowiednio $(a, +\infty)$ i $(-\infty, a)$, wartość funkcji od ciągu $(x_{n})$, czyli $f(x_{n})$ dąży do $l$.\\\\
+
+\noindent Granica niewłaściwa w nieskończoności występuje tylko wtedy, gdy granica spełnia warunki granicy niewłaściwej i granicy w nieskończoności.\\
+
+\subsection{Własności granic}
+\noindent Niech funkcje $f,g :X \subseteq \mathbb{R} \rightarrow Y$ mają granice właściwe. Wtedy:
+
+{%
+
+\renewcommand{\arraystretch}{2}
+%$\displaystyle \lim_{x \to x_{0}}f(x) = a$ i $\displaystyle \lim_{x \to x_{0}}g(x) = b \neq 0$
+
+\begin{equation*}
+\begin{array}{rccc}
+   \displaystyle\lim_{x \to x_{0}} & \displaystyle[f(x) + g(x)] & = & \displaystyle\lim_{x \to x_{0}}f(x) + \lim_{x \to x_{0}}g(x) \\
+   \displaystyle\lim_{x \to x_{0}} & \displaystyle[f(x) - g(x)] & = & \displaystyle\lim_{x \to x_{0}}f(x) - \lim_{x \to x_{0}}g(x) \\
+   \displaystyle\lim_{x \to x_{0}} & \displaystyle[f(x)\cdot g(x)] & = & \displaystyle\lim_{x \to x_{0}}f(x) \cdot \lim_{x \to x_{0}}g(x) \\
+   \displaystyle\lim_{x \to x_{0}} & \displaystyle[c \cdot f(x)] & = & \displaystyle c \cdot \lim_{x \to x_{0}}f(x) \\
+   \displaystyle\lim_{x \to x_{0}} & \displaystyle\left[\frac{f(x)}{g(x)}\right] & = & \displaystyle\frac{\displaystyle\lim_{x \to x_{0}}f(x)}{\displaystyle\lim_{x \to x_{0}}g(x)} \\
+   \displaystyle\lim_{x \to x_{0}} & \displaystyle [f(x)^{g(x)}]& = & \displaystyle \lim_{x \to x_{0}}f(x)^{\lim\limits_{x \to x_{0}}g(x)}
+\end{array}   
+\end{equation*}
+
+}%
+
+\subsection{Symbole nieoznaczone}
+\noindent Wyrażenia algebraiczne które nie mają sensu liczbowego, często występujące przy poszukiwaniu limitów.
+Jest ich siedem:
+\begin{equation*}
+   \begin{array}{ccccccc}
+      \dfrac{0}{0} & \dfrac{\pm\infty}{\pm\infty} & 0 \cdot \pm\infty & \infty - \infty & 0^{0} & \infty^{0} & 1^{\pm\infty}
+   \end{array}
+\end{equation*}
+Takie wyniki nie są końcowymi rozwiązaniami i funkcję należy przekształcić, by otrzymać właściwy wynik.
 
 % \begin{equation*}
 % \begin{array}{cc}

@@ -399,8 +399,8 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT main.toc
 INPUT c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT main.toc
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1440.tfm
@@ -587,6 +587,11 @@ INPUT ./galeria//defninicja limit ciągu.png
 INPUT galeria//defninicja limit ciągu.png
 INPUT ./galeria//defninicja limit ciągu.png
 INPUT ./galeria//defninicja limit ciągu.png
+INPUT ./galeria//limit funkcji.png
+INPUT ./galeria//limit funkcji.png
+INPUT galeria//limit funkcji.png
+INPUT ./galeria//limit funkcji.png
+INPUT ./galeria//limit funkcji.png
 INPUT main.aux
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
