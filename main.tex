@@ -765,6 +765,11 @@ Dwóm różnym elementom w zbiorze $X$ może odpowiadać ten sam element $Y$. Ni
 Każdy $x \in X$ to argument funkcji $f$, a $y \in \{n: n \in Y \land n = f(x)\}$ - wartością funkcji.\\
 Funkcja $f$ to przekształcenie (odwzorowanie) zbioru $X$ w zbiór $Y$.\hfill\break\\
 
+\noindent\textbf{Twierdzenie Darboux} - Niech funkcja $f(x)$ będzie funkcją ciągłą, a na jej dziedzinie
+niech będzie zdefiniowany przedział domknięty $\langle a, b\rangle $. Wtedy, jeżeli $f(a) > f(c) > f(b)$ lub
+$f(a) < f(c) < f(b)$ to punkt $c \in \langle a, b\rangle$. Szczególnym przypadkiem jest, gdy $a$ i $b$ mają różne
+znaki. Wtedy w przedziale domkniętym między nimi gwarantowane jest istnienie c takiego, że $f(c) = 0$.
+
 \subsection{Właściwości funkcji}
 \begin{itemize}
    \item Różnowartościowa (iniekcja)\hfill\break
@@ -1154,6 +1159,74 @@ Jest ich siedem:
    \end{array}
 \end{equation*}
 Takie wyniki nie są końcowymi rozwiązaniami i funkcję należy przekształcić, by otrzymać właściwy wynik.
+
+\noindent\textbf{Reguła de L'Hôpitala} (czyt. delopitala) - Reguła umożliwiająca wyznaczenie granic wyrażeń,
+których wynikiem jest symbol nieoznaczony.\\
+Jeżeli funkcje $f,g:X \rightarrow Y$ są ciągłe oraz:
+\begin{itemize}
+   \item \textbf{Granice funkcji są nieoznaczone}: $\displaystyle \lim_{x\to x_{0}}f(x) = \lim_{x\to x_{0}}g(x) = 0 \text{ lub } \pm\infty$,
+   \item \textbf{Funkcje $f(x)$ i $g(x)$ są różniczkowalne},
+   \item \textbf{Pochodna $g^{\prime}(x)$ jest różna od 0},
+   \item \textbf{Istnieje granica ilorazu funkcji $f(x)$ i $g(x)$},
+\end{itemize}
+Wtedy:
+$$\lim_{x \to x_{0}}\dfrac{f(x)}{g(x)} = \lim_{x \to x_{0}}\dfrac{f^{\prime}(x)}{g^{\prime}(x)}$$\hfill\break
+\noindent\textit{Przykład:}
+$$\lim_{x\to 5}\frac{x^{2}-25}{2x^{2}-9x-5} = \frac{25-25}{2\cdot 25 - 9 \cdot 5 -5} = \frac{0}{0}$$
+\\\noindent\textit{Stosując regułę de L'Hôpitala:}
+$$\lim_{x\to 5}\frac{x^{2}-25}{2x^{2}-9x-5} = \lim_{x\to 5}\frac{(x^{2}-25)^{\prime}}{(2x^{2}-9x-5)^{\prime}} = \lim_{x\to 5}\frac{2x}{4x-9} = \frac{2\cdot 5}{4\cdot 5 - 9} = \frac{10}{11}$$
+Reguła de L'Hôpitala działa również dla granic nieoznaczonych w nieskończoności.
+
+\subsection{Definicja ciągłości funkcji}
+Niech funkcja $f(x)$ będzie zdefiniowana w pewnym otoczeniu. Jeżeli istnieje granica właściwa
+w punkcie $f(x)$ oraz prawdziwa jest równość: $\lim\limits_{x \to x_{0}}f(x) = f(x_{0})$, to
+funkcja w tym punkcie jest ciągła. Funkcja jest ciągła w przedziale, jeżeli każdy punkt w przedziale
+spełnia powyższe warunki. By całą funkcję można było nazwać ciągłą, warunki te muszą zachodzić na 
+całej dziedzinie funkcji\\
+Funkcje: wielomianowe, wymierne, potęgowe, wykładnicze, logarytmiczne i trygonometryczne są ciągłe.
+
+\subsection{Limity a asymptoty wykresu}
+\begin{itemize}
+   \item Asymptota pionowa jednostronna\\
+   Niech funkcja $f(x)$ będzie określona w prawostronnym (lewostronnym) sąsiedztwie punktu $x_{0}$.
+   Prosta o równaniu $x = x_{0}$ jest asymptotą pionową prawostronną (lewostronną) wykresu funkcji $f(x)$
+   wtedy i tylko wtedy, gdy $\lim\limits_{x \to x^{+}_{0}}f(x) = \pm\infty$ $\left(\lim\limits_{x \to x^{-}_{0}}f(x) = \pm\infty\right)$.\\
+   \item Asymptota pionowa obustronna\\
+   Jeżeli prosta o równaniu $x = x_{0}$ jest jednocześnie asymptotą pionową lewostronną i prawostronną
+   wykresu funkcji $f(x)$, to wtedy nazywa się ją asymptotą pionową obustronną.\\
+   \item Asymptota pozioma jednostronna\\
+   Niech funkcja $f(x)$ będzie określona w przedziale $(m, +\infty)$ (odpowiednio $(-\infty, m)$), $m \in \mathbb{R}$.
+   Prosta o równaniu $y = a$ jest asymptotą poziomą prawostronną (lewostronną) wykresu funkcji $f(x)$ 
+   wtedy i tylko wtedy, gdy $\lim\limits_{x\to +\infty}f(x) = a$ $\left(\lim\limits_{x\to -\infty}f(x) = a\right)$.\\
+   \item Asymptota pozioma obustronna\\
+   Jeżeli prosta o równaniu $y = a$ jest jednocześnie asymptotą poziomą lewostronną i prawostronną
+   wykresu funkcji $f(x)$, to wtedy nazywa się ją asymptotą poziomą obustronną.\\
+   \item Asymptota ukośna jednostronna\\
+   Niech funkcja $f(x)$ będzie określona w przedziale $(m, +\infty)$ (odpowiednio $(-\infty, m)$), $m \in \mathbb{R}$.
+   Prosta o równaniu $y = ax + b$ jest asymptotą ukośną prawostronną (lewostronną) wykresu funkcji $f(x)$
+   wtedy i tylko wtedy, gdy:
+   $$\lim_{x \to \pm\infty}\left[f(x) - (ax + b)\right] = 0; \;\; a = \lim_{x \to \pm\infty}\frac{f(x)}{x}, \;\; b = \lim_{x \to \pm\infty}\left[f(x) - ax\right]$$\
+   Jeżeli $a = 0$, prosta $y = b$ jest asymptotą poziomą wykresu funkcji $f(x)$.\\
+   \item Asymptota ukośna obustronna\\
+   Jeżeli prosta o równaniu $y = ax + b$ jest jednocześnie asymptotą ukośną lewostronną i prawostronną
+   wykresu funkcji $f(x)$, to wtedy nazywa się ją asymptotą ukośną obustronną.\\
+\end{itemize}
+
+\subsection{Pochodna funkcji w punkcie}
+\noindent\textbf{Pochodna} - miara czułości zmiany wartości funkcji względem zmiany wartości
+argumentu. Dla funkcji z jednym argumentem wartość pochodnej funkcji w punkcie wyznacza nachylenie
+prostej stycznej do wykresu w badanym punkcie. Proces znajdowania pochodnej nazywa się \textbf{różniczkowaniem}.\hfill\break\\
+
+\noindent Niech $f: X \subseteq \mathbb{R} \rightarrow Y$, punkt $x_{0}$ należy do dziedziny $X$ i $h$ oznacza zmianę wartości zmiennej $x$.
+Pochodną funkcji $f(x)$ w punkcie $x_{0}$ nazywamy granicę (o ile istnieje):
+$$\lim_{h \to 0}\frac{f(x_{0} + h) - f(x_{0})}{h}$$
+\begin{center}
+\includegraphics[scale=0.4]{definicja pochodna w punkcie.png}
+\end{center}
+\noindent Pochodną funkcji oznacza się: $f^{\prime}(x)$ (notacja Lagrange'a) lub $\dfrac{d}{dx}f$ (notacja Liebnitza).\\
+\noindent Jeżeli we wzorze na pochodną zamiast granicy obustronnej badana będzie kolejno granica
+prawostronna i lewostronna, to otrzymaną pochodną nazywa się odpowiednio pochodną prawostronną i pochodną lewostronną
+funkcji $f(x)$ w punkcie $x_{0}$. Pochodne te notuje się symbolicznie odpowiednio: $f^{\prime}_{+}(x)$, $f^{\prime}_{-}(x)$.\\
 
 % \begin{equation*}
 % \begin{array}{cc}

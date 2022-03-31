@@ -23,7 +23,7 @@
 \contentsline {subsection}{Funkcja sześcienna}{14}{}%
 \contentsline {subsection}{Funkcja wymierna}{16}{}%
 \contentsline {section}{\numberline {4}Właściwości i wykresy funkcji}{18}{}%
-\contentsline {subsection}{Właściwości funkcji}{18}{}%
+\contentsline {subsection}{Właściwości funkcji}{19}{}%
 \contentsline {subsection}{Wykresy funkcji}{20}{}%
 \contentsline {subsection}{Przekształcenia funkcji}{24}{}%
 \contentsline {section}{\numberline {5}Ciągi}{27}{}%
@@ -38,3 +38,6 @@
 \contentsline {subsection}{Granica w nieskończoności}{33}{}%
 \contentsline {subsection}{Własności granic}{34}{}%
 \contentsline {subsection}{Symbole nieoznaczone}{34}{}%
+\contentsline {subsection}{Definicja ciągłości funkcji}{35}{}%
+\contentsline {subsection}{Limity a asymptoty wykresu}{35}{}%
+\contentsline {subsection}{Pochodna funkcji w punkcie}{37}{}%
