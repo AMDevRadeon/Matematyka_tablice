@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  31 MAR 2022 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  2 APR 2022 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1035,6 +1035,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1194--1197
  []
 
 
+Overfull \hbox (27.01442pt too wide) in paragraph at lines 1197--1201
+\T1/cmr/m/n/14.4 Niech funk-cja $\OML/cmm/m/it/14.4 f$ \T1/cmr/m/n/14.4 b¦-dzie okre-±lona w prze-dziale $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 m; \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OT1/cmr/m/n/14.4 )$ \T1/cmr/m/n/14.4 (od-po-wied-nio $\OT1/cmr/m/n/14.4 (\OMS/cmsy/m/n/14.4 ^^@1\OML/cmm/m/it/14.4 ; m\OT1/cmr/m/n/14.4 )$\T1/cmr/m/n/14.4 ),
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1197--1201
 
  []
@@ -1042,6 +1047,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1197--1201
 
 Underfull \hbox (badness 10000) in paragraph at lines 1201--1204
 
+ []
+
+
+Overfull \hbox (27.01442pt too wide) in paragraph at lines 1204--1208
+\T1/cmr/m/n/14.4 Niech funk-cja $\OML/cmm/m/it/14.4 f$ \T1/cmr/m/n/14.4 b¦-dzie okre-±lona w prze-dziale $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 m; \OT1/cmr/m/n/14.4 +\OMS/cmsy/m/n/14.4 1\OT1/cmr/m/n/14.4 )$ \T1/cmr/m/n/14.4 (od-po-wied-nio $\OT1/cmr/m/n/14.4 (\OMS/cmsy/m/n/14.4 ^^@1\OML/cmm/m/it/14.4 ; m\OT1/cmr/m/n/14.4 )$\T1/cmr/m/n/14.4 ),
  []
 
 
@@ -1075,7 +1085,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 1226--1230
 
  []
 
-[37 <./galeria//definicja pochodna w punkcie.png>] (./main.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1230
+
+ []
+
+[37 <./galeria//definicja pochodna w punkcie.png>]
+Overfull \hbox (0.69438pt too wide) in paragraph at lines 1240--1242
+\T1/cmr/m/n/14.4 Normalna to pro-sta pro-sto-pa-dªa do stycz-nej wy-kresu funk-cji w punk-cie $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]\OT1/cmr/m/n/14.4 ))$\T1/cmr/m/n/14.4 .
+ []
+
+[38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1339
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 1342--1344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
+
+ []
+
+[41] [42] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  6104 strings out of 480160
  99696 string characters out of 5892852
@@ -1085,10 +1140,10 @@ Here is how much of TeX's memory you used:
  56 hyphenation exceptions out of 8191
  55i,18n,62p,420b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (40 pages, 1930545 bytes).
+Output written on main.pdf (45 pages, 1942769 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 323 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

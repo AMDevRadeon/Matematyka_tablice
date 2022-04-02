@@ -41,3 +41,9 @@
 \contentsline {subsection}{Definicja ciągłości funkcji}{35}{}%
 \contentsline {subsection}{Limity a asymptoty wykresu}{35}{}%
 \contentsline {subsection}{Pochodna funkcji w punkcie}{37}{}%
+\contentsline {subsection}{Styczna do wykresu funkcji}{38}{}%
+\contentsline {subsection}{Funkcja pochodna}{38}{}%
+\contentsline {subsection}{Pochodne wybranych funkcji}{38}{}%
+\contentsline {subsection}{Własności pochodnych}{39}{}%
+\contentsline {subsection}{Pochodna a monotoniczność funkcji}{40}{}%
+\contentsline {subsection}{Ekstrema funkcji}{40}{}%
