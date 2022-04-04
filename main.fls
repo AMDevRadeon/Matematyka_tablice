@@ -335,6 +335,10 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/vcell/vcell.sty
+INPUT ./insbox.tex
+INPUT insbox.tex
+INPUT ./insbox.tex
+INPUT insbox.tex
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -597,6 +601,21 @@ INPUT ./galeria//definicja pochodna w punkcie.png
 INPUT galeria//definicja pochodna w punkcie.png
 INPUT ./galeria//definicja pochodna w punkcie.png
 INPUT ./galeria//definicja pochodna w punkcie.png
+INPUT ./galeria//trygonometria definicja radiany.png
+INPUT ./galeria//trygonometria definicja radiany.png
+INPUT galeria//trygonometria definicja radiany.png
+INPUT ./galeria//trygonometria definicja radiany.png
+INPUT ./galeria//trygonometria definicja radiany.png
+INPUT ./galeria//trygonometria definicja w trójkącie.png
+INPUT ./galeria//trygonometria definicja w trójkącie.png
+INPUT galeria//trygonometria definicja w trójkącie.png
+INPUT ./galeria//trygonometria definicja w trójkącie.png
+INPUT ./galeria//trygonometria definicja w trójkącie.png
+INPUT ./galeria//trygonometria definicja w okręgu.png
+INPUT ./galeria//trygonometria definicja w okręgu.png
+INPUT galeria//trygonometria definicja w okręgu.png
+INPUT ./galeria//trygonometria definicja w okręgu.png
+INPUT ./galeria//trygonometria definicja w okręgu.png
 INPUT main.aux
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc

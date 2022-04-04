@@ -15,6 +15,7 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{vcell}
+\input{insbox.tex}
 %%% PREAMBUŁA %%%
 \graphicspath{{galeria/}}
 
@@ -28,6 +29,8 @@
 %%% /PREAMBUŁA %%%
 
 
+\newcommand{\scalemath}[2][4]{\scalebox{#1}{\ensuremath{#2}}}
+\newcommand{\textbfcolor}[2]{\textcolor{#1}{\textbf{#2}}}
 
 \begin{document}
 
@@ -212,7 +215,7 @@ $\equiv$ & Figury przystające \\
 \renewcommand{\arraystretch}{1.2}
 \setlength{\arrayrulewidth}{0.5mm}
 
-\section{Prawa działań}
+\section{Prawa działań, informacje ogólne}
 \subsection{Wartość bezwzględna}
 \textbf{Wartość bezwzględna (moduł liczby)} - operacja, która zwraca nienegatywną wartość. Zdefiniowana jest następującym równaniem:
 \begin{equation*}
@@ -855,12 +858,12 @@ znaki. Wtedy w przedziale domkniętym między nimi gwarantowane jest istnienie c
 
 \begin{tabular}{cc}
    \fbox{\includegraphics[scale=0.29]{sinus.png}} & \fbox{\includegraphics[scale=0.29]{cosinus.png}}\\
-   $f(x) = \sin{x}$ & $f(x) = \cos{x}$
+   $f(x) = \sin{x}\text{ - }\textbf{sinusoida}$ & $f(x) = \cos{x}\text{ - }\textbf{cosinusoida}$
 \end{tabular}
 
 \begin{tabular}{cc}
    \fbox{\includegraphics[scale=0.29]{tangens.png}} & \fbox{\includegraphics[scale=0.29]{cotangens.png}}\\
-   $f(x) = \text{tg}\;x$ & $f(x) = \text{ctg}\;x$
+   $f(x) = \text{tg}\;x\text{ - }\textbf{tangensoida}$ & $f(x) = \text{ctg}\;x\text{ - }\textbf{cotangensoida}$
 \end{tabular}
 
 \begin{tabular}{cc}
@@ -1053,6 +1056,11 @@ $$S = \dfrac{a_{1}}{1-q}$$
 
 \newpage
 
+
+
+
+
+
 \section{Elementy analizy matematycznej}
 \subsection{Granica funkcji}
 \noindent\textbf{Granica} - wartość, do której wartości funkcji zbliżają się nieograniczenie dla argumentów
@@ -1060,7 +1068,7 @@ z dziedziny funkcji arbitralnie bliskich punktowi. Operację tą notuje się sym
 
 \noindent\textbf{Definicja Cauchy'ego granicy funkcji} - Liczba $l$ jest granicą funkcji $f$ w punkcie $x_{0}$ wtedy i tylko wtedy, gdy dla
 każdej liczby dodatniej $\varepsilon$ istnieje taka liczba $\delta > 0$, że dla każdego elementu dziedziny funkcji $f(x), \; f: X \rightarrow \mathbb{R}$, takiego że
-$x \in X \cap (x_{0} - \delta,\; x_{0} + \delta)$ prawdziwa jest zależność: $\vert f(x) \subseteq \mathbb{R} - l\vert < \varepsilon$.\\
+$x \in X \cap (x_{0} - \delta,\; x_{0} + \delta)$ prawdziwa jest zależność: $\vert f(x) - l\vert < \varepsilon$.\\
 $$\lim_{x\to x_{0}} f(x) = l \Leftrightarrow $$
 $$\underset{\varepsilon > 0}{\bigwedge} \;\underset{\delta > 0}{\bigvee} \; \underset{x \in A}{\bigwedge} \; \vert f(x) - l\vert < \varepsilon, \;\; A = \{x:x\in X \land 0 < \vert x - x_{0}\vert < \delta\}$$
 \begin{center}
@@ -1283,7 +1291,7 @@ funkcji $f$ i $g$, a $\alpha$ i $\beta$ - dowolnymi liczbami rzeczywistymi. Wted
 \begin{array}{rcl}
    \displaystyle[\alpha f(x) + \beta g(x)]^{\prime} & = & \alpha f^{\prime}(x) + \beta g^{\prime}(x) \\
    \displaystyle[\alpha f(x) - \beta g(x)]^{\prime} & = & \alpha f^{\prime}(x) - \beta g^{\prime}(x) \\
-   \displaystyle[\alpha \cdot f(x)\cdot g(x)]^{\prime} & = & \alpha (f^{\prime}(x) g(x) + \cdot f(x) g^{\prime}(x)) \\
+   \displaystyle[\alpha \cdot f(x)\cdot g(x)]^{\prime} & = & \alpha (f^{\prime}(x) g(x) + f(x) g^{\prime}(x)) \\
    \displaystyle[\alpha \cdot f(x)]^{\prime} & = & \alpha \cdot f^{\prime}(x) \\
    \displaystyle\left[\frac{\alpha}{f(x)}\right]^{\prime} & = & -\dfrac{\alpha \cdot f^{\prime}(x)}{[f(x)]^{2}} \\[\medskipamount]
    \displaystyle\left[\frac{\alpha \cdot f(x)}{\beta \cdot g(x)}\right]^{\prime} & = & \dfrac{\alpha}{\beta} \left( \dfrac{ f^{\prime}(x) g(x) - f(x) g^{\prime}(x)}{[g(x)]^{2}}\right)\\
@@ -1295,7 +1303,7 @@ funkcji $f$ i $g$, a $\alpha$ i $\beta$ - dowolnymi liczbami rzeczywistymi. Wted
 
 \noindent\textbf{Reguła łańcuchowa} - reguła pozwalająca obliczać pochodne funkcji złożonych.
 Niech funkcje $f$ i $g$ będą funkcjami zmiennej rzeczywistej o wartościach rzeczywistych.
-Jeżeli funkcja $f$ ma pochodną w punkcie $x_{0}$ oraz funkcja $g$ ma pochodną w punkcie $f(x)$,
+Jeżeli funkcja $f$ ma pochodną w punkcie $x_{0}$ oraz funkcja $g$ ma pochodną w punkcie $f(x_{0})$,
 to wtedy funkcja złożona ma w punkcie $x_{0}$ pochodną:
 $$(f\circ g)^{\prime}(x_{0}) = f^{\prime}(g(x_{0})) \cdot g^{\prime}(x_{0})$$
 \textit{Przykład:}
@@ -1379,6 +1387,105 @@ pochodna jest ciągła, to jeżeli $f^{\prime}(x_{0}) = 0$ i $f^{\prime\prime}(x
 $f$ ma w punkcie $x_{0}$ ekstremum, przy czym jeżeli $f^{\prime\prime}(x_{0}) < 0$ to jest to maksimum
 lokalne, a jeżeli $f^{\prime\prime}(x_{0}) > 0$ to jest to minimum lokalne.\\
 Warunek ten nie rozstrzyga istnienia ekstremum, jeżeli druga pochodna jest równa 0.
+
+
+\newpage
+
+\section{Funkcje trygonometryczne}
+\subsection{Miara łukowa kąta}
+\InsertBoxR{0}{\includegraphics[scale=0.27]{trygonometria definicja radiany.png}}
+\noindent Jednym ze sposobów podawania wartości kąta jest \textbf{radian} - Niemianowana jednostka
+pochodna układu SI, zdefiniowana jako iloraz długości łuku nad długość promienia. Jeden radian to
+długość łuku równa długości promienia.\\
+$$\text{rad} = \dfrac{l}{r}$$\hfill\break
+Zamiana miary:
+\begin{itemize}
+   \item stopniowej na łukową: $t^{\circ } = \dfrac{\pi \cdot t}{180} (\text{rad})$
+   \item łukowej na stopniową: $t(\text{rad}) = \left(\dfrac{180 \cdot t}{\pi}\right)^{\circ}$
+\end{itemize}
+\subsection{Definicje funkcji trygonometrycznych}
+\noindent\textbf{Definicja w trójkącie prostokątnym}
+
+
+{%
+
+\renewcommand{\arraystretch}{1.4}
+%\renewcommand{\arraycolsep}{0.5cm}
+
+%\textcolor{NavyBlue}
+\begin{center}
+
+\includegraphics[scale=0.4]{trygonometria definicja w trójkącie.png}
+\(\begin{array}{c|c|c}
+   \sin \alpha = \dfrac{\textbfcolor{Red}{a}}{\textbfcolor{NavyBlue}{c}} & \text{tg}\; \alpha = \dfrac{\sin \alpha}{\cos \alpha} = \dfrac{\textbfcolor{Red}{a}}{\textbfcolor{OliveGreen}{b}} & \text{sec}\; \alpha = \dfrac{1}{\cos \alpha} = \dfrac{\textbfcolor{NavyBlue}{c}}{\textbfcolor{OliveGreen}{b}}\\[0.7cm]
+   \cos \alpha = \dfrac{\textbfcolor{OliveGreen}{b}}{\textbfcolor{NavyBlue}{c}} & \text{ctg} \; \alpha = \dfrac{\cos \alpha}{\sin \alpha} = \dfrac{\textbfcolor{OliveGreen}{b}}{\textbfcolor{Red}{a}} & \text{cosec}\; \alpha = \dfrac{1}{\sin \alpha} = \dfrac{\textbfcolor{NavyBlue}{c}}{\textbfcolor{Red}{a}}
+\end{array}\)  
+
+\end{center}
+\noindent\textbf{Definicja w okręgu jednostkowym (interpretacja geometryczna)}
+\begin{center}
+
+\includegraphics[scale=0.55]{trygonometria definicja w okręgu.png}
+
+\end{center}
+}%
+\noindent Na powyższej ilustracji długości odcinków odpowiadają wartościom poszczególnych
+funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
+
+\noindent Dla wykresów funkcji trygonometrycznej, zobacz rozdział: \textit{4. Właściwości i wykresy funkcji - Wykresy funkcji, str. 22-23}.
+\subsection{Tożsamości trygonometryczne}
+
+\begin{center}
+{%
+\renewcommand{\arraystretch}{2}
+\renewcommand{\arraycolsep}{0.5cm}
+
+\(
+   \scalemath[1.3]{%
+   \begin{array}{cc}
+      \sin^{2} \alpha + \cos^{2} \alpha = 1 & \text{tg}\: \alpha \cdot \text{ctg}\: \alpha = 1\\
+      \text{tg}^{2}\: \alpha + 1 = \text{sec}^{2}\: \alpha & \text{ctg}^{2}\: + 1 = \text{cosec}^{2}\: \alpha   
+   \end{array}
+   }%
+\)
+
+}%
+\end{center}
+
+\newpage
+
+\subsection{Wartości funkcji trygonometrycznych}
+
+\begin{center}
+{%
+\setlength\extrarowheight{10pt}
+
+\(
+\begin{array}{|c|c|c|c|c|c|c|c|}
+   \hline
+   \textbf{Radiany} & 0 & \dfrac{\pi}{12} & \dfrac{\pi}{6} & \dfrac{\pi}{4} & \dfrac{\pi}{3} & \dfrac{5\pi}{12} & \dfrac{\pi}{2}\\[0.2cm]
+   \textbf{Stopnie} & 0^{\circ} & 15^{\circ} & 30^{\circ} & 45^{\circ} & 60^{\circ} & 75^{\circ} & 90^{\circ}\\[0.1cm]\hline
+   \scalemath[1.3]{\sin x} & 0 & \frac{\sqrt{6}-\sqrt{2}}{4} & \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{2} & \frac{\sqrt{6}+\sqrt{2}}{4} & 1 \\[0.3cm]\hline
+   \scalemath[1.3]{\cos x} & 1 & \frac{\sqrt{6}+\sqrt{2}}{4} & \frac{\sqrt{3}}{2} & \frac{\sqrt{2}}{2} & \frac{1}{2} & \frac{\sqrt{6}-\sqrt{2}}{4} & 0 \\[0.3cm]\hline
+   \scalemath[1.3]{\text{tg}\: x} & 0 & 2 - \sqrt{3} & \frac{\sqrt{3}}{3} & 1 & \sqrt{3} & 2 + \sqrt{3} & \scalemath[1.8]{\times} \\[0.3cm]\hline
+   \scalemath[1.3]{\text{ctg}\: x} & \scalemath[1.8]{\times} & 2 + \sqrt{3} & \sqrt{3} & 1 & \frac{\sqrt{3}}{3} & 2 - \sqrt{3} & 0 \\[0.3cm]\hline
+   \scalemath[1.3]{\text{sec}\: x} & 1 & \sqrt{6} - \sqrt{2} & \frac{2\sqrt{3}}{3} & \sqrt{2} & 2 & \sqrt{6} + \sqrt{2} & \scalemath[1.8]{\times} \\[0.3cm]\hline
+   \scalemath[1.3]{\text{cosec}\: x} & \scalemath[1.8]{\times} & \sqrt{6} + \sqrt{2} & 2 & \sqrt{2} & \frac{2\sqrt{3}}{3} &  \sqrt{6} - \sqrt{2} & 1 \\[0.3cm]\hline
+\end{array}
+\)
+
+}%
+\end{center}
+
+
+
+
+
+
+
+
+
+
 
 
 
