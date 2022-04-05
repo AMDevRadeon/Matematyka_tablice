@@ -50,5 +50,7 @@
 \contentsline {section}{\numberline {7}Funkcje trygonometryczne}{43}{}%
 \contentsline {subsection}{Miara łukowa kąta}{43}{}%
 \contentsline {subsection}{Definicje funkcji trygonometrycznych}{43}{}%
-\contentsline {subsection}{Tożsamości trygonometryczne}{44}{}%
+\contentsline {subsection}{Podstawowe tożsamości trygonometryczne}{44}{}%
 \contentsline {subsection}{Wartości funkcji trygonometrycznych}{45}{}%
+\contentsline {subsection}{Wzory redukcyjne}{45}{}%
+\contentsline {subsection}{Tożsamości trygonometryczne}{46}{}%

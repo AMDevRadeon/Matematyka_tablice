@@ -32,6 +32,12 @@
 \newcommand{\scalemath}[2][4]{\scalebox{#1}{\ensuremath{#2}}}
 \newcommand{\textbfcolor}[2]{\textcolor{#1}{\textbf{#2}}}
 
+
+% Polskie nazwy funkcji trygonometrycznych
+\newcommand{\tg}{\,\text{tg}\:}
+\newcommand{\ctg}{\,\text{ctg}\:}
+\newcommand{\cosec}{\,\text{cosec}\:}
+
 \begin{document}
 
 %%% POCZĄTEK %%%
@@ -1433,7 +1439,7 @@ Zamiana miary:
 funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 
 \noindent Dla wykresów funkcji trygonometrycznej, zobacz rozdział: \textit{4. Właściwości i wykresy funkcji - Wykresy funkcji, str. 22-23}.
-\subsection{Tożsamości trygonometryczne}
+\subsection{Podstawowe tożsamości trygonometryczne}
 
 \begin{center}
 {%
@@ -1461,10 +1467,10 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 \setlength\extrarowheight{10pt}
 
 \(
-\begin{array}{|c|c|c|c|c|c|c|c|}
+\begin{array}{|c||c|c|c|c|c|c|c|}
    \hline
-   \textbf{Radiany} & 0 & \dfrac{\pi}{12} & \dfrac{\pi}{6} & \dfrac{\pi}{4} & \dfrac{\pi}{3} & \dfrac{5\pi}{12} & \dfrac{\pi}{2}\\[0.2cm]
-   \textbf{Stopnie} & 0^{\circ} & 15^{\circ} & 30^{\circ} & 45^{\circ} & 60^{\circ} & 75^{\circ} & 90^{\circ}\\[0.1cm]\hline
+   \textbf{Radiany} & 0 & \dfrac{\pi}{12} & \dfrac{\pi}{6} & \dfrac{\pi}{4} & \dfrac{\pi}{3} & \dfrac{5\pi}{12} & \dfrac{\pi}{2}\\[0.1cm]
+   \textbf{Stopnie} & 0^{\circ} & 15^{\circ} & 30^{\circ} & 45^{\circ} & 60^{\circ} & 75^{\circ} & 90^{\circ}\\[0.1cm]\hline\hline
    \scalemath[1.3]{\sin x} & 0 & \frac{\sqrt{6}-\sqrt{2}}{4} & \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{2} & \frac{\sqrt{6}+\sqrt{2}}{4} & 1 \\[0.3cm]\hline
    \scalemath[1.3]{\cos x} & 1 & \frac{\sqrt{6}+\sqrt{2}}{4} & \frac{\sqrt{3}}{2} & \frac{\sqrt{2}}{2} & \frac{1}{2} & \frac{\sqrt{6}-\sqrt{2}}{4} & 0 \\[0.3cm]\hline
    \scalemath[1.3]{\text{tg}\: x} & 0 & 2 - \sqrt{3} & \frac{\sqrt{3}}{3} & 1 & \sqrt{3} & 2 + \sqrt{3} & \scalemath[1.8]{\times} \\[0.3cm]\hline
@@ -1476,6 +1482,164 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 
 }%
 \end{center}
+
+\subsection{Wzory redukcyjne}
+
+\begin{center}
+{%
+
+\renewcommand{\arraystretch}{1.4}
+\renewcommand{\arraycolsep}{0.15cm}
+
+\makebox[\linewidth]{
+\(
+\begin{array}{|c||c||c|c||c|c||c|c|}
+      \hline
+      {} & \textbf{I ćwiartka} & \multicolumn{2}{c||}{\textbf{II ćwiartka}} & \multicolumn{2}{c||}{\textbf{III ćwiartka}} & \multicolumn{2}{c|}{\textbf{IV ćwiartka}} \\\hline\hline
+      \multirow{2}{*}{$\varphi$} & 90^{\circ} - \alpha & 90^{\circ} + \alpha & 180^{\circ} - \alpha & 180^{\circ} + \alpha & 270^{\circ} - \alpha & 270^{\circ} + \alpha & 360^{\circ} - \alpha \\\cline{2-8}
+       ~ & \frac{1}{2}\pi - \alpha & \frac{1}{2}\pi + \alpha & \pi - \alpha & \pi + \alpha & \frac{3}{2}\pi - \alpha & \frac{3}{2}\pi + \alpha & 2\pi - \alpha \\\hline\hline
+      \sin \varphi & \cos \alpha & \cos \alpha & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha \\\hline
+      \cos \varphi & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha & \sin \alpha & \cos \alpha \\\hline
+      \tg \varphi & \ctg \alpha & -\ctg \alpha & -\tg \alpha & \tg \alpha & \ctg \alpha & -\ctg \alpha & -\tg \alpha \\\hline
+      \ctg \varphi & \tg \alpha & -\tg \alpha & -\ctg \alpha & \ctg \alpha & \tg \alpha & -\tg \alpha & -\ctg \alpha \\\hline
+      \sec \varphi & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha & \cosec \alpha & \sec \alpha \\\hline
+      \cosec \varphi & \sec \alpha & \sec \alpha & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha \\\hline
+\end{array}
+\)
+}
+}%
+\end{center}
+
+\subsection{Tożsamości trygonometryczne}\hfill\break
+\noindent\textbf{Funkcje trygonometryczne sumy i różnicy kątów}
+\begin{center}
+{%
+
+%\renewcommand{\arraystretch}{1.4}
+%\renewcommand{\arraycolsep}{0.15cm}
+\setlength\extrarowheight{12pt}
+\scalemath[0.9]{
+\makebox[\linewidth]{
+\(
+\begin{array}{ll}
+   \sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta & \sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta \\
+   \cos(\alpha + \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta & \cos(\alpha - \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta \\[0.1cm]
+   \text{tg}(\alpha + \beta) = \dfrac{\tg \alpha + \tg \beta}{1 - \tg \alpha \tg \beta} & \text{tg}(\alpha - \beta) = \dfrac{\tg \alpha - \tg \beta}{1 + \tg \alpha \tg \beta} \\[0.3cm]
+   \text{ctg}(\alpha + \beta) = \dfrac{\ctg \alpha \ctg \beta - 1}{\ctg \beta + \ctg \alpha} & \text{ctg}(\alpha - \beta) = \dfrac{\ctg \alpha \ctg \beta + 1}{\ctg \beta - \ctg \alpha} \\[0.3cm]
+   \sec(\alpha + \beta) = \dfrac{\sec \alpha \sec \beta \cosec \alpha \cosec \beta}{\cosec \alpha \cosec \beta - \sec \alpha \sec \beta} & \sec(\alpha - \beta) = \dfrac{\sec \alpha \sec \beta \cosec \alpha \cosec \beta}{\cosec \alpha \cosec \beta + \sec \alpha \sec \beta} \\[0.3cm]
+   \text{cosec}(\alpha + \beta) = \dfrac{\sec \alpha \sec \beta \cosec \alpha \cosec \beta}{\cosec \alpha \cosec \beta + \sec \alpha \sec \beta} & \text{cosec}(\alpha - \beta) = \dfrac{\sec \alpha \sec \beta \cosec \alpha \cosec \beta}{\cosec \alpha \cosec \beta - \sec \alpha \sec \beta}
+\end{array}
+\)
+}}
+
+}%
+\end{center}
+\hfill\break\\
+
+\noindent\textbf{Sumy i różnice funkcji trygonometrycznych}
+
+\begin{center}
+   {%
+   
+   %\renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{12pt}
+   
+   \scalemath[0.88]{
+   \makebox[\linewidth]{
+   \(
+   \begin{array}{ll}
+      \sin\alpha + \sin\beta = 2\sin\left(\dfrac{\alpha + \beta}{2}\right)\cos\left(\dfrac{\alpha - \beta}{2}\right) & \sin\alpha - \sin\beta = 2\sin\left(\dfrac{\alpha - \beta}{2}\right)\cos\left(\dfrac{\alpha + \beta}{2}\right) \\
+      \cos\alpha + \cos\beta = 2\cos\left(\dfrac{\alpha + \beta}{2}\right)\cos\left(\dfrac{\alpha - \beta}{2}\right) & \cos\alpha - \cos\beta = -2\sin\left(\dfrac{\alpha + \beta}{2}\right)\sin\left(\dfrac{\alpha - \beta}{2}\right) \\[0.3cm]
+      \text{tg}\:\alpha + \tg\beta = \dfrac{\sin(\alpha + \beta)}{\cos \alpha \cos \beta} & \text{tg}\:\alpha - \tg\beta = \dfrac{\sin(\alpha - \beta)}{\cos \alpha \cos \beta} \\[0.3cm]
+      \text{ctg}\:\alpha + \ctg\beta = \dfrac{\sin(\beta + \alpha)}{\sin \alpha \sin \beta} & \text{ctg}\:\alpha - \ctg\beta = \dfrac{\sin(\beta - \alpha)}{\sin \alpha \sin \beta} \\[0.3cm]
+      \text{tg}\:\alpha + \ctg\beta = \dfrac{\cos(\alpha - \beta)}{\cos \alpha \sin \beta} & \text{ctg}\:\alpha - \tg \beta = \dfrac{\cos(\alpha + \beta)}{\sin \alpha \cos \beta} \\
+   \end{array}
+   \)
+   }}
+   }%  
+\end{center}
+
+\newpage
+
+\noindent\textbf{Funkcje trygonometryczne podwojonego kąta}
+
+\begin{center}
+{%
+   
+\renewcommand{\arraystretch}{1.2}
+\renewcommand{\arraycolsep}{0.8cm}
+\setlength\extrarowheight{11pt}
+   
+\makebox[\linewidth]{
+\(
+\begin{array}{ll}
+   \sin(2\alpha) = 2\sin\alpha\cos\alpha & \cos(2\alpha) = \cos^{2}\alpha - \sin^{2}\alpha \\
+   \cos(2\alpha) = 2\cos^{2}\alpha - 1 & \cos(2\alpha) = 1 - 2\sin^{2}\alpha \\
+   \text{tg}(2\alpha) = \dfrac{2\tg\alpha}{1-\text{tg}^{2}\,\alpha} & \text{ctg}(2\alpha) = \dfrac{\text{ctg}^{2}\,\alpha - 1}{2\ctg\alpha} \\
+   \sec(2\alpha) = \dfrac{\sec^{2}\alpha}{2 - \sec^{2} \alpha} & \text{cosec}(2\alpha) = \dfrac{\sec\alpha\cosec\alpha}{2} \\
+\end{array}
+\)
+}
+   
+}%
+\end{center}
+
+\hfill\break\\
+
+\noindent\textbf{Iloczyny funkcji trygonometrycznych}
+
+\begin{center}
+   {%
+   
+   %\renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{9pt}
+   
+   \makebox[\linewidth]{
+   \(
+   \begin{array}{ll}
+      \sin\alpha\sin\beta = \dfrac{\cos(\alpha - \beta) - \cos(\alpha + \beta)}{2} & \cos\alpha\cos\beta = \dfrac{\cos(\alpha - \beta) + \cos(\alpha + \beta)}{2} \\[0.3cm]
+      \sin\alpha\cos\beta = \dfrac{\sin(\alpha + \beta) + \sin(\alpha - \beta)}{2} & \text{tg}\:\alpha\tg\beta = \dfrac{\cos(\alpha - \beta) - \cos(\alpha + \beta)}{\cos(\alpha - \beta) + \cos(\alpha + \beta)} \\
+   \end{array}
+   \)
+   }
+   }%  
+\end{center}
+
+\hfill\break\\
+
+\noindent\textbf{Redukcja potęg funkcji trygonometrycznych}
+
+\begin{center}
+   {%
+   
+   %\renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{9pt}
+   
+   \makebox[\linewidth]{
+   \(
+   \begin{array}{ll}
+      \sin^{2}\alpha = \dfrac{1-\cos(2\alpha)}{2} & \cos^{2}\alpha = \dfrac{1 + \cos(2\alpha)}{2} \\[0.3cm]
+      \sin^{2}\alpha\cos^{2}\alpha = \dfrac{1 - \cos(4\alpha)}{8} & \sin^{2}\alpha - \sin^{2}\beta = \sin(\alpha + \beta)\sin(\alpha - \beta) \\[0.3cm]
+      \text{tg}^{2}\: \alpha = \dfrac{1-\cos(2\alpha)}{1+\cos(2\alpha)} & \text{ctg}^{2}\: \alpha = \dfrac{1+\cos(2\alpha)}{1-\cos(2\alpha)} \\
+   \end{array}
+   \)
+   }
+   }%  
+\end{center}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
