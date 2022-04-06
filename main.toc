@@ -54,3 +54,5 @@
 \contentsline {subsection}{Wartości funkcji trygonometrycznych}{45}{}%
 \contentsline {subsection}{Wzory redukcyjne}{45}{}%
 \contentsline {subsection}{Tożsamości trygonometryczne}{46}{}%
+\contentsline {subsection}{Okresowość funkcji trygonometrycznych}{48}{}%
+\contentsline {section}{\numberline {8}Planimetria}{50}{}%

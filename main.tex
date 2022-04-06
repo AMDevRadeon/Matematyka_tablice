@@ -1490,23 +1490,37 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 
 \renewcommand{\arraystretch}{1.4}
 \renewcommand{\arraycolsep}{0.15cm}
+\setlength\extrarowheight{3pt}
 
+\scalemath[0.9]{
 \makebox[\linewidth]{
 \(
 \begin{array}{|c||c||c|c||c|c||c|c|}
       \hline
-      {} & \textbf{I ćwiartka} & \multicolumn{2}{c||}{\textbf{II ćwiartka}} & \multicolumn{2}{c||}{\textbf{III ćwiartka}} & \multicolumn{2}{c|}{\textbf{IV ćwiartka}} \\\hline\hline
-      \multirow{2}{*}{$\varphi$} & 90^{\circ} - \alpha & 90^{\circ} + \alpha & 180^{\circ} - \alpha & 180^{\circ} + \alpha & 270^{\circ} - \alpha & 270^{\circ} + \alpha & 360^{\circ} - \alpha \\\cline{2-8}
-       ~ & \frac{1}{2}\pi - \alpha & \frac{1}{2}\pi + \alpha & \pi - \alpha & \pi + \alpha & \frac{3}{2}\pi - \alpha & \frac{3}{2}\pi + \alpha & 2\pi - \alpha \\\hline\hline
-      \sin \varphi & \cos \alpha & \cos \alpha & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha \\\hline
-      \cos \varphi & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha & \sin \alpha & \cos \alpha \\\hline
-      \tg \varphi & \ctg \alpha & -\ctg \alpha & -\tg \alpha & \tg \alpha & \ctg \alpha & -\ctg \alpha & -\tg \alpha \\\hline
-      \ctg \varphi & \tg \alpha & -\tg \alpha & -\ctg \alpha & \ctg \alpha & \tg \alpha & -\tg \alpha & -\ctg \alpha \\\hline
-      \sec \varphi & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha & \cosec \alpha & \sec \alpha \\\hline
-      \cosec \varphi & \sec \alpha & \sec \alpha & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha \\\hline
+      {} & \textbf{I ćwiartka} & \multicolumn{2}{c||}{\textbf{II ćwiartka}} & \multicolumn{2}{c||}{\textbf{III ćwiartka}} & \multicolumn{2}{c|}{\textbf{IV ćwiartka}} \\[3pt]\hline\hline
+      \multirow{2}{*}{$\varphi$} & 90^{\circ} - \alpha & 90^{\circ} + \alpha & 180^{\circ} - \alpha & 180^{\circ} + \alpha & 270^{\circ} - \alpha & 270^{\circ} + \alpha & 360^{\circ} - \alpha \\[3pt]\cline{2-8}
+       ~ & \frac{1}{2}\pi - \alpha & \frac{1}{2}\pi + \alpha & \pi - \alpha & \pi + \alpha & \frac{3}{2}\pi - \alpha & \frac{3}{2}\pi + \alpha & 2\pi - \alpha \\[3pt]\hline\hline
+      \sin \varphi & \cos \alpha & \cos \alpha & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha \\[4pt]\hline
+      \cos \varphi & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha & \sin \alpha & \cos \alpha \\[4pt]\hline
+      \tg \varphi & \ctg \alpha & -\ctg \alpha & -\tg \alpha & \tg \alpha & \ctg \alpha & -\ctg \alpha & -\tg \alpha \\[4pt]\hline
+      \ctg \varphi & \tg \alpha & -\tg \alpha & -\ctg \alpha & \ctg \alpha & \tg \alpha & -\tg \alpha & -\ctg \alpha \\[4pt]\hline
+      \sec \varphi & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha & \cosec \alpha & \sec \alpha \\[4pt]\hline
+      \cosec \varphi & \sec \alpha & \sec \alpha & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha \\[4pt]\hline
 \end{array}
+% \begin{array}{|c||c|c||c|c||c|c||c|c|}
+%       \hline
+%       {} & \multicolumn{2}{c||}{\textbf{I ćwiartka}} & \multicolumn{2}{c||}{\textbf{II ćwiartka}} & \multicolumn{2}{c||}{\textbf{III ćwiartka}} & \multicolumn{2}{c|}{\textbf{IV ćwiartka}} \\[3pt]\hline\hline
+%       \multirow{2}{*}{$\varphi$} & \multirow{2}{*}{$-\alpha$} & 90^{\circ} - \alpha & 90^{\circ} + \alpha & 180^{\circ} - \alpha & 180^{\circ} + \alpha & 270^{\circ} - \alpha & 270^{\circ} + \alpha & 360^{\circ} - \alpha \\[3pt]\cline{3-9}
+%        ~ & ~ & \frac{1}{2}\pi - \alpha & \frac{1}{2}\pi + \alpha & \pi - \alpha & \pi + \alpha & \frac{3}{2}\pi - \alpha & \frac{3}{2}\pi + \alpha & 2\pi - \alpha \\[3pt]\hline\hline
+%       \sin \varphi & -\sin \alpha & \cos \alpha & \cos \alpha & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha \\[4pt]\hline
+%       \cos \varphi & \cos \alpha & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha & \sin \alpha & \cos \alpha \\[4pt]\hline
+%       \tg \varphi & -\tg \alpha & \ctg \alpha & -\ctg \alpha & -\tg \alpha & \tg \alpha & \ctg \alpha & -\ctg \alpha & -\tg \alpha \\[4pt]\hline
+%       \ctg \varphi & -\ctg \alpha & \tg \alpha & -\tg \alpha & -\ctg \alpha & \ctg \alpha & \tg \alpha & -\tg \alpha & -\ctg \alpha \\[4pt]\hline
+%       \sec \varphi & \sec \alpha & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha & \cosec \alpha & \sec \alpha \\[4pt]\hline
+%       \cosec \varphi & -\cosec \alpha & \sec \alpha & \sec \alpha & \cosec \alpha & -\cosec \alpha & -\sec \alpha & -\sec \alpha & -\cosec \alpha \\[4pt]\hline
+% \end{array}
 \)
-}
+}}
 }%
 \end{center}
 
@@ -1562,7 +1576,7 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 
 \newpage
 
-\noindent\textbf{Funkcje trygonometryczne podwojonego kąta}
+\noindent\textbf{Funkcje trygonometryczne podwojonego i połowy kąta}
 
 \begin{center}
 {%
@@ -1577,7 +1591,9 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
    \sin(2\alpha) = 2\sin\alpha\cos\alpha & \cos(2\alpha) = \cos^{2}\alpha - \sin^{2}\alpha \\
    \cos(2\alpha) = 2\cos^{2}\alpha - 1 & \cos(2\alpha) = 1 - 2\sin^{2}\alpha \\
    \text{tg}(2\alpha) = \dfrac{2\tg\alpha}{1-\text{tg}^{2}\,\alpha} & \text{ctg}(2\alpha) = \dfrac{\text{ctg}^{2}\,\alpha - 1}{2\ctg\alpha} \\
-   \sec(2\alpha) = \dfrac{\sec^{2}\alpha}{2 - \sec^{2} \alpha} & \text{cosec}(2\alpha) = \dfrac{\sec\alpha\cosec\alpha}{2} \\
+   \sec(2\alpha) = \dfrac{\sec^{2}\alpha}{2 - \sec^{2} \alpha} & \text{cosec}(2\alpha) = \dfrac{\sec\alpha\cosec\alpha}{2} \\[1.3cm]
+   \sin\left(\dfrac{\alpha}{2}\right) = \pm\sqrt{\dfrac{1-\cos\alpha}{2}} & \cos\left(\dfrac{\alpha}{2}\right) = \pm\sqrt{\dfrac{1+\cos\alpha}{2}} \\
+   \text{tg}\left(\dfrac{\alpha}{2}\right) = \dfrac{\sin \alpha}{ 1 + \cos\alpha} & \text{ctg}\left(\dfrac{\alpha}{2}\right) = \dfrac{\sin \alpha}{ 1 - \cos\alpha}
 \end{array}
 \)
 }
@@ -1623,20 +1639,93 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
    \begin{array}{ll}
       \sin^{2}\alpha = \dfrac{1-\cos(2\alpha)}{2} & \cos^{2}\alpha = \dfrac{1 + \cos(2\alpha)}{2} \\[0.3cm]
       \sin^{2}\alpha\cos^{2}\alpha = \dfrac{1 - \cos(4\alpha)}{8} & \sin^{2}\alpha - \sin^{2}\beta = \sin(\alpha + \beta)\sin(\alpha - \beta) \\[0.3cm]
-      \text{tg}^{2}\: \alpha = \dfrac{1-\cos(2\alpha)}{1+\cos(2\alpha)} & \text{ctg}^{2}\: \alpha = \dfrac{1+\cos(2\alpha)}{1-\cos(2\alpha)} \\
+      \cos^{2}\alpha - \cos^{2}\beta = -\sin(\alpha + \beta)\sin(\alpha - \beta) & \cos^{2}\alpha - \sin^{2}\beta = \cos(\alpha + \beta)\cos(\alpha - \beta)\
    \end{array}
    \)
    }
    }%  
 \end{center}
 
+\subsection{Okresowość funkcji trygonometrycznych}
+\noindent\textbf{Uwaga} - Funkcje $\arcsin(x)$, $\arccos(x)$, etc. to \textbf{funkcje cyklometryczne}, tj.
+funkcje odwrotne do funkcji trygonometrycznych. W przeciwieństwie do zwykłej funkcji trygonometrycznej, to kąt
+jest obrazem funkcji, podczas gdy wartość jest przeciwobrazem. Zachodzi więc następująca zależność:
 
+\begin{center}
 
+\(
+\begin{array}{c}
+   \sin(\alpha) = x \Leftrightarrow \arcsin(x) = \alpha,\\
+   \cos(\alpha) = x \Leftrightarrow \arccos(x) = \alpha,\\
+   \vdots 
+\end{array}
+\)
+   
+\end{center}
 
+\noindent Dla poniższych definicji zakłada się, że $k \in \mathbb{C}$.\\
 
+\noindent\textbf{Sinus} - $\sin: \mathbb{R} \rightarrow \langle-1, 1\rangle $ - okres podstawowy: $2\pi$
 
+\begin{equation*}
+   \sin\alpha = x \Leftrightarrow \left\{
+      \begin{array}{ll}
+         \begin{array}{l} 
+         \!\!\!\!\alpha = \arcsin x + 2k\pi \\
+         \!\!\!\!\alpha = \pi - \arcsin x + 2k\pi
+         \end{array}\:, \; & x \in (-1, 0) \cup (0, 1) \\[0.6cm]
+         \alpha = \dfrac{\pi}{2} + 2k\pi, & x = 1 \\[0.4cm]
+         \alpha = k\pi, & x = 0 \\[0.4cm]
+         \alpha = -\dfrac{\pi}{2} + 2k\pi, & x = -1 
+      \end{array}
+   \right.
+\end{equation*}
+\hfill\break\\
+\noindent\textbf{Cosinus} - $\cos: \mathbb{R} \rightarrow \langle-1, 1\rangle $ - okres podstawowy: $2\pi$
 
+\begin{equation*}
+   \cos\alpha = x \Leftrightarrow \left\{
+      \begin{array}{ll}
+         \begin{array}{l} 
+         \!\!\!\!\alpha = \arccos x + 2k\pi \\
+         \!\!\!\!\alpha = - \arccos x + 2k\pi
+         \end{array}\:, \; & x \in (-1, 0) \cup (0, 1) \\[0.6cm]
+         \alpha = 2k\pi, & x = 1 \\[0.4cm]
+         \alpha = \dfrac{\pi}{2} + k\pi, & x = 0 \\[0.4cm]
+         \alpha = \pi + 2k\pi, & x = -1
+      \end{array}
+   \right.
+\end{equation*}
+\newpage
+\noindent\textbf{Tangens} - $\tg\!: \mathbb{R}\setminus\left\{\alpha:\alpha=\dfrac{\pi}{2} + k\pi\right\} \rightarrow \mathbb{R} $ - okres podstawowy: $\pi$
+\hfill\break\\
+\begin{equation*}
+   \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\tg\alpha = x \;\Leftrightarrow \left\{
+      \begin{array}{ll}
+         \alpha = k\pi, & x = 0 \\[0.4cm]
+         \alpha = \text{arctg}\:x + k\pi, & x \in \mathbb{R}\setminus\{0\}
+      \end{array}
+   \right.
+\end{equation*}
+\hfill\break\\
+\noindent\textbf{Cotangens} - $\ctg\!: \mathbb{R}\setminus\left\{\alpha:\alpha=k\pi\right\} \rightarrow \mathbb{R} $ - okres podstawowy: $\pi$
+\hfill\break\\
+\begin{equation*}
+   \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\tg\alpha = x \;\Leftrightarrow \left\{
+      \begin{array}{ll}
+         \alpha = \dfrac{\pi}{2} + k\pi, & x = 0 \\[0.4cm]
+         \alpha = \text{arcctg}\:x + k\pi, & x \in \mathbb{R}\setminus\{0\}
+      \end{array}
+   \right.
+\end{equation*}
+\hfill\break\\
+\noindent\textbf{Secans} - $\sec: \mathbb{R}\setminus\left\{\alpha:\alpha=\dfrac{\pi}{2} + k\pi\right\} \rightarrow (-\infty, -1\rangle \cup \langle 1, +\infty) $ - okres podstawowy: $2\pi$
+\hfill\break\\
+\noindent\textbf{Cosecans} - $\cosec: \mathbb{R}\setminus\left\{\alpha:\alpha=k\pi\right\} \rightarrow (-\infty, -1\rangle \cup \langle 1, +\infty) $ - okres podstawowy: $2\pi$
 
+\newpage
+
+\section{Planimetria}
 
 
 
