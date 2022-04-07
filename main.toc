@@ -56,3 +56,11 @@
 \contentsline {subsection}{Tożsamości trygonometryczne}{46}{}%
 \contentsline {subsection}{Okresowość funkcji trygonometrycznych}{48}{}%
 \contentsline {section}{\numberline {8}Planimetria}{50}{}%
+\contentsline {subsection}{Symetralna odcinka}{50}{}%
+\contentsline {subsection}{Dwusieczna kąta}{51}{}%
+\contentsline {subsection}{Środkowa trójkąta}{52}{}%
+\contentsline {subsection}{Twierdzenie o dwusiecznej kąta wewnętrznego}{53}{}%
+\contentsline {subsection}{Nierówność w trójkącie}{53}{}%
+\contentsline {subsection}{Twierdzenie Pitagorasa}{54}{}%
+\contentsline {subsection}{Twierdzenie Steinera-Lehmusa}{54}{}%
+\contentsline {subsection}{Pole trójkąta}{55}{}%

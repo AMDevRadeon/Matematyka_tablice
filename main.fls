@@ -155,6 +155,29 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
@@ -182,16 +205,6 @@ INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/Program Files/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -616,6 +629,56 @@ INPUT ./galeria//trygonometria definicja w okręgu.png
 INPUT galeria//trygonometria definicja w okręgu.png
 INPUT ./galeria//trygonometria definicja w okręgu.png
 INPUT ./galeria//trygonometria definicja w okręgu.png
+INPUT ./galeria//geometria/symetralna odcinka.png
+INPUT ./galeria//geometria/symetralna odcinka.png
+INPUT galeria//geometria/symetralna odcinka.png
+INPUT ./galeria//geometria/symetralna odcinka.png
+INPUT ./galeria//geometria/symetralna odcinka.png
+INPUT ./galeria//geometria/środek okręgu opisanego.png
+INPUT ./galeria//geometria/środek okręgu opisanego.png
+INPUT galeria//geometria/środek okręgu opisanego.png
+INPUT ./galeria//geometria/środek okręgu opisanego.png
+INPUT ./galeria//geometria/środek okręgu opisanego.png
+INPUT ./galeria//geometria/dwusieczna kąta.png
+INPUT ./galeria//geometria/dwusieczna kąta.png
+INPUT galeria//geometria/dwusieczna kąta.png
+INPUT ./galeria//geometria/dwusieczna kąta.png
+INPUT ./galeria//geometria/dwusieczna kąta.png
+INPUT ./galeria//geometria/środek okręgu wpisanego.png
+INPUT ./galeria//geometria/środek okręgu wpisanego.png
+INPUT galeria//geometria/środek okręgu wpisanego.png
+INPUT ./galeria//geometria/środek okręgu wpisanego.png
+INPUT ./galeria//geometria/środek okręgu wpisanego.png
+INPUT ./galeria//geometria/środkowa trójkąta.png
+INPUT ./galeria//geometria/środkowa trójkąta.png
+INPUT galeria//geometria/środkowa trójkąta.png
+INPUT ./galeria//geometria/środkowa trójkąta.png
+INPUT ./galeria//geometria/środkowa trójkąta.png
+INPUT ./galeria//geometria/środkowe.png
+INPUT ./galeria//geometria/środkowe.png
+INPUT galeria//geometria/środkowe.png
+INPUT ./galeria//geometria/środkowe.png
+INPUT ./galeria//geometria/środkowe.png
+INPUT ./galeria//geometria/odcinki w trójkącie zdwusiecznionym.png
+INPUT ./galeria//geometria/odcinki w trójkącie zdwusiecznionym.png
+INPUT galeria//geometria/odcinki w trójkącie zdwusiecznionym.png
+INPUT ./galeria//geometria/odcinki w trójkącie zdwusiecznionym.png
+INPUT ./galeria//geometria/odcinki w trójkącie zdwusiecznionym.png
+INPUT ./galeria//geometria/nirówność trójkąta.png
+INPUT ./galeria//geometria/nirówność trójkąta.png
+INPUT galeria//geometria/nirówność trójkąta.png
+INPUT ./galeria//geometria/nirówność trójkąta.png
+INPUT ./galeria//geometria/nirówność trójkąta.png
+INPUT ./galeria//geometria/twierdzenie Steinera-Lehmusa.png
+INPUT ./galeria//geometria/twierdzenie Steinera-Lehmusa.png
+INPUT galeria//geometria/twierdzenie Steinera-Lehmusa.png
+INPUT ./galeria//geometria/twierdzenie Steinera-Lehmusa.png
+INPUT ./galeria//geometria/twierdzenie Steinera-Lehmusa.png
+INPUT ./galeria//geometria/pole trójkąta.png
+INPUT ./galeria//geometria/pole trójkąta.png
+INPUT galeria//geometria/pole trójkąta.png
+INPUT ./galeria//geometria/pole trójkąta.png
+INPUT ./galeria//geometria/pole trójkąta.png
 INPUT main.aux
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc

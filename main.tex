@@ -5,7 +5,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
 
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames,table]{xcolor}
 \usepackage{polynom}
 \usepackage{tabularx}
 \usepackage{amsmath}
@@ -68,7 +68,7 @@
 
 \begin{tabular}{*{3}{|c}|}
 \hline
-Nazwa & Mała litera & Duża litera \\
+\rowcolor{lightgray} Nazwa & Mała litera & Duża litera \\
 \hline
 Alfa & $\alpha $ & $A $ \\ 
 Beta & $\beta $ & $B $ \\
@@ -102,7 +102,7 @@ Omega & $\omega $ & $\Omega $ \\
 
 \begin{tabular}{*{2}{|c}|}
 \hline
-Symbol & Znaczenie \\
+\rowcolor{lightgray} Symbol & Znaczenie \\
 \hline
 $\varnothing $ & Zbiór pusty \\
 $A\cup B$ & Suma zbiorów \\
@@ -122,7 +122,7 @@ $\vert A\vert $, $\overline{\overline{A}}$ & Liczebność zbioru \\
 
 \begin{tabular}{*{2}{|c}|}
 \hline
-Symbol & Znaczenie \\
+\rowcolor{lightgray} Symbol & Znaczenie \\
 \hline
 $\land$ & I (iloczyn logiczny)\\
 $\lor$ & Lub (suma logiczna) \\
@@ -1726,16 +1726,124 @@ jest obrazem funkcji, podczas gdy wartość jest przeciwobrazem. Zachodzi więc 
 \newpage
 
 \section{Planimetria}
+\begin{center}\includegraphics[scale=0.5]{geometria/symetralna odcinka.png}\end{center}
+\addcontentsline{toc}{subsection}{Symetralna odcinka}
+\noindent \textbf{Symetralna odcinka} - jest to prosta prostopadła do odcinka, która dzieli ten odcinek
+na dwie równe części. Symetralna jest też zbiorem wszystkich punktów równo odległych od punktów na końcach
+odcinka.\\
+\InsertBoxR{0}{\includegraphics[scale=0.35]{geometria/środek okręgu opisanego.png}}
+\noindent Aby skonstruować symetralną, należy zakreślić dwa półokręgi, o równych promieniach większych od połowy długości
+odcinka, a następnie połączyć prostą punkty przecięć tych półokręgów.\\\\
+\noindent Symetralne trzech boków dowolnego trójkąta przecinają się w punkcie, który jest środkiem okręgu opisanego
+na trójkącie (częściami wspólnymi okręgu i trójkąta są wierzchołki trójkąta).
 
+\begin{center}\includegraphics[scale=0.5]{geometria/dwusieczna kąta.png}\end{center}
+\addcontentsline{toc}{subsection}{Dwusieczna kąta}
+\noindent \textbf{Dwusieczna kąta} - półprosta o początku w wierzchołku kąta, która dzieli kąt zawarty
+między ramionami kąta na dwa równe kąty, każdy o mierze równej połowie oryginalnego kąta. Dwusieczna kąta
+jest zbiorem punktów równo odległych od ramion kąta wypukłego.\\\MoveBelowBox\unskip
 
+\InsertBoxR{0}{\includegraphics[scale=0.34]{geometria/środek okręgu wpisanego.png}}
+\noindent By skonstuować dwusieczną, należy zakreślić półokrąg o środku w punkcie A. Następnie
+z miejsc przecięcia się ramion kąta i półokręgu zakreślić kolejne półokręgi o promieniu większym niż
+połowa odległości do drugiego punktu przecięcia. Dwusieczna to prosta przechodząca przez punkt przecięcia 
+dwóch półokręgów i punkt A.\\
 
+\noindent Dwusieczne trzech kątów dowolnego trójkąta przecinają się w punkcie, który jest środkiem okręgu
+wpisanego w trójkąt (częściami wspólnymi okręgu i trójkąta są trzy punkty, każdy należy do innego boku).
 
+\begin{center}\includegraphics[scale=0.5]{geometria/środkowa trójkąta.png}\end{center}
+\addcontentsline{toc}{subsection}{Środkowa trójkąta}
+\noindent \textbf{Środkowa trójkąta} - odcinek łączący wierzchołek trójkąta z środkiem przeciwległego boku.\\
+% Długość środkowej $d$, opadającej na bok $c$ można obliczyć ze wzoru:\hfill\break
+% \begin{center}
+% \(
+% d = \dfrac{1}{2}\sqrt{2a^{2}+2b^{2}-c^{2}}
+% \)
 
+% \end{center}\unskip
+\MoveBelowBox\unskip
 
+\InsertBoxR{0}{\includegraphics[scale=0.33]{geometria/środkowe.png}}
+\noindent W dowolnym trójkącie trzy środkowe przecinają się w jednym punkcie (barycentrum, środek ciężkości trójkąta), który to dzieli każdą
+z środkowych na fragmenty o długości w stosunku 2:1, licząc od wierzchołka trójkąta.\\\\
+Każdy z sześciu trójkątów ograniczonych środkowymi trójkąta ma to samo pole.
 
+\MoveBelowBox
+\noindent \textbf{Twierdzenie o środkowej (twierdzenie Apolloniusza)} - suma kwadratów dwóch dowolnych
+boków jest równa podwojonej sumie kwadratów połowy trzeciego boku i środkowej opartej na trzecim boku.\\
+Jeżeli boki trójkątu to $a, b, c$, a $d$ to środkowa oparta na boku $c$, to wtedy:
+$$a^{2}+b^{2} = 2\left(\left(\frac{1}{2}c\right)^{2} + d^{2}\right)$$
 
+\newpage
 
+\addcontentsline{toc}{subsection}{Twierdzenie o dwusiecznej kąta wewnętrznego}
+\begin{center}\includegraphics[scale=0.5]{geometria/odcinki w trójkącie zdwusiecznionym.png}\end{center}
+\noindent \textbf{Twierdzenie o dwusiecznej kąta wewnętrznego} - w dowolnym trójkącie $ABC$, w którym
+odcinek $\vert BD\vert$ jest dwusieczną kąta wewnętrznego, prawdziwa jest równość:
 
+$$\dfrac{\vert AB\vert}{\vert BC\vert} = \dfrac{\vert AD\vert}{\vert DC\vert}$$
+
+\hfill\break \addcontentsline{toc}{subsection}{Nierówność w trójkącie}
+\noindent\textbf{\!\!Nierówność w trójkącie} - W dowolnym trójkącie suma długości dwóch dowolnych boków jest
+większa od długości trzeciego boku.\MoveBelowBox\unskip
+
+\InsertBoxL{0}{\includegraphics[scale=0.3]{geometria/nirówność trójkąta.png}}
+{%
+   \renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{9pt}
+\begin{center}
+   \begin{tabular}{>{\hspace{7cm}}c}
+      $a + b > c$\\
+      $a + c > b$\\
+      $b + c > a$
+   \end{tabular}   
+\end{center}
+}%
+\MoveBelowBox
+
+\newpage
+
+\subsection{Twierdzenie Pitagorasa}
+\noindent Jeżeli trójkąt jest prostokątny, to wtedy suma kwadratów długości przyprostokątnych $a$ i $b$
+jest równa kwadratowi przeciwprostokątnej $c$:
+$$\text{Trójkąt prostokątny} \Leftrightarrow a^{2} + b^{2} = c^{2}$$\hfill\break
+\noindent Z twierdzenia Pitagorasa wynika również, że jeżeli trójkąt jest ostrokątny, to wtedy suma kwadratów
+dwóch krótszych boków jest większa od kwadratu najdłuższego boku:
+$$\text{Trójkąt ostrokątny} \Leftrightarrow a^{2} + b^{2} > c^{2}$$\hfill\break
+\noindent Jeżeli trójkąt jest rozwartokątny, to wtedy suma kwadratów
+dwóch krótszych boków jest mniejsza od kwadratu najdłuższego boku:
+$$\text{Trójkąt rozwartokątny} \Leftrightarrow a^{2} + b^{2} < c^{2}$$\hfill\break
+Twierdzenia odwrotne do powyższych również są prawdziwe.
+
+\subsection{Twierdzenie Steinera-Lehmusa}
+\begin{center}\includegraphics[scale=0.4]{geometria/twierdzenie Steinera-Lehmusa.png}\end{center}
+\noindent Jeżeli w trójkącie istnieją dwa równe odcinki które są dwusiecznymi dwóch różnych jego kątów wewnętrznych,
+to wtedy rzeczony trójkąt jest równoramienny.
+
+\subsection{Pole trójkąta}
+\begin{center}\includegraphics[scale=0.5]{geometria/pole trójkąta.png}\end{center}
+
+\begin{center}
+{%
+\renewcommand{\arraystretch}{1.4}
+%\renewcommand{\arraycolsep}{0.15cm}
+\setlength\extrarowheight{9pt}
+
+   \scalemath[1.2]{
+   \makebox[\linewidth]{
+   \(
+   \begin{array}{ll}
+      \hspace{-2cm}P = \dfrac{1}{2}ch & P = \dfrac{1}{2}bc \cdot \sin \alpha\\
+      \hspace{-2cm}P = \dfrac{b^{2}}{2(\ctg\alpha + \ctg\gamma)} & P = p\cdot r,\;\; p = \dfrac{a + b + c}{2} \\
+      \hspace{-2cm}P = \sqrt{p(p-a)(p-b)(p-c)} & P = \dfrac{abc}{4R} \\
+      \multicolumn{2}{c}{\hspace{-2cm}P = \dfrac{1}{4}\text{tg}\:\alpha(b^{2}+c^{2}-a^{2})}\\
+   \end{array}   
+   \) 
+   }}
+}%
+\end{center}
 
 
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1649258954 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1649258963
+["pdflatex"] 1649351553 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1649351563
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1646061789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1646061789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1440.tfm" 1646062032 3072 4dda4299ed0d9dcf48c6a8bcfdc499fc ""
@@ -62,6 +62,7 @@
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/base/exscale.sty" 1646062675 2581 12a83a02567771ef5d33f928a69ec41c ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty" 1646062675 4946 461cc78f6f26901410d9f1d725079cc6 ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty" 1646062675 5049 969aec05d5f39c43f8005910498fcf90 ""
+  "c:/Program Files/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty" 1646061807 10793 d0af3aa11e27ae35ba4685b17597b122 ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1646062054 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/extsizes/extarticle.cls" 1646062106 20602 3112294ba237d94ce4a1502cfef3594f ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/extsizes/size14.clo" 1646062106 6214 cc6d832fdd2fc5f4a20ee1a002f45d0f ""
@@ -69,6 +70,7 @@
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1646062339 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1646062339 1224 978390e9c2234eab29404bc21b268d1e ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def" 1646062340 19103 48d29b6e2a64cb717117ef65f107b404 ""
+  "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/color.sty" 1646062333 7197 eb6c1ebf41667a05cb50c23c19d5e8bc ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def" 1646062333 4995 8040f614c8de8318a0b5b2dea8a3fcef ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty" 1646062333 18399 7e40f80366dffb22c0e7b70517db5cb4 ""
   "c:/Program Files/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty" 1646062333 7996 a8fb260d598dcaf305a7ae7b9c3e3229 ""
@@ -88,10 +90,12 @@
   "c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646064095 333951 96a92dd677b21bbaaf16512ce5fc0488 ""
   "c:/Program Files/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646064108 1470326 899b9cd6ae8a27b1aa5f5a723bbb1202 ""
   "c:/Program Files/texlive/2021/texmf.cnf" 1646064091 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1649258941 87433 425d41bdf999b106bf2f6b7e9b456e07 ""
+  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1649351552 93888 3d58458aa6d9e9cbe73dd42228d5ec54 ""
   "galeria//cosinus.png" 1647718676 18673 39ac17a09e5ba7e913bf5efd778c87e3 ""
   "galeria//cotangens.png" 1647718765 27659 2b9735542f5f493ee8aad2f89ad992c4 ""
   "galeria//definicja pochodna w punkcie.png" 1648745901 60990 c6c827d8139278983bf1aadb8cfee071 ""
+  "galeria//geometria/symetralna odcinka.png" 1649263501 13052 222a0b6ed60b50ce38f8c00b08d77d0d ""
+  "galeria//geometria/twierdzenie Steinera-Lehmusa.png" 1649347648 39560 0292f289f7c220f948535d1872b9e2eb ""
   "galeria//hiperboliczna kwadrat.png" 1647717831 17782 025d963730e67657c9b6ef8e1caae005 ""
   "galeria//hiperboliczna.png" 1647717742 18468 2e092c0e56795e97bed4eccb09a3079a ""
   "galeria//kosekans.png" 1647718834 27248 5342236f4d93aa96475720d6aa80396a ""
@@ -111,8 +115,8 @@
   "galeria//trygonometria definicja radiany.png" 1649075179 38246 c2ee703ae38c53e880b8b7d447cc8d1d ""
   "galeria//viete-lcd.png" 1647280208 78998 a878bba1e19dfa1abe9ba48dbc40db38 ""
   "insbox.tex" 1649080233 7669 ec55da2d81b8b11d8d4aa36f87e7add8 ""
-  "main.aux" 1649258962 5886 2f0c782105224425c132cf87a2b65622 "pdflatex"
-  "main.toc" 1649258962 3446 e034d4358d9b129fd7f248352ee28e8d "pdflatex"
+  "main.aux" 1649351563 6693 0659f9bd6f6e7be5e9d658423db80804 "pdflatex"
+  "main.toc" 1649351563 3925 d5060ee06e05e64ebf5cb9b56884697e "pdflatex"
   (generated)
   "main.aux"
   "main.log"
