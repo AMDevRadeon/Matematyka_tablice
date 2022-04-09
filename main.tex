@@ -1822,7 +1822,7 @@ Twierdzenia odwrotne do powyższych również są prawdziwe.
 \noindent Jeżeli w trójkącie istnieją dwa równe odcinki które są dwusiecznymi dwóch różnych jego kątów wewnętrznych,
 to wtedy rzeczony trójkąt jest równoramienny.
 
-\subsection{Pole trójkąta}
+\subsection{Pole trójkąta - wzory}
 \begin{center}\includegraphics[scale=0.5]{geometria/pole trójkąta.png}\end{center}
 
 \begin{center}
@@ -1845,22 +1845,231 @@ to wtedy rzeczony trójkąt jest równoramienny.
 }%
 \end{center}
 
+\subsection{Promień okręgu wpisanego i opisanego dowolnego trójkąta}
+\begin{center}
+   {%
+   \renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{9pt}
+   
+      \scalemath[1.2]{
+      \makebox[\linewidth]{
+      \(
+      \begin{array}{>{\hspace{-3cm}}c}
+         R = \sqrt{\dfrac{a^{2}b^{2}c^{2}}{(a+b+c)(-a+b+c)(a-b+c)(a+b-c)}} \\[1cm]
+         r = \sqrt{\dfrac{(-a+b+c)(a-b+c)(a+b-c)}{4(a+b+c)}}
+      \end{array}   
+      \) 
+      }}
+   }%
+\end{center}
 
+\subsection{Twierdzenia o dowolnych trójkątach}
 
+\InsertBoxR{0}{\includegraphics[scale=0.3]{geometria/twierdzenie Cevy.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie Cevy} - niech dany będzie trójkąt $ABC$ i punkty $D, E, F$ takie, że
+$D \in \vert BC\vert$, $E \in \vert AC\vert$ i $F \in \vert AB\vert$. Jeżeli proste $\vert AD\vert, \vert BE\vert$ i
+$\vert CF\vert$ przecinają się w jednym punkcie $O$, to wtedy prawdziwa jest równość:
+$$\dfrac{\vert AF\vert}{\vert FB\vert} \cdot \dfrac{\vert BD\vert}{\vert DC\vert} \cdot \dfrac{\vert CE\vert}{\vert EA\vert} = 1$$
+\MoveBelowBox\unskip
+\hfill\break
 
+\InsertBoxR{0}{\includegraphics[scale=0.32]{geometria/twierdzenie Eulera.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie Eulera} - twierdzenie opisujące relację między długościami promieni
+okręgów: wpisanego w i opisanego na trójkącie a odległością między środkami tych okręgów.\\
+Długość odcinka $d$, będącego odległością środków okręgów: wpisanego i opisanego jest równa:
+$$d^{2} = R(R-2r)$$
+Z twierdzenia tego wynika również \textbf{nierówność Eulera}: $R \geq 2r$
+\MoveBelowBox\unskip
+\hfill\break
 
+\InsertBoxR{0}{\includegraphics[scale=0.32]{geometria/twierdzenie o trójliściu.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie o trójliściu} - niech dany będzie dowolny trójkąt $ABC$. Prosta $BO_{r}$,
+przechodząca przez wierzchołek trójkąta i środek okręgu wpisanego w ten trójkąt przecina okrąg 
+opisany na trójkącie w punkcie $D$. W takiej konfiguracji prawdziwa jest równość:
+$$\vert AD\vert = \vert O_{r}D\vert = \vert CD \vert$$
 
+\newpage
+\MoveBelowBox\unskip
+\hfill\break
 
+\InsertBoxR{0}{\includegraphics[scale=0.29]{geometria/połączone środki boków trójkąta.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie o linii środkowej} - linia środkowa (odcinek łączący środki
+dwóch boków trójkąta) jest równoległa do odpowiadającego
+jej boku oraz długość linii środkowej jest równa połowie długości odpowiadającego boku.
+$$\vert DE\vert = \dfrac{1}{2}\vert AB\vert$$
+\hfill\break
 
+\InsertBoxR{0}{\includegraphics[scale=0.29]{geometria/twierdzenie Routha.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie Routha} - opisuje stosunek między polami trójkąta i trójkąta zawartego
+między czewianami (dowolnymi odcinkami łączącymi wierzchołek trójkąta i przeciwległy bok).\\\\
+Niech dany będzie dowolny trójkąt $ABC$ i $D \in \vert BC\vert$, $E \in \vert AC\vert$ i $F \in \vert AB\vert$.
+Wiedząc, że $x = \frac{\vert CD\vert}{\vert BD\vert}$, $y = \frac{\vert AE\vert}{\vert CE\vert}$ i
+$z = \frac{\vert BF\vert}{\vert AF\vert}$ pole trójkąta $GHI$ jest równe polu trójkąta $ABC$ razy:
+$$\dfrac{(xyz - 1)^{2}}{(xy + y +1)(yz + z + 1)(zx + x + 1)}$$
 
+\newpage
 
+\subsection{Trójkąt równoboczny - wzory}
+\begin{center}\includegraphics[scale=0.5]{geometria/trójkąt równoboczny.png}\end{center}
+\begin{center}
+   {%
+   \renewcommand{\arraystretch}{1.4}
+   \renewcommand{\arraycolsep}{0.5cm}
+   \setlength\extrarowheight{9pt}
+   
+      \scalemath[1.2]{
+      \makebox[\linewidth]{
+      \(
+         \begin{array}{>{\hspace{-3cm}}ll}
+            P = \dfrac{a^{2}\sqrt{3}}{4} & h = \dfrac{a\sqrt{3}}{2} \\
+            R = \dfrac{2}{3}h = \dfrac{a\sqrt{3}}{3} & r = \dfrac{1}{3}h = \dfrac{a\sqrt{3}}{6} \\
+         \end{array}
+      \) 
+      }}
+   }%
+\end{center}
+\newpage
+\MoveBelowBox\unskip
 
+\subsection{Twierdzenia o trójkątach równobocznych}
 
+\InsertBoxR{0}{\includegraphics[scale=0.3]{geometria/twierdzenie Vivianiego.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie Vivianiego} - Dla każdego punktu wewnątrz trójkąta równobocznego suma odległości tego punktu
+od boków trójkąta jest równa jego wysokości.
 
+\MoveBelowBox
+\hfill\break
+\InsertBoxR{0}{\includegraphics[scale=0.28]{geometria/twierdzenie Van Schootena.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie Van Schootena} - Dla punktu $D$ umieszczonego na okręgu opisanym na trójkącie równobocznym długość najdłuższego
+odcinka łączącego ten punkt z wierzchołkiem jest równa sumie długości dwóch pozostałych odcinków łączących
+punkt $D$ z pozostałymi wierzchołkami.\\
 
+\noindent Jest to specjalny przypadek \textbf{twierdzenia \linebreak M\"obiusa - Pompejusza} które postuluje, że odcinki łączące dowolny
+punkt $D$ na płaszczyźnie z wierzchołkami trójkąta równobocznego spełniają nierówność trójkąta (da się
+z nich zbudować trójkąt).
 
+\newpage
+\subsection{Trójkąt prostokątny - wzory}
+\begin{center}\includegraphics[scale=0.5]{geometria/trójkąt prostokątny 2.png}\end{center}
+\begin{center}
+   {%
+   \renewcommand{\arraystretch}{1.4}
+   \renewcommand{\arraycolsep}{0.5cm}
+   \setlength\extrarowheight{9pt}
+   
+      \scalemath[1.2]{
+      \makebox[\linewidth]{
+      \(
+         \begin{array}{>{\hspace{-3cm}}ll}
+            P = \dfrac{1}{2}ab & h = \sqrt{ef} \\
+            a = \sqrt{ce} & b = \sqrt{cf} \\
+            r = \dfrac{a + b - c}{2} & R = \dfrac{1}{2}c
 
+         \end{array}
+      \) 
+      }}
+   }%
+\end{center}
+\hfill\break
+\noindent \textbf{Twierdzenie Talesa o kącie wpisanym} - jeżeli jeden z boków trójkąta jest średnicą
+okręgu na nim opisanego, to wtedy jest to trójkąt prostokątny, a średnica jest przeciwprostokątną.
 
+\newpage
+
+\subsection{Cechy przystawania trójkątów}
+\noindent \textbf{I cecha przystawania trójkątów (bbb)}
+\begin{center}\includegraphics[scale=0.45]{geometria/przystawanie bbb.png}\end{center}
+$$a=a_{1} \land b=b_{1} \land c=c_{1} \Rightarrow ABC \equiv A_{1}B_{1}C_{1}$$
+\noindent Jeżeli długości trzech boków w jednym trójkącie są odpowiednio równe długościom trzech boków
+w drugim trójkącie, to wtedy te trójkąty są przystające.\\\\
+\noindent \textbf{II cecha przystawania trójkątów (bkb)}
+\begin{center}\includegraphics[scale=0.45]{geometria/przystawanie bkb.png}\end{center}
+$$b=b_{1}\land \alpha = \alpha_{1} \land c=c_{1} \Rightarrow ABC \equiv A_{1}B_{1}C_{1}$$
+Jeżeli dwa boki i kąt między tymi bokami w jednym trójkącie są odpowiednio równe dwóm bokom i kątowi
+między tymi bokami w drugim trójkącie, to te trójkąty są przystające.\\\\
+\noindent \textbf{III cecha przystawania trójkątów (kbk)}
+\begin{center}\includegraphics[scale=0.45]{geometria/przystawanie kbk.png}\end{center}
+$$\alpha = \alpha_{1}\land b=b_{1}\land \beta=\beta_{1} \Rightarrow ABC \equiv A_{1}B_{1}C_{1}$$
+Jeżeli bok i dwa przyległe do niego kąty w jednym trójkącie są odpowiednio równe bokowi i dwóm
+przyległym do niego kątom w drugim trójkącie, to wtedy te trójkąty są przystające.
+
+\newpage
+
+\subsection{Cechy podobieństwa trójkątów}
+\noindent \textbf{Cecha podobieństwa trójkątów (kkk)}
+\begin{center}\includegraphics[scale=0.4]{geometria/podobieństwo kkk.png}\end{center}
+$$\alpha = \delta \land \beta = \gamma \Rightarrow ABC \sim DEF$$
+Jeżeli dwa kąty jednego trójkąta są odpowiednio równe dwóm kątom drugiego trójkąta, to trójkąty te są
+podobne.\\\\
+\noindent \textbf{Cecha podobieństwa trójkątów (bbb)}
+\begin{center}\includegraphics[scale=0.4]{geometria/podobieństwo bbb.png}\end{center}
+$$\dfrac{d}{a} = \dfrac{e}{b} = \dfrac{f}{c} = k, \text{ gdzie } k \text{ - skala podobieństwa} \Rightarrow ABC \sim DEF$$
+Jeżeli długości boków jednego trójkąta są proporcjonalne do odpowiednich długości boków drugiego trójkąta,
+to trójkąty te są podobne.\\\\
+\noindent \textbf{Cecha podobieństwa trójkątów (bkb)}
+\begin{center}\includegraphics[scale=0.4]{geometria/podobieństwo bkb.png}\end{center}
+$$\dfrac{e}{b} = \dfrac{f}{c} = k, \text{ gdzie } k \text{ - skala podobieństwa} \land \alpha = \delta \Rightarrow ABC \sim DEF$$
+Jeżeli długości dwóch boków jednego trójkąta są proporcjonalne do odpowiednich długości boków drugiego
+trójkąta oraz kąty między tymi bokami są równe, to trójkąty te są podobne.\\\\
+Jeżeli trójkąty $T_{1}, T_{2}$ są podobne w skali $k$, to stosunek pól tych trójkątów jest równy
+kwadratowi skali podobieństwa.
+
+\subsection{Twierdzenie sinusów}
+W dowolnym trójkącie iloraz długości dowolnego boku i sinusa kąta leżącego naprzeciwko tego boku jest
+równy średnicy okręgu opisanego:
+\begin{center}
+\scalemath[1.2]{
+\makebox[\linewidth]{
+   \(
+      \hspace{-3cm}\dfrac{a}{\sin \alpha} = \dfrac{b}{\sin \beta} = \dfrac{c}{\sin \gamma} = 2R
+   \)
+}}
+\end{center}
+\newpage
+
+\subsection{Twierdzenie cosinusów}
+W dowolnym trójkącie kwadrat długości dowolnego boku jest równy sumie kwadratów długości pozostałych boków
+pomniejszonej o podwojony iloczyn długości tych boków i cosinusa kąta zawartego między nimi.
+\begin{center}
+   \scalemath[1.2]{
+   \makebox[\linewidth]{
+   \(
+   \hspace{-2.7cm}a^{2} = b^{2} + c^{2} - 2bc\cos \alpha
+   \)
+   }}
+\end{center}
+
+\subsection{Twierdzenie tangensów}
+W dowolnym trójkącie, jeżeli $a, b$ to miary dwóch boków trójkąta, a kąty $\alpha, \beta$ są kątami
+odpowiednio leżącymi naprzeciwko do tych boków, to wtedy prawdziwa jest zależność:
+\begin{center}
+   \scalemath[1.2]{
+   \makebox[\linewidth]{
+   \(
+      \hspace{-2.7cm}\dfrac{a-b}{a+b} = \dfrac{\tg\frac{\alpha - \beta}{2}}{\tg \frac{\alpha + \beta}{2}}
+   \)
+   }}
+\end{center}
+
+\subsection{Twierdzenie cotangensów}
+W dowolnym trójkącie iloraz różnicy połowy obwodu trójkąta ($p=\frac{a+b+c}{2}$) i dowolnego boku nad cotangens
+połowy kąta leżącego naprzeciwko tego boku jest równy promieniowi okręgu wpisanego.
+\begin{center}
+   \scalemath[1.2]{
+   \makebox[\linewidth]{
+   \(
+      \hspace{-2.7cm}\dfrac{p-a}{\ctg\frac{\alpha}{2}} = \dfrac{p-b}{\ctg\frac{\beta}{2}} = \dfrac{p-c}{\ctg\frac{\gamma}{2}} = r
+   \)
+   }}
+\end{center}
 % \begin{equation*}
 % \begin{array}{cc}
 %     &  \\

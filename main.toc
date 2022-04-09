@@ -63,4 +63,15 @@
 \contentsline {subsection}{Nierówność w trójkącie}{53}{}%
 \contentsline {subsection}{Twierdzenie Pitagorasa}{54}{}%
 \contentsline {subsection}{Twierdzenie Steinera-Lehmusa}{54}{}%
-\contentsline {subsection}{Pole trójkąta}{55}{}%
+\contentsline {subsection}{Pole trójkąta - wzory}{55}{}%
+\contentsline {subsection}{Promień okręgu wpisanego i opisanego dowolnego trójkąta}{55}{}%
+\contentsline {subsection}{Twierdzenia o dowolnych trójkątach}{56}{}%
+\contentsline {subsection}{Trójkąt równoboczny - wzory}{58}{}%
+\contentsline {subsection}{Twierdzenia o trójkątach równobocznych}{59}{}%
+\contentsline {subsection}{Trójkąt prostokątny - wzory}{60}{}%
+\contentsline {subsection}{Cechy przystawania trójkątów}{61}{}%
+\contentsline {subsection}{Cechy podobieństwa trójkątów}{63}{}%
+\contentsline {subsection}{Twierdzenie sinusów}{64}{}%
+\contentsline {subsection}{Twierdzenie cosinusów}{65}{}%
+\contentsline {subsection}{Twierdzenie tangensów}{65}{}%
+\contentsline {subsection}{Twierdzenie cotangensów}{65}{}%
