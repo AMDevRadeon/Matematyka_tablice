@@ -75,3 +75,17 @@
 \contentsline {subsection}{Twierdzenie cosinusów}{65}{}%
 \contentsline {subsection}{Twierdzenie tangensów}{65}{}%
 \contentsline {subsection}{Twierdzenie cotangensów}{65}{}%
+\contentsline {subsection}{Wzajemne położenie okręgów i prostych}{66}{}%
+\contentsline {subsection}{Wzajemne położenie dwóch okręgów}{68}{}%
+\contentsline {subsection}{Kąt środkowy i wpisany}{70}{}%
+\contentsline {subsection}{Kąt wpisany i dopisany}{70}{}%
+\contentsline {subsection}{Okrąg - wzory}{70}{}%
+\contentsline {subsection}{Twierdzenie o dwóch prostych przeciętych trzecią prostą}{71}{}%
+\contentsline {subsection}{Twierdzenie Talesa}{71}{}%
+\contentsline {subsection}{Czworokąty - wzory}{72}{}%
+\contentsline {subsection}{Czworokąt wpisany w okrąg}{73}{}%
+\contentsline {subsection}{Okrąg wpisany w czworokąt}{74}{}%
+\contentsline {subsection}{Podobieństwo czworokątów}{75}{}%
+\contentsline {subsection}{Wielokąty}{75}{}%
+\contentsline {section}{\numberline {9}Geometria analityczna}{76}{}%
+\contentsline {subsection}{Podstawowe informacje}{76}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  9 APR 2022 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  11 APR 2022 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1592,20 +1592,506 @@ Overfull \hbox (96.73788pt too wide) in paragraph at lines 2071--2072
  [] 
  []
 
-[65] (./main.aux) ) 
+[65]
+<galeria//geometria/styczność do okręgu.png, id=374, 676.77844pt x 612.78937pt>
+File: galeria//geometria/styczność do okręgu.png Graphic file (type png)
+<use galeria//geometria/styczność do okręgu.png>
+Package pdftex.def Info: galeria//geometria/styczność do okręgu.png  used on input line 2079.
+(pdftex.def)             Requested size: 169.1942pt x 153.19696pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2087--2088
+
+ []
+
+<galeria//geometria/sieczna okręgu.png, id=375, 811.53188pt x 581.17125pt>
+File: galeria//geometria/sieczna okręgu.png Graphic file (type png)
+<use galeria//geometria/sieczna okręgu.png>
+Package pdftex.def Info: galeria//geometria/sieczna okręgu.png  used on input line 2089.
+(pdftex.def)             Requested size: 202.88246pt x 145.29245pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2099--2100
+
+ []
+
+<galeria//geometria/rozłączna z okręgiem.png, id=376, 748.29562pt x 626.34pt>
+File: galeria//geometria/rozłączna z okręgiem.png Graphic file (type png)
+<use galeria//geometria/rozłączna z okręgiem.png>
+Package pdftex.def Info: galeria//geometria/rozłączna z okręgiem.png  used on input line 2101.
+(pdftex.def)             Requested size: 187.07344pt x 156.58461pt.
+[66 <./galeria//geometria/styczność do okręgu.png> <./galeria//geometria/sieczna okręgu.png> <./galeria//geometria/rozłączna z okręgiem.png>]
+<galeria//geometria/styczne do okręgu.png, id=383, 775.39688pt x 524.71031pt>
+File: galeria//geometria/styczne do okręgu.png Graphic file (type png)
+<use galeria//geometria/styczne do okręgu.png>
+Package pdftex.def Info: galeria//geometria/styczne do okręgu.png  used on input line 2111.
+(pdftex.def)             Requested size: 193.84874pt x 131.17725pt.
+
+Overfull \hbox (12.18588pt too wide) in paragraph at lines 2112--2115
+\T1/cmr/m/n/14.4 cinki dw�ch stycz-nych, po-sia-da-j�ce wsp�lny punkt
+ []
+
+
+Overfull \hbox (3.84595pt too wide) in paragraph at lines 2112--2115
+\T1/cmr/m/n/14.4 poza okr�-giem (od-le-g�o�� punktu od �rodka wi�k-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2117--2118
+
+ []
+
+<galeria//geometria/twierdzenie o stycznej i siecznej.png, id=384, 916.1728pt x 580.41844pt>
+File: galeria//geometria/twierdzenie o stycznej i siecznej.png Graphic file (type png)
+<use galeria//geometria/twierdzenie o stycznej i siecznej.png>
+Package pdftex.def Info: galeria//geometria/twierdzenie o stycznej i siecznej.png  used on input line 2119.
+(pdftex.def)             Requested size: 201.55864pt x 127.69244pt.
+
+Overfull \hbox (6.83722pt too wide) in paragraph at lines 2121--2124
+\T1/cmr/bx/n/14.4 Twierdzenie o stycz-nej i siecz-nej \T1/cmr/m/n/14.4 - dla stycz-
+ []
+
+
+Overfull \hbox (7.33206pt too wide) in paragraph at lines 2121--2124
+\T1/cmr/m/n/14.4 styczn� i od-cin-kami wy-zna-czo-nymi przez sieczn�
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2126--2127
+
+ []
+
+<galeria//geometria/twierdzenie o dwóch siecznych.png, id=385, 880.03781pt x 590.95781pt>
+File: galeria//geometria/twierdzenie o dwóch siecznych.png Graphic file (type png)
+<use galeria//geometria/twierdzenie o dwóch siecznych.png>
+Package pdftex.def Info: galeria//geometria/twierdzenie o dwóch siecznych.png  used on input line 2128.
+(pdftex.def)             Requested size: 202.40443pt x 135.91743pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2134--2135
+
+ []
+
+<galeria//geometria/sieczne - zależności.png, id=386, 612.03656pt x 575.14874pt>
+File: galeria//geometria/sieczne - zależności.png Graphic file (type png)
+<use galeria//geometria/sieczne - zależności.png>
+Package pdftex.def Info: galeria//geometria/sieczne - zależności.png  used on input line 2136.
+(pdftex.def)             Requested size: 183.61238pt x 172.54594pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 2136--2136
+[]|[] 
+ []
+
+<galeria//geometria/okręgi współśrodkowe.png, id=387, 629.35126pt x 577.40718pt>
+File: galeria//geometria/okręgi współśrodkowe.png Graphic file (type png)
+<use galeria//geometria/okręgi współśrodkowe.png>
+Package pdftex.def Info: galeria//geometria/okręgi współśrodkowe.png  used on input line 2145.
+(pdftex.def)             Requested size: 188.80682pt x 173.22348pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2146--2149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2146--2149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2146--2149
+
+ []
+
+[67 <./galeria//geometria/styczne do okręgu.png> <./galeria//geometria/twierdzenie o stycznej i siecznej.png> <./galeria//geometria/twierdzenie o dwóch siecznych.png> <./galeria//geometria/sieczne - zależności.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2151
+
+ []
+
+<galeria//geometria/okręgi rozłączne wewnętrznie.png, id=395, 601.4972pt x 584.1825pt>
+File: galeria//geometria/okręgi rozłączne wewnętrznie.png Graphic file (type png)
+<use galeria//geometria/okręgi rozłączne wewnętrznie.png>
+Package pdftex.def Info: galeria//geometria/okręgi rozłączne wewnętrznie.png  used on input line 2153.
+(pdftex.def)             Requested size: 186.4622pt x 181.0947pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2154--2157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2154--2157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2154--2157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2157--2159
+
+ []
+
+<galeria//geometria/okręgi styczne wewnętrznie.png, id=396, 601.4972pt x 579.66562pt>
+File: galeria//geometria/okręgi styczne wewnętrznie.png Graphic file (type png)
+<use galeria//geometria/okręgi styczne wewnętrznie.png>
+Package pdftex.def Info: galeria//geometria/okręgi styczne wewnętrznie.png  used on input line 2161.
+(pdftex.def)             Requested size: 186.4622pt x 179.69447pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2162--2165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2162--2165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2162--2165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2165--2167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2165--2167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2165--2167
+
+ []
+
+[68 <./galeria//geometria/okręgi współśrodkowe.png> <./galeria//geometria/okręgi rozłączne wewnętrznie.png> <./galeria//geometria/okręgi styczne wewnętrznie.png>]
+<galeria//geometria/okręgi przecinające się.png, id=403, 677.53125pt x 577.40718pt>
+File: galeria//geometria/okręgi przecinające się.png Graphic file (type png)
+<use galeria//geometria/okręgi przecinające się.png>
+Package pdftex.def Info: galeria//geometria/okręgi przecinające się.png  used on input line 2172.
+(pdftex.def)             Requested size: 203.26094pt x 173.22348pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2176--2178
+
+ []
+
+<galeria//geometria/okręgi styczne zewnętrznie.png, id=404, 763.35187pt x 500.62032pt>
+File: galeria//geometria/okręgi styczne zewnętrznie.png Graphic file (type png)
+<use galeria//geometria/okręgi styczne zewnętrznie.png>
+Package pdftex.def Info: galeria//geometria/okręgi styczne zewnętrznie.png  used on input line 2180.
+(pdftex.def)             Requested size: 229.00732pt x 150.18726pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2184--2186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2184--2186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2184--2186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2184--2186
+
+ []
+
+<galeria//geometria/okręgi rozłączne zewnętrznie.png, id=405, 828.09375pt x 465.23813pt>
+File: galeria//geometria/okręgi rozłączne zewnętrznie.png Graphic file (type png)
+<use galeria//geometria/okręgi rozłączne zewnętrznie.png>
+Package pdftex.def Info: galeria//geometria/okręgi rozłączne zewnętrznie.png  used on input line 2188.
+(pdftex.def)             Requested size: 248.43004pt x 139.57251pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2192--2194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2192--2194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2192--2194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2192--2194
+
+ []
+
+[69 <./galeria//geometria/okręgi przecinające się.png> <./galeria//geometria/okręgi styczne zewnętrznie.png> <./galeria//geometria/okręgi rozłączne zewnętrznie.png>]
+<galeria//geometria/okrąg kąt środkowy i wpisany.png, id=413, 630.10406pt x 564.60938pt>
+File: galeria//geometria/okrąg kąt środkowy i wpisany.png Graphic file (type png)
+<use galeria//geometria/okrąg kąt środkowy i wpisany.png>
+Package pdftex.def Info: galeria//geometria/okrąg kąt środkowy i wpisany.png  used on input line 2199.
+(pdftex.def)             Requested size: 189.03267pt x 169.38411pt.
+<galeria//geometria/okrąg kąt wpisany i opisany.png, id=414, 622.57594pt x 584.93532pt>
+File: galeria//geometria/okrąg kąt wpisany i opisany.png Graphic file (type png)
+<use galeria//geometria/okrąg kąt wpisany i opisany.png>
+Package pdftex.def Info: galeria//geometria/okrąg kąt wpisany i opisany.png  used on input line 2208.
+(pdftex.def)             Requested size: 186.77422pt x 175.48195pt.
+<galeria//geometria/pole okręgu i wycinka okręgu.png, id=415, 585.68813pt x 555.57562pt>
+File: galeria//geometria/pole okręgu i wycinka okręgu.png Graphic file (type png)
+<use galeria//geometria/pole okręgu i wycinka okręgu.png>
+Package pdftex.def Info: galeria//geometria/pole okręgu i wycinka okręgu.png  used on input line 2217.
+(pdftex.def)             Requested size: 245.98734pt x 233.34016pt.
+
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Overfull \hbox (72.55157pt too wide) in paragraph at lines 2229--2230
+ [] 
+ []
+
+<galeria//geometria/proste równoległe przecięte prostą.png, id=416, 657.95813pt x 510.40688pt>
+File: galeria//geometria/proste równoległe przecięte prostą.png Graphic file (type png)
+<use galeria//geometria/proste równoległe przecięte prostą.png>
+Package pdftex.def Info: galeria//geometria/proste równoległe przecięte prostą.png  used on input line 2232.
+(pdftex.def)             Requested size: 328.97826pt x 255.2028pt.
+[70 <./galeria//geometria/okrąg kąt środkowy i wpisany.png> <./galeria//geometria/okrąg kąt wpisany i opisany.png> <./galeria//geometria/pole okręgu i wycinka okręgu.png>]
+<galeria//geometria/twierdzenie Talesa.png, id=423, 681.29532pt x 541.27219pt>
+File: galeria//geometria/twierdzenie Talesa.png Graphic file (type png)
+<use galeria//geometria/twierdzenie Talesa.png>
+Package pdftex.def Info: galeria//geometria/twierdzenie Talesa.png  used on input line 2247.
+(pdftex.def)             Requested size: 238.45692pt x 189.44809pt.
+
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 2247--2247
+[]|[] 
+ []
+
+
+Overfull \hbox (7.91855pt too wide) in paragraph at lines 2248--2251
+\T1/cmr/m/n/14.4 od-po-wied-nich od-cin-k�w wy-ci�-tych na dru-
+ []
+
+<galeria//geometria/równoległobok.png, id=424, 703.12688pt x 440.39531pt>
+File: galeria//geometria/równoległobok.png Graphic file (type png)
+<use galeria//geometria/równoległobok.png>
+Package pdftex.def Info: galeria//geometria/równoległobok.png  used on input line 2257.
+(pdftex.def)             Requested size: 246.09808pt x 154.14066pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+[71 <./galeria//geometria/proste równoległe przecięte prostą.png> <./galeria//geometria/twierdzenie Talesa.png>]
+<galeria//geometria/romb.png, id=430, 615.80063pt x 496.10344pt>
+File: galeria//geometria/romb.png Graphic file (type png)
+<use galeria//geometria/romb.png>
+Package pdftex.def Info: galeria//geometria/romb.png  used on input line 2273.
+(pdftex.def)             Requested size: 190.89621pt x 153.79047pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2272--2273
+
+ []
+
+<galeria//geometria/trapez.png, id=431, 545.78906pt x 410.2828pt>
+File: galeria//geometria/trapez.png Graphic file (type png)
+<use galeria//geometria/trapez.png>
+Package pdftex.def Info: galeria//geometria/trapez.png  used on input line 2289.
+(pdftex.def)             Requested size: 191.02902pt x 143.60112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2288--2289
+
+ []
+
+<galeria//geometria/deltoid.png, id=432, 768.62157pt x 528.47438pt>
+File: galeria//geometria/deltoid.png Graphic file (type png)
+<use galeria//geometria/deltoid.png>
+Package pdftex.def Info: galeria//geometria/deltoid.png  used on input line 2305.
+(pdftex.def)             Requested size: 230.58824pt x 158.54353pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2304--2305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2304--2305
+
+ []
+
+[72 <./galeria//geometria/równoległobok.png> <./galeria//geometria/romb.png> <./galeria//geometria/trapez.png> <./galeria//geometria/deltoid.png>]
+<galeria//geometria/czworokąt wpisany w okrąg.png, id=440, 564.60938pt x 553.31718pt>
+File: galeria//geometria/czworokąt wpisany w okrąg.png Graphic file (type png)
+<use galeria//geometria/czworokąt wpisany w okrąg.png>
+Package pdftex.def Info: galeria//geometria/czworokąt wpisany w okrąg.png  used on input line 2326.
+(pdftex.def)             Requested size: 282.30399pt x 276.65791pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2328--2331
+
+ []
+
+<galeria//geometria/czworokąt wpisany w okrąg - zasada kąty.png, id=441, 581.92406pt x 555.57562pt>
+File: galeria//geometria/czworokąt wpisany w okrąg - zasada kąty.png Graphic file (type png)
+<use galeria//geometria/czworokąt wpisany w okrąg - zasada kąty.png>
+Package pdftex.def Info: galeria//geometria/czworokąt wpisany w okrąg - zasada kąty.png  used on input line 2332.
+(pdftex.def)             Requested size: 203.67647pt x 194.45438pt.
+
+Overfull \hbox (10.82211pt too wide) in paragraph at lines 2334--2337
+\T1/cmr/m/n/14.4 na-prze-ciwko jed-nego boku czwo-ro-k�ta, s� r�wne. 
+ []
+
+[73 <./galeria//geometria/czworokąt wpisany w okrąg.png> <./galeria//geometria/czworokąt wpisany w okrąg - zasada kąty.png>]
+<galeria//geometria/okrąg wpisany w czworokąt.png, id=447, 642.90187pt x 618.81187pt>
+File: galeria//geometria/okrąg wpisany w czworokąt.png Graphic file (type png)
+<use galeria//geometria/okrąg wpisany w czworokąt.png>
+Package pdftex.def Info: galeria//geometria/okrąg wpisany w czworokąt.png  used on input line 2341.
+(pdftex.def)             Requested size: 321.45015pt x 309.40518pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2343--2346
+
+ []
+
+<galeria//geometria/okrąg wpisany w czworokąt - zasada boki.png, id=448, 630.85687pt x 610.53094pt>
+File: galeria//geometria/okrąg wpisany w czworokąt - zasada boki.png Graphic file (type png)
+<use galeria//geometria/okrąg wpisany w czworokąt - zasada boki.png>
+Package pdftex.def Info: galeria//geometria/okrąg wpisany w czworokąt - zasada boki.png  used on input line 2347.
+(pdftex.def)             Requested size: 220.8032pt x 213.68903pt.
+[74 <./galeria//geometria/okrąg wpisany w czworokąt.png> <./galeria//geometria/okrąg wpisany w czworokąt - zasada boki.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2357--2359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2364--2371
+
+ []
+
+[75]
+<galeria//geometria/odcinek kartezjański.PNG, id=458, 923.70094pt x 519.44063pt>
+File: galeria//geometria/odcinek kartezjański.PNG Graphic file (type png)
+<use galeria//geometria/odcinek kartezjański.PNG>
+Package pdftex.def Info: galeria//geometria/odcinek kartezjański.PNG  used on input line 2381.
+(pdftex.def)             Requested size: 230.92467pt x 129.85983pt.
+
+Overfull \hbox (4.12701pt too wide) in paragraph at lines 2382--2385
+\T1/cmr/m/n/14.4 o wsp�-rz�d-nych $\OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; y[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; B\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; y[]\OT1/cmr/m/n/14.4 )$ \T1/cmr/m/n/14.4 wy-
+ []
+
+[76 <./galeria//geometria/odcinek kartezjański.PNG>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6440 strings out of 480160
- 111818 string characters out of 5892852
+ 6657 strings out of 480160
+ 122593 string characters out of 5892852
  436567 words of memory out of 5000000
- 24253 multiletter control sequences out of 15000+600000
+ 24442 multiletter control sequences out of 15000+600000
  482686 words of font info for 54 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  55i,20n,62p,441b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (69 pages, 2745983 bytes).
+Output written on main.pdf (80 pages, 3679843 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
+ 546 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
