@@ -31,12 +31,21 @@
 
 \newcommand{\scalemath}[2][4]{\scalebox{#1}{\ensuremath{#2}}}
 \newcommand{\textbfcolor}[2]{\textcolor{#1}{\textbf{#2}}}
+\newcommand{\Verts}[1]{\left\lVert#1\right\rVert}
+\newcommand{\verts}[1]{\left\lvert#1\right\rvert}
 
+\newcommand{\cRed}[1]{\textcolor{RawSienna}{#1}}
+\newcommand{\cGreen}[1]{\textcolor{OliveGreen}{#1}}
+\newcommand{\cBlue}[1]{\textcolor{NavyBlue}{#1}}
+\newcommand{\cOrange}[1]{\textcolor{BurntOrange}{#1}}
 
 % Polskie nazwy funkcji trygonometrycznych
 \newcommand{\tg}{\,\text{tg}\:}
 \newcommand{\ctg}{\,\text{ctg}\:}
 \newcommand{\cosec}{\,\text{cosec}\:}
+
+\DeclareMathOperator{\homothet}{\textbf{\textit{J}}}
+\newcommand{\Hom}[3][r]{\homothet^{#2}_{#1}\left(#3\right)}
 
 \begin{document}
 
@@ -2389,6 +2398,134 @@ $$E\left(\dfrac{x_{A}+x_{B}}{2}, \dfrac{y_{A}+y_{B}}{2}\right)$$
 \noindent Współrzędne barycentrum (środka ciężkości) trójkąta to średnia arytmetyczna kolejno odciętych i
 rzędnych jego wierzchołków:
 $$S\left(\dfrac{x_{A}+x_{B}+x_{C}}{3}, \dfrac{y_{A}+y_{B}+y_{C}}{3}\right)$$
+
+% $$\Verts{\vec{u}}$$
+\subsection{Wektory}
+
+\InsertBoxR{0}{\includegraphics[scale=0.3]{geometria/wektor kartezjański.PNG}}
+\hfill\break
+\noindent\textbf{Wektor} - obiekt matematyczny posiadający: moduł (długość, wartość, normę), kierunek
+określający orientację w przestrzeni wektora, oraz zwrot rozróżniający między dwoma wektorami o tym samym
+module i kierunku.
+$$\overset{\longrightarrow}{AB} = \vec{u} = [x_{B} - x_{A},\: y_{B} - y_{A}]$$
+\MoveBelowBox
+\noindent Dwa wektory: $\vec{u}=[u_{1}, u_{2}]$, $\vec{v}=[v_{1}, v_{2}]$ są sobie równe wtedy i tylko wtedy, gdy
+$u_{1} = v_{1}$ i $u_{2} = v_{2}$.\\\\
+\noindent Dwa wektory: $\vec{u}=[u_{1}, u_{2}]$, $\vec{v}=[v_{1}, v_{2}]$ są przeciwne wtedy i tylko wtedy, gdy
+$u_{1} = -v_{1}$ i $u_{2} = -v_{2}$.
+\newpage
+\noindent Niech $\vec{u}=[u_{1}, u_{2}]$, $\vec{v}=[v_{1}, v_{2}]$, $\vec{u}, \vec{v} \in \mathbb{R}^{2}$ (wektory w dwóch wymiarach) i $k \in \mathbb{R}$.
+
+\subsection*{Moduł (długość) wektora}
+\begin{center}
+   \scalemath[1.4]{
+   \makebox[\linewidth]{
+   \(
+   \begin{array}{ccc}
+      \hspace{-5cm}\Verts{\vec{u}} = \sqrt{u_{1}^{2}+u_{2}^{2}} & \Verts{\vec{u}} = \sqrt{\vec{u}\cdot \vec{u}} & \Verts{k\cdot \vec{u}} = \verts{k}\Verts{\vec{u}}
+   \end{array}
+   \)
+   }}
+\end{center}
+
+\subsection*{Operacje na wektorach}
+\MoveBelowBox
+
+\InsertBoxR{0}{\includegraphics[scale=0.35]{geometria/suma wektorów.PNG}}
+\hfill\break\textbf{Suma wektorów}\\\\\\\\\\
+\scalemath[1.25]{
+% \makebox[\linewidth]{
+$$\hspace{2cm}\vec{\cOrange{u}} + \vec{\cGreen{v}} = [\cOrange{u_{1}} + \cGreen{v_{1}},\: \cOrange{u_{2}} + \cGreen{v_{2}}]$$
+}
+\hfill\break\\\\\\
+\MoveBelowBox\unskip
+\InsertBoxR{0}{\includegraphics[scale=0.35]{geometria/różnica wektorów.PNG}}
+\hfill\break\textbf{Różnica wektorów}\\\\\\\\
+\scalemath[1.25]{
+% \makebox[\linewidth]{
+$$\hspace{2cm}\vec{\cOrange{u}} - \vec{\cGreen{v}} = [\cOrange{u_{1}} - \cGreen{v_{1}},\: \cOrange{u_{2}} - \cGreen{v_{2}}]$$
+}
+\hfill\break\\\\\\
+\MoveBelowBox\unskip
+\InsertBoxR{0}{\includegraphics[scale=0.35]{geometria/wektor przez skalar.PNG}}
+\hfill\break\textbf{Mnożenie wektora przez skalar}\\\\\\\\
+\scalemath[1.25]{
+% \makebox[\linewidth]{
+$$\hspace{2.65cm}\cRed{k} \cdot \vec{\cOrange{u}}= [\cRed{k}\cdot \cOrange{u_{1}},\:\cRed{k}\cdot \cOrange{u_{2}}]$$
+}
+\newpage
+\InsertBoxR{0}{\includegraphics[scale=0.35]{geometria/iloczyn skalarny.PNG}}
+\hfill\break\textbf{Iloczyn skalarny}\\\\\\
+\scalemath[1.25]{
+\makebox{
+   \(
+      \begin{array}{>{\hspace{1cm}}c}
+      \vec{\cOrange{u}} \cdot \vec{\cGreen{v}} = \cOrange{u_{1}}\cGreen{v_{1}} + \cOrange{u_{2}}\cGreen{v_{2}}\\
+      \vec{\cOrange{u}} \cdot \vec{\cGreen{v}} = \Verts{\vec{\cOrange{u}}}\cdot\Verts{\vec{\cGreen{v}}}\cdot\cos\cBlue{\alpha}
+      \end{array}
+   \)
+}}
+\MoveBelowBox
+\noindent Cosinus i sinus kąta między wektorami można obliczyć ze wzoru:
+\begin{center}
+\(
+   \begin{array}{cc}
+   \cos\alpha = \dfrac{\vec{u}\cdot\vec{v}}{\Verts{\vec{u}}\cdot\Verts{\vec{v}}} & \sin\alpha = \dfrac{\verts{\det\left(\begin{smallmatrix}u_{1}&u_{2}\\v_{1}&v_{2}\end{smallmatrix}\right)}}{\Verts{\vec{u}}\cdot\Verts{\vec{v}}} = \dfrac{\verts{u_{1}v_{2}-u_{2}v_{1}}}{\Verts{\vec{u}}\cdot\Verts{\vec{v}}}
+   \end{array}
+\)
+\end{center}
+Dwa wektory są do siebie prostopadłe wtedy i tylko wtedy, gdy iloczyn skalarny tych wektorów jest
+równy zeru.
+$$\vec{u}\perp\vec{v} \Leftrightarrow \vec{u} \cdot \vec{v} = 0$$
+Dwa wektory są równoległe i o tym samym zwrocie wtedy i tylko wtedy, gdy iloczyn skalarny jest
+równy iloczynowi modułów tych wektorów.
+$$\vec{u} \parallel \vec{v} \Leftrightarrow \vec{u} \cdot \vec{v} = \Verts{\vec{u}}\cdot\Verts{\vec{v}}$$
+
+\noindent Dwa wektory są równoległe i o różnym zwrocie wtedy i tylko wtedy, gdy iloczyn skalarny jest
+równy przeciwieństwu iloczynu modułów tych wektorów.
+$$\vec{u} \parallel \vec{v} \Leftrightarrow \vec{u} \cdot \vec{v} = -(\Verts{\vec{u}}\cdot\Verts{\vec{v}})$$
+
+\subsection{Pole trójkąta}
+
+\InsertBoxR{0}{\includegraphics[scale=0.25]{geometria/trójkąt - geometria analityczna.PNG}}
+\hfill\break
+Jeśli dwa wektory mają wspólny początek w jednym z wierzchołków trójkąta, to pole tego
+trójkąta wyznacza się wzorem:
+$$P=\dfrac{1}{2}\verts{\det\begin{pmatrix}u_{1}&u_{2}\\v_{1}&v_{2}\end{pmatrix}} = \dfrac{1}{2}\verts{u_{1}v_{2}-v_{1}u_{2}}$$
+\MoveBelowBox
+\noindent Znając współrzędne trzech wierzchołków trójkąta jego pole można obliczyć ze wzoru:
+$$P=\dfrac{1}{2}\verts{(x_{B}-x_{A})(y_{C}-y_{A})-(y_{B}-y_{A})(x_{C}-x_{A})}$$
+
+% \subsection{Jednokładność}
+\begin{center}\includegraphics[scale=0.6]{geometria/jednokładność.PNG}\end{center}
+\addcontentsline{toc}{subsection}{Jednokładność}
+$$\Hom[O]{k}{\triangle ABC} = \triangle A^{\prime}B^{\prime}C^{\prime}$$
+\noindent \textbf{Jednokładność (homotetia)} o środku $r$ i niezerowej skali $k$
+(nazywanej też \textit{stosunkiem jednokładności}) to odwzorowanie geometryczne nieizometryczne określone
+następująco:
+$$\Hom{k}{p} = q \Leftrightarrow \overset{\rightarrow}{rq} = k\cdot\overset{\rightarrow}{rp}$$
+Dla $k=1$ jednokładność jest przekształceniem tożsamościowym, dla $k=-1$ jednokładność to symetria
+środkowa względem punktu $r$.\\\\
+Każda figura $F_{1}$ przekształcona przez jednokładność $\Hom{k}{F_{1}} = F_{2}$ jest podobna w
+skali $\verts{k}$.
+
+\subsection{Prosta - równanie kierunkowe}
+$$f(x) = ax + b;\;\; a, b \in \mathbb{R}$$
+\noindent Prosta przecina oś OY w punkcie $(0, b)$, a oś OX w $(-\frac{b}{a}, 0)$. Prosta
+jest nachylona do osi OX pod kątem $\alpha$ takim, że $\text{tg}\;\alpha = a$.\\
+
+\noindent Jeżeli podane są dwa punkty $A(x_{A}, y_{A}), B(x_{B}, y_{B})$, przez które przechodzi prosta, to równanie kierunkowe prostej
+można wyznaczyć ze wzoru:
+$$(y - y_{A})(y_{B}-y_{A}) = (x_{B}-x_{A})(x - x_{A})$$
+Współczynnik kierunkowy prostej przechodzącej przez punkty: $A(x_{A}, y_{A}), B(x_{B}, y_{B})$ opisuje
+wzór:
+$$a = \dfrac{y_{B}-y_{A}}{x_{B}-x_{A}}$$
+Równanie prostej o współczynniku kierunkowym $a$, przechodzącej przez punkt $A(x_{A}, y_{A})$ podane
+jest wzorem:
+$$y = a(x - x_{A}) + y_{A}$$
+
+
+
 
 
 

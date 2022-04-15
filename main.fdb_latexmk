@@ -1,7 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1649701708 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1649701722
+["pdflatex"] 1650035414 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1650035429
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1646061789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1646061789 2900 1537cc8184ad1792082cd229ecc269f4 ""
+  "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi0700.tfm" 1646062032 3072 d954c3b8c413504af8820bec51a4b82c ""
+  "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1000.tfm" 1646062032 3072 e6fe53b666f9cbd66cb135c6fdea66d3 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1440.tfm" 1646062032 3072 4dda4299ed0d9dcf48c6a8bcfdc499fc ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm" 1646062032 3584 ca0c423beaacd28d53ddce5a826cd558 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1646062032 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -90,11 +92,12 @@
   "c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646064095 333951 96a92dd677b21bbaaf16512ce5fc0488 ""
   "c:/Program Files/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646064108 1470326 899b9cd6ae8a27b1aa5f5a723bbb1202 ""
   "c:/Program Files/texlive/2021/texmf.cnf" 1646064091 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1649701707 117445 7e8e76663d96f4e52c025cdc43cb536e ""
+  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1650035412 124133 410b2292ff1507c5e87c98dcb7c373c4 ""
   "galeria//cosinus.png" 1647718676 18673 39ac17a09e5ba7e913bf5efd778c87e3 ""
   "galeria//cotangens.png" 1647718765 27659 2b9735542f5f493ee8aad2f89ad992c4 ""
   "galeria//definicja pochodna w punkcie.png" 1648745901 60990 c6c827d8139278983bf1aadb8cfee071 ""
   "galeria//geometria/deltoid.png" 1649621165 35996 ab339e169711dd02b327170f168b6aa4 ""
+  "galeria//geometria/iloczyn skalarny.PNG" 1650014951 16440 ae2983698348ca10ef7ae8d0fc074eaa ""
   "galeria//geometria/przystawanie bbb.png" 1649330099 28323 53aed7e22ab2ca6abb564de00bf3889f ""
   "galeria//geometria/przystawanie bkb.png" 1649330168 30504 953d6680f5430cce814884d1a0b51ca2 ""
   "galeria//geometria/przystawanie kbk.png" 1649330261 34029 ecdd70ff80dddf5e96f14628a046c440 ""
@@ -109,6 +112,7 @@
   "galeria//geometria/twierdzenie Van Schootena.png" 1649336820 49045 a912c7129f99f579825d7311c8b59bb7 ""
   "galeria//geometria/twierdzenie Vivianiego.png" 1649336567 27352 1cb23560629dec811b9e31a36e55347e ""
   "galeria//geometria/twierdzenie o stycznej i siecznej.png" 1649537253 55280 12330f7b43b5de70b8af064bf4c39ca4 ""
+  "galeria//geometria/wektor przez skalar.PNG" 1650018981 12071 2409c36e2cde99f63ee8c679d2461dc5 ""
   "galeria//hiperboliczna kwadrat.png" 1647717831 17782 025d963730e67657c9b6ef8e1caae005 ""
   "galeria//hiperboliczna.png" 1647717742 18468 2e092c0e56795e97bed4eccb09a3079a ""
   "galeria//kosekans.png" 1647718834 27248 5342236f4d93aa96475720d6aa80396a ""
@@ -128,8 +132,8 @@
   "galeria//trygonometria definicja radiany.png" 1649075179 38246 c2ee703ae38c53e880b8b7d447cc8d1d ""
   "galeria//viete-lcd.png" 1647280208 78998 a878bba1e19dfa1abe9ba48dbc40db38 ""
   "insbox.tex" 1649080233 7669 ec55da2d81b8b11d8d4aa36f87e7add8 ""
-  "main.aux" 1649701721 9353 e1ba3097fc2c90c58a249db9cd5e8e59 "pdflatex"
-  "main.toc" 1649701721 5560 1c2f97fc6753e2f81090654b3253a720 "pdflatex"
+  "main.aux" 1650035429 9728 a70d5ca2e308def37b72b07258598160 "pdflatex"
+  "main.toc" 1650035429 5771 80f683fe54126a485463c93048bf7847 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

@@ -89,3 +89,7 @@
 \contentsline {subsection}{Wielokąty}{75}{}%
 \contentsline {section}{\numberline {9}Geometria analityczna}{76}{}%
 \contentsline {subsection}{Podstawowe informacje}{76}{}%
+\contentsline {subsection}{Wektory}{76}{}%
+\contentsline {subsection}{Pole trójkąta}{78}{}%
+\contentsline {subsection}{Jednokładność}{79}{}%
+\contentsline {subsection}{Prosta - równanie kierunkowe}{79}{}%
