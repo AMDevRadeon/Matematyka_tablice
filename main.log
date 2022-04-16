@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  15 APR 2022 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  16 APR 2022 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1150,8 +1150,8 @@ File: galeria//trygonometria definicja radiany.png Graphic file (type png)
 Package pdftex.def Info: galeria//trygonometria definicja radiany.png  used on input line 1411.
 (pdftex.def)             Requested size: 203.05882pt x 171.95973pt.
 
-Overfull \hbox (11.59268pt too wide) in paragraph at lines 1412--1415
-\T1/cmr/m/n/14.4 jest \T1/cmr/bx/n/14.4 ra-dian \T1/cmr/m/n/14.4 - Nie-mia-no-wana jed-nostka po-chodna
+Overfull \hbox (8.9275pt too wide) in paragraph at lines 1412--1415
+\T1/cmr/m/n/14.4 jest \T1/cmr/bx/n/14.4 ra-dian \T1/cmr/m/n/14.4 - nie-mia-no-wana jed-nostka po-chodna
  []
 
 
@@ -2234,17 +2234,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 2506--2511
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2513--2516
-
- []
-
 [79 <./galeria//geometria/jednokÅ‚adnoÅ›Ä‡.PNG>]
-Overfull \hbox (15.04628pt too wide) in paragraph at lines 2519--2522
-\T1/cmr/m/n/14.4 Wspóªczynnik kie-run-kowy pro-stej prze-cho-dz¡-cej przez punkty: $\OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; y[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; B\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; y[]\OT1/cmr/m/n/14.4 )$
+Underfull \hbox (badness 10000) in paragraph at lines 2520--2523
+
  []
 
-[80] (./main.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2535--2539
+
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 2555--2560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2570--2573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2573--2576
+\T1/cmr/m/n/14.4 niami:
+ []
+
+[81] [82]
+Underfull \hbox (badness 10000) in paragraph at lines 2599--2603
+
+ []
+
+[83] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  6727 strings out of 480160
  125195 string characters out of 5892852
@@ -2254,10 +2274,10 @@ Here is how much of TeX's memory you used:
  56 hyphenation exceptions out of 8191
  55i,20n,62p,445b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (84 pages, 3811255 bytes).
+Output written on main.pdf (87 pages, 3819773 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 582 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

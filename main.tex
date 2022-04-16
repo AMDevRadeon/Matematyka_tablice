@@ -1409,7 +1409,7 @@ Warunek ten nie rozstrzyga istnienia ekstremum, jeżeli druga pochodna jest rów
 \section{Funkcje trygonometryczne}
 \subsection{Miara łukowa kąta}
 \InsertBoxR{0}{\includegraphics[scale=0.27]{trygonometria definicja radiany.png}}
-\noindent Jednym ze sposobów podawania wartości kąta jest \textbf{radian} - Niemianowana jednostka
+\noindent Jednym ze sposobów podawania wartości kąta jest \textbf{radian} - niemianowana jednostka
 pochodna układu SI, zdefiniowana jako iloraz długości łuku nad długość promienia. Jeden radian to
 długość łuku równa długości promienia.\\
 $$\text{rad} = \dfrac{l}{r}$$\hfill\break
@@ -2509,35 +2509,114 @@ Dla $k=1$ jednokładność jest przekształceniem tożsamościowym, dla $k=-1$ j
 Każda figura $F_{1}$ przekształcona przez jednokładność $\Hom{k}{F_{1}} = F_{2}$ jest podobna w
 skali $\verts{k}$.
 
-\subsection{Prosta - równanie kierunkowe}
-$$f(x) = ax + b;\;\; a, b \in \mathbb{R}$$
-\noindent Prosta przecina oś OY w punkcie $(0, b)$, a oś OX w $(-\frac{b}{a}, 0)$. Prosta
-jest nachylona do osi OX pod kątem $\alpha$ takim, że $\text{tg}\;\alpha = a$.\\
+\newpage
+\subsection{Proste}
+\noindent\textbf{Prosta} - jedno z podstawowych pojęć geometrycznych. W kontekście geometrii analitycznej
+prosta jest zdefiniowana jako szczególny zbiór punktów $L$ o współrzędnych spełniających pewne równanie.
+Zbiór punktów $L$ można zapisać symbolicznie jako: $L = \{(x, y): ax + by = c\},\: a \lor b \neq 0$.
+\subsection*{Postać kierunkowa}
+Jeżeli prosta nie jest równoległa do osi rzędnych OY, to można ją przedstawić w postaci:
+\begin{center}\scalemath[1.4]{$$y = ax + b;\;\; a, b \in \mathbb{R}$$}\end{center}
+\noindent W tej postaci $a$ nazywa się \textbf{współczynnikiem kierunkowym}. Jego wartość jest równa
+tangensowi kąta między prostą a osią odciętych OX. Współczynnik $b$ określany jest mianem \textbf{wyrazu wolnego}.
+Prosta przecina oś OY w punkcie $(0, b)$, a oś OX w $(-\frac{b}{a}, 0)$.\\
 
-\noindent Jeżeli podane są dwa punkty $A(x_{A}, y_{A}), B(x_{B}, y_{B})$, przez które przechodzi prosta, to równanie kierunkowe prostej
-można wyznaczyć ze wzoru:
-$$(y - y_{A})(y_{B}-y_{A}) = (x_{B}-x_{A})(x - x_{A})$$
-Współczynnik kierunkowy prostej przechodzącej przez punkty: $A(x_{A}, y_{A}), B(x_{B}, y_{B})$ opisuje
+\noindent Niech podane będą dwa punkty $A(x_{A}, y_{A}), B(x_{B}, y_{B})$, przez które przechodzi prosta $k$. \textbf{Równanie kierunkowe} prostej
+$k$ można wyznaczyć ze wzoru:
+$$k:=(y - y_{A})(x_{B}-x_{A}) = (y_{B}-y_{A})(x - x_{A})$$
+Można też znaleźć współczynnik kierunkowy $a$, a następnie znaleźć wyraz wolny $b$ rozwiązując układ równań:
+\begin{equation*}
+   \left\{
+      \begin{array}{l}
+         y_{A} = ax_{A} + b\\
+         y_{B} = ax_{B} + b
+      \end{array}
+   \right.
+   \end{equation*}
+\hfill\break\\
+\noindent \textbf{Współczynnik kierunkowy prostej} przechodzącej przez punkty: $A(x_{A}, y_{A})$, $B(x_{B}, y_{B})$ opisuje
 wzór:
 $$a = \dfrac{y_{B}-y_{A}}{x_{B}-x_{A}}$$
-Równanie prostej o współczynniku kierunkowym $a$, przechodzącej przez punkt $A(x_{A}, y_{A})$ podane
+\textbf{Równanie prostej} o współczynniku kierunkowym $a$, przechodzącej przez punkt $A(x_{A}, y_{A})$ podane
 jest wzorem:
 $$y = a(x - x_{A}) + y_{A}$$
+\newpage
+\noindent Niech dane będą dane dwie proste w postaci kierunkowej: $k\!:=y=a_{1}x+b_{1}$ i $l\!:=y=a_{2}x+b_{2}$.
+Proste te:
+\begin{itemize}
+   \item są równoległe, gdy $a_{1} = a_{2}$.
+   \item są prostopadłe, gdy $a_{1}\cdot a_{2} = -1$.
+   \item przecinają się pod kątem $\alpha$, gdy $\tg\alpha = \verts{\dfrac{a_{1}-a_{2}}{1+a_{1}a_{2}}}$.
+\end{itemize}
 
+\subsection*{Postać ogólna}
+Dowolną prostą można przedstawić w postaci:
+\begin{center}\scalemath[1.3]{$$Ax+By+C=0;\;\; A, B, C \in \mathbb{R},\;\;A \lor B \neq 0$$}\end{center}
+Jeśli $A=0$, to prosta jest równoległa do osi rzędnych OY, a jeżeli $B=0$, to jest równoległa do
+osi odciętych OX.
+\\\\
+\noindent Niech podane będą dwa punkty $A(x_{A}, y_{A}), B(x_{B}, y_{B})$, przez które przechodzi prosta $k$. \textbf{Równanie ogólne} prostej
+$k$ można wyznaczyć, znajdując wyznacznik takiej macierzy, że:
+$$\det\begin{pmatrix}x & y & 1\\x_{A} & y_{A} & 1\\x_{B} & y_{B} & 1\end{pmatrix} = 0$$
+Równoważne jest rozwiązanie układu równań:
+\begin{equation*}
+   \left\{
+      \begin{array}{l}
+         A = y_{B} - y_{A}\\
+         B = x_{A} - x_{B}\\
+         C = x_{B}\cdot y_{A} - x_{A}\cdot y_{B}
+      \end{array}
+   \right.
+\end{equation*}
+\hfill\break\\
+\noindent \textbf{Odległość punktu} $P(x_{0}, y_{0})$ od prostej $k\!:=Ax+By+C=0$ jest wyrażona wzorem:
+$$\text{d}(P, k) = \dfrac{\verts{Ax_{0}+By_{0}+C}}{\sqrt{A^{2}+B^{2}}}$$
+\noindent \textbf{Odległość dwóch prostych równoległych} od siebie wyznacznoych równaniami:\break $k\!:=Ax+By+C_{1}=0$ i $l\!:=Ax+By+C_{2}=0$
+jest równa:
+$$\text{d}(k, l) = \dfrac{\verts{C_{1}-C_{2}}}{\sqrt{A^{2}+B^{2}}}$$
+\noindent Niech dane będą dane dwie proste w postaci ogólnej: $k\!:=A_{1}x+B_{1}y+C_{1}=0$ i $l\!:=A_{2}x+B_{2}y+C_{2}=0$.
+Proste te:
+\begin{itemize}
+   \item są równoległe, gdy $A_{1}B_{2}-A_{2}B_{1} = 0$.
+   \item są prostopadłe, gdy $A_{1}A_{2}+B_{1}B_{2} = 0$.
+   \item przecinają się pod kątem $\alpha$ w punkcie $P$, gdy:
+   \begin{itemize}
+      \item $\text{tg}\:\alpha=\verts{\dfrac{A_{1}B_{2}-A_{2}B_{1}}{A_{1}A_{2}+B_{1}B_{2}}}$, lub
+      \item $\sin\alpha=\dfrac{A_{1}B_{2}-A_{2}B_{1}}{\sqrt{A_{1}^{2}+B_{1}^{2}}\cdot\sqrt{A_{2}^{2}+B_{2}^{2}}}$, lub
+      \item $\cos\alpha=\dfrac{A_{1}A_{2}+B_{1}B_{2}}{\sqrt{A_{1}^{2}+B_{1}^{2}}\cdot\sqrt{A_{2}^{2}+B_{2}^{2}}}$ i
+      \item $P\left(\dfrac{B_{1}C_{2}-B_{2}C_{1}}{A_{1}B_{2}-A_{2}B_{1}},\dfrac{C_{1}A_{2}-C_{2}A_{1}}{A_{1}B_{2}-A_{2}B_{1}}\right)$.      
+   \end{itemize}
+\end{itemize}
+\hfill\break
+Trzy punkty: $A(x_{A}, y_{A}), B(x_{B}, y_{B}), C(x_{C}, y_{C})$ \textbf{są współliniowe} (znajdują się na tej samej prostej) wtedy i tylko
+wtedy, gdy prawdziwe jest następujące równanie:
+$$\dfrac{x_{C}-x_{A}}{x_{B}-x_{A}} = \dfrac{y_{C}-y_{A}}{y_{B}-y_{A}}$$
+Alternatywnie można rozważyć wyznacznik następującej macierzy:
+$$\det\begin{pmatrix}x_{A}&y_{A}&1\\x_{B}& y_{B}&1\\x_{C}&y_{C}&1\end{pmatrix} = 0$$
 
+\newpage
+\subsection{Okręgi}
+\noindent \textbf{Okrąg} - kształt zdefiniowany jako zbiór wszystkich punktów $O$ na płaszczyźnie
+takich, że ich odległość od pewnego punktu $S(a,b)$ jest równa $r$. Symbolicznie zbiór $O$ to: 
+$O = \{(x,y):(x-a)^{2}+(y-b)^{2}=r^{2}\}, r \neq 0$.
+\hfill\break
 
+\noindent\textbf{Postać ogólna}
+\begin{center}\scalemath[1.3]{$$(x-a)^{2}+(y-b)^{2}=r^{2}$$}\end{center}
+% \hfill\break
+\noindent\textbf{Postać zredukowana}
+\begin{center}\scalemath[1.3]{$$x^{2} + y^{2} + Ax + By - C=0;\;\;A^{2}+B^{2}-4C > 0$$}\end{center}
+\begin{itemize}
+   \item Odcięta środka okręgu: $x_{S}=-\dfrac{A}{2}$,
+   \item Rzędna środka okręgu: $y_{S}=-\dfrac{B}{2}$,
+   \item Promień okręgu: $r = \sqrt{x_{S}^{2}+y_{S}^{2}-C} = \dfrac{\sqrt{A^{2}+B^{2}-4C}}{2}$
+\end{itemize}
 
-
-
-
-
-
-
-
-
-
-
-
+\noindent \textbf{Prosta styczna do okręgu} w punkcie $P(x_{P}, y_{P})$, gdzie środkiem okręgu
+jest punkt $S(a, b)$, jest wyrażona wzorem:
+$$(x_{P}-a)x+(y_{P}-b)y = (x_{P}-a)x_{P} + (y_{P}-b)y_{P}$$
+Współczynnik kierunkowy $m$ tej prostej to:
+$$m = -\dfrac{x_{P} - a}{y_{P} - b}$$
 
 
 % \begin{equation*}

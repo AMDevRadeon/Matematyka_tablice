@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1650035414 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1650035429
+["pdflatex"] 1650121911 "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" "main.pdf" "main" 1650121925
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1646061789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1646061789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/Program Files/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi0700.tfm" 1646062032 3072 d954c3b8c413504af8820bec51a4b82c ""
@@ -92,7 +92,7 @@
   "c:/Program Files/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646064095 333951 96a92dd677b21bbaaf16512ce5fc0488 ""
   "c:/Program Files/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646064108 1470326 899b9cd6ae8a27b1aa5f5a723bbb1202 ""
   "c:/Program Files/texlive/2021/texmf.cnf" 1646064091 713 e69b156964470283e0530f5060668171 ""
-  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1650035412 124133 410b2292ff1507c5e87c98dcb7c373c4 ""
+  "c:/Users/Radzio/Desktop/Wielka Biblioteka Karpiñska/Biblioteka/Pracownia/LATEX/matematyka/main.tex" 1650121909 129219 065376ab86f14b7a713abacdc244b8d8 ""
   "galeria//cosinus.png" 1647718676 18673 39ac17a09e5ba7e913bf5efd778c87e3 ""
   "galeria//cotangens.png" 1647718765 27659 2b9735542f5f493ee8aad2f89ad992c4 ""
   "galeria//definicja pochodna w punkcie.png" 1648745901 60990 c6c827d8139278983bf1aadb8cfee071 ""
@@ -132,8 +132,8 @@
   "galeria//trygonometria definicja radiany.png" 1649075179 38246 c2ee703ae38c53e880b8b7d447cc8d1d ""
   "galeria//viete-lcd.png" 1647280208 78998 a878bba1e19dfa1abe9ba48dbc40db38 ""
   "insbox.tex" 1649080233 7669 ec55da2d81b8b11d8d4aa36f87e7add8 ""
-  "main.aux" 1650035429 9728 a70d5ca2e308def37b72b07258598160 "pdflatex"
-  "main.toc" 1650035429 5771 80f683fe54126a485463c93048bf7847 "pdflatex"
+  "main.aux" 1650121924 9789 25411d7e2303cd511da779e2d5805de6 "pdflatex"
+  "main.toc" 1650121924 5791 717d44200608f3e8ec855ddd9d67754d "pdflatex"
   (generated)
   "main.aux"
   "main.log"

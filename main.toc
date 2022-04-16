@@ -92,4 +92,5 @@
 \contentsline {subsection}{Wektory}{76}{}%
 \contentsline {subsection}{Pole trójkąta}{78}{}%
 \contentsline {subsection}{Jednokładność}{79}{}%
-\contentsline {subsection}{Prosta - równanie kierunkowe}{79}{}%
+\contentsline {subsection}{Proste}{80}{}%
+\contentsline {subsection}{Okręgi}{83}{}%
