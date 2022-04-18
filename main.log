@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  16 APR 2022 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.28)  18 APR 2022 21:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2067,6 +2067,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2373--2380
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2380--2382
+
+ []
+
 [75]
 <galeria//geometria/odcinek kartezjański.PNG, id=458, 923.70094pt x 519.44063pt>
 File: galeria//geometria/odcinek kartezjański.PNG Graphic file (type png)
@@ -2264,20 +2269,276 @@ Underfull \hbox (badness 10000) in paragraph at lines 2599--2603
 
  []
 
-[83] (./main.aux) ) 
+[83]
+<galeria//geometria przestrzenna/przecięcie równoległych płaszczyzn.png, id=499, 701.62125pt x 572.1375pt>
+File: galeria//geometria przestrzenna/przecięcie równoległych płaszczyzn.png Graphic file (type png)
+<use galeria//geometria przestrzenna/przecięcie równoległych płaszczyzn.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/przecięcie równoległych płaszczyzn.png  used on input line 2626.
+(pdftex.def)             Requested size: 210.48799pt x 171.64256pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2631--2633
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2633--2639
+
+ []
+
+<galeria//geometria przestrzenna/prosta przecinająca płaszczyznę.png, id=500, 968.86969pt x 599.23875pt>
+File: galeria//geometria przestrzenna/prosta przecinająca płaszczyznę.png Graphic file (type png)
+<use galeria//geometria przestrzenna/prosta przecinająca płaszczyznę.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/prosta przecinająca płaszczyznę.png  used on input line 2640.
+(pdftex.def)             Requested size: 261.59831pt x 161.79662pt.
+
+Overfull \hbox (6.39182pt too wide) in paragraph at lines 2641--2648
+\T1/cmr/bx/n/14.4 pro-sto-pa-d�ych \T1/cmr/m/n/14.4 - je-�eli pro-sta $\OML/cmm/m/it/14.4 k$ \T1/cmr/m/n/14.4 prze-
+ []
+
+<galeria//geometria przestrzenna/kąt dwuścienny.png, id=501, 567.62062pt x 487.8225pt>
+File: galeria//geometria przestrzenna/kąt dwuścienny.png Graphic file (type png)
+<use galeria//geometria przestrzenna/kąt dwuścienny.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/kąt dwuścienny.png  used on input line 2649.
+(pdftex.def)             Requested size: 181.6423pt x 156.10638pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 2649--2649
+[]|[] 
+ []
+
+
+Overfull \hbox (4.82512pt too wide) in paragraph at lines 2650--2653
+\T1/cmr/m/n/14.4 ski za-warty mi�-dzy dwoma p�-p�asz-czy-znami $\OML/cmm/m/it/14.4 ^^Y[]; ^^Y[]$
+ []
+
+[84 <./galeria//geometria przestrzenna/przecięcie równoległych płaszczyzn.png> <./galeria//geometria przestrzenna/prosta przecinająca płaszczyznę.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2653--2654
+
+ []
+
+<galeria//geometria przestrzenna/graniastosłup prosty.png, id=507, 335.75438pt x 347.79938pt>
+File: galeria//geometria przestrzenna/graniastosłup prosty.png Graphic file (type png)
+<use galeria//geometria przestrzenna/graniastosłup prosty.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/graniastosłup prosty.png  used on input line 2656.
+(pdftex.def)             Requested size: 201.45418pt x 208.68123pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2657--2670
+
+ []
+
+
+Overfull \hbox (28.33102pt too wide) in paragraph at lines 2657--2670
+[] 
+ []
+
+
+Overfull \hbox (6.8114pt too wide) in paragraph at lines 2671--2676
+\T1/cmr/m/n/14.4 zy-wa-nych \T1/cmr/bx/n/14.4 �cia-nami bocz-nymi\T1/cmr/m/n/14.4 ) b�-d�-cych r�w-no-le-g�o-bo-kami. Je-�eli �ciany boczne
+ []
+
+<galeria//geometria przestrzenna/prostopadłościan.png, id=508, 453.94594pt x 452.4403pt>
+File: galeria//geometria przestrzenna/prostopadłościan.png Graphic file (type png)
+<use galeria//geometria przestrzenna/prostopadłościan.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/prostopadłościan.png  used on input line 2677.
+(pdftex.def)             Requested size: 181.57515pt x 180.97292pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 2677--2677
+[]|[] 
+ []
+
+
+Overfull \hbox (0.8643pt too wide) in paragraph at lines 2678--2681
+\T1/cmr/bx/n/14.4 sto-pa-d�o-�cian \T1/cmr/m/n/14.4 - bry�a zbu-do-wana w ca-�o-�ci z pro-
+ []
+
+<galeria//geometria przestrzenna/sześcian.png, id=509, 398.23781pt x 377.15906pt>
+File: galeria//geometria przestrzenna/sześcian.png Graphic file (type png)
+<use galeria//geometria przestrzenna/sześcian.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/sześcian.png  used on input line 2685.
+(pdftex.def)             Requested size: 199.11841pt x 188.57907pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 2685--2685
+[]|[] 
+ []
+
+
+Overfull \hbox (4.63205pt too wide) in paragraph at lines 2686--2699
+\T1/cmr/m/n/14.4 Specjalnym przy-pad-kiem pro-sto-pa-d�o-�cianu jest
+ []
+
+[85 <./galeria//geometria przestrzenna/kąt dwuścienny.png> <./galeria//geometria przestrzenna/graniastosłup prosty.png> <./galeria//geometria przestrzenna/prostopadłościan.png>]
+<galeria//geometria przestrzenna/ostrosłup prosty.png, id=516, 383.18156pt x 395.22656pt>
+File: galeria//geometria przestrzenna/ostrosłup prosty.png Graphic file (type png)
+<use galeria//geometria przestrzenna/ostrosłup prosty.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/ostrosłup prosty.png  used on input line 2702.
+(pdftex.def)             Requested size: 229.9107pt x 237.13776pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2703--2716
+
+ []
+
+
+Overfull \hbox (27.78258pt too wide) in paragraph at lines 2703--2716
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2717--2721
+
+ []
+
+[86 <./galeria//geometria przestrzenna/sześcian.png> <./galeria//geometria przestrzenna/ostrosłup prosty.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2732--2733
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2734--2737
+
+ []
+
+<galeria//geometria przestrzenna/czworościan.png, id=522, 405.01312pt x 399.74344pt>
+File: galeria//geometria przestrzenna/czworościan.png Graphic file (type png)
+<use galeria//geometria przestrzenna/czworościan.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/czworościan.png  used on input line 2739.
+(pdftex.def)             Requested size: 202.50606pt x 199.87122pt.
+
+Overfull \hbox (3.26387pt too wide) in paragraph at lines 2742--2753
+\T1/cmr/m/n/14.4 Specjalnym przy-pad-kiem ostro-s�upa jest \T1/cmr/bx/n/14.4 czwo-
+ []
+
+<galeria//geometria przestrzenna/ostrosłup ścięty.png, id=523, 393.72093pt x 358.33875pt>
+File: galeria//geometria przestrzenna/ostrosłup ścięty.png Graphic file (type png)
+<use galeria//geometria przestrzenna/ostrosłup ścięty.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/ostrosłup ścięty.png  used on input line 2755.
+(pdftex.def)             Requested size: 216.54718pt x 197.08691pt.
+
+Overfull \hbox (0.77628pt too wide) in paragraph at lines 2756--2761
+\T1/cmr/m/n/14.4 dobna do pod-stawy ostro-s�upa i jed-no-k�adna
+ []
+
+<galeria//geometria przestrzenna/kula.png, id=524, 339.51843pt x 330.48468pt>
+File: galeria//geometria przestrzenna/kula.png Graphic file (type png)
+<use galeria//geometria przestrzenna/kula.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/kula.png  used on input line 2768.
+(pdftex.def)             Requested size: 203.71262pt x 198.29233pt.
++--------------------------------------------------------------+
+| The box will not fit in the page. Please, re-edit your text. |
++--------------------------------------------------------------+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2769--2778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2769--2778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2769--2778
+
+ []
+
+[87 <./galeria//geometria przestrzenna/czworościan.png> <./galeria//geometria przestrzenna/ostrosłup ścięty.png>]
+<galeria//geometria przestrzenna/walec.png, id=531, 391.4625pt x 402.75468pt>
+File: galeria//geometria przestrzenna/walec.png Graphic file (type png)
+<use galeria//geometria przestrzenna/walec.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/walec.png  used on input line 2782.
+(pdftex.def)             Requested size: 215.30502pt x 221.51575pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2783--2792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2783--2792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2783--2792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2783--2792
+
+ []
+
+
+Overfull \hbox (10.98975pt too wide) in paragraph at lines 2783--2792
+[] 
+ []
+
+[88 <./galeria//geometria przestrzenna/kula.png> <./galeria//geometria przestrzenna/walec.png>]
+<galeria//geometria przestrzenna/stożek.png, id=537, 414.79968pt x 409.53pt>
+File: galeria//geometria przestrzenna/stożek.png Graphic file (type png)
+<use galeria//geometria przestrzenna/stożek.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/stożek.png  used on input line 2798.
+(pdftex.def)             Requested size: 228.14053pt x 225.24219pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2799--2809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2799--2809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2799--2809
+
+ []
+
+
+Overfull \hbox (1.10873pt too wide) in paragraph at lines 2799--2809
+[] 
+ []
+
+<galeria//geometria przestrzenna/stożek ścięty.png, id=538, 494.59781pt x 442.65375pt>
+File: galeria//geometria przestrzenna/stożek ścięty.png Graphic file (type png)
+<use galeria//geometria przestrzenna/stożek ścięty.png>
+Package pdftex.def Info: galeria//geometria przestrzenna/stożek ścięty.png  used on input line 2814.
+(pdftex.def)             Requested size: 247.2983pt x 221.32632pt.
+
+Overfull \hbox (7.3459pt too wide) in paragraph at lines 2815--2819
+\T1/cmr/m/n/14.4 punk-t�w le-��-cych po stro-nie wierz-cho�ka
+ []
+
+[89 <./galeria//geometria przestrzenna/stożek.png> <./galeria//geometria przestrzenna/stożek ścięty.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2826--2828
+
+ []
+
+[90]
+Overfull \hbox (19.6805pt too wide) in paragraph at lines 2834--2834
+[]\T1/cmr/bx/n/20.74 Kombinatoryka, ra-chu-nek praw-do-po-do-bie�-stwa,
+ []
+
+[91] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6727 strings out of 480160
- 125195 string characters out of 5892852
+ 6832 strings out of 480160
+ 130741 string characters out of 5892852
  436704 words of memory out of 5000000
- 24503 multiletter control sequences out of 15000+600000
+ 24594 multiletter control sequences out of 15000+600000
  484088 words of font info for 56 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  55i,20n,62p,445b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on main.pdf (87 pages, 3819773 bytes).
+Output written on main.pdf (95 pages, 4034101 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
+ 633 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 566 words of extra memory for PDF output out of 10000 (max. 10000000)
 

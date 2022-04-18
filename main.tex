@@ -2378,7 +2378,7 @@ Specjalnym przypadkiem wielokąta jest \textbf{wielokąt foremny}. Wszystkie ką
 równą miarę i wszystkie boki są równej długości.\\
 Pole dowolnego wielokąta foremnego da się obliczyć ze wzoru:
 $$\dfrac{1}{2}\cdot pr$$
-gdzie $p$ to obwód wielokąta, a $r$ to promień okręgu wpisanego (apotemy).\\ Funkcjonuje też wzór:
+gdzie $p$ to obwód wielokąta, a $r$ to promień okręgu wpisanego (apotemy).\\\\ Funkcjonuje też wzór:
 $$na^{2}\cdot\tg\frac{\pi}{n}$$
 gdzie $a$ to długość boku wielokąta, a $n$ to ilość boków.
 
@@ -2617,6 +2617,284 @@ jest punkt $S(a, b)$, jest wyrażona wzorem:
 $$(x_{P}-a)x+(y_{P}-b)y = (x_{P}-a)x_{P} + (y_{P}-b)y_{P}$$
 Współczynnik kierunkowy $m$ tej prostej to:
 $$m = -\dfrac{x_{P} - a}{y_{P} - b}$$
+
+\newpage
+\section{Geometria przestrzenna}
+
+\subsection{Proste i płaszczyzny w przestrzeni}
+
+\InsertBoxR{0}{\includegraphics[scale=0.3]{geometria przestrzenna/przecięcie równoległych płaszczyzn.png}}
+\hfill\break
+\noindent Jeżeli dwie równoległe płaszczyzny $\pi_{1},\pi_{2}$ są przecięte trzecią płaszczyzną,
+to proste będące miejscami przecięcia się płaszczyzn (krawędzie przecięcia) będą równoległe.
+\MoveBelowBox
+\noindent\textbf{Prosta i płaszczyzna są prostopadłe} wtedy i tylko wtedy, gdy każda prosta należąca
+do płaszczyzny jest prostopadła do prostej przecinającej tą płaszczyznę.\\
+$$k \perp \pi_{1} \Leftrightarrow \underset{l \in \pi_{1}}{\bigwedge}k \cap l \neq \varnothing \Rightarrow k \perp l $$
+Wynika z tego, że jeżeli prosta jest prostopadła do dwóch prostych leżących na płaszczyźnie,
+które przecinają prostą w punkcie przebicia, to jest to warunek wystarczający prostopadłości
+prostej do płaszczyzny.\\\\
+\noindent\textbf{Dwie płaszczyzny są do siebie prostopadłe} wtedy i tylko wtedy, gdy w płaszczyźnie
+$\pi_{1}$ jest zawarta prosta prostopadła do prostej leżącej na płaszczyźnie $\pi_{2}$.
+
+\InsertBoxR{0}{\includegraphics[scale=0.27]{geometria przestrzenna/prosta przecinająca płaszczyznę.png}}
+\hfill\break
+\noindent \textbf{Twierdzenie o trzech prostych prostopadłych} - jeżeli prosta $k$ przebija płaszczyznę
+$\pi$ i nie jest do niej prostopadła, prosta $k_{1}$ jest rzutem prostokątnym prostej $k$ na płaszczyznę
+$\pi$ oraz prosta $l$ należy do płaszczyzny i przecina prostą $k$, to prosta $l$ jest prostopadła do
+prostej $k$ wtedy i tylko wtedy, gdy jest prostopadła do prostej $k_{1}$.\\
+Kąt $\alpha$ między prostą $k$ a płaszczyzną $\pi$ to kąt ostry wyznaczony przez prostą k i jej
+rzut prostokątny, prostą $k_{1}$.
+
+\InsertBoxR{0}{\includegraphics[scale=0.32]{geometria przestrzenna/kąt dwuścienny.png}}
+\hfill\break
+\noindent \textbf{Kąt dwuścienny, kąt torsyjny} - kąt ostry płaski zawarty między dwoma półpłaszczyznami
+$\pi_{1}, \pi_{2}$ o wspólnej krawędzi przecięcia, nazywanej \textit{krawędzią kąta dwuściennego}. 
+\MoveBelowBox\unskip\hfill\break
+
+\subsection{Granistosłup}
+\InsertBoxL{0}{\includegraphics[scale=0.6]{geometria przestrzenna/graniastosłup prosty.png}}
+\hfill\break\\
+\scalemath[1.15]{
+\makebox{
+\(
+\begin{array}{l}
+   \textbf{Pole powierzchni - }2P_{p}+P_{b}\\
+   \textbf{Objętość - }P_{p}\cdot h\\[5pt]
+   \text{Graniastosłup o podstawie }n\text{-kątnej ma:}\\
+   2n\text{ wierzchołków,}\\
+   3n\text{ krawędzi,}\\
+   n + 2\text{ ścian.}
+\end{array}
+\)}}
+\MoveBelowBox
+\noindent Wielościan zbudowany z dwóch przystających ścian zawartych w rówloległych płaszczyznach (zwanych
+\textbf{podstawami graniastosłupa}) i pozostałych ścian (nazywanych \textbf{ścianami bocznymi}) będących
+równoległobokami. Jeżeli ściany boczne graniastosłupa to prostokąty, to bryłę taką nazywa się
+\textbf{graniastosłupem prostym}. W przeciwnym wypadku bryła taka nosi miano \textbf{graniastosłupa pochyłego}.\\
+Jeżeli podstawą graniastosłupa jest wielokąt foremny, to jest to \textbf{graniastosłup prawidłowy}.
+\MoveBelowBox
+\InsertBoxR{0}{\includegraphics[scale=0.4]{geometria przestrzenna/prostopadłościan.png}}
+\hfill\break
+Specjalnym przypadkiem graniastosłupa jest \textbf{prostopadłościan} - bryła zbudowana w całości
+z prostokątów. Objętość prostopadłościanu wyrażona jest wzorem:
+$$V = abc$$
+Pole powierzchni prostopadłościanu oblicza się:
+$$P_{p} = 2(ab+ac+bc)$$
+\MoveBelowBox
+\InsertBoxR{0}{\includegraphics[scale=0.5]{geometria przestrzenna/sześcian.png}}
+\hfill\break
+Specjalnym przypadkiem prostopadłościanu jest \textbf{sześcian} - bryła zbudowana z kwadratów.\vspace{0.3cm}\\
+\scalemath[1.05]{
+\makebox{
+\(
+\begin{array}{l}
+   \text{Pole powierzchni - }6a^{2}\\
+   \text{Objętość - }a^{3}\\
+   \text{Przekątna ściany bocznej - }a\sqrt{2}\\
+   \text{Przekątna bryły - }a\sqrt{3}
+\end{array}
+\)}}
+\vspace*{0.5cm}
+\MoveBelowBox\unskip
+
+\subsection{Ostrosłup}
+\InsertBoxL{0}{\includegraphics[scale=0.6]{geometria przestrzenna/ostrosłup prosty.png}}
+\hfill\break\\
+\scalemath[1.15]{
+\makebox{
+\(
+\begin{array}{l}
+   \textbf{Pole powierzchni - }P_{p}+P_{b}\\
+   \textbf{Objętość - }\dfrac{1}{3}P_{p}\cdot H\\[5pt]
+   \text{Ostrosłup o podstawie }n\text{-kątnej ma:}\\
+   n + 1\text{ wierzchołków,}\\
+   2n\text{ krawędzi,}\\
+   n + 1\text{ ścian.}
+\end{array}
+\)}}
+\MoveBelowBox
+\noindent Wielościan zbudowany ze ściany będącej wielokątem, zwanej \textbf{podstawą ostrosłupa} i pozostałych
+ścian, które są trójkątami i mają wspólny wierzchołek (nazywany \textbf{wierzchołkiem ostrosłupa}),
+który nie należy do płaszczyzny podstawy.\\\\
+\noindent \textbf{Ostrosłupem prostym} jest ostrosłup, który spełnia poniższe warunki:
+\begin{itemize}
+   \item Na podstawie ostrosłupa da się opisać okrąg.
+   \item Spodek wysokości ostrosłupa jest środkiem okręgu opisanego na podstawie.
+\end{itemize}
+\noindent Równoważne są następujące warunki:
+\begin{itemize}
+   \item Ostrosłup jest ostrosłupem prawidłowym.
+   \item Wszystkie krawędzie boczne mają jednakową długość.
+   \item Wszystkie krawędzie boczne tworzą jednakowy kąt z płaszczyzną podstawy.
+\end{itemize}
+
+\noindent \textbf{Ostrosłupem prawidłowym} jest ostrosłup, który za podstawę ma wielokąt foremny.\\
+
+\noindent W podstawę ostrosłupa można wpisać okrąg i spodek wysokości tego trójkąta jest środkiem tego
+okręgu wtedy i tylko wtedy, gdy miara kąta nachylenia wszystkich ścian bocznych ostrosłupa do płaszczyzny podstawy jest
+taki sama.\\
+
+% \MoveBelowBox
+\InsertBoxR{0}{\includegraphics[scale=0.5]{geometria przestrzenna/czworościan.png}}
+% \hfill\break
+
+\noindent Specjalnym przypadkiem ostrosłupa jest \textbf{czworościan} - bryła której wszystkie
+ściany to trójkąty foremne.\vspace{0.3cm}\\
+\scalemath[1.05]{
+\makebox{
+\(
+\begin{array}{l}
+   \text{Pole powierzchni - }a^{2}\sqrt{3}\\
+   \text{Objętość - }\dfrac{\sqrt{2}}{12}a^{3}\\[10pt]
+   \text{Wysokość - }\dfrac{\sqrt{6}}{3}a\\
+\end{array}
+\)}}
+\MoveBelowBox
+\subsection{Ostrosłup ścięty}
+\InsertBoxR{0}{\includegraphics[scale=0.55]{geometria przestrzenna/ostrosłup ścięty.png}}
+\hfill\break
+Bryła powstała przez przecięcie ostrosłupa płaszczyzną równoległą do płaszczyzny jego podstawy
+i odrzucenie wszystkich punktów leżących po stronie wierzchołka ostrosłupa. Powstała w ten sposób
+nowa ściana jest podobna do podstawy ostrosłupa i jednokładna względem wierzchołka ostrosłupa.
+Ściany \linebreak boczne ostrosłupa ściętego są trapezami.
+\MoveBelowBox
+\noindent Niech $P_{p_{1}}, P_{p_{2}}$ będą polami podstaw ostrosłupa ściętego. Objętość ostrosłupa
+ściętego wyraża się wzorem:
+$$V = \dfrac{1}{3}\left(P_{p_{1}} + P_{p_{2}} + \sqrt{P_{p_{1}}\cdot P_{p_{2}}}\right)\cdot H$$
+
+\subsection{Bryły obrotowe}
+\subsection*{Kula}
+\InsertBoxL{0}{\includegraphics[scale=0.6]{geometria przestrzenna/kula.png}}
+\hfill\break\\\\\\
+\scalemath[1.25]{
+\makebox{
+\(
+\begin{array}{l}
+   \textbf{Pole powierzchni - }4\pi r^{2}\\[5pt]
+   \textbf{Objętość - }\dfrac{4}{3}\pi r^{3}\\
+\end{array}
+\)}}
+\MoveBelowBox\unskip\vspace*{2.5cm}
+\noindent Kula to zbiór punktów, których odległość od środka kuli jest mniejsza bądź równa promieniowi $r$.
+Powstaje poprzez obrót koła wokół prostej zawierającej średnicę tego koła.
+\subsection*{Walec}
+\InsertBoxL{0}{\includegraphics[scale=0.55]{geometria przestrzenna/walec.png}}
+\hfill\break\\\\\\\\
+\scalemath[1.25]{
+\makebox{
+\(
+\begin{array}{>{\hspace{-0.3cm}}l}
+   \textbf{Pole powierzchni - }2\pi r(r + H)\\
+   \textbf{Objętość - }\pi r^{2}H\\
+\end{array}
+\)}}
+\MoveBelowBox\unskip\vspace*{3.2cm}
+\noindent Walec kołowy prosty to bryła geometryczna powstała poprzez obrót prostokąta wokół osi zawierającej
+się w symetralnej jednego z boków tego prostokąta.
+\newpage
+
+\subsection*{Stożek}
+\InsertBoxL{0}{\includegraphics[scale=0.55]{geometria przestrzenna/stożek.png}}
+\hfill\break\\\\\\
+\scalemath[1.25]{
+\makebox{
+\(
+\begin{array}{>{\hspace{-0.4cm}}l}
+   \textbf{Pole boczne - }\pi rl\\
+   \textbf{Pole powierzchni - }\pi r(r + l)\\[5pt]
+   \textbf{Objętość - }\dfrac{1}{3}\pi r^{2}H\\
+\end{array}
+\)}}
+\MoveBelowBox\unskip\vspace*{2.5cm}
+\noindent Stożek to bryła geometryczna powstała przez obrót trójkąta prostokątnego wokół osi zawierającej
+jedną z jego przyprostokątnych.
+
+\subsection*{Stożek ścięty}
+\InsertBoxR{0}{\includegraphics[scale=0.5]{geometria przestrzenna/stożek ścięty.png}}
+\hfill\break
+Bryła powstała przez przecięcie stożka płaszczyzną równoległą do płaszczyzny jego podstawy
+i odrzucenie wszystkich punktów leżących po stronie wierzchołka stożka. Powstała w ten sposób
+nowa ściana jest - podobnie jak podstawa - kołem i jednokładna względem wierzchołka ostrosłupa.
+\MoveBelowBox\unskip
+\vspace*{2.2cm}
+\noindent Objętość stożka ściętego da się obliczyć ze wzoru:
+$$V = \dfrac{1}{3}\pi (R^{2}+Rr+r^{2})$$
+\noindent Pole powierzchni bocznej stożka ściętego jest równe:
+$$\pi l(R+r);\;\;\;l = \sqrt{H^{2}+(R-r)^{2}}$$
+\newpage
+\noindent \textbf{Przekrój osiowy} bryły obrotowej to taka płaszczyzna, która zawiera prostą będącą
+osią obrotu tej bryły.\\
+
+\noindent Jeżeli dwie bryły przestrzenne $F_{1}, F_{2}$ są do siebie podobne w skali $k$, to stosunek
+ich objętości jest równy sześcianowi skali podobieństwa.
+$$\dfrac{V(F_{2})}{V(F_{1})}=k^{3}$$
+
+\newpage
+\section{Kombinatoryka, rachunek prawdopodobieństwa, statystyka}
+\subsection{Silnia} Funkcja $\cdot\: !: \mathbb{N} \rightarrow \mathbb{N}\setminus\{0\}$, która przypisuje każdej
+liczbie naturalnej $n$ iloczyn wszystkich liczb naturalnych nie większych niż $n$:
+
+\begin{equation*}
+   x! = \left\{
+      \begin{array}{ll}
+         1, & n = 0 \\
+         n\cdot (n-1)!, & n > 0
+      \end{array}
+   \right.
+\end{equation*}
+% \vspace{0.5cm}
+\noindent \textit{Przykład:}
+$$6! = 1\cdot 2\cdot 3\cdot 4\cdot 5\cdot 6 = 720$$
+
+\subsection{Symbol Newtona}
+Funkcja dwóch argumentów całkowitych nieujemnych, zawarta we wzorze:
+$$\binom{n}{k} = \dfrac{n!}{k!\cdot (n-k)!}$$
+\noindent\textbf{Tożsamości:}
+\begin{center}
+   \(
+   \begin{array}{cc}
+      \dbinom{n}{0} = \dbinom{n}{n} = 1 & \dbinom{n}{1} = \dbinom{n}{n-1} = n\\[0.9cm]
+      \dbinom{n}{2} = \dbinom{n}{n-2} = \dfrac{n(n-1)}{2} & \dbinom{n}{k+1} = \dbinom{n}{k}\cdot \dfrac{n-k}{k+1}\\
+   \end{array}
+   \)
+
+\end{center}
+
+\subsection{Kombinatoryka}
+\noindent\textbf{Reguła dodawania} - Niech $E_{1}, E_{2}, E_{3}, \dots, E_{n}$ będą pewnymi zdarzeniami,
+a $c_{1}, c_{2}, c_{3},\dots, c_{n}$ niech będą ilością wyników w kolejnych zdarzeniach. Jeżeli każde zdarzenie
+$E_{1}, E_{2}, E_{3}, \dots, E_{n}$ jest rozłączne parami (wzajemnie się wykluczają), to wtedy liczba sposobów,
+na jakie realizują się wszystkie zdarzenia jest równa sumie ilości wyników.
+\[c_{1} + c_{2} + c_{3} + \ldots + c_{n} \]
+
+\noindent\textbf{Reguła mnożenia} - Niech $E$ będzie pewnym zdarzeniem,
+a $k_{1}, k_{2}, k_{3},\dots, k_{n}$ niech będą ilością wyników w kolejnych etapach zdarzenia $E$.
+Jeżeli kolejne wyniki wynikają z poprzednich, to liczba wszystkich wyników $n$-etapowego zdarzenia
+jest równa iloczynowi tych wyników.
+$$c_{1} \cdot c_{2} \cdot c_{3} \cdot \ldots \cdot c_{n} $$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 % \begin{equation*}
