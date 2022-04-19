@@ -16,91 +16,109 @@
 \contentsline {subsection}{Największy wspólny dzielnik}{7}{}%
 \contentsline {subsection}{Najmniejsza wspólna wielokrotność}{8}{}%
 \contentsline {subsection}{Oprocentowanie lokat i kredytów}{9}{}%
-\contentsline {section}{\numberline {3}Wielomiany, funkcje wielomianowe}{10}{}%
-\contentsline {subsection}{Informacje i twierdzenia}{10}{}%
-\contentsline {subsection}{Funkcja liniowa}{12}{}%
-\contentsline {subsection}{Funkcja kwadratowa}{13}{}%
-\contentsline {subsection}{Funkcja sześcienna}{14}{}%
-\contentsline {subsection}{Funkcja wymierna}{16}{}%
-\contentsline {section}{\numberline {4}Właściwości i wykresy funkcji}{18}{}%
-\contentsline {subsection}{Właściwości funkcji}{19}{}%
-\contentsline {subsection}{Wykresy funkcji}{20}{}%
-\contentsline {subsection}{Przekształcenia funkcji}{24}{}%
-\contentsline {section}{\numberline {5}Ciągi}{27}{}%
-\contentsline {subsection}{Informacje i twierdzenia}{27}{}%
-\contentsline {subsection}{Granica ciągu liczbowego}{28}{}%
-\contentsline {subsection}{Ciąg arytmetyczny}{29}{}%
-\contentsline {subsection}{Ciąg geometryczny}{29}{}%
-\contentsline {section}{\numberline {6}Elementy analizy matematycznej}{31}{}%
-\contentsline {subsection}{Granica funkcji}{31}{}%
-\contentsline {subsection}{Granica jednostronna}{32}{}%
-\contentsline {subsection}{Granica niewłaściwa}{33}{}%
-\contentsline {subsection}{Granica w nieskończoności}{33}{}%
-\contentsline {subsection}{Własności granic}{34}{}%
-\contentsline {subsection}{Symbole nieoznaczone}{34}{}%
-\contentsline {subsection}{Definicja ciągłości funkcji}{35}{}%
-\contentsline {subsection}{Limity a asymptoty wykresu}{35}{}%
-\contentsline {subsection}{Pochodna funkcji w punkcie}{37}{}%
-\contentsline {subsection}{Styczna do wykresu funkcji}{38}{}%
-\contentsline {subsection}{Funkcja pochodna}{38}{}%
-\contentsline {subsection}{Pochodne wybranych funkcji}{38}{}%
-\contentsline {subsection}{Własności pochodnych}{39}{}%
-\contentsline {subsection}{Pochodna a monotoniczność funkcji}{40}{}%
-\contentsline {subsection}{Ekstrema funkcji}{40}{}%
-\contentsline {section}{\numberline {7}Funkcje trygonometryczne}{43}{}%
-\contentsline {subsection}{Miara łukowa kąta}{43}{}%
-\contentsline {subsection}{Definicje funkcji trygonometrycznych}{43}{}%
-\contentsline {subsection}{Podstawowe tożsamości trygonometryczne}{44}{}%
-\contentsline {subsection}{Wartości funkcji trygonometrycznych}{45}{}%
-\contentsline {subsection}{Wzory redukcyjne}{45}{}%
-\contentsline {subsection}{Tożsamości trygonometryczne}{46}{}%
-\contentsline {subsection}{Okresowość funkcji trygonometrycznych}{48}{}%
-\contentsline {section}{\numberline {8}Planimetria}{50}{}%
-\contentsline {subsection}{Symetralna odcinka}{50}{}%
-\contentsline {subsection}{Dwusieczna kąta}{51}{}%
-\contentsline {subsection}{Środkowa trójkąta}{52}{}%
-\contentsline {subsection}{Twierdzenie o dwusiecznej kąta wewnętrznego}{53}{}%
-\contentsline {subsection}{Nierówność w trójkącie}{53}{}%
-\contentsline {subsection}{Twierdzenie Pitagorasa}{54}{}%
-\contentsline {subsection}{Twierdzenie Steinera-Lehmusa}{54}{}%
-\contentsline {subsection}{Pole trójkąta - wzory}{55}{}%
-\contentsline {subsection}{Promień okręgu wpisanego i opisanego dowolnego trójkąta}{55}{}%
-\contentsline {subsection}{Twierdzenia o dowolnych trójkątach}{56}{}%
-\contentsline {subsection}{Trójkąt równoboczny - wzory}{58}{}%
-\contentsline {subsection}{Twierdzenia o trójkątach równobocznych}{59}{}%
-\contentsline {subsection}{Trójkąt prostokątny - wzory}{60}{}%
-\contentsline {subsection}{Cechy przystawania trójkątów}{61}{}%
-\contentsline {subsection}{Cechy podobieństwa trójkątów}{63}{}%
-\contentsline {subsection}{Twierdzenie sinusów}{64}{}%
-\contentsline {subsection}{Twierdzenie cosinusów}{65}{}%
-\contentsline {subsection}{Twierdzenie tangensów}{65}{}%
-\contentsline {subsection}{Twierdzenie cotangensów}{65}{}%
-\contentsline {subsection}{Wzajemne położenie okręgów i prostych}{66}{}%
-\contentsline {subsection}{Wzajemne położenie dwóch okręgów}{68}{}%
-\contentsline {subsection}{Kąt środkowy i wpisany}{70}{}%
-\contentsline {subsection}{Kąt wpisany i dopisany}{70}{}%
-\contentsline {subsection}{Okrąg - wzory}{70}{}%
-\contentsline {subsection}{Twierdzenie o dwóch prostych przeciętych trzecią prostą}{71}{}%
-\contentsline {subsection}{Twierdzenie Talesa}{71}{}%
-\contentsline {subsection}{Czworokąty - wzory}{72}{}%
-\contentsline {subsection}{Czworokąt wpisany w okrąg}{73}{}%
-\contentsline {subsection}{Okrąg wpisany w czworokąt}{74}{}%
-\contentsline {subsection}{Podobieństwo czworokątów}{75}{}%
-\contentsline {subsection}{Wielokąty}{75}{}%
-\contentsline {section}{\numberline {9}Geometria analityczna}{76}{}%
-\contentsline {subsection}{Podstawowe informacje}{76}{}%
-\contentsline {subsection}{Wektory}{76}{}%
-\contentsline {subsection}{Pole trójkąta}{78}{}%
-\contentsline {subsection}{Jednokładność}{79}{}%
-\contentsline {subsection}{Proste}{80}{}%
-\contentsline {subsection}{Okręgi}{83}{}%
-\contentsline {section}{\numberline {10}Geometria przestrzenna}{84}{}%
-\contentsline {subsection}{Proste i płaszczyzny w przestrzeni}{84}{}%
-\contentsline {subsection}{Granistosłup}{85}{}%
-\contentsline {subsection}{Ostrosłup}{86}{}%
-\contentsline {subsection}{Ostrosłup ścięty}{87}{}%
-\contentsline {subsection}{Bryły obrotowe}{88}{}%
-\contentsline {section}{\numberline {11}Kombinatoryka, rachunek prawdopodobieństwa, statystyka}{91}{}%
-\contentsline {subsection}{Silnia}{91}{}%
-\contentsline {subsection}{Symbol Newtona}{91}{}%
-\contentsline {subsection}{Kombinatoryka}{91}{}%
+\contentsline {subsection}{Cechy podzielności}{9}{}%
+\contentsline {section}{\numberline {3}Wielomiany, funkcje wielomianowe}{11}{}%
+\contentsline {subsection}{Informacje i twierdzenia}{11}{}%
+\contentsline {subsection}{Funkcja liniowa}{13}{}%
+\contentsline {subsection}{Funkcja kwadratowa}{14}{}%
+\contentsline {subsection}{Funkcja sześcienna}{15}{}%
+\contentsline {subsection}{Funkcja wymierna}{17}{}%
+\contentsline {section}{\numberline {4}Właściwości i wykresy funkcji}{19}{}%
+\contentsline {subsection}{Właściwości funkcji}{20}{}%
+\contentsline {subsection}{Wykresy funkcji}{21}{}%
+\contentsline {subsection}{Przekształcenia funkcji}{25}{}%
+\contentsline {section}{\numberline {5}Ciągi}{28}{}%
+\contentsline {subsection}{Informacje i twierdzenia}{28}{}%
+\contentsline {subsection}{Granica ciągu liczbowego}{29}{}%
+\contentsline {subsection}{Twierdzenie o trzech ciągach}{30}{}%
+\contentsline {subsection}{Ciąg arytmetyczny}{30}{}%
+\contentsline {subsection}{Ciąg geometryczny}{30}{}%
+\contentsline {section}{\numberline {6}Elementy analizy matematycznej}{32}{}%
+\contentsline {subsection}{Granica funkcji}{32}{}%
+\contentsline {subsection}{Granica jednostronna}{33}{}%
+\contentsline {subsection}{Granica niewłaściwa}{34}{}%
+\contentsline {subsection}{Granica w nieskończoności}{34}{}%
+\contentsline {subsection}{Własności granic}{35}{}%
+\contentsline {subsection}{Symbole nieoznaczone}{35}{}%
+\contentsline {subsection}{Definicja ciągłości funkcji}{36}{}%
+\contentsline {subsection}{Limity a asymptoty wykresu}{36}{}%
+\contentsline {subsection}{Pochodna funkcji w punkcie}{38}{}%
+\contentsline {subsection}{Styczna do wykresu funkcji}{39}{}%
+\contentsline {subsection}{Funkcja pochodna}{39}{}%
+\contentsline {subsection}{Pochodne wybranych funkcji}{39}{}%
+\contentsline {subsection}{Własności pochodnych}{40}{}%
+\contentsline {subsection}{Pochodna a monotoniczność funkcji}{41}{}%
+\contentsline {subsection}{Ekstrema funkcji}{41}{}%
+\contentsline {subsection}{Twierdzenie Rolle'a}{43}{}%
+\contentsline {subsection}{Twierdzenie Lagrange'a}{43}{}%
+\contentsline {section}{\numberline {7}Funkcje trygonometryczne}{44}{}%
+\contentsline {subsection}{Miara łukowa kąta}{44}{}%
+\contentsline {subsection}{Definicje funkcji trygonometrycznych}{44}{}%
+\contentsline {subsection}{Podstawowe tożsamości trygonometryczne}{45}{}%
+\contentsline {subsection}{Wartości funkcji trygonometrycznych}{46}{}%
+\contentsline {subsection}{Wzory redukcyjne}{46}{}%
+\contentsline {subsection}{Tożsamości trygonometryczne}{47}{}%
+\contentsline {subsection}{Okresowość funkcji trygonometrycznych}{49}{}%
+\contentsline {section}{\numberline {8}Planimetria}{51}{}%
+\contentsline {subsection}{Symetralna odcinka}{51}{}%
+\contentsline {subsection}{Dwusieczna kąta}{52}{}%
+\contentsline {subsection}{Środkowa trójkąta}{53}{}%
+\contentsline {subsection}{Twierdzenie o dwusiecznej kąta wewnętrznego}{54}{}%
+\contentsline {subsection}{Nierówność w trójkącie}{54}{}%
+\contentsline {subsection}{Twierdzenie Pitagorasa}{55}{}%
+\contentsline {subsection}{Twierdzenie Steinera-Lehmusa}{55}{}%
+\contentsline {subsection}{Pole trójkąta - wzory}{56}{}%
+\contentsline {subsection}{Promień okręgu wpisanego i opisanego dowolnego trójkąta}{56}{}%
+\contentsline {subsection}{Twierdzenia o dowolnych trójkątach}{57}{}%
+\contentsline {subsection}{Trójkąt równoboczny - wzory}{59}{}%
+\contentsline {subsection}{Twierdzenia o trójkątach równobocznych}{60}{}%
+\contentsline {subsection}{Trójkąt prostokątny - wzory}{61}{}%
+\contentsline {subsection}{Cechy przystawania trójkątów}{62}{}%
+\contentsline {subsection}{Cechy podobieństwa trójkątów}{64}{}%
+\contentsline {subsection}{Twierdzenie sinusów}{65}{}%
+\contentsline {subsection}{Twierdzenie cosinusów}{66}{}%
+\contentsline {subsection}{Twierdzenie tangensów}{66}{}%
+\contentsline {subsection}{Twierdzenie cotangensów}{66}{}%
+\contentsline {subsection}{Wzajemne położenie okręgów i prostych}{67}{}%
+\contentsline {subsection}{Wzajemne położenie dwóch okręgów}{69}{}%
+\contentsline {subsection}{Kąt środkowy i wpisany}{71}{}%
+\contentsline {subsection}{Kąt wpisany i dopisany}{71}{}%
+\contentsline {subsection}{Okrąg - wzory}{71}{}%
+\contentsline {subsection}{Twierdzenie o dwóch prostych przeciętych trzecią prostą}{72}{}%
+\contentsline {subsection}{Twierdzenie Talesa}{72}{}%
+\contentsline {subsection}{Czworokąty - wzory}{73}{}%
+\contentsline {subsection}{Czworokąt wpisany w okrąg}{74}{}%
+\contentsline {subsection}{Okrąg wpisany w czworokąt}{75}{}%
+\contentsline {subsection}{Podobieństwo czworokątów}{76}{}%
+\contentsline {subsection}{Wielokąty}{76}{}%
+\contentsline {section}{\numberline {9}Geometria analityczna}{77}{}%
+\contentsline {subsection}{Podstawowe informacje}{77}{}%
+\contentsline {subsection}{Wektory}{77}{}%
+\contentsline {subsection}{Pole trójkąta}{79}{}%
+\contentsline {subsection}{Jednokładność}{80}{}%
+\contentsline {subsection}{Proste}{81}{}%
+\contentsline {subsection}{Okręgi}{84}{}%
+\contentsline {section}{\numberline {10}Geometria przestrzenna}{85}{}%
+\contentsline {subsection}{Proste i płaszczyzny w przestrzeni}{85}{}%
+\contentsline {subsection}{Granistosłup}{86}{}%
+\contentsline {subsection}{Ostrosłup}{87}{}%
+\contentsline {subsection}{Ostrosłup ścięty}{88}{}%
+\contentsline {subsection}{Bryły obrotowe}{89}{}%
+\contentsline {section}{\numberline {11}Kombinatoryka, rachunek prawdopodobieństwa, statystyka}{92}{}%
+\contentsline {subsection}{Silnia}{92}{}%
+\contentsline {subsection}{Symbol Newtona}{92}{}%
+\contentsline {subsection}{Kombinatoryka}{92}{}%
+\contentsline {subsection}{Zasada szufladkowa Dirichleta}{96}{}%
+\contentsline {subsection}{Rachunek prawdopodobieństwa}{96}{}%
+\contentsline {subsection}{Własności prawdopodobieństwa}{96}{}%
+\contentsline {subsection}{Prawdopodobieństwo klasyczne}{97}{}%
+\contentsline {subsection}{Prawdopodobieństwo warunkowe}{97}{}%
+\contentsline {subsection}{Prawdopodobieństwo całkowite}{98}{}%
+\contentsline {subsection}{Twierdzenie Bayesa}{98}{}%
+\contentsline {subsection}{Zdarzenia rozłączne}{98}{}%
+\contentsline {subsection}{Zdarzenia niezależne}{98}{}%
+\contentsline {subsection}{Drzewa stochastyczne}{99}{}%
+\contentsline {subsection}{Mediana}{100}{}%
+\contentsline {subsection}{Dominanta}{100}{}%
+\contentsline {subsection}{Wariancja}{100}{}%
+\contentsline {subsection}{Odchylenie standardowe}{100}{}%

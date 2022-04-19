@@ -45,6 +45,9 @@
 \newcommand{\cosec}{\,\text{cosec}\:}
 
 \DeclareMathOperator{\homothet}{\textbf{\textit{J}}}
+\DeclareMathOperator{\varrep}{\textbf{\textit{V}}}
+\DeclareMathOperator{\varperm}{\textbf{\textit{P}}}
+\DeclareMathOperator{\varcomb}{\textbf{\textit{C}}}
 \newcommand{\Hom}[3][r]{\homothet^{#2}_{#1}\left(#3\right)}
 
 \begin{document}
@@ -123,7 +126,7 @@ $A\subset B$ & Podzbiór zbioru \\
 $A\not\subset B$ & Nie jest podzbiorem zbioru \\
 $x\in A$ & Należy do zbioru \\
 $x\not\in A$ & Nie należy do zbioru \\
-$\vert A\vert $, $\overline{\overline{A}}$ & Liczebność zbioru \\
+$\vert A\vert $, $\bar{\bar{A}}$ & Liczebność zbioru \\
 \hline
 \end{tabular}
 
@@ -155,7 +158,7 @@ $\exists! \;x$, $\underset{x}{\dot\bigvee}$ & Istnieje dokładnie jeden $x$ \\
 
 \begin{tabular}{*{4}{|c}|}
 \hline
-Nazwa & Symbol & Nazwa & Symbol \\
+\rowcolor{lightgray} Nazwa & Symbol & Nazwa & Symbol \\
 \hline
 Naturalne & $\mathbb{N} = \{ 0, 1, 2, 3,\dots\}$ & Wymierne & $\mathbb{Q}$, $\!\mathbb{W} \!= \!\{\frac{p}{q}\!:\!p, q \!\in \!\mathbb{Z} \!\wedge \!q \!\neq \!0 \}$ \\
 Naturalne dod. & $\mathbb{N}_{+} = \mathbb{N}\setminus\{0\}$ & Niewymierne & $\mathbb{R}\setminus\mathbb{Q}$, $\mathbb{NW}$ \\
@@ -167,7 +170,7 @@ Całkowite & $\mathbb{Z}$, $\mathbb{C} = \{-1, 0, 1,\dots\}$ & Rzeczywiste & $\m
 
 \begin{tabular}{*{4}{|c}|}
 \hline
-Symbol & Znaczenie & Symbol & Znaczenie \\
+\rowcolor{lightgray} Symbol & Znaczenie & Symbol & Znaczenie \\
 \hline
 $a+b$ & Dodawanie & $a < b$ & Mniejsze od \\
 $a-b$ & Odejmowanie & $a > b$ & Większe od \\
@@ -190,7 +193,7 @@ $a \neq b$ & Nierówność & $x$ mod $a$ & Dzielenie całkowite (modulo) \\
 
 \begin{tabular}{*{2}{|c}|}
 \hline
-Symbol & Znaczenie \\
+\rowcolor{lightgray} Symbol & Znaczenie \\
 \hline
 $n!$ & Silnia \\
 $\binom{n}{k}$ & Kombinacja bez powtórzeń \\
@@ -210,7 +213,7 @@ $\bar{x}$ & Średnia arytmetyczna \\
 \hskip2.0cm
 \begin{tabular}{*{2}{|c}|}
 \hline
-Symbol & Znaczenie \\
+\rowcolor{lightgray} Symbol & Znaczenie \\
 \hline
 $\vert AB\vert$ & Odcinek \\
 $\overset{\longrightarrow}{AB}$ & Wektor \\
@@ -461,6 +464,51 @@ Wtedy:
       \textbf{Procent składany:} & K = K_{0}\cdot\left[ 1+\dfrac{r}{n}\left(1 - \dfrac{p}{100}\right)\right]^{n\cdot m}
    \end{array}
 \end{equation*}
+
+\subsection{Cechy podzielności}
+\begin{itemize}
+   \item \textbf{2} - ostatnia cyfra liczby jest parzysta.
+   \[7236: 6\text{ - parzysta}\Rightarrow 2\,\vert\, 7236\]
+   \item \textbf{3} - suma wszystkich cyfr liczby jest podzielna przez 3.
+   \[828: 8 + 2 + 8 = 18,\:3\,\vert\,18 \Rightarrow 3\,\vert\,828\]
+   \item \textbf{4} - liczba złożona z cyfr dziesiątek i jedności cyfry jest podzielna przez 4.
+   \[102\,472: 4\,\vert\,72 \Rightarrow 4\,\vert\, 102\,472\]
+   \item \textbf{5} - ostatnia cyfra liczby to 0 lub 5.
+   \[128\,490: 0 \in \{0, 5\} \Rightarrow 5\,\vert\,128\,490\]
+   \item \textbf{6} - liczba jest podzielna przez 2 i 3.
+   \[39\,504: 4\text{ - parzysta} \land 3 + 9 + 5 + 0 + 4 = 21,\:3\,\vert\,21 \Rightarrow 6\,\vert\,39\,504\]
+   \item \textbf{7} - różnica liczby bez cyfry jedności i podwojonej cyfry jedności jest podzielna przez 7.
+   \[637: 63 - 2 \cdot 7 = 49,\:7\,\vert\,49 \Rightarrow 7\,\vert\, 637\]
+   \item \textbf{8} - liczba złożona z cyfr setek, dziesiątek i jedności cyfry jest podzielna przez 8.
+   \[340\,696: 8\,\vert\,696 \Rightarrow 8\,\vert\, 340\,696\]
+   \item \textbf{9} - suma wszystkich cyfr liczby jest podzielna przez 9.
+   \[59\,247: 5+9+2+4+7 = 27,\:9\,\vert\,27 \Rightarrow 9\,\vert\, 59\,247\]
+   \item \textbf{10} - ostatnia cyfra liczby to 0.
+   \[23\,140: 0 \in \{0\} \Rightarrow 10\,\vert\,23\,140\]
+   \item \textbf{11} - naprzemienne dodawanie i odejmowanie cyfr liczby daje wynik podzielny przez 11.
+   \[1\,062\,292: 1-0+6-2+2-9+2 = 0,\: 11\,\vert\,0 \Rightarrow 11\,\vert\,1\,062\,292\]
+   \item \textbf{12} - liczba jest podzielna przez 3 i 4.
+   \[78\,624: 7+8+6+2+4 = 27,\: 3\,\vert\,27 \land 4\,\vert\,24 \Rightarrow 12\,\vert\,78\,624\]
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \newpage
 
@@ -1034,6 +1082,15 @@ Jeżeli $\underset{n \to \infty}{\lim}a_{n} = a$ i $\underset{n \to \infty}{\lim
 }%
 
 \newpage
+\subsection{Twierdzenie o trzech ciągach}
+\noindent Niech dane będą trzy ciągi liczb rzeczywistych: $(a_{n}), (b_{n}), (c_{n})$. Jeżeli dla wszyskich
+wyrazów ciągu o indeksach większych od pewnego $N$ zachodzi nierówność:
+\[a_{n} \leq b_{n} \leq c_{n}\]
+\noindent oraz prawdziwa jest równość:
+\[\lim_{n \to \infty} a_{n} = \lim_{n \to \infty} c_{n} = l\]
+to wtedy:
+\[\lim_{n \to \infty} b_{n} = l\]
+
 
 \subsection{Ciąg arytmetyczny}
 \noindent Niech ciąg $(a_{n})$ będzie przynajmniej trzywyrazowy. Wtedy ciągiem arytmetycznym nazywamy takie $(a_{n})$,
@@ -1402,6 +1459,26 @@ pochodna jest ciągła, to jeżeli $f^{\prime}(x_{0}) = 0$ i $f^{\prime\prime}(x
 $f$ ma w punkcie $x_{0}$ ekstremum, przy czym jeżeli $f^{\prime\prime}(x_{0}) < 0$ to jest to maksimum
 lokalne, a jeżeli $f^{\prime\prime}(x_{0}) > 0$ to jest to minimum lokalne.\\
 Warunek ten nie rozstrzyga istnienia ekstremum, jeżeli druga pochodna jest równa 0.
+
+\subsection{Twierdzenie Rolle'a}
+\noindent Niech funkcja $f:\langle a, b\rangle \rightarrow \mathbb{R}$ będzie ciągła w przedziale
+$\langle a, b\rangle$ i różniczkowalna w przedziale $(a, b)$. Wtedy pod warunkiem, że $f(a) = f(b)$
+istnieje taki punkt $c \in (a, b)$, że $f^{\prime}(c) = 0$
+
+\subsection{Twierdzenie Lagrange'a}
+\noindent Niech funkcja $f:\langle a, b\rangle \rightarrow \mathbb{R}$ będzie ciągła w przedziale
+$\langle a, b\rangle$ i różniczkowalna w przedziale $(a, b)$. Wtedy w przedziale $(a, b)$ istnieje
+taki punkt $c$, że:
+\[\dfrac{f(b) - f(a)}{b - a} = f^{\prime}(c)\]
+
+
+
+
+
+
+
+
+
 
 
 \newpage
@@ -2862,35 +2939,240 @@ $$\binom{n}{k} = \dfrac{n!}{k!\cdot (n-k)!}$$
 \end{center}
 
 \subsection{Kombinatoryka}
-\noindent\textbf{Reguła dodawania} - Niech $E_{1}, E_{2}, E_{3}, \dots, E_{n}$ będą pewnymi zdarzeniami,
-a $c_{1}, c_{2}, c_{3},\dots, c_{n}$ niech będą ilością wyników w kolejnych zdarzeniach. Jeżeli każde zdarzenie
-$E_{1}, E_{2}, E_{3}, \dots, E_{n}$ jest rozłączne parami (wzajemnie się wykluczają), to wtedy liczba sposobów,
-na jakie realizują się wszystkie zdarzenia jest równa sumie ilości wyników.
-\[c_{1} + c_{2} + c_{3} + \ldots + c_{n} \]
+\noindent\textbf{Reguła dodawania} - Niech $E_{1}, E_{2}$ będą pewnymi zdarzeniami losowymi, a
+$c_{1}, c_{2}$ - ilością sposobów, na jakie mogą się wydarzyć. Jeżeli zdarzenia $E_{1}, E_{2}$
+są rozłączne parami (nie ma wspólnych wyników obu zdarzeń) i nie wynikają jeden z drugiego,
+to pierwsze \textbf{lub} drugie zdarzenie może wystąpić na $c_{1} + c_{2}$ sposobów.\\
 
-\noindent\textbf{Reguła mnożenia} - Niech $E$ będzie pewnym zdarzeniem,
-a $k_{1}, k_{2}, k_{3},\dots, k_{n}$ niech będą ilością wyników w kolejnych etapach zdarzenia $E$.
-Jeżeli kolejne wyniki wynikają z poprzednich, to liczba wszystkich wyników $n$-etapowego zdarzenia
-jest równa iloczynowi tych wyników.
-$$c_{1} \cdot c_{2} \cdot c_{3} \cdot \ldots \cdot c_{n} $$
+\noindent\textbf{Reguła mnożenia} - Niech $E_{1}, E_{2}$ będą pewnymi zdarzeniami losowymi, a
+$c_{1}, c_{2}$ - ilością sposobów, na jakie mogą się wydarzyć. Jeżeli zdarzenie $E_{2}$ występuje
+w wyniku wystąpienia zdarzenia $E_{1}$, to pierwsze \textbf{i} drugie zdarzenie może wystąpić
+na $c_{1}\cdot c_{2}$ sposobów.
 
 
+\newpage
+
+\subsection*{Wariacja z powtórzeniami}
+\noindent Niech $A$ będzie pewnym skończonym zbiorem zawierającym $n$ elementów. 
+Wariacją z powtórzeniami nazywamy operację wybrania $k$ - wyrazowego ciągu takiego, że każdy
+wyraz należy do zbioru $A$. Raz użyty element zbioru $A$ może zostać wykorzystany ponownie.
+Kolejność elementów w ciągu ma znaczenie.\\\\
+Ilość $k$ - wyrazowych wariacji z powtórzeniami $n$ elementowego zbioru to:
+\[\overline{\varrep}^{k}_{n} = n^{k}\]
+\noindent\textit{Przykład: Ile liczb trzycyfrowych można utworzyć z cyfr: 1, 2, 3, 4, 5?}\\
+\noindent Na każdym miejscu setek, dziesiątek i jedności może pojawić się dowolna z tych cyfr,
+a wybranie cyfry na miejscu setek nie wyklucza jej pojawienia się na miejscu dziesiątek czy
+jedności w tym samym ciągu. Dlatego należy obliczyć trzywyrazową wariację z powtórzeniami zbioru pięcioelementowego:
+\[\overline{\varrep}^{3}_{5} = 5^{3} = 125\]
+
+\subsection*{Wariacja bez powtórzeń}
+\noindent Niech $A$ będzie pewnym skończonym zbiorem zawierającym $n$ elementów. 
+Wariacją bez powtórzeń nazywamy operację wybrania $1 \leq k < n$ - wyrazowego ciągu takiego,
+że każdy wyraz należy do zbioru $A$. Raz użyty element zbioru $A$ \textbf{nie może} zostać 
+wykorzystany ponownie. Kolejność elementów w ciągu ma znaczenie.\\\\
+Ilość $k$ - wyrazowych wariacji bez powtórzeń $n$ elementowego zbioru to:
+\[\varrep^{k}_{n} = \dfrac{n!}{(n - k)!}\]
+\noindent\textit{Przykład: Ile liczb trzycyfrowych można utworzyć z cyfr: 1, 2, 3, 4, 5 takich,
+że dowolna cyfra pojawia się w liczbie co najwyżej raz?}\\
+Biorąc pod uwagę założenia zadania, aby obliczyć ilość takich liczb trzycyfrowych, należy 
+obliczyć trzywyrazową wariację z bez powtórzeń zbioru pięcioelementowego:
+\[\varrep^{3}_{5} = \dfrac{5!}{(5-3)!} = 60\]
+
+\newpage
+\subsection*{Permutacja bez powtórzeń}
+\noindent Niech $A$ będzie pewnym skończonym zbiorem zawierającym $n$ elementów.
+Permutacją bez powtórzeń nazywamy operację wybrania $n$ - wyrazowego ciągu takiego,
+że każdy wyraz należy do zbioru $A$. Defincja ta czyni permutację bez powtórzeń specjalnym
+przypadkiem wariacji bez powtórzeń.\\\\
+Ilość wszystkich permutacji zbioru $n$ - elementowego jest równa:
+\[\varperm_{n} = n!\]
+\noindent\textit{Przykład: Ile unikatowych pięcioliterowych słów (niekoniecznie poprawnych) można utworzyć z liter
+w słowie: śnieg?}\\
+Wybierając jedną literę ze słowa na pierwsze miejsce pozostają cztery litery do wyboru, na drugie miejsce - 
+pozostają trzy, itd. Jest to więc permutacja na zbiorze pięcioelementowym:
+\[\varperm_{5} = 5! = 120\]
+
+\subsection*{Permutacja z powtórzeniami}
+\noindent Niech $A = \{a_{1}, a_{2}, a_{3}, \ldots, a_{k}\}$ będzie pewnym skończonym wielozbiorem zawierającym $k$ unikatowych elementów.
+Elementy $a_{1}, a_{2}, a_{3}, \ldots, a_{k}$ powtarzają się odpowiednio $n_{1}, n_{2}, n_{3}, \ldots, n_{k}$ razy. Permutacją 
+z powtórzeniami nazywamy operację wybrania $n_{1} + n_{2} + n_{3} + \ldots + n_{k} = n$ - wyrazowego ciągu takiego,
+że każdy wyraz należy do zbioru $A$.\\\\
+Liczbę unikatowych permutacji tego zbioru oblicza się ze wzoru:
+\[\overline{\varperm}_{n} = \dfrac{n!}{n_{1}!\cdot n_{2}!\cdot n_{3}!\cdot \ldots\cdot n_{k}!}\]
+\noindent\textit{Przykład: Ile unikatowych siedmioliterowych słów (niekoniecznie poprawnych) można utworzyć z liter
+w słowie: szyszka?}\\
+W słowie \textit{szyszka} litery: s i z powtarzają się dwa razy. Zamiana miejscami pierwszej i czwartej
+litery w słowie nie zmieni go, więc nie należy liczyć tej permutacji. Wszystkich unikatowych słów jest
+więc:
+\[\overline{\varperm}_{7} = \dfrac{7!}{1!\cdot 1!\cdot 1!\cdot 2!\cdot 2!} = \dfrac{5040}{4} = 1260\]
+
+\newpage
+
+\subsection*{Kombinacja bez powtórzeń}
+\noindent Niech $A$ będzie pewnym skończonym zbiorem zawierającym $n$ elementów.
+Kombinacją bez powtórzeń nazywamy operację wybrania $0 \leq k \leq n$ - elementowego podzbioru $A^{\prime}$ takiego, że
+$A^{\prime} \subseteq A$. Elementy w zbiorze $A^{\prime}$ nie mogą się powtarzać. Operację tę czyta się jako ''kombinację z $n$ po $k$''.\\\\
+Ilość kombinacji bez powtórzeń można obliczyć ze wzoru:
+\[\varcomb^{k}_{n} = \dbinom{n}{k} = \dfrac{n!}{k!\cdot (n-k)!}\]
+\noindent\textit{Przykład: W urnie znajduje się pięć kul, każda o innym kolorze. Ile jest różnych
+par kul, jakich można wylosować z tej urny?}\\
+\noindent Każda para kul wylosowana z urny to pewien wyjątkowy podzbiór kul z tej urny. By obliczyć
+ilość tych par, wystarczy obliczyć kombinację z 5 po 2:
+\[\varcomb^{2}_{5} = \dbinom{5}{2} = \dfrac{5!}{2!(5-2)!} = \dfrac{120}{12}=10\]
 
 
+\subsection*{Kombinacja z powtórzeniami}
+\noindent Niech $A$ będzie pewnym skończonym zbiorem zawierającym $n$ elementów.
+Kombinacją z powtórzeniami nazywamy operację wybrania $k$ - elementowego podzbioru $A^{\prime}$ takiego,
+ że elementy zbioru $A^{\prime}$ należą do zbioru $A$. 
+Elementy w zbiorze $A^{\prime}$ mogą się powtarzać, co czyni go wielozbiorem.\\\\
+Ilość kombinacji z powtórzeniami na wielozbiorze $A$
+jest równa:
+\[\overline{\varcomb}^{k}_{n} = \left(\!\!\dbinom{n}{k}\!\!\right) = \dbinom{n+k-1}{k} = \dfrac{(n+k-1)!}{k!(n-1)!}\]
+\noindent\textit{Przykład: W urnie znajduje się pięć kul, każda o innym kolorze. Po wylosowaniu jednej kuli przed
+następnym losowaniem wrzuca się ją z powrotem do urny. Ile jest par kul, jakich można 
+wylosować z tej urny?}\\
+Wymóg wrzucenia kuli z powrotem do urny sprawia, że możliwe staje się wylosowanie dwa razy tej
+samej kuli, co tworzy pewną nową parę. By uwzględnić wszystkie możliwe pary w takiej sytuacji,
+należy obliczyć kombinację z powtórzeniami zbioru pięcioelementowego:
+\[\overline{\varcomb}^{2}_{5} = \left(\!\!\dbinom{5}{2}\!\!\right) = \dfrac{(5+2-1)!}{2!(5-1)!} = \dfrac{720}{48} = 15\]
+
+\subsection{Zasada szufladkowa Dirichleta}
+Jeżeli $m$ przedmiotów włoży się do $n$ różnych szufladek, gdzie $m > n > 0$, to wtedy w co najmniej
+jednej szufladce znajdują się dwa przedmioty. 
+
+\subsection{Rachunek prawdopodobieństwa}
+\noindent \textbf{Przestrzeń probabilistyczna} - struktura matematyczna umożliwiająca opisanie
+procesu losowego poprzez zdefiniowanie przestrzeni zdarzeń elementarnych, na której podzbiorach
+definiowane są funkcje prawdopodobieństwa, spełniające odpowiednie aksjomaty.\\
+Przestrzeń probabilistyczna składa się z trzech elementów:
+\begin{itemize}
+   \item $\Omega$ - \textbf{przestrzeń zdarzeń elementarnych} - niepusty zbiór zawierający
+   wszystkie możliwe wyniki doświadczenia losowego. Elementy tego zbioru, czyli pojedyncze
+   wyniki, nazywa się zdarzeniami elementarnymi.
+   \item $\mathcal{F}$ - \textbf{przestrzeń zdarzeń losowych} - rodzina mierzalnych podzbiorów przestrzeni
+   zdarzeń elementarnych $\Omega$. Elementy przestrzeni zdarzeń losowych nazywa się zdarzeniem
+   losowym. Przestrzeń $\mathcal{F}$ jest $\sigma$-ciałem zbioru $\Omega$.
+   \item $P$ - \textbf{miara probabilistyczna} - funkcja określona na przestrzeni zdarzeń losowych,
+   która każdemu zdarzeniu losowemu przyporządkowuje pewną wartość liczbową. Wartość ta to prawdopodobieństwo
+   pewnego zdarzenia losowego z przestrzeni $\mathcal{F}$.
+\end{itemize}
+
+\noindent Funkcja $P:\mathcal{F}\rightarrow\mathbb{R}$ jest miarą probabilistyczną wtedy i tylko
+wtedy, gdy spełnia warunki zwane \textbf{aksjomatami Kołgomorowa}:
+\begin{itemize}
+   \item Nieujemność - $P(A) \geq 0;\;\;\; A \in \mathcal{F}$,
+   \item Unormowanie do jedności - $P(\Omega) = 1; \;\;\; \Omega \in \mathcal{F}$,
+   \item Zasada przeliczalnej addytywności - $P(A \cup B) = P(A) + P(B);$\\
+   $A, B \in \mathcal{F} \land A \cap B = \varnothing$.
+\end{itemize}
+
+\subsection{Własności prawdopodobieństwa}
+\noindent Niech $A, A^{\prime}, A_{1}, A_{2}, \ldots, A_{n}, B, \varnothing \in \mathcal{F}$.
+\begin{itemize}
+   \item Prawdopodobieństwo zdarzenia niemożliwego jest zerowe: $P(\varnothing) = 0$.
+   \item Ograniczenie górne: $P(A) \leq 1$.
+   \item Prawdopodobieństwo zdarzenia przeciwnego: $P(A^{\prime}) = 1 - P(A)$.
+   \item Monotoniczność: $A \subseteq B \Rightarrow P(A) \leq P(B)$.
+   \item Zasada włączeń i wyłączeń: $P(A\cup B) = P(A) + P(B) - P(A \cap B)$.
+   \item Skończona addytywność (dla zbiorów rozłącznych parami):\\
+   $P(A_{1}\cup A_{2}\cup \ldots \cup A_{n}) = P(A_{1}) + P(A_{2}) + \ldots + P(A_{n})$. 
+\end{itemize}
+
+\subsection{Prawdopodobieństwo klasyczne}
+Jeżeli przestrzeń zdarzeń elementarnych $\Omega$ jest skończona i wszystkie zdarzenia elementarne
+są jednakowo prawdopodobne, oraz zdarzenie $A$ jest podzbiorem tej przestrzeni, to prawdopodobieństwo
+zdarzenia $A$ jest równe ilorazowi mocy (liczebności) zbioru zawierającego zdarzenia sprzyjające
+zdarzeniu $A$ i mocy (liczebności) przestrzeni zdarzeń elementarnych $\Omega$.
+$$P(A) = \dfrac{\bar{\bar{A}}}{\bar{\bar{\Omega}}}$$
 
 
+\subsection{Prawdopodobieństwo warunkowe}
+Niech $A, B \in \mathcal{F}$ i $P(B) > 0$.
+Prawdopodobieństwo warunkowe to prawdopodobieństwo wystąpienia zdarzenia $A$ pod warunkiem zajścia zdarzenia $B$.
+Prawdopodobieństwo warunkowe można obliczyć, korzystając ze wzoru:
+\[P(A\:\vert\: B) = \dfrac{P(A \cap B)}{P(B)}\]
+Prawdopodobieństwo warunkowe można obliczyć również ograniczając przestrzeń zdarzeń elementarnych
+do tylko tych, które sprzyjają zdarzeniu $B$, a następnie na tym zbiorze (symbolicznie oznaczanym $\Omega_{B}$)
+zbadać prawdopodobieństwo wystąpienia zdarzenia $A$ korzystając z twierdzenia o prawdopodobieństwie klasycznym.\\\\
+
+\noindent Niech $A_{1}, A_{2}, \ldots, A_{n} \in \mathcal{F}$ i kolejno: $P(A_{1})>0$, 
+$P(A_{1}\cap A_{2}) > 0$, \ldots, $P(A_{1}\cap A_{2} \cap \ldots \cap A_{n-1}) > 0$. Wtedy:
+\[P(A_{1}\cap A_{2}\cap \ldots\cap A_{n}) = \]
+\[P(A_{1}) \cdot P(A_{2} \:\vert\: A_{1}) \cdot P(A_{3} \:\vert\: A_{1} \cap A_{2}) \cdot \ldots \cdot P(A_{n}\:\vert\:A_{1}\cap A_{2}\cap \ldots\cap A_{n-1})\]
+
+\newpage
+\subsection{Prawdopodobieństwo całkowite}
+Niech zbiór $A$ będzie pewnym zdarzeniem zawartym w przestrzeni $\Omega$, a zbiór
+$B$ niech będzie rozbiciem zbioru $\Omega$, tj. zbiór $B$ jest rodziną zbiorów parami rozłącznych
+$B_{1}, B_{2}, B_{3}, \ldots, B_{n}$ takich, że $B_{1}, B_{2}, B_{3}, \ldots, B_{n} > 0$ i 
+$B_{1}\cup B_{2}\cup B_{3}\cup \ldots\cup B_{n} = \Omega$. Wtedy prawdopodobieństwo $A$ jest równe:
+\[P(A) = P(A\:\vert\:B_{1})\cdot P(B_{1}) + P(A\:\vert\:B_{2})\cdot P(B_{2}) \cdot \ldots \cdot P(A\:\vert\:B_{n})\cdot P(B_{n})\]
 
 
+\subsection{Twierdzenie Bayesa}
+Twierdzenie wiążące ze sobą prawdopodobieństwa warunkowe dwóch zdarzeń warunkujących
+się nawzajem. Niech zbiór $A$ będzie pewnym zdarzeniem zawartym w przestrzeni $\Omega$, zbiór
+$B = \{B_{1}, B_{2}, B_{3}, \ldots, B_{n}\}$ niech będzie rozbiciem zbioru $\Omega$, a $1 \leq i \leq n$
+indeksem wybierającym pewne zdarzenie ze zbioru $B$. Wtedy prawdopodobieństwo warunkowe można
+obliczyć z pomocą wzoru Bayesa:
+\[P(B_{i}\:\vert\:A) = \dfrac{P(A\:\vert\:B_{i})\cdot P(B_{i})}{P(A)}\text{ ,\:   gdzie}\]
+\[P(A) = P(A\:\vert\:B_{1})\cdot P(B_{1}) + P(A\:\vert\:B_{2})\cdot P(B_{2}) \cdot \ldots \cdot P(A\:\vert\:B_{n})\cdot P(B_{n})\]
 
+\subsection{Zdarzenia rozłączne}
+Dwa zdarzenia $A, B \in \mathcal{F}$ są niezależne wtedy i tylko wtedy, gdy $A \cap B = \varnothing$
 
+\subsection{Zdarzenia niezależne}
+Dwa zdarzenia $A, B \in \mathcal{F}$ są niezależne wtedy i tylko wtedy, gdy $P(A \cap B) = P(A)\cdot P(B)$.
 
+\begin{center}
+   \includegraphics[scale=1.4]{drzewo stochastyczne.png}
+\end{center}
+\noindent
+\subsection{Drzewa stochastyczne}
+Metoda przedstawiania złożonych wieloetapowych doświadczeń losowych. Drzewo stochastyczne składa się
+z odcinków (krawędzi) i punktów, w których spotykają się odcinki (węzły). Każda krawędź wychodząca
+z jednego węzła jest innym wynikiem doświadczenia losowego. Każdy ciąg krawędzi od pierwszego do
+ostatniego węzła to gałąź drzewa. By obliczyć prawdopodobieństwo pewnego wyniku, obok każdej krawędzi
+zapisuje się prawdopodobieństwo wystąpienia tego wyniku. Suma prawdopodobieństw wychodzących z 
+jednego węzła musi być nie większa niż 1.\\\\
 
+\noindent By obliczyć prawdopodobieństwo wyniku na końcu gałęzi, należy zastosować regułę iloczynów dla
+każdej wartości przy krawędzi należącej do danej gałęzi.\\
+Aby obliczyć prawdopodobieństwo zdarzenia opisanego przez kilka gałęzi, sumuje się prawdopodobieństwa
+przypisane do tych gałęzi.
 
+\newpage
 
+\subsection{Mediana}
+\noindent Niech $A = \{a_{1}, a_{2}, \ldots, a_{n}\}$ będzie pewnym uporządkowanym zbiorem wartości.
+Mediana tego zbioru to pewna liczba, wygenerowana za pomocą następującego schematu:
+\begin{itemize}
+   \item Jeżeli $n$ jest nieparzyste: $\text{Me}(A) = a_{\frac{n+1}{2}}$,
+   \item Jeżeli $n$ jest parzyste: $\text{Me}(A) = \dfrac{1}{2}\left(a_{\frac{n}{2}} + a_{\frac{n}{2}+1}\right)$
+\end{itemize}
+To znaczy, że jeżeli $n$ jest nieparzyste, to medianą jest wartość idealnie pośrodku uporządkowanego
+szeregu, a jeżeli $n$ jest parzyste, to wtedy medianą jest średna arytmetyczna dwóch wyników najbliżej środka.
 
+\subsection{Dominanta}
+Niech $A = \{a_{1}, a_{2}, \ldots, a_{n}\}$ będzie pewną rodziną zdarzeń. Dominanta takiego zbioru
+to element o największym prawdopodobieństwie wystąpienia. Jeżeli kilka elementów jednocześnie występuje
+najczęściej (mają to samo prawdopodobieństwo wystąpienia, większe od prawdopodobieństwa wystąpienia któregokolwiek z
+pozostałych elementów ze zbioru $A$), to każdy z nich jest dominantą (modą). Jeżeli każdy element w zbiorze $A$ ma
+takie samo prawdopodobieństwo wystąpienia, to nie da się wyznaczyć dominanty.\\\\
+Definicję dominanty da się również zastosować w kontekście pewnego zbioru wartości. Wtedy dominantą
+takiego zbioru jest element występujący najczęściej w zbiorze.
 
+\subsection{Wariancja}
+\noindent Niech $X = \{x_{1}, x_{2}, \ldots, x_{n}\}$ będzie pewnym zbiorem wyników pewnej cechy $a$.
+Wariancją nazywa się miarę rozproszenia wyników wokół średniej arytmetycznej wartości cechy $\overline{x}$.
+By obliczyć wariancję zbioru $X$ należy posłużyć się wzorem:
+\[\sigma^{2} = \dfrac{(x_{1} - \overline{x})^{2}+(x_{2} - \overline{x})^{2} + \ldots + (x_{n} - \overline{x})^{2}}{n} = \dfrac{x_{1}^{2} + x_{2}^{2}+\ldots+ x_{n}^{2}}{n}-(\overline{x})^{2}\]
 
-
+\subsection{Odchylenie standardowe}
+Odchyleniem standardowym nazywa się średnią odległość elementów $x_{1}, x_{2}, \ldots, x_{n}$ od
+średniej arytmetycznej $\overline{x}$ cechy $a$. Jej wartość jest równa pierwiastkowi kwadratowemu
+z wariancji.
 
 
 
