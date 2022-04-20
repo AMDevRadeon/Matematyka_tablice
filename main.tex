@@ -15,6 +15,7 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{vcell}
+\usepackage{siunitx}
 \input{insbox.tex}
 %%% PREAMBUŁA %%%
 \graphicspath{{galeria/}}
@@ -34,10 +35,7 @@
 \newcommand{\Verts}[1]{\left\lVert#1\right\rVert}
 \newcommand{\verts}[1]{\left\lvert#1\right\rvert}
 
-\newcommand{\cRed}[1]{\textcolor{RawSienna}{#1}}
-\newcommand{\cGreen}[1]{\textcolor{OliveGreen}{#1}}
-\newcommand{\cBlue}[1]{\textcolor{NavyBlue}{#1}}
-\newcommand{\cOrange}[1]{\textcolor{BurntOrange}{#1}}
+
 
 % Polskie nazwy funkcji trygonometrycznych
 \newcommand{\tg}{\,\text{tg}\:}
@@ -49,6 +47,28 @@
 \DeclareMathOperator{\varperm}{\textbf{\textit{P}}}
 \DeclareMathOperator{\varcomb}{\textbf{\textit{C}}}
 \newcommand{\Hom}[3][r]{\homothet^{#2}_{#1}\left(#3\right)}
+
+
+% KOLORY
+\definecolor{orangebase}{RGB}{240,171,86}
+\definecolor{orangesecond}{RGB}{255,230,199}
+\definecolor{orangethird}{RGB}{237,207,171}
+\definecolor{orangebasetwo}{RGB}{222, 157, 75}
+
+\definecolor{verylightgray}{gray}{0.9}
+\definecolor{veryverylightgray}{gray}{0.93}
+
+
+\definecolor{bluebase}{RGB}{93, 163, 83}
+\definecolor{bluesecond}{RGB}{230, 255, 227}
+\definecolor{bluethird}{RGB}{193, 235, 188}
+
+
+\newcommand{\cRed}[1]{\textcolor{RawSienna}{#1}}
+\newcommand{\cGreen}[1]{\textcolor{OliveGreen}{#1}}
+\newcommand{\cBlue}[1]{\textcolor{NavyBlue}{#1}}
+\newcommand{\cOrange}[1]{\textcolor{BurntOrange}{#1}}
+
 
 \begin{document}
 
@@ -77,157 +97,263 @@
 \setlength{\arrayrulewidth}{0.5mm}
 
 \subsection{Litery greckie}
+{%
 
-\begin{tabular}{*{3}{|c}|}
+   %\renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{2.96pt}
+
+
+\rowcolors{2}{verylightgray}{}
+\begin{tabular}{|>{\cellcolor{orangesecond}}c*{2}{|c}|}
 \hline
-\rowcolor{lightgray} Nazwa & Mała litera & Duża litera \\
+\rowcolor{orangebase}\cellcolor{orangebase}Nazwa & Mała litera & Duża litera \\
 \hline
 Alfa & $\alpha $ & $A $ \\ 
-Beta & $\beta $ & $B $ \\
+\cellcolor{orangethird}Beta & $\beta $ & $B $ \\
 Gamma & $\gamma $ & $\Gamma $ \\
-Delta & $\delta $ & $\Delta $ \\
+\cellcolor{orangethird}Delta & $\delta $ & $\Delta $ \\
 Epsilon & $\varepsilon $ & $E $ \\
-Dzeta & $\zeta $ & $Z $ \\
+\cellcolor{orangethird}Dzeta & $\zeta $ & $Z $ \\
 Eta & $\eta $ & $H $ \\
-Theta & $\theta$, $\vartheta $ & $\Theta $ \\
+\cellcolor{orangethird}Theta & $\theta$, $\vartheta $ & $\Theta $ \\
 Jotta & $\iota $ & $I $ \\
-Kappa & $\kappa $ & $K $ \\
+\cellcolor{orangethird}Kappa & $\kappa $ & $K $ \\
 Lambda & $\lambda $ & $\Lambda $ \\
-My & $\mu $ & $M $ \\
+\cellcolor{orangethird}My & $\mu $ & $M $ \\
 Ny & $\nu $ & $N $ \\
-Ksi & $\xi $ & $\Xi $ \\
+\cellcolor{orangethird}Ksi & $\xi $ & $\Xi $ \\
 Omikron & $o $ & $O $ \\
-Pi & $\pi $ & $\Pi $ \\
+\cellcolor{orangethird}Pi & $\pi $ & $\Pi $ \\
 Rho & $\rho$, $\varrho$ & $P $ \\
-Sigma & $\sigma$, $\varsigma$ & $\Sigma $ \\
+\cellcolor{orangethird}Sigma & $\sigma$, $\varsigma$ & $\Sigma $ \\
 Tau & $\tau $ & $T $ \\
-Ipsylon & $\upsilon $ & $\Upsilon $ \\
+\cellcolor{orangethird}Ipsylon & $\upsilon $ & $\Upsilon $ \\
 Phi & $\phi$, $\varphi $ & $\Phi $ \\
-Chi & $\chi $ & $X $ \\
+\cellcolor{orangethird}Chi & $\chi $ & $X $ \\
 Psi & $\psi $ & $\Psi $ \\
-Omega & $\omega $ & $\Omega $ \\
+\cellcolor{orangethird}Omega & $\omega $ & $\Omega $ \\
 \hline
 \end{tabular}
-\\\\\\
+}%
+% \\
 
 \subsection{Zbiory}
 
-\begin{tabular}{*{2}{|c}|}
+
+{%
+
+   %\renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{2pt}
+
+
+\rowcolors{2}{verylightgray}{}
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|c|}
 \hline
-\rowcolor{lightgray} Symbol & Znaczenie \\
+\rowcolor{orangebase}\cellcolor{orangebase}Symbol & Znaczenie \\
 \hline
 $\varnothing $ & Zbiór pusty \\
-$A\cup B$ & Suma zbiorów \\
+\cellcolor{orangethird}$A\cup B$ & Suma zbiorów \\
 $A\cap B$ & Część wspólna zbiorów \\
-$A\setminus B$ & Różnica zbiorów \\
+\cellcolor{orangethird}$A\setminus B$ & Różnica zbiorów \\
 $A\times B$ & Iloczyn kartezjański \\
-$\overline{A}$, $A^\prime$ & Dopełnienie zbioru \\
+\cellcolor{orangethird}$\overline{A}$, $A^\prime$ & Dopełnienie zbioru \\
 $A\subset B$ & Podzbiór zbioru \\
-$A\not\subset B$ & Nie jest podzbiorem zbioru \\
+\cellcolor{orangethird}$A\not\subset B$ & Nie jest podzbiorem zbioru \\
 $x\in A$ & Należy do zbioru \\
-$x\not\in A$ & Nie należy do zbioru \\
+\cellcolor{orangethird}$x\not\in A$ & Nie należy do zbioru \\
 $\vert A\vert $, $\bar{\bar{A}}$ & Liczebność zbioru \\
 \hline
 \end{tabular}
+}%
 
 \subsection{Logika}
 
-\begin{tabular}{*{2}{|c}|}
+
+
+{%
+
+   %\renewcommand{\arraystretch}{1.4}
+   %\renewcommand{\arraycolsep}{0.15cm}
+   \setlength\extrarowheight{2pt}
+
+\rowcolors{2}{verylightgray}{}
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|c|}
 \hline
-\rowcolor{lightgray} Symbol & Znaczenie \\
+\rowcolor{orangebase}\cellcolor{orangebase}Symbol & Znaczenie \\
 \hline
 $\land$ & I (iloczyn logiczny)\\
-$\lor$ & Lub (suma logiczna) \\
+\cellcolor{orangethird}$\lor$ & Lub (suma logiczna) \\
 $A\Leftrightarrow B$ & Równowartość logiczna \\
-$A\Rightarrow B$ & Konsekwencja logiczna \\
+\cellcolor{orangethird}$A\Rightarrow B$ & Konsekwencja logiczna \\
 $\lnot A$ & Negacja logiczna \\
-$A\therefore B$ & Dlatego \\
+\cellcolor{orangethird}$A\therefore B$ & Dlatego \\
 $A\because B$ & Ponieważ \\
-$\forall \;x$, $\underset{x}{\bigwedge}$ & Dla każdego $x$ \\
+\cellcolor{orangethird}$\forall \;x$, $\underset{x}{\bigwedge}$ & Dla każdego $x$ \\
 $\exists \;x$, $\underset{x}{\bigvee}$ & Istnieje $x$ \\
-$\exists! \;x$, $\underset{x}{\dot\bigvee}$ & Istnieje dokładnie jeden $x$ \\
+\cellcolor{orangethird}$\exists! \;x$, $\underset{x}{\dot\bigvee}$ & Istnieje dokładnie jeden $x$ \\
 \hline
 \end{tabular}
+}%
+
 
 \end{multicols}
+
+
+
+
+
 \newpage
 \renewcommand{\arraystretch}{1.2}
 \setlength{\arrayrulewidth}{0.5mm}
 
 \subsection{Zbiory liczbowe}
 
-\begin{tabular}{*{4}{|c}|}
+
+
+
+{%
+
+% \renewcommand{\arraystretch}{1.5}
+%\renewcommand{\arraycolsep}{0.15cm}
+\setlength\extrarowheight{1pt}
+
+\rowcolors{2}{verylightgray}{}
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|c|>{\cellcolor{orangesecond}}c|c|}
 \hline
-\rowcolor{lightgray} Nazwa & Symbol & Nazwa & Symbol \\
+\rowcolor{orangebase}\cellcolor{orangebase}Nazwa & Symbol &\cellcolor{orangebase}Nazwa & Symbol \\
 \hline
-Naturalne & $\mathbb{N} = \{ 0, 1, 2, 3,\dots\}$ & Wymierne & $\mathbb{Q}$, $\!\mathbb{W} \!= \!\{\frac{p}{q}\!:\!p, q \!\in \!\mathbb{Z} \!\wedge \!q \!\neq \!0 \}$ \\
-Naturalne dod. & $\mathbb{N}_{+} = \mathbb{N}\setminus\{0\}$ & Niewymierne & $\mathbb{R}\setminus\mathbb{Q}$, $\mathbb{NW}$ \\
-Całkowite & $\mathbb{Z}$, $\mathbb{C} = \{-1, 0, 1,\dots\}$ & Rzeczywiste & $\mathbb{R}$ \\
+Naturalne & $\mathbb{N}$ & Wymierne & \:$\mathbb{Q}$, $\!\mathbb{W} = \bigl\{\frac{p}{q}:p, q \in \mathbb{Z} \wedge q \neq 0 \bigr\}$\: \\
+\cellcolor{orangethird}Naturalne dod. & \;$\mathbb{N}_{+} = \mathbb{N}\setminus\{0\}$\; &\cellcolor{orangethird}Niewymierne & $\mathbb{R}\setminus\mathbb{Q}$, $\mathbb{NW}$ \\
+Całkowite & $\mathbb{Z}$, $\mathbb{C}$ & Rzeczywiste & $\mathbb{R}$ \\
 \hline
 \end{tabular}
+}%
+
+\vspace*{-0.4cm}
+
+
 
 \subsection{Operacje arytmetyczne}
 
-\begin{tabular}{*{4}{|c}|}
+{%
+
+% \renewcommand{\arraystretch}{1.5}
+%\renewcommand{\arraycolsep}{0.15cm}
+\setlength\extrarowheight{0.4pt}
+\rowcolors{2}{verylightgray}{}
+
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|c|>{\cellcolor{orangesecond}}c|c|}
 \hline
-\rowcolor{lightgray} Symbol & Znaczenie & Symbol & Znaczenie \\
+\rowcolor{orangebase}\cellcolor{orangebase}Symbol & Znaczenie &\cellcolor{orangebase}Symbol & Znaczenie \\
 \hline
 $a+b$ & Dodawanie & $a < b$ & Mniejsze od \\
-$a-b$ & Odejmowanie & $a > b$ & Większe od \\
+\cellcolor{orangethird}$a-b$ & Odejmowanie &\cellcolor{orangethird}$a > b$ & Większe od \\
 $a\cdot b$, $a\times b$ & Mnożenie & $a \leq b$ & Mniejsze bądź równe od \\
-$a/b$, $\frac{a}{b}$ & Dzielenie & $a \geq b$ & Większe bądź równe od \\
+\cellcolor{orangethird}$a/b$, $\frac{a}{b}$ & Dzielenie &\cellcolor{orangethird}$a \geq b$ & Większe bądź równe od \\
 $x^{n}$ & Potęgowanie & $a \approx b$ & Aproksymacja \\
-$\sqrt{x}$ & Pierwiastek kwadratowy & $x\%$ & Procent \\
+\cellcolor{orangethird}$\sqrt{x}$ & Pierwiastek kwadratowy &\cellcolor{orangethird}$x\%$ & Procent \\
 $\sqrt[n]{x}$ & Pierwiaster $n$-tego stopnia & $x$\textperthousand & Promil \\
-$\log_{a}x$ & Logarytm o podstawie $a$ & $\vert x\vert$ & Wartość bezwzględna \\
+\cellcolor{orangethird}$\log_{a}x$ & Logarytm o podstawie $a$ &\cellcolor{orangethird}$\vert x\vert$ & Wartość bezwzględna \\
 $\log x$ & Logarytm dziesiętny & $\lceil x\rceil$ & Sufit \\
-$\ln x$ & Logarytm naturalny & $\lfloor x\rfloor$ & Podłoga \\
+\cellcolor{orangethird}$\ln x$ & Logarytm naturalny &\cellcolor{orangethird}$\lfloor x\rfloor$ & Podłoga \\
 $a = b$ & Znak równości & $\{x\}$ & Mantysa (część ułamkowa) \\
-$a \neq b$ & Nierówność & $x$ mod $a$ & Dzielenie całkowite (modulo) \\
+\cellcolor{orangethird}$a \neq b$ & Nierówność &\cellcolor{orangethird}$x$ mod $a$ & Dzielenie całkowite (modulo) \\
 \hline
 \end{tabular}
+
+}%
+
+
+\vspace*{0.2cm}
+
 
 \begin{multicols}{2}
-
 \subsection{Stochastyka i statystyka}
 
-\begin{tabular}{*{2}{|c}|}
+
+{%
+
+% \renewcommand{\arraystretch}{1.5}
+%\renewcommand{\arraycolsep}{0.15cm}
+% \setlength\extrarowheight{0.4pt}
+\rowcolors{2}{verylightgray}{}
+
+
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|c|}
 \hline
-\rowcolor{lightgray} Symbol & Znaczenie \\
+\rowcolor{orangebase}\cellcolor{orangebase}Symbol & Znaczenie \\
 \hline
 $n!$ & Silnia \\
-$\binom{n}{k}$ & Kombinacja bez powtórzeń \\
+\cellcolor{orangethird}$\binom{n}{k}$ & Symbol Newtona \\
 $\Omega$ & Przestrzeń probabilistyczna \\
-$P(A)$ & Prawdopodobieństwo \\
+\cellcolor{orangethird}$P(A)$ & Prawdopodobieństwo \\
 $P(A \mid\! B)$ & Prawdopodobieństwo warunkowe \\
-$\sigma^{2}$ & Wariancja \\
+\cellcolor{orangethird}$\sigma^{2}$ & Wariancja \\
 $\sigma$ & Odchylenie standardowe \\
-$\bar{x}$ & Średnia arytmetyczna \\
+\cellcolor{orangethird}$\bar{x}$ & Średnia arytmetyczna \\
 \hline
 \end{tabular}
-\\\\\\
+}%
+
+
+
+
+
+
+
+
+
+
+
+
+% \\\\\\
 
 \subsection*{\hspace{2cm}Geometria}
 \addcontentsline{toc}{subsection}{Geometria}
 
+{%
+
+% \renewcommand{\arraystretch}{1.5}
+%\renewcommand{\arraycolsep}{0.15cm}
+% \setlength\extrarowheight{0.4pt}
+\rowcolors{2}{verylightgray}{}
+
 \hskip2.0cm
-\begin{tabular}{*{2}{|c}|}
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|c|}
 \hline
-\rowcolor{lightgray} Symbol & Znaczenie \\
+\rowcolor{orangebase}\cellcolor{orangebase}Symbol & Znaczenie \\
 \hline
 $\vert AB\vert$ & Odcinek \\
-$\overset{\longrightarrow}{AB}$ & Wektor \\
+\cellcolor{orangethird}$\overset{\longrightarrow}{AB}$ & Wektor \\
 $\angle{}$, $\measuredangle{}$, $\sphericalangle{}$ & Kąt \\
-$\triangle ABC$ & Trójkąt \\
-$\square ABCD$ & Czworokąt \\
+\cellcolor{orangethird}$\triangle ABC$ & Trójkąt \\
+% $\square ABCD$ & Czworokąt \\
 $k \parallel l$ & Proste równoległe \\
-$k \perp l$ & Proste prostopadłe \\
+\cellcolor{orangethird}$k \perp l$ & Proste prostopadłe \\
 $\sim$ & Figury podobne \\
-$\equiv$ & Figury przystające \\
+\cellcolor{orangethird}$\equiv$ & Figury przystające \\
 \hline
 \end{tabular}
+}%
+
 
 \end{multicols}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \newpage
 \renewcommand{\arraystretch}{1.2}
@@ -253,12 +379,12 @@ Dla $a, b \in \mathbb{R}$ prawdziwe są następujące zależności:
    \item Idempotencja: $\lvert\lvert a \rvert\rvert = \lvert a \rvert$,
    \item Parzystość: $\lvert -a\rvert = \lvert a\rvert$,
    \item Zasada identyczności przedmiotów nierozróżnialnych: $\lvert a - b \rvert = 0 \Leftrightarrow a = b$,
-   \item Zachowanie dzielenia: $\left\lvert\frac{\displaystyle a}{\displaystyle b}\right\rvert = \frac{\displaystyle \lvert a\rvert}{\displaystyle \lvert b \rvert} \Leftrightarrow b \neq 0$,
+   \item Zachowanie dzielenia: $\left\lvert\dfrac{a}{b}\right\rvert = \dfrac{\lvert a\rvert}{\lvert b \rvert} \Leftrightarrow b \neq 0$,
 \end{itemize}
 Dodatkowo:
 \begin{equation*}
 \begin{array}{ccc}
-   \lvert a\rvert = \sqrt{a}^{2}, &\hspace{1cm} \lvert a \rvert \leq b \Leftrightarrow -b \leq a \leq b, &\hspace{1cm} \lvert a \rvert \geq b \Leftrightarrow a \leq -b \lor a \geq b \\
+   \lvert a\rvert = \sqrt{(a)^{2}}, &\hspace{1cm} \lvert a \rvert \leq b \Leftrightarrow -b \leq a \leq b, &\hspace{1cm} \lvert a \rvert \geq b \Leftrightarrow a \leq -b \lor a \geq b \\
 \end{array}
 \end{equation*}
 
@@ -291,14 +417,14 @@ Szczególne przypadki:
 
 \begin{equation*}
 \begin{array}{ll}
-   a^{-n} = \frac{\displaystyle 1}{\displaystyle a^{n}} & \sqrt[n]{a} = a^{\frac{1}{n}} \\
-   a^{-\frac{m}{n}} = \frac{\displaystyle 1}{ \sqrt[n]{\displaystyle a^{m}}} & \sqrt[n]{a^{m}} = a^{\frac{m}{n}}\\
+   a^{-n} = \dfrac{1}{a^{n}} & \sqrt[n]{a} = a^{\frac{1}{n}} \\
+   a^{-\frac{m}{n}} = \dfrac{\displaystyle 1}{ \sqrt[n]{\displaystyle a^{m}}} & \sqrt[n]{a^{m}} = a^{\dfrac{m}{n}}\\
    (a\cdot b)^{n} = a^{n}\cdot b^{n} & \sqrt[n]{a\cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b} \\
-   \left(\frac{\displaystyle a}{\displaystyle b}\right)^{n} = \frac{\displaystyle a^{n}}{\displaystyle b^{n}} & \sqrt[n]{\frac{\displaystyle a}{\displaystyle b}} = \frac{\displaystyle \sqrt[n]{a}}{\displaystyle \sqrt[n]{b}} \\
+   \left(\dfrac{a}{b}\right)^{n} = \dfrac{a^{n}}{b^{n}} & \sqrt[n]{\dfrac{a}{b}} = \dfrac{\sqrt[n]{a}}{\sqrt[n]{b}} \\
    (a^{n})^{m} = a^{n\cdot m} & \sqrt[m]{\sqrt[n]{a}} = \sqrt[m\cdot n]{a}\\
    \\
-   a^{n}\cdot a^{m} = a^{n+m} & \frac{\displaystyle a^{n}}{\displaystyle a^{m}} = a^{n - m} \\
-   \sqrt[n]{a^{m}} = (\sqrt[n]{a})^{m} &  \sqrt{a}^{2} = \lvert a\rvert \\
+   a^{n}\cdot a^{m} = a^{n+m} & \dfrac{a^{n}}{a^{m}} = a^{n - m} \\
+   \sqrt[n]{a^{m}} = (\sqrt[n]{a})^{m} &  \sqrt{(a)^{2}} = \lvert a\rvert \\
 \end{array}
 \end{equation*}
 \\
@@ -306,7 +432,7 @@ Szczególne przypadki:
 \renewcommand{\arraycolsep}{0.5cm}
 
 \noindent\textbf{Logarytm} - operacja odwrotna do potęgowania, która dla podstawy $a$ oraz argumentu $b$ przyjmuje wartość $n$ taką, że $a$ podniesione do potęgi $n$ jest\linebreak równe $b$:
-$$n = \log_{\;a}b \Leftrightarrow a^{n} = b$$
+$$n = \log_{\,a}b \Leftrightarrow a^{n} = b$$
 \begin{equation*}
 \begin{array}{ccc}
    a=\{x:x\in\mathbb{R}\land x>0\land x\neq 1\}, & b \in \mathbb{R}_{+}, & n \in \mathbb{R} \\
@@ -316,7 +442,7 @@ $$n = \log_{\;a}b \Leftrightarrow a^{n} = b$$
 \noindent Szczególne przypadki:
 \begin{equation*}
 \begin{array}{ccc}
-   \log_{\;a}0 - \text{niezdefiniowany}, & \log_{\;a}1 = 0, & \log_{\;a}a = 1 \\
+   \log_{\,a}0 - \text{niezdefiniowany}, & \log_{\,a}1 = 0, & \log_{\,a}a = 1 \\
 \end{array}
 \end{equation*}
 
@@ -325,30 +451,32 @@ $$n = \log_{\;a}b \Leftrightarrow a^{n} = b$$
 \noindent Dla $a, b =\{x:x\in\mathbb{R}\land x>0\land x\neq 1\}; x, y \in \mathbb{R}_{+}$ prawdziwe są następujące zależności:
 
 \begin{itemize}
-   \item Prawo iloczynu: $\log_{\;a}(x\cdot y) = \log_{\;a}x + \log_{\;a}y$
-   \item Prawo ilorazu: $\log_{\;a}\left(\frac{\displaystyle x}{\displaystyle y}\right) = \log_{\;a}x - \log_{\;a}y$
-   \item Prawo potęgi: $\log_{\;a}(x^{y}) = y\cdot\log_{\;a}x$
-   \item Zamiana podstawy z argumentem: $\log_{\;a}b = \frac{\displaystyle 1}{\displaystyle \log_{\;b}a}$
-   \item Zmiana podstawy logarytmu: $\log_{\;a}x = \frac{\displaystyle \log_{\;b}x}{\displaystyle \log_{\;b}a}$
-   \item Logarytm potęgi podstawy: $\log_{\;a}(a^{x}) = x$
-   \item $a$ do potęgi logarytmu $a$ z $x$: $a^{\log_{\;a}x} = x$
+   \item Prawo iloczynu: $\log_{\,a}(x\cdot y) = \log_{\,a}x + \log_{\,a}y$
+   \item Prawo ilorazu: $\log_{\,a}\left(\dfrac{x}{y}\right) = \log_{\,a}x - \log_{\,a}y$
+   \item Prawo potęgi: $\log_{\,a}(x^{y}) = y\cdot\log_{\,a}x$
+   \item Redukcja potęgi podstawy: $\log_{\,a^{n}}x = \dfrac{1}{n}\log_{\,a}x$
+   \item Zmiana podstawy logarytmu: $\log_{\,a}x = \dfrac{\log_{\;b}x}{\log_{\;b}a}$
+   \item Logarytm potęgi podstawy: $\log_{\,a}(a^{x}) = x$
+   \item $a$ do potęgi logarytmu $a$ z $x$: $a^{\log_{\,a}x} = x$
 \end{itemize}
 
 \noindent\subsection{Wzory skróconego mnożenia}
-Dla $x, y \in \mathbb{R};\;\; n \in \mathbb{N}$ prawdziwe są następujące zależności:
+Dla $a, b, c \in \mathbb{R};\;\; n \in \mathbb{N}$ prawdziwe są następujące zależności:
 \begin{itemize}
-   \item Kwadrat sumy: $(x + y)^{2} = x^{2} + 2xy + y^{2}$
-   \item Kwadrat różnicy: $(x - y)^{2} = x^{2} - 2xy + y^{2}$
-   \item Różnica kwadratów: $x^{2} - y^{2} = (x - y)(x + y)$
+   \item Kwadrat sumy: $(a + b)^{2} = a^{2} + 2ab + b^{2}$
+   \item Kwadrat różnicy: $(a - b)^{2} = a^{2} - 2ab + b^{2}$
+   \item Różnica kwadratów: $a^{2} - b^{2} = (a - b)(a + b)$
    \item Kwadrat sumy trzech składników: $(a+b+c)^{2} = a^{2} + b^{2} + c^{2} + 2ab + 2ac + 2bc$
    \\
-   \item Sześcian sumy: $(x + y)^{3} = x^{3} + 3x^{2}y + 3xy^{2} + y^{3}$
-   \item Sześcian różnicy: $(x - y)^{3} = x^{3} - 3x^{2}y + 3xy^{2} - y^{3}$
-   \item Różnica sześcianów: $x^{3} - y^{3} = (x - y)(x^{2} + xy + y^{2})$
-   \item Suma sześcianów: $x^{3} + y^{3} = (x + y)(x^{2} - xy + y^{2})$
+   \item Sześcian sumy: $(a + b)^{3} = a^{3} + 3a^{2}b + 3ab^{2} + b^{3}$
+   \item Sześcian różnicy: $(a - b)^{3} = a^{3} - 3a^{2}b + 3ab^{2} - b^{3}$
+   \item Różnica sześcianów: $a^{3} - b^{3} = (a - b)(a^{2} + ab + b^{2})$
+   \item Suma sześcianów: $a^{3} + b^{3} = (a + b)(a^{2} - ab + b^{2})$
    \\
-   \item Suma $n$-tych potęg: $a^{n}+b^{n} = (a+b)(a^{(n-1)}-a^{(n-2)}b+\ldots-ab^{(n-2)}+b^{(n-1)})$
-   \item Różnica $n$-tych potęg: $a^{n}-b^{n} = (a-b)(a^{(n-1)}+a^{(n-2)}b+\ldots+ab^{(n-2)}+b^{(n-1)})$
+   \item Suma $n$-tych potęg (tylko dla $n$ nieparzystych): \vspace{0.2cm}\\
+   $a^{n}+b^{n} = (a+b)(a^{(n-1)}-a^{(n-2)}\,b+ a^{(n-3)}\,b^{2}-\ldots-ab^{(n-2)}+b^{(n-1)})$
+   \item Różnica $n$-tych potęg: \vspace{0.2cm}\\
+   $a^{n}-b^{n} = (a-b)(a^{(n-1)}+a^{(n-2)}b+a^{(n-3)}\,b^{2}+\ldots+ab^{(n-2)}+b^{(n-1)})$
 \end{itemize}
 
 \newpage
@@ -376,6 +504,7 @@ $\;\;\;(x - y)^{5} = x^{5} - 5x^{4}y + 10x^{3}y^{2} - 10x^{2}y^{3} + 5xy^{4} - y
    \item Kwadratowa: $S_{k} = \sqrt{\dfrac{\displaystyle x_{1}^{2} + x_{2}^{2} + x_{3}^{2} + \ldots + x_{n}^{2}}{\displaystyle n}};\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R}$
    \item Harmoniczna: $S_{h} = $\scalebox{1.1}{$\dfrac{\textstyle n}{\frac{1}{x_{1}}+\frac{1}{x_{2}}+\frac{1}{x_{3}}+\ldots+\frac{1}{x_{n}}}$}$;\; x_{1}, x_{2}, x_{3}, \ldots, x_{n} \in \mathbb{R} \!\setminus\!\{0\} $
 \end{itemize}
+\vspace{0.8cm}
 \textbf{Nierówność Cauchy'ego między średnimi} - średnie wyznaczone dla tego samego układu liczb dodatnich układają się w charakterystyczną nierówność:
 $$S_{k} \geq S_{a} \geq S_{g} \geq S_{h}$$
 
@@ -674,8 +803,8 @@ współrzędną \textbf{y} wartością funkcji w punkcie $p$: $q = f(p)$.\hfill\
 \begin{equation*}
    \left\{
       \begin{array}{ll}
-         \!\!\!\!x_{1} + x_{2} = -\frac{\displaystyle b}{\displaystyle a}\\
-         \!\!\!\!x_{1}\cdot x_{2} = \frac{\displaystyle c}{\displaystyle a}\\
+         \!\!\!\!x_{1} + x_{2} = -\dfrac{b}{a}\\
+         \!\!\!\!x_{1}\cdot x_{2} = \dfrac{c}{a}\\
       \end{array}
    \right.
    \end{equation*}
@@ -770,7 +899,7 @@ $$f(x) = \frac{P(x)}{Q(x)};\;\;P(x), Q(x) - \text{wielomiany}, \;Q(x) \not\equiv
    \begin{array}{c|c|c}
       L < M & L = M & L > M\\
       \hline
-      y = 0 & y = \frac{\displaystyle a_{L}}{\displaystyle a_{M}} & \text{Brak asymptoty poziomej}\\
+      y = 0 & y = \frac{a_{L}}{a_{M}} & \text{Brak asymptoty poziomej}\\
    \end{array}
    \end{equation*}
    \item Ukośna:\hfill\break
@@ -1328,6 +1457,19 @@ pochodna w tym punkcie istnieje. Zbiór liczb z dziedziny funkcji $f$, dla któr
 jest dziedziną funkcji pochodnej.
 
 \addcontentsline{toc}{subsection}{Pochodne wybranych funkcji}
+
+
+
+
+
+
+
+
+
+
+
+
+
 {%
 
 \renewcommand{\arraystretch}{2}
@@ -1335,22 +1477,35 @@ jest dziedziną funkcji pochodnej.
 
 \begin{center}
 \begin{equation*}
-\begin{array}{|c|c|c|c|}
+\begin{array}{|>{\cellcolor{orangesecond}}c|c||>{\cellcolor{orangesecond}}c|c|}
 \hline
-f(x) & f^{\prime}(x) & f(x) & f^{\prime}(x)\\
+\rowcolor{orangebase}\cellcolor{orangebase}f(x) & f^{\prime}(x) &\cellcolor{orangebase}f(x) & f^{\prime}(x)\\
 \hline
- a & 0 & e^{x} & (x)^{\prime}e^{x} \\
- x & 1 & \log_{\;a}x & \dfrac{1}{x \ln a} \\
- ax^{n} & an\cdot x^{n-1} & \ln x & \dfrac{1}{x} \\
+ a & 0 & e^{x} & e^{x} \\
+ x & 1 & \log_{\,a}x & \dfrac{1}{x \ln a} \\
+ x^{n} & n\cdot x^{n-1} & \ln x & \dfrac{1}{x} \\
  \dfrac{1}{x} & -\dfrac{1}{x^{2}} & \sin x & \cos x \\
  \sqrt{x} & \dfrac{1}{2\sqrt{x}} & \cos x & -\sin x\\
  \sqrt[n]{x} & \dfrac{1}{n\sqrt[n]{x^{n-1}}} & \text{tg} x & \dfrac{1}{\cos^{2}x} = 1 + \text{tg}^{2} x \\
- a^{x} & (x)^{\prime}\cdot a^{x}\ln a & \text{ctg} x & -\dfrac{1}{\sin^{2}x} = -(1 + \text{ctg}^{2} x) \\[\medskipamount]
+ a^{x} & a^{x}\ln a & \text{ctg} x & -\dfrac{1}{\sin^{2}x} = -(1 + \text{ctg}^{2} x) \\[\medskipamount]
 \hline
 \end{array}
 \end{equation*}
 \end{center}
 }%
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Własności pochodnych}
 Niech funkcje $f$ i $g$ będą różniczkowalne w pewnym zbiorze $D$, będącym podzbiorem dziedzin
@@ -1546,17 +1701,32 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 
 \newpage
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Wartości funkcji trygonometrycznych}
+
 
 \begin{center}
 {%
 \setlength\extrarowheight{10pt}
-
+% \rowcolors{3}{}{verylightgray}
 \(
-\begin{array}{|c||c|c|c|c|c|c|c|}
+\begin{array}{|>{\cellcolor{orangesecond}}c||c|>{\cellcolor{veryverylightgray}}c|c|>{\cellcolor{veryverylightgray}}c|c|>{\cellcolor{veryverylightgray}}c|c|}
    \hline
-   \textbf{Radiany} & 0 & \dfrac{\pi}{12} & \dfrac{\pi}{6} & \dfrac{\pi}{4} & \dfrac{\pi}{3} & \dfrac{5\pi}{12} & \dfrac{\pi}{2}\\[0.1cm]
-   \textbf{Stopnie} & 0^{\circ} & 15^{\circ} & 30^{\circ} & 45^{\circ} & 60^{\circ} & 75^{\circ} & 90^{\circ}\\[0.1cm]\hline\hline
+   \rowcolor{orangebase}\cellcolor{orangebase}\textbf{Radiany} & 0 &\cellcolor{orangebasetwo}\dfrac{\pi}{12} & \dfrac{\pi}{6} &\cellcolor{orangebasetwo}\dfrac{\pi}{4} & \dfrac{\pi}{3} &\cellcolor{orangebasetwo}\dfrac{5\pi}{12} & \dfrac{\pi}{2}\\[0.1cm]
+   \rowcolor{orangebase}\cellcolor{orangebase}\textbf{Stopnie} & 0^{\circ} &\cellcolor{orangebasetwo}15^{\circ} & 30^{\circ} &\cellcolor{orangebasetwo}45^{\circ} & 60^{\circ} &\cellcolor{orangebasetwo}75^{\circ} & 90^{\circ}\\[0.1cm]\hline\hline
    \scalemath[1.3]{\sin x} & 0 & \frac{\sqrt{6}-\sqrt{2}}{4} & \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{\sqrt{3}}{2} & \frac{\sqrt{6}+\sqrt{2}}{4} & 1 \\[0.3cm]\hline
    \scalemath[1.3]{\cos x} & 1 & \frac{\sqrt{6}+\sqrt{2}}{4} & \frac{\sqrt{3}}{2} & \frac{\sqrt{2}}{2} & \frac{1}{2} & \frac{\sqrt{6}-\sqrt{2}}{4} & 0 \\[0.3cm]\hline
    \scalemath[1.3]{\text{tg}\: x} & 0 & 2 - \sqrt{3} & \frac{\sqrt{3}}{3} & 1 & \sqrt{3} & 2 + \sqrt{3} & \scalemath[1.8]{\times} \\[0.3cm]\hline
@@ -1578,14 +1748,16 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 \renewcommand{\arraycolsep}{0.15cm}
 \setlength\extrarowheight{3pt}
 
+\rowcolors{4}{verylightgray}{}
+
 \scalemath[0.9]{
 \makebox[\linewidth]{
 \(
-\begin{array}{|c||c||c|c||c|c||c|c|}
+\begin{array}{|>{\cellcolor{orangesecond}}c||c||c|c||c|c||c|c|}
       \hline
-      {} & \textbf{I ćwiartka} & \multicolumn{2}{c||}{\textbf{II ćwiartka}} & \multicolumn{2}{c||}{\textbf{III ćwiartka}} & \multicolumn{2}{c|}{\textbf{IV ćwiartka}} \\[3pt]\hline\hline
-      \multirow{2}{*}{$\varphi$} & 90^{\circ} - \alpha & 90^{\circ} + \alpha & 180^{\circ} - \alpha & 180^{\circ} + \alpha & 270^{\circ} - \alpha & 270^{\circ} + \alpha & 360^{\circ} - \alpha \\[3pt]\cline{2-8}
-       ~ & \frac{1}{2}\pi - \alpha & \frac{1}{2}\pi + \alpha & \pi - \alpha & \pi + \alpha & \frac{3}{2}\pi - \alpha & \frac{3}{2}\pi + \alpha & 2\pi - \alpha \\[3pt]\hline\hline
+      \rowcolor{orangebase}\cellcolor{orangebase}{} & \textbf{I ćwiartka} & \multicolumn{2}{c||}{\textbf{II ćwiartka}} & \multicolumn{2}{c||}{\textbf{III ćwiartka}} & \multicolumn{2}{c|}{\textbf{IV ćwiartka}} \\[3pt]\hline\hline
+      \rowcolor{orangesecond}\cellcolor{orangebase} ~ & 90^{\circ} - \alpha & 90^{\circ} + \alpha & 180^{\circ} - \alpha & 180^{\circ} + \alpha & 270^{\circ} - \alpha & 270^{\circ} + \alpha & 360^{\circ} - \alpha \\[3pt]\cline{2-8}
+      \rowcolor{orangesecond}\multirow{-2}{*}{\cellcolor{orangebase}$\varphi$} & \frac{1}{2}\pi - \alpha & \frac{1}{2}\pi + \alpha & \pi - \alpha & \pi + \alpha & \frac{3}{2}\pi - \alpha & \frac{3}{2}\pi + \alpha & 2\pi - \alpha \\[3pt]\hline\hline
       \sin \varphi & \cos \alpha & \cos \alpha & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha \\[4pt]\hline
       \cos \varphi & \sin \alpha & -\sin \alpha & -\cos \alpha & -\cos \alpha & -\sin \alpha & \sin \alpha & \cos \alpha \\[4pt]\hline
       \tg \varphi & \ctg \alpha & -\ctg \alpha & -\tg \alpha & \tg \alpha & \ctg \alpha & -\ctg \alpha & -\tg \alpha \\[4pt]\hline
@@ -1609,6 +1781,19 @@ funkcji trygonometrycznych względem kąta środkowego $\alpha$.\\
 }}
 }%
 \end{center}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Tożsamości trygonometryczne}\hfill\break
 \noindent\textbf{Funkcje trygonometryczne sumy i różnicy kątów}
@@ -2584,7 +2769,12 @@ $$\Hom{k}{p} = q \Leftrightarrow \overset{\rightarrow}{rq} = k\cdot\overset{\rig
 Dla $k=1$ jednokładność jest przekształceniem tożsamościowym, dla $k=-1$ jednokładność to symetria
 środkowa względem punktu $r$.\\\\
 Każda figura $F_{1}$ przekształcona przez jednokładność $\Hom{k}{F_{1}} = F_{2}$ jest podobna w
-skali $\verts{k}$.
+skali $\verts{k}$.\\\\
+
+\noindent Niech dany będzie punkt $A(x_{A}, y_{A})$. Jednokładność o środku $O(a, b)$ i skali $k$
+przekształca punkt $A$ w punkt $A^{\prime}$ o współrzędnych $x = kx_{A}+(1-k)a$,\break $y = ky_{A}+(1-k)b$.
+
+
 
 \newpage
 \subsection{Proste}
@@ -2923,6 +3113,8 @@ liczbie naturalnej $n$ iloczyn wszystkich liczb naturalnych nie większych niż 
 % \vspace{0.5cm}
 \noindent \textit{Przykład:}
 $$6! = 1\cdot 2\cdot 3\cdot 4\cdot 5\cdot 6 = 720$$
+\noindent Dla dowolnej liczby $n$ zachodzi również związek:
+\[(n+1)! = n!\cdot(n+1)\]
 
 \subsection{Symbol Newtona}
 Funkcja dwóch argumentów całkowitych nieujemnych, zawarta we wzorze:
@@ -3174,32 +3366,85 @@ Odchyleniem standardowym nazywa się średnią odległość elementów $x_{1}, x
 średniej arytmetycznej $\overline{x}$ cechy $a$. Jej wartość jest równa pierwiastkowi kwadratowemu
 z wariancji.
 
+\newpage
+
+\pagenumbering{gobble}
 
 
+\begin{center}
+   
+{%
+
+%\renewcommand{\arraystretch}{1.4}
+\renewcommand{\arraycolsep}{0.8cm}
+% \setlength\extrarowheight{12pt}
+\scalemath[0.71]{
+\makebox[\linewidth]{
+
+\rowcolors{2}{verylightgray}{}
+\begin{tabular}{|>{\cellcolor{orangesecond}}c|S[table-format = 2.5]|S[table-format = 2.5]|S[table-format = 2.5]|S[table-format = 3.5]|S[table-format = 2.5]|S[table-format = 3.5]|>{\cellcolor{bluesecond}}c|}
+\hline
+\rowcolor{orangebase}\cellcolor{orangebase}$\downarrow$ & \multicolumn{1}{c|}{sin} & \multicolumn{1}{c|}{cos} & \multicolumn{1}{c|}{tg} & \multicolumn{1}{c|}{ctg} & \multicolumn{1}{c|}{sec} & \multicolumn{1}{c|}{cosec} & \cellcolor{orangebase}\\
+\hline
+$0^{\circ}$  & 0.0000 & 1.0000 & 0.0000 & \multicolumn{1}{c|}{$\scalemath[1.8]{\times}$}  & 1.0000 & \multicolumn{1}{c|}{$\scalemath[1.8]{\times}$} & $90^{\circ}$\\
+\cellcolor{orangethird}$1^{\circ}$  & 0.0175 & 0.9998 & 0.0175 & 57.2900 & 1.0002 & 57.2987 & \cellcolor{bluethird}$89^{\circ}$\\
+$2^{\circ}$  & 0.0349 & 0.9994 & 0.0349 & 28.6363 & 1.0006 & 28.6537 & $88^{\circ}$\\
+\cellcolor{orangethird}$3^{\circ}$  & 0.0523 & 0.9986 & 0.0524 & 19.0811 & 1.0014 & 19.1073 & \cellcolor{bluethird}$87^{\circ}$\\
+$4^{\circ}$  & 0.0698 & 0.9976 & 0.0699 & 14.3007 & 1.0024 & 14.3356 & $86^{\circ}$\\
+\cellcolor{orangethird}$5^{\circ}$	 & 0.0872 & 0.9962 & 0.0875 & 11.4301 & 1.0038 & 11.4737 & \cellcolor{bluethird}$85^{\circ}$\\
+$6^{\circ}$  & 0.1045 & 0.9945 & 0.1051 &  9.5144 & 1.0055 &  9.5668 & $84^{\circ}$\\
+\cellcolor{orangethird}$7^{\circ}$  & 0.1219 & 0.9925 & 0.1228 &  8.1443 & 1.0075 &  8.2055 & \cellcolor{bluethird}$83^{\circ}$\\
+$8^{\circ}$  & 0.1392 & 0.9903 & 0.1405 &  7.1154 & 1.0098 &  7.1853 & $82^{\circ}$\\
+\cellcolor{orangethird}$9^{\circ}$  & 0.1564 & 0.9877 & 0.1584 &  6.3138 & 1.0125 &  6.3925 & \cellcolor{bluethird}$81^{\circ}$\\
+$10^{\circ}$ & 0.1736 & 0.9848 & 0.1763 &  5.6713 & 1.0154 &  5.7588 & $80^{\circ}$\\
+\cellcolor{orangethird}$11^{\circ}$ & 0.1908 & 0.9816 & 0.1944 &  5.1446 & 1.0187 &  5.2408 & \cellcolor{bluethird}$79^{\circ}$\\
+$12^{\circ}$ &	0.2079 & 0.9781 &	0.2126 &  4.7046 & 1.0223 &  4.8097 & $78^{\circ}$\\
+\cellcolor{orangethird}$13^{\circ}$ & 0.2250 & 0.9744 & 0.2309 &  4.3315 & 1.0263 &  4.4454 & \cellcolor{bluethird}$77^{\circ}$\\
+$14^{\circ}$ & 0.2419 & 0.9703 & 0.2493 &  4.0108 & 1.0306 &  4.1336 & $76^{\circ}$\\
+\cellcolor{orangethird}$15^{\circ}$ & 0.2588 & 0.9659 & 0.2679 &	 3.7321 & 1.0353 &  3.8637 & \cellcolor{bluethird}$75^{\circ}$\\
+$16^{\circ}$ & 0.2756 & 0.9613 & 0.2867 &  3.4874 & 1.0403 &  3.6280 & $74^{\circ}$\\
+\cellcolor{orangethird}$17^{\circ}$ & 0.2924 & 0.9563 &	0.3057 &  3.2709 & 1.0457 &  3.4203 & \cellcolor{bluethird}$73^{\circ}$\\
+$18^{\circ}$ & 0.3090 & 0.9511 & 0.3249 &  3.0777 & 1.0515 &  3.2361 & $72^{\circ}$\\
+\cellcolor{orangethird}$19^{\circ}$ & 0.3256 & 0.9455 & 0.3443 &  2.9042 & 1.0576 &  3.0716 & \cellcolor{bluethird}$71^{\circ}$\\
+$20^{\circ}$ & 0.3420 &	0.9397 & 0.3640 &  2.7475 & 1.0642 &  2.9238 & $70^{\circ}$\\
+\cellcolor{orangethird}$21^{\circ}$ & 0.3584 & 0.9336 & 0.3839 &  2.6051 & 1.0711 &  2.7904 & \cellcolor{bluethird}$69^{\circ}$\\
+$22^{\circ}$ & 0.3746 &	0.9272 & 0.4040 &  2.4751 & 1.0785 &  2.6695 & $68^{\circ}$\\
+\cellcolor{orangethird}$23^{\circ}$ & 0.3907 & 0.9205 & 0.4245 &  2.3559 & 1.0864 &  2.5593 & \cellcolor{bluethird}$67^{\circ}$\\
+$24^{\circ}$ & 0.4067 & 0.9135 & 0.4452 &  2.2460 & 1.0946 &  2.4586 & $66^{\circ}$\\
+\cellcolor{orangethird}$25^{\circ}$ & 0.4226 & 0.9063 & 0.4663 &	 2.1445 & 1.1034 &  2.3662 & \cellcolor{bluethird}$65^{\circ}$\\
+$26^{\circ}$ & 0.4384 & 0.8988 & 0.4877 &  2.0503 & 1.1126 &  2.2812 & $64^{\circ}$\\
+\cellcolor{orangethird}$27^{\circ}$ & 0.4540 & 0.8910 & 0.5095 &	 1.9626 & 1.1223 &  2.2027 & \cellcolor{bluethird}$63^{\circ}$\\
+$28^{\circ}$ & 0.4695 & 0.8829 & 0.5317 &  1.8807 & 1.1326 &  2.1301 & $62^{\circ}$\\
+\cellcolor{orangethird}$29^{\circ}$ & 0.4848 & 0.8746 & 0.5543 &  1.8040 & 1.1434 &  2.0627 & \cellcolor{bluethird}$61^{\circ}$\\
+$30^{\circ}$ & 0.5000 & 0.8660 & 0.5774 &  1.7321 & 1.1547 &  2.0000 & $60^{\circ}$\\
+\cellcolor{orangethird}$31^{\circ}$ & 0.5150 & 0.8572 & 0.6009 &  1.6643 & 1.1666 &  1.9416 & \cellcolor{bluethird}$59^{\circ}$\\
+$32^{\circ}$ & 0.5299 & 0.8480 & 0.6249 &  1.6003 & 1.1792 &  1.8871 & $58^{\circ}$\\
+\cellcolor{orangethird}$33^{\circ}$ & 0.5446 & 0.8387 & 0.6494 &  1.5399 & 1.1924 &  1.8361 & \cellcolor{bluethird}$57^{\circ}$\\
+$34^{\circ}$ & 0.5592 & 0.8290 & 0.6745 &  1.4826 & 1.2062 &  1.7883 & $56^{\circ}$\\
+\cellcolor{orangethird}$35^{\circ}$ & 0.5736 & 0.8192 & 0.7002 &  1.4281 & 1.2208 &  1.7434 & \cellcolor{bluethird}$55^{\circ}$\\
+$36^{\circ}$ & 0.5878 & 0.8090 & 0.7265 &  1.3764 & 1.2361 &  1.7013 & $54^{\circ}$\\
+\cellcolor{orangethird}$37^{\circ}$ & 0.6018 & 0.7986 & 0.7536 &  1.3270 & 1.2521 &  1.6616 & \cellcolor{bluethird}$53^{\circ}$\\
+$38^{\circ}$ & 0.6157 & 0.7880 & 0.7813 &  1.2799 & 1.2690 &  1.6243 & $52^{\circ}$\\
+\cellcolor{orangethird}$39^{\circ}$ & 0.6293 & 0.7771 & 0.8098 &  1.2349 & 1.2868 &  1.5890 & \cellcolor{bluethird}$51^{\circ}$\\
+$40^{\circ}$ & 0.6428 & 0.7660 & 0.8391 &  1.1918 & 1.3054 &  1.5557 & $50^{\circ}$\\
+\cellcolor{orangethird}$40^{\circ}$ & 0.6561 & 0.7547 & 0.8693 &  1.1504 & 1.3250 &  1.5243 & \cellcolor{bluethird}$49^{\circ}$\\
+$42^{\circ}$ & 0.6691 & 0.7431 & 0.9004 &  1.1106 & 1.3456 &  1.4945 & $48^{\circ}$\\
+\cellcolor{orangethird}$43^{\circ}$ & 0.6820 & 0.7314 & 0.9325 &  1.0724 & 1.3673 &  1.4663 & \cellcolor{bluethird}$47^{\circ}$\\
+$44^{\circ}$ & 0.6947 & 0.7193 & 0.9657 &  1.0355 & 1.3902 &  1.4396 & $46^{\circ}$\\
+\cellcolor{orangethird}$45^{\circ}$ & 0.7071 & 0.7071 & 1.0000 &  1.0000 & 1.4142 &  1.4142 & \cellcolor{bluethird}$45^{\circ}$\\
+\hline
+\rowcolor{bluebase}\cellcolor{bluebase}& \multicolumn{1}{c|}{cos} & \multicolumn{1}{c|}{sin} & \multicolumn{1}{c|}{ctg} & \multicolumn{1}{c|}{tg} & \multicolumn{1}{c|}{cosec} & \multicolumn{1}{c|}{sec} &\cellcolor{bluebase}$\uparrow$\\
+\hline
+\end{tabular}
+
+}}
+
+}%
+\end{center}
 
 
+\addcontentsline{toc}{section}{Tablica wartości trygonometrycznych}
 
-% \begin{equation*}
-% \begin{array}{cc}
-%     &  \\
-% \end{array}
-% \end{equation*}
-
-% \vspace{-0.7cm}
-
-% \begin{equation*}
-% \begin{array}{ccc}
-%     &  &   \\
-% \end{array}
-% \end{equation*}
-
-% \vspace{-0.3cm}
-
-% \begin{equation*}
-% \begin{array}{cc}
-%     &  \\
-% \end{array}
-% \end{equation*}
-
+%Jak dobrze jest raz coś w życiu skończyć...%
 
 \end{document}
