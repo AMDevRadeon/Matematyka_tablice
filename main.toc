@@ -122,3 +122,4 @@
 \contentsline {subsection}{Dominanta}{100}{}%
 \contentsline {subsection}{Wariancja}{100}{}%
 \contentsline {subsection}{Odchylenie standardowe}{100}{}%
+\contentsline {section}{Tablica wartości trygonometrycznych}{}{}%
